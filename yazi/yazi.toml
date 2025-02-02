@@ -24,7 +24,7 @@ ueberzug_offset = [ 0, 0, 0, 0 ]
 
 [opener]
 edit = [
-    { run = '$(nvim) "$@"', desc = "$EDITOR", block = true, for = "unix" },
+    { run = '$(emacs -nw) "$@"', desc = "$EDITOR", block = true, for = "unix" },
 ]
 
 open_pptx = [

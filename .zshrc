@@ -1,5 +1,6 @@
 export ZSH="HOME/.oh-my-zsh"
 
+export EDITOR="emacs -nw"
 
 
 set ZSH_THEME= "strug"
@@ -9,13 +10,7 @@ set ZSH_THEME= "strug"
 set plugins(git)
 
 
-
-
-
-
-
 source $ZSH/oh-my-zsh.sh
-
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
