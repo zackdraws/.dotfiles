@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Function to display usage
+# this is a script to delete a folder
 usage() {
     echo "Usage: $0 <directory_path>"
     echo "This script deletes all files and folders in the specified directory"
@@ -68,7 +68,7 @@ if [ "$second_answer" != "yes" ]; then
     exit 0
 fi
 
-# Delete everything in the directory except . and ..
+..
 find "$dir_path" -mindepth 1 -delete
 
 echo -e "\nDeletion completed:"

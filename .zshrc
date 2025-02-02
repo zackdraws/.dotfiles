@@ -1,1 +1,45 @@
-/home/zack/.dotfiles/.zshrc
+export ZSH="HOME/.oh-my-zsh"
+
+
+
+set ZSH_THEME= "strug"
+
+
+
+set plugins(git)
+
+
+
+
+
+
+
+source $ZSH/oh-my-zsh.sh
+
+
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+
+
+eval "$(zoxide init zsh)"
+
+
+
+source /home/zack/.config/broot/launcher/bash/br
+
+
+
+export PATH=$PATH:/snap/bin
+
+
+
+alias ghostty ="/home/zack/ghostty/ghostty/zig-out/bin/ghostty"
+
+
+
+eval $(thefuck --alias)
+
+# You can use whatever you want as an alias, like for Mondays:
+
+eval $(thefuck --alias FUCK)
