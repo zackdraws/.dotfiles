@@ -1,1 +1,1 @@
-/home/zack/.dotfiles/obs-start2.sh
+cmd.exe /c "start c:\\users\\zacha\\obs64.exe.lnk" --startrecording
