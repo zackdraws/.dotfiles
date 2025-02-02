@@ -1,4 +1,3 @@
-// If you'd like to override the default keybindings completely, be sure to change "keybinds" to "keybinds clear-defaults=true"
 keybinds clear-defaults=true{
     normal {
         // uncomment this and adjust key if using copy_on_select=false
@@ -276,7 +275,7 @@ session_serialization false
 // Choose the theme that is specified in the themes section.
 // Default: default
 //
-theme "gruvbox-dark"
+theme "rose-pine" 
 
 // The name of the default layout to load on startup
 // Default: "default"

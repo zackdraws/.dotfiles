@@ -1,7 +1,7 @@
 "$schema" = "https://yazi-rs.github.io/schemas/yazi.json"
 
 [manager] 
-ratio = [ 1, 2, 4 ] 
+ratio = [ 0, 0, 4] 
 sort_by = "alphabetical" 
 sort_sensitive = false 
 sort_reverse = false 
@@ -12,7 +12,7 @@ show_symlink = true
 scrolloff = 5
 
 [preview] 
-tab_size = 2 
+tab_size = 20 
 max_width = 1200 
 max_height = 1500 
 cache_dir = "" 
@@ -24,7 +24,7 @@ ueberzug_offset = [ 0, 0, 0, 0 ]
 
 [opener]
 edit = [
-    { run = '$(emacs -nw) "$@"', desc = "$EDITOR", block = true, for = "unix" },
+    { run = '$(emacs) "$@"', desc = "$EDITOR", block = true, for = "unix" },
 ]
 
 open_pptx = [

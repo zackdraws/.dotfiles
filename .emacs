@@ -91,12 +91,7 @@
    '(taxy-magit-section zoxide openwith neotree kaolin-themes ivy impatient-mode fzf doom-themes dired-sidebar catppuccin-theme calfw-org calfw-ical calfw))
  '(pos-tip-background-color "#222225")
  '(pos-tip-foreground-color "#c8c8d0"))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+
 
 (require 'package)
 
@@ -104,31 +99,20 @@
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 
 ;; Initialize the package system
-(package-initialize)
+
 (add-to-list 'load-path "~/.emacs.d/compat")
 (require 'compat)
 
 ;; Add package directories to load path
 (add-to-list 'load-path "~/.emacs.d/dash")
 (add-to-list 'load-path "~/.emacs.d/transient/")
-(add-to-list 'load-path "~/.emacs.d/with-editor"
+(add-to-list 'load-path "~/.emacs.d/with-editor")
 
 ;; Initialize the package system
 (require 'package)
-(package-initialize)
+
 
 ;; Load the packages
 (require 'dash)
 (require 'transient)
 (require 'with-editor)
-(defun my-command-error-function (data context caller)
-
-  "Ignore the buffer-read-only signal; pass the rest to the default handler."
-
-  (when (not (eq (car data) 'buffer-read-only))
-
-    (command-error-default-function data context caller)))
-
-
-
-(setq command-error-function #'my-command-error-function)
