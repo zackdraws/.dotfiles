@@ -1,35 +1,36 @@
 "$schema" = "https://yazi-rs.github.io/schemas/yazi.json"
 
-[manager] 
-ratio = [ 0, 0, 4] 
-sort_by = "alphabetical" 
-sort_sensitive = false 
-sort_reverse = false 
-sort_dir_first = true 
-linemode = "none" 
-show_hidden = true 
-show_symlink = true 
-scrolloff = 5
+[manager]
+ratio          = [ 1, 1, 4 ]
+sort_by        = "alphabetical"
+sort_sensitive = false
+sort_reverse   = false
+sort_dir_first = true
+linemode       = "none"
+show_hidden    = true
+show_symlink   = true
+scrolloff      = 5
 
-[preview] 
-tab_size = 20 
-max_width = 1200 
-max_height = 1500 
-cache_dir = "" 
-image_filter = "triangle" 
-image_quality = 89 
-sixel_fraction = 15 
-ueberzug_scale = 1 
+[preview]
+tab_size        = 4
+max_width       = 1200
+max_height      = 1200
+cache_dir       = ""
+image_filter    = "triangle"
+image_quality   = 89
+sixel_fraction  = 15
+ueberzug_scale  = 1
 ueberzug_offset = [ 0, 0, 0, 0 ]
 
 [opener]
-edit = [
-    { run = '$(emacs) "$@"', desc = "$EDITOR", block = true, for = "unix" },
+open_text_editor = [
+    { run = 'emacs "$1"', desc = "Open Text Editor", for = "windows" },
 ]
 
 open_pptx = [
-    { run = 'xournal "$1"', desc = "Open PowerPoint", for = "windows" ,
+    { run = 'xournal "$1"', desc = "Open PowerPoint", for = "windows" },
 	{ run = 'xournal "$1"', desc = "Open PowerPoint", for = "linux" },
+
 ]
 open_nomacs = [
     { run = 'nomacs "$1"', desc = "Open with Nomacs", for = "linux" },
@@ -38,6 +39,11 @@ open_nomacs = [
 open_zathura = [
     { run = 'zathura "$1"', desc = "Open with Zathura", for = "linux" },
 ]
+
+edit = [
+    { run = '${EMACS:=} "$@"', desc = "$EDITOR", block = true, for = "unix" },
+]
+
 open = [
     { run = 'xdg-open "$@"', desc = "Open", for = "linux" },
 ]
@@ -89,4 +95,4 @@ cd_origin = "top-center"
 cd_offset = [ 0, 2, 50, 3 ]
 
 [log]
-enabled = true  
+enabled = true
