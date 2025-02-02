@@ -1,0 +1,1 @@
+usr/local/bin/convert_heic_to_jpg.sh

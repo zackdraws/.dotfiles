@@ -1,0 +1,1 @@
+/home/zack/.dotfiles/time_day.sh

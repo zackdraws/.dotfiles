@@ -1,0 +1,1 @@
+usr/local/bin/filycopyimgmutliple.sh.sh

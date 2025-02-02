@@ -1,0 +1,1 @@
+usr/local/bin/delete_all_heic.sh

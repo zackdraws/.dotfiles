@@ -1,0 +1,1 @@
+/home/zack/.dotfiles/obs-start2.sh
