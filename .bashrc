@@ -1,10 +1,5 @@
-;5;13~set -gx PATH $PATH /usr/bin /bin
+-gx PATH $PATH /usr/bin /bin
 
-
-
-# History settings
-
-# Fish doesn't use HISTCONTROL, we handle history directly
 
 set -g history_save_dir $XDG_DATA_HOME/fish/fish_history
 

@@ -1,1 +1,1 @@
-/home/zack/.dotfiles/obs-stop.sh
+cmd.exe /c "start c:\\users\\zacha\\obs64.exe.lnk" --stoprecording
