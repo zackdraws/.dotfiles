@@ -1,5 +1,7 @@
 (setq inhibit-startup-echo-area-message "tychoish")
 (setq inhibit-startup-message t)
+(server-start)
+(ivy-mode 1)
 (cua-mode t)
 (tool-bar-mode -1)
 (menu-bar-mode -1)
@@ -9,6 +11,8 @@
       '(("\\.mp4\\'" "mpv" (file))))
 (setq cfw:org-agenda-schedule-args '(:timestamp))
 (setq cfw:org-overwrite-default-keybinding t)
+(setq org-duration-format 'h:mm)
+
 (setq frame-title-format '((:eval default-directory)))
 (global-set-key (kbd "C-c 2") #'fzf)
 (global-set-key (kbd "C-c a") #'org-agenda)
@@ -48,6 +52,7 @@
 (global-set-key (kbd "C-c e") 'org-clock-timestamps-up) 
 (require 'dired-x)
 (require 'org)
+
 (add-to-list 'load-path "~/.emacs.d/compat")
 (require 'compat)
 
