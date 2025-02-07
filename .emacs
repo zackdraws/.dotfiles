@@ -1,7 +1,7 @@
-(setq inhibit-startup-echo-area-message "tychoish")
 (setq inhibit-startup-message t)
-(server-start)
-(ivy-mode 1)
+(setq inhibit-startup-message 't)
+(setq initial-major-mode 'fundamental-mode)
+(setq initial-scratch-message 'nil)
 (cua-mode t)
 (tool-bar-mode -1)
 (menu-bar-mode -1)
@@ -12,8 +12,9 @@
 (setq cfw:org-agenda-schedule-args '(:timestamp))
 (setq cfw:org-overwrite-default-keybinding t)
 (setq org-duration-format 'h:mm)
-
 (setq frame-title-format '((:eval default-directory)))
+(desktop-save-mode 1)
+;;Shortcuts
 (global-set-key (kbd "C-c 2") #'fzf)
 (global-set-key (kbd "C-c a") #'org-agenda)
 (global-set-key (kbd "C-c q") 'make-directory)
@@ -52,20 +53,10 @@
 (global-set-key (kbd "C-c e") 'org-clock-timestamps-up) 
 (require 'dired-x)
 (require 'org)
-
 (add-to-list 'load-path "~/.emacs.d/compat")
-(require 'compat)
-
-
 (add-to-list 'load-path "~/.emacs.d/dash")
 (add-to-list 'load-path "~/.emacs.d/transient/")
 (add-to-list 'load-path "~/.emacs.d/with-editor")
 
-;; Initialize the package system
-(require 'package)
 
 
-
-(require 'dash)
-(require 'transient)
-(require 'with-editor)
