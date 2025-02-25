@@ -208,3 +208,4 @@ set -gx LIBGL_ALWAYS_INDIRECT 1
 
 set -gx DISPLAY localhost:0
 
+eval "$(zoxide init bash)"
