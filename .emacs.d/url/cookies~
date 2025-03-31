@@ -1,0 +1,56 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".duolingo.com"
+  [url-cookie "logged_out_uuid" "17eb89b1-ed00-418d-994d-866499fa0617" "Sun Sep 29 06:47:15 2024 GMT" "/" ".duolingo.com" nil]
+  [url-cookie "lang" "en" "Sun Sep 29 06:47:15 2024 GMT" "/" ".duolingo.com" nil])
+ (".ebay.com"
+  [url-cookie "ak_bmsc" "6C7BBBF8B8BA56424C9209FA1443CC37~000000000000000000000000000000~YAAQ6ffVF4BaM8SPAQAAZM2T/xgrhl33MjZ6RrY6Nc8vGl0ImAnHUE58/vQxUf2nJdmOPhgv/u7EAYFu6ZzAZRQ24Q3D6n7h7yCqX7JXMNlRmUW1XUoDlu+L/8w8wMwwUtGIp73H+APw93KtX+HqkHuDuPYyK6JQIgBJd3wNGniAl4APp314UEXqqkbyon2wn7S3o9wITAb8oA/NaJXIB78MxiWIU2bXkjVtNEDxOvmbQAop9mzO1P90RqnFHUcf3LJIzuchj39T6RksQHGXijSAOMr6o2KnZa2KHT6LTrOkGAULWCn7tT8Deey4VxVXTkNUNvzgbivWTpNITjLFDuU8Pu3JgR1IAGVmTJuD9U83Kl3LvppJReT37w==" "Mon Jun 10 02:37:11 2024 GMT" "/" ".ebay.com" nil])
+ (".theknot.com"
+  [url-cookie "ajs_anonymous_id" "%228ac7330f-1352-4959-8ff4-919dc890b95b%22" "Sun, 29-Sep-24 02:05:14 GMT" "/" ".theknot.com" nil]
+  [url-cookie "visitor_id" "8dba075bb37eb077:a8afafedb140639e:e328e05d8d28c501:087b7091e07e7b3f" "Sun, 29-Sep-24 02:05:14 GMT" "/" ".theknot.com" nil]))
+)
+(setq url-cookie-secure-storage
+ '((".stackexchange.com"
+  [url-cookie "prov" "342291c3-b1ae-4b1a-adcd-c2a969a05e2a" "Mon, 30 Sep 2024 01:13:04 GMT" "/" ".stackexchange.com" t])
+ (".google.com"
+  [url-cookie "AEC" "Ae3NU9NSnrUN3fC6yW2KtTsDZ6y1Wto35GaXxioHqMfz9uJoteQkk5ec8g" "Sat, 20-Jul-2024 08:20:21 GMT" "/" ".google.com" t])
+ (".evyy.net"
+  [url-cookie "brwsr" "4ce4b8a9-5f34-11ee-b975-2d6266fc8ae3" "Fri Sep 19 01:54:34 2025 GMT" "/" ".evyy.net" t])
+ (".stackoverflow.com"
+  [url-cookie "prov" "1d097f9f-0e4d-4856-8fb4-1f79e8a159a2" "Mon, 30 Sep 2024 01:19:55 GMT" "/" ".stackoverflow.com" t])
+ ("github.com"
+  [url-cookie "_octo" "GH1.1.1594249398.1696036847" "Mon, 30 Sep 2024 01:20:47 GMT" "/" "github.com" t]
+  [url-cookie "logged_in" "no" "Mon, 30 Sep 2024 01:20:47 GMT" "/" "github.com" t])
+ (".www.linkedin.com"
+  [url-cookie "bscookie" "v=1&202309300147481a708d73-a18e-4657-8f39-f8ede4848e13AQGAt801mcjvfefXSXJ1CaBm8U7oLOBJ" "Sun, 29-Sep-2024 01:47:49 GMT" "/" ".www.linkedin.com" t]
+  [url-cookie "li_rm" "AQGcFo2v30qJrwAAAYrjxT5uHbceB61-oZ7Baejgrwj4IihvAWzRnGjxuZ-UU6Mqp5jzISIt4trSbovlhAKl6EW8NuHCdoldP_YEB3BT8C7z45vsi1pvONcB" "Sun Sep 29 01:47:50 2024 GMT" "/" ".www.linkedin.com" t])
+ (".linkedin.com"
+  [url-cookie "bcookie" "v=2&2cbc0a8e-60e1-4e53-8492-5e0ddd629dd0" "Sun, 29-Sep-2024 01:47:49 GMT" "/" ".linkedin.com" t])
+ (".instagram.com"
+  [url-cookie "ig_did" "0140E0FE-6155-47D1-978B-FB6BDA77B5F0" "Mon Sep 30 16:53:46 2024 GMT" "/" ".instagram.com" t]
+  [url-cookie "ig_nrcb" "1" "Mon Sep 30 16:53:46 2024 GMT" "/" ".instagram.com" t])
+ ("www.polygon.com"
+  [url-cookie "vmidv1" "00bdc88d-dfa4-4146-93c2-349b7f06271d" "Sat, 03 Feb 2029 05:47:54 GMT" "/" "www.polygon.com" t])
+ ("reddit.com"
+  [url-cookie "edgebucket" "BPEySbSGo54vXuMVqK" "Wed Feb 04 03:47:35 2026 GMT" "/" "reddit.com" t])
+ (".reddit.com"
+  [url-cookie "csv" "2" "Wed Feb 04 03:47:36 2026 GMT" "/" ".reddit.com" t])
+ (".ebay.com"
+  [url-cookie "dp1" "bbl/US6a28b1b3^" "Wed, 10 Jun 2026 00:37:07 GMT" "/" ".ebay.com" t]
+  [url-cookie "nonsession" "BAQAAAY5O25hEAAaAADMABWhHfjM5Mjg4NgDKACBqKLGzZmY5M2NiYTgxOGYwYTYwYzVhMDg5NWEzZmZjMDU2MDMAywABZmZRuzFGE6E6Nd+CaLH5uNJrtjTWqhIekA**" "Wed, 10 Jun 2026 00:37:07 GMT" "/" ".ebay.com" t])
+ (".twitter.com"
+  [url-cookie "guest_id" "v1%3A169597308545386309" "Sun Sep 28 07:38:05 2025 GMT" "/" ".twitter.com" t]
+  [url-cookie "personalization_id" "v1_qJshXm1MsYzbwfGnQXusLg==" "Sun Sep 28 07:38:05 2025 GMT" "/" ".twitter.com" t]
+  [url-cookie "guest_id_ads" "v1%3A169597308545386309" "Sun Sep 28 07:38:05 2025 GMT" "/" ".twitter.com" t]
+  [url-cookie "guest_id_marketing" "v1%3A169597308545386309" "Sun Sep 28 07:38:05 2025 GMT" "/" ".twitter.com" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; coding: utf-8-emacs-unix
+;; End:
+
+;;; cookies ends here

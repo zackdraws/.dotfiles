@@ -1,0 +1,2937 @@
+((:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "8d/0d4398-ad62-43ae-9099-c385aefda969" :associated
+  (:hash "1accf94e27910c54a30af21ea0658b20" :file "c:/S/EM/O/2025-03-23.org" :inode 22517998136918166)
+  :expiry 30 :last-access 1743458413.823729 :last-access-hr "2025-03-31T15:00:13-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "2f/115f0d-d3cc-428f-9cbe-f6a0a45d48a3" :associated
+  (:hash "0a47d4e9619f90b6a03ee2585cb362f7" :file "c:/S/EM/O/2025-03-20.org" :inode 9288674231719745)
+  :expiry 30 :last-access 1743458413.82719 :last-access-hr "2025-03-31T15:00:13-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "92/be1a97-d5b8-41b4-8535-58efdfa7d93f" :associated
+  (:hash "25efce63e2a77e3377b1fe60824ddb0a" :file "c:/S/EM/O/L-French/2025-03-19.org" :inode 86131342873559190)
+  :expiry 30 :last-access 1742877956.262719 :last-access-hr "2025-03-24T21:45:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "24/9f7af0-639a-4f30-b3f7-f08e9d5e4915" :associated
+  (:hash "68b329da9893e34099c7d8ad5cb9c940" :file "c:/S/EM/O/900/Dolice_Script.org" :inode 4785074604147150)
+  :expiry 30 :last-access 1742877922.559692 :last-access-hr "2025-03-24T21:45:22-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "09/309952-af0b-4bbd-88d7-ddc8b84003c1" :associated
+  (:hash "1a94be567c72e68d1e7354db31dcf3ef" :file "c:/S/EM/O/900/Art_Competition_Class.org" :inode 8725724278041631)
+  :expiry 30 :last-access 1742877922.539711 :last-access-hr "2025-03-24T21:45:22-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "f7/8dd9e7-bc11-4cf1-90b5-188efb98d552" :associated
+  (:hash "080461d31e8c7427b9bb8db5a1973d40" :file "c:/S/EM/O/900/900_02.org" :inode 19421773393326267)
+  :expiry 30 :last-access 1742877922.513338 :last-access-hr "2025-03-24T21:45:22-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "dc/99d031-0540-42c0-941e-89b07e4411af" :associated
+  (:hash "fb5cf13b2d0c248a498d75283a594331" :file "c:/S/EM/O/zpf.org" :inode 15762598695862459)
+  :expiry 30 :last-access 1743458413.831816 :last-access-hr "2025-03-31T15:00:13-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "1b/d12fdb-7d07-4e5b-8497-3c1797a8280d" :associated
+  (:hash "90d127de59bcc66e4bfb29d65215a1c8" :file "c:/S/EM/O/story_Intro.org" :inode 32088147345016307)
+  :expiry 30 :last-access 1743458413.838291 :last-access-hr "2025-03-31T15:00:13-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ee/b94302-2056-4c66-a762-697c72b2c6e3" :associated
+  (:hash "7249af85b63874c7c02ed23cda7ae3b6" :file "c:/S/EM/O/office_hours_03_14.org" :inode 184647584722191071)
+  :expiry 30 :last-access 1743458413.843607 :last-access-hr "2025-03-31T15:00:13-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "43/f03f86-e716-4c52-92dd-0f89c9c30844" :associated
+  (:hash "b5d947a84935a89175da6ead05dec01e" :file "c:/S/EM/O/Diary_Comic.org" :inode 101612466592558167)
+  :expiry 30 :last-access 1743458413.916384 :last-access-hr "2025-03-31T15:00:13-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "3f/f03785-c73a-43b0-8f66-8b493a198aaa" :associated
+  (:hash "74728ae771cddcc0644bfe39f4506e08" :file "c:/S/EM/O/Dailies/2025-05-14.org" :inode 14636698789413727)
+  :expiry 30 :last-access 1742877925.412599 :last-access-hr "2025-03-24T21:45:25-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "61/18cd15-9913-4ca0-8ac8-2c047c76696f" :associated
+  (:hash "bacef72bf7ee5b47dd8f11b03a532f02" :file "c:/S/EM/O/Dailies/2025-03-18.org" :inode 100486566685734976)
+  :expiry 30 :last-access 1742877925.346892 :last-access-hr "2025-03-24T21:45:25-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "8b/19721f-040c-47df-a3b7-d408bd70346e" :associated
+  (:hash "6686c88c907094654c0fd1b51a47670f" :file "c:/S/EM/O/Dailies/2025-03-17v2.org" :inode 29273397577934467)
+  :expiry 30 :last-access 1742877925.315611 :last-access-hr "2025-03-24T21:45:25-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "b6/36a17a-ff6e-4d4c-bdef-8c41f55c649d" :associated
+  (:hash "2ec1939feac2776fcaba4a30337dda91" :file "c:/S/EM/O/Dailies/2025-03-17.org" :inode 357473220422801236)
+  :expiry 30 :last-access 1742877925.277829 :last-access-hr "2025-03-24T21:45:25-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "a6/caac3c-987c-4dd5-97cc-b549b563da17" :associated
+  (:hash "32e15378f4529ad5107d8520438d7eb2" :file "c:/S/EM/O/Dailies/2025-03-16.org" :inode 198721333557761065)
+  :expiry 30 :last-access 1742877925.239554 :last-access-hr "2025-03-24T21:45:25-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "af/e58767-a6b9-4880-a35d-1a335f33a9a5" :associated
+  (:hash "c8117c12faac4c537e1b62be65ffee13" :file "c:/S/EM/O/0PZ/2025-03-11_job_02.org" :inode 13229323906429882)
+  :expiry 30 :last-access 1742877922.270484 :last-access-hr "2025-03-24T21:45:22-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "16/f001db-16fd-4d95-a243-da62f2e58663" :associated
+  (:hash "8b544d40127bb3a3f0ec8832a215c527" :file "c:/S/EM/O/0PZ/2025-03-11_job.org" :inode 2814749767171909)
+  :expiry 30 :last-access 1742877922.214605 :last-access-hr "2025-03-24T21:45:22-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "b4/bc5087-71f3-475e-a28e-0c162cdb35d4" :associated
+  (:hash "d2c52960537617365dabca7f51598a6d" :file "c:/S/EM/O/Notes_Terminal/shift_sequence.org" :inode 20547673300304368)
+  :expiry 30 :last-access 1742877956.354295 :last-access-hr "2025-03-24T21:45:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "6a/d6b5ed-151b-418d-9516-18dcd7c65d01" :associated
+  (:hash "93b64b1910bb53ac99b0c03fbbc2d850" :file "c:/S/EM/O/HABIT.org" :inode 4785074604472175)
+  :expiry 30 :last-access 1743458413.921674 :last-access-hr "2025-03-31T15:00:13-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "3c/1839ee-e1a7-4c44-aa32-7766d990883a" :associated
+  (:hash "cf375cf4494d51016be123dc05105bcd" :file "c:/S/EM/O/config_photoshop.org" :inode 128915539333546042)
+  :expiry 30 :last-access 1743458413.927134 :last-access-hr "2025-03-31T15:00:13-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ed/a1c2b0-f3f1-4329-a9fa-890b1efb4e14" :associated
+  (:hash "8500239bdb5b69e7d41179acff227c7a" :file "c:/S/EM/O/Dailies/2025-03-11.org" :inode 17169973579398832)
+  :expiry 30 :last-access 1742877925.200497 :last-access-hr "2025-03-24T21:45:25-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "0a/83af1b-272b-482d-8d6c-80f266d6e400" :associated
+  (:hash "f240e996899a6b3e93edf21db0fb22b7" :file "c:/S/EM/O/L-French/2025-03-10.org" :inode 59391220086018739)
+  :expiry 30 :last-access 1742877956.245574 :last-access-hr "2025-03-24T21:45:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "a1/3cf531-bad2-44cf-999b-3fd62a50bcab" :associated
+  (:hash "f57291209de35b51b142831685e1bcaf" :file "c:/S/EM/O/Dailies/2025-05-05.org" :inode 13792273859378292)
+  :expiry 30 :last-access 1742877925.377955 :last-access-hr "2025-03-24T21:45:25-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "a1/5dcdae-f824-48b6-b4e1-b3a0e756b5a5" :associated
+  (:hash "0a55bd3497bc4acd4a2c8259475af2c0" :file "c:/S/EM/O/off_hours.org" :inode 56857945295585750)
+  :expiry 30 :last-access 1743458413.934365 :last-access-hr "2025-03-31T15:00:13-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "bf/cf51eb-e954-4012-8d30-e3e37b2fe666" :associated
+  (:hash "2df8354676e89599463247903eaa479b" :file "c:/S/EM/O/office_hours.org~" :inode 65865144550329918)
+  :expiry 30 :last-access 1741176040.379274 :last-access-hr "2025-03-05T04:00:40-0800")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "39/ed49f1-cab2-46fd-8faa-6c8f62013c3c" :associated
+  (:hash "7559dd60ff542d8118738d35efb9c6b9" :file "c:/S/EM/O/Notes_Terminal/terminal.org" :inode 1970324837018023)
+  :expiry 30 :last-access 1742877956.394854 :last-access-hr "2025-03-24T21:45:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "25/33b171-2c50-4531-972e-fcefacc0fb1c" :associated
+  (:hash "1d258593b79c5a762b6239fce676c667" :file "c:/S/EM/O/Notes_Terminal/shutdown_terminal.org" :inode 8162774324623496)
+  :expiry 30 :last-access 1742877956.371632 :last-access-hr "2025-03-24T21:45:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "49/ec8566-975a-4156-ba9b-baa77338c9c5" :associated
+  (:hash "750e922da6e7f69de8ebeab9ef952b56" :file "c:/S/EM/O/Notes_Terminal/h2_images_in_pandoc.org" :inode 16607023625998803)
+  :expiry 30 :last-access 1742877956.338477 :last-access-hr "2025-03-24T21:45:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "95/ef5501-5464-494e-af6c-0e7eb332c44a" :associated
+  (:hash "f20f7da5d72d2568877921a015da8cff" :file "c:/S/EM/O/Notes_Terminal/h2_get-emacsinterminaltoworkagainset -S EDITOR &_1.org" :inode 81064793292834541)
+  :expiry 30 :last-access 1742877956.321306 :last-access-hr "2025-03-24T21:45:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "e1/b2c851-080a-4192-89d1-f6165170218f" :associated
+  (:hash "f20f7da5d72d2568877921a015da8cff" :file "c:/S/EM/O/Notes_Terminal/h2_get-emacsinterminaltoworkagain-set -S EDITOR &.org" :inode 110338190870629731)
+  :expiry 30 :last-access 1742877956.305095 :last-access-hr "2025-03-24T21:45:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "9a/04ce7c-5391-4c10-85d9-22c88ff138c4" :associated
+  (:hash "f1360f43876a8136c52762ec2c47dc9e" :file "c:/S/EM/O/Notes_Emacs/Add_Folders_to_Org_Agenda.org" :inode 2251799813967911)
+  :expiry 30 :last-access 1742877956.285964 :last-access-hr "2025-03-24T21:45:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "8f/9cfa66-2875-4f7a-ba76-720122b74ed3" :associated
+  (:hash "404b7b084f019b11bc30570943cdfc57" :file "c:/S/EM/O/L-French/2025-03-04.org" :inode 31525197391658247)
+  :expiry 30 :last-access 1742877956.229206 :last-access-hr "2025-03-24T21:45:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "f6/cd9c76-a8f5-410b-b8a8-faa606f85a54" :associated
+  (:hash "b3511159311655f637a53cce0e86f6f1" :file "c:/S/EM/O/L-French/2025-02-27.org" :inode 54606145481875979)
+  :expiry 30 :last-access 1742877956.209115 :last-access-hr "2025-03-24T21:45:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ff/9171de-2dca-47ad-a329-2c2a2bb1eff6" :associated
+  (:hash "6389f3da350282e313fd898207467dd8" :file "c:/S/EM/O/900/ANI_Notes/ani_.org" :inode 2814749768129518)
+  :expiry 30 :last-access 1742877922.484209 :last-access-hr "2025-03-24T21:45:22-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "80/9f87a6-8d9f-4b95-a8a1-70c03c7ac191" :associated
+  (:hash "eab4c26f4db30a361c1e5bf3c85e3857" :file "c:/S/EM/O/900/ANI_Notes/ANI_Holiday_Card.org" :inode 41939771529928956)
+  :expiry 30 :last-access 1742877922.381589 :last-access-hr "2025-03-24T21:45:22-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "a3/6d00b2-e2bb-41dd-b159-67276a99bb59" :associated
+  (:hash "1db09142b28e0c9e6f2c23a5ac559af1" :file "c:/S/EM/O/900/950_Teach_Creative_Brain_Learning/Robotics.org" :inode 3659174698252582)
+  :expiry 30 :last-access 1742877922.349589 :last-access-hr "2025-03-24T21:45:22-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "a5/48819c-67ab-4cb3-b5b1-93961ea16036" :associated
+  (:hash "32b61d976ab8fbc9dea23c13e4ddd93c" :file "c:/S/EM/O/tmux.org" :inode 66428094503726049)
+  :expiry 30 :last-access 1743458413.943201 :last-access-hr "2025-03-31T15:00:13-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "b1/c3fad6-ca8f-45f7-9a8b-0f81842bfe56" :associated
+  (:hash "ede541effa48e8b21c4539910be0334f" :file "c:/S/EM/O/shutdown-setup.org" :inode 3096224744691398)
+  :expiry 30 :last-access 1743458413.94815 :last-access-hr "2025-03-31T15:00:13-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "24/35151f-9775-4273-a03e-c6e0a4399496" :associated
+  (:hash "518249d1beba0c68182da3f6b063071f" :file "c:/S/EM/O/howtovideos.org" :inode 931682172912305919)
+  :expiry 30 :last-access 1743458413.954472 :last-access-hr "2025-03-31T15:00:13-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "55/d5efd7-5b20-4cc4-b93a-ff8b7dc419a8" :associated
+  (:hash "4f5ee29298a2148b2818768f70217f96" :file "c:/S/EM/O/hermosa.org" :inode 56013520365434223)
+  :expiry 30 :last-access 1743458413.959727 :last-access-hr "2025-03-31T15:00:13-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "dd/e5cf13-b41e-46ec-878f-afdc5291af2c" :associated
+  (:hash "1f36a6f93d6c9245af9ca00029650181" :file "c:/S/EM/O/FR03_02_23_2025.org" :inode 319192623589915510)
+  :expiry 30 :last-access 1743458413.963943 :last-access-hr "2025-03-31T15:00:13-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "65/4df775-c953-46b9-9375-2704f7f8f537" :associated
+  (:hash "ee8e7f369a8ae39251945607b9c89885" :file "c:/S/EM/O/FR03_02_22_2025.org" :inode 23080948090339221)
+  :expiry 30 :last-access 1743458413.968322 :last-access-hr "2025-03-31T15:00:13-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "68/bf599a-36c2-4927-b7cd-c496394b436d" :associated
+  (:hash "c07a69a39e54d8a41592b0653bf6a7f9" :file "c:/S/EM/O/FG_2025_03_01.org" :inode 16325548649275340)
+  :expiry 30 :last-access 1743458413.974035 :last-access-hr "2025-03-31T15:00:13-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "3c/1b7bf8-f568-4f0c-bc9a-a534c8eb6be8" :associated
+  (:hash "a096235d3dd4ae6ee3d39e1150d6c3a5" :file "c:/S/EM/O/910_020_Anni__2.org" :inode 2814749767692766)
+  :expiry 30 :last-access 1743458413.980776 :last-access-hr "2025-03-31T15:00:13-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "8a/e70c0a-880c-4b6a-8af9-8ad2e6757faa" :associated
+  (:hash "a096235d3dd4ae6ee3d39e1150d6c3a5" :file "c:/S/EM/O/910_020_Anni__1.org" :inode 46724846134035328)
+  :expiry 30 :last-access 1743458413.988059 :last-access-hr "2025-03-31T15:00:13-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "aa/6e926f-7527-48a3-8480-386b9a528061" :associated
+  (:hash "ce9e52fc9ee7f1613441ffa0015d59b2" :file "c:/S/EM/O/Dailies/2025-03-04.org" :inode 185210534675625379)
+  :expiry 30 :last-access 1742877925.1636 :last-access-hr "2025-03-24T21:45:25-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "4e/7fbfe3-f6da-4e4e-9843-1e73e9bb71b9" :associated
+  (:hash "e7258656f59b3fc03d1cf9653ab34b58" :file "c:/S/EM/O/Dailies/2025-03-04-02.org" :inode 38562071809412371)
+  :expiry 30 :last-access 1742877925.131542 :last-access-hr "2025-03-24T21:45:25-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "1d/48a6a7-ca87-4a5f-bc38-fb9d16d71e19" :associated
+  (:hash "37cc9bd62131704fb16d02c2458d437a" :file "c:/S/EM/O/Dailies/2025-03-03.org" :inode 63613344736619663)
+  :expiry 30 :last-access 1742877925.038356 :last-access-hr "2025-03-24T21:45:25-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "c6/d3aa23-4998-410c-9905-abe0b62e361a" :associated
+  (:hash "5cf739d11e35c79062b6f2fd8cbc51da" :file "c:/S/EM/O/Dailies/2025-03-01_cool_paint_app.org" :inode 27303072741336616)
+  :expiry 30 :last-access 1742877924.995528 :last-access-hr "2025-03-24T21:45:24-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "bc/60037b-ca28-43d1-8110-4f6d65e7e7cf" :associated
+  (:hash "62a739e96d7c9ef30550d95c8a1f5568" :file "c:/S/EM/O/Dailies/2025-02-27.org" :inode 35747322042320853)
+  :expiry 30 :last-access 1742877924.963458 :last-access-hr "2025-03-24T21:45:24-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "a4/23e908-b7b0-4a0c-8628-1d25601a7bf1" :associated
+  (:hash "2623f52a8f3a50e6e8f708be978aa1aa" :file "c:/S/EM/O/Dailies/2025-02-25.org" :inode 42784196460060237)
+  :expiry 30 :last-access 1742877924.927774 :last-access-hr "2025-03-24T21:45:24-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "8c/86de65-53b1-4d5d-86a8-bc63153116bb" :associated
+  (:hash "4198dbe68cb40b21c6a263727d5b74c0" :file "c:/S/EM/O/Dailies/2025-02-24.org" :inode 7318349394628122)
+  :expiry 30 :last-access 1742877924.889999 :last-access-hr "2025-03-24T21:45:24-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "b1/efa99a-9a0b-4bab-8be5-d65c81e76180" :associated
+  (:hash "2b25e2b35005bbfa33ea616d4cbcefe4" :file "c:/S/EM/O/00_PR.org" :inode 14073748836687627)
+  :expiry 30 :last-access 1743458413.993591 :last-access-hr "2025-03-31T15:00:13-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "fc/d86295-ee63-42e8-83df-a3c10298b6d8" :associated
+  (:hash "3ea9bb757d6091809d7651fe81f5aa62" :file "c:/S/EM/O/.#thoughts.org" :inode 114560315521362423)
+  :expiry 30 :last-access 1742878104.897936 :last-access-hr "2025-03-24T21:48:24-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "a9/d7c05b-8f8d-4828-825a-28f4a1d12bee" :associated
+  (:hash "7851b36d8ce6274987510fc84f53d258" :file "c:/S/EM/O/techo/extra/test/zpf.org" :inode 844424930425936)
+  :expiry 30 :last-access 1742878103.795048 :last-access-hr "2025-03-24T21:48:23-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "e4/f0f31a-c3ef-4586-b49d-3b5f6e039ee3" :associated
+  (:hash "1d216cd78cd1d13a465546140a5d2ef2" :file "c:/S/EM/O/techo/extra/test/youtube.org" :inode 9570149209184538)
+  :expiry 30 :last-access 1742878103.65926 :last-access-hr "2025-03-24T21:48:23-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "7c/f394ce-6b32-4cb9-a556-9da5c3003641" :associated
+  (:hash "dcb87e2796f031d367676f9980ceb975" :file "c:/S/EM/O/techo/extra/test/unti.org" :inode 2251799814872165)
+  :expiry 30 :last-access 1742878103.559642 :last-access-hr "2025-03-24T21:48:23-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "a0/2e44e8-3928-4e09-9040-35ce403c8d57" :associated
+  (:hash "2ad0226c225f8729628c23e873dff596" :file "c:/S/EM/O/techo/extra/test/techo.org" :inode 3377699721544544)
+  :expiry 30 :last-access 1742878103.483861 :last-access-hr "2025-03-24T21:48:23-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "42/222f58-a8cd-4507-bb65-d6cc4d7b0a08" :associated
+  (:hash "ebbdc19eb833222fb746d041f6dff622" :file "c:/S/EM/O/techo/extra/test/skateboarding.org" :inode 5066549582002650)
+  :expiry 30 :last-access 1742878102.973293 :last-access-hr "2025-03-24T21:48:22-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "fe/df6ebc-dc5a-4e6b-9938-f6e66519851f" :associated
+  (:hash "cbbb37639d31c8c395a54308f1df6991" :file "c:/S/EM/O/techo/extra/test/shopping.org" :inode 7036874418952808)
+  :expiry 30 :last-access 1742878102.869294 :last-access-hr "2025-03-24T21:48:22-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "be/7d8c56-e8d6-467a-ba00-8dea277a098c" :associated
+  (:hash "43c2fb1e92e683a56fb986500440124b" :file "c:/S/EM/O/techo/extra/test/sewing.org" :inode 2814749768121757)
+  :expiry 30 :last-access 1742878102.789248 :last-access-hr "2025-03-24T21:48:22-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "a6/7b2c85-7501-4a6f-8928-266b65b34590" :associated
+  (:hash "f86068f65af17ec667e0bc603b03faa8" :file "c:/S/EM/O/techo/extra/test/rss15.org" :inode 13510798883024393)
+  :expiry 30 :last-access 1742878102.611339 :last-access-hr "2025-03-24T21:48:22-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "43/d1ba9a-6473-4bc7-aa45-f90fd23b115d" :associated
+  (:hash "d68680c2a1d61225096e734e8c151b09" :file "c:/S/EM/O/techo/extra/test/random recorded conversation.org" :inode 5910974512109068)
+  :expiry 30 :last-access 1742878084.328994 :last-access-hr "2025-03-24T21:48:04-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "3d/6bf455-236b-417b-830c-c69cf5571c6c" :associated
+  (:hash "99bf76971dcd9bc4b57a037843649554" :file "c:/S/EM/O/techo/extra/test/practice.org" :inode 3940649675115214)
+  :expiry 30 :last-access 1742878084.25093 :last-access-hr "2025-03-24T21:48:04-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "01/1c2d7d-e798-4e15-83c2-3cbca03d5105" :associated
+  (:hash "0a48476c96fe9b267686dcd96fc80a38" :file "c:/S/EM/O/techo/extra/test/portraits.org" :inode 5348024558514422)
+  :expiry 30 :last-access 1742878084.145244 :last-access-hr "2025-03-24T21:48:04-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "78/4b1a4b-0129-4b95-b830-65939aa31ffc" :associated
+  (:hash "c3946e2ab9f93900092fa63f0f989bcf" :file "c:/S/EM/O/techo/extra/test/pleinapril2.org" :inode 1970324838154918)
+  :expiry 30 :last-access 1742878084.067977 :last-access-hr "2025-03-24T21:48:04-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "54/d0121a-0e15-48c1-b924-06950209548e" :associated
+  (:hash "d41d8cd98f00b204e9800998ecf8427e" :file "c:/S/EM/O/techo/extra/test/photos.org" :inode 16607023626217827)
+  :expiry 30 :last-access 1742878083.803784 :last-access-hr "2025-03-24T21:48:03-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "3b/d81e7b-532e-4ed9-a9e9-2a2ab26f131c" :associated
+  (:hash "7dcfb044fa9ae28fe499834ea5d48d2d" :file "c:/S/EM/O/techo/extra/test/phone notes.org" :inode 1970324838139104)
+  :expiry 30 :last-access 1742878083.751008 :last-access-hr "2025-03-24T21:48:03-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "60/ea6f4e-748f-4e2d-b061-56d1e8e669b1" :associated
+  (:hash "dedcda20bb71d4bed963c49b080e6655" :file "c:/S/EM/O/techo/extra/test/funnyvideos.org" :inode 23925373020471079)
+  :expiry 30 :last-access 1742878083.694367 :last-access-hr "2025-03-24T21:48:03-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "3d/8fa46e-d25b-44c2-a931-86a8f7680670" :associated
+  (:hash "d81c8ce076baabcf23ff6878692fdd2b" :file "c:/S/EM/O/techo/extra/test/food.org" :inode 1407374883846535)
+  :expiry 30 :last-access 1742878083.584983 :last-access-hr "2025-03-24T21:48:03-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "66/d4d034-66b6-45de-a84a-a479c430ce4f" :associated
+  (:hash "1549a848089164827611c2b490fc7d7a" :file "c:/S/EM/O/techo/extra/test/fg_face.org" :inode 844424930426096)
+  :expiry 30 :last-access 1742878083.509169 :last-access-hr "2025-03-24T21:48:03-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "c3/e1b995-2a7e-40d1-8869-8e315b7d9b8e" :associated
+  (:hash "96b5bb8dbbd4238968d44a361e17626e" :file "c:/S/EM/O/techo/extra/test/fg.org" :inode 1407374883846443)
+  :expiry 30 :last-access 1742878083.289026 :last-access-hr "2025-03-24T21:48:03-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "7e/dee70a-2ea7-496f-a357-cab1d3b54029" :associated
+  (:hash "cc1ca87ec403b4539935638dc97a0729" :file "c:/S/EM/O/techo/extra/test/fashion.org" :inode 7036874418977752)
+  :expiry 30 :last-access 1742878083.211276 :last-access-hr "2025-03-24T21:48:03-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "38/09c237-69b6-4612-bbe7-772414f0facb" :associated
+  (:hash "d5babae33fb61fe7151d70cbf9ac193d" :file "c:/S/EM/O/techo/extra/test/exercise.org" :inode 45317471250705280)
+  :expiry 30 :last-access 1742878083.100584 :last-access-hr "2025-03-24T21:48:03-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "5e/b35ab4-aa18-44e5-81ed-e90c5ab04571" :associated
+  (:hash "014ea7a0cb136b796b292923afe20ff9" :file "c:/S/EM/O/techo/extra/test/computer.org" :inode 2814749767931841)
+  :expiry 30 :last-access 1742878083.024534 :last-access-hr "2025-03-24T21:48:03-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "11/75a18b-979b-4c7c-8602-4e6b6bc8075d" :associated
+  (:hash "d41d8cd98f00b204e9800998ecf8427e" :file "c:/S/EM/O/techo/extra/test/carsv2.org" :inode 8444249302264595)
+  :expiry 30 :last-access 1742878082.958126 :last-access-hr "2025-03-24T21:48:02-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "fd/112698-2661-4a42-99e2-b124a1f93342" :associated
+  (:hash "37070b5311b6b4edfc8a568c8d834f17" :file "c:/S/EM/O/techo/extra/test/cars.org" :inode 268527127782056273)
+  :expiry 30 :last-access 1742878082.901293 :last-access-hr "2025-03-24T21:48:02-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "b9/eaa7ef-eb40-4094-ba4d-30a4b1798b35" :associated
+  (:hash "b74e65f4e0d46e99eed98236fce91f59" :file "c:/S/EM/O/techo/extra/test/blender.org" :inode 2814749768029378)
+  :expiry 30 :last-access 1742878082.818231 :last-access-hr "2025-03-24T21:48:02-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "cc/d40d87-60f8-4eb1-88cd-b9c953ae9e51" :associated
+  (:hash "39f6af1d8602449d48505f51c6801b23" :file "c:/S/EM/O/techo/extra/test/arcs2.org" :inode 4503599628580140)
+  :expiry 30 :last-access 1742878082.603126 :last-access-hr "2025-03-24T21:48:02-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "41/902f78-6192-47fb-8649-93b020eb4afb" :associated
+  (:hash "0836a1d5a558eac7c8e43a463aa5e983" :file "c:/S/EM/O/techo/extra/test/al_FC_ani_02.org" :inode 11258999069635166)
+  :expiry 30 :last-access 1742878082.527462 :last-access-hr "2025-03-24T21:48:02-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "57/4cf9fd-ba22-4b2b-aacc-3f46f1073ec4" :associated
+  (:hash "1760e04dc1a616d1fb05845bf725e15b" :file "c:/S/EM/O/techo/extra/test/ahav2.org" :inode 4503599628581149)
+  :expiry 30 :last-access 1742878082.389499 :last-access-hr "2025-03-24T21:48:02-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "a1/db5584-7193-4fe4-9db7-81fa70f1837a" :associated
+  (:hash "62ca9bec18ffa662eb79a28dcca7515a" :file "c:/S/EM/O/techo/extra/test/Yoga.org" :inode 10977524092560892)
+  :expiry 30 :last-access 1742878082.298682 :last-access-hr "2025-03-24T21:48:02-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "84/575e9a-c44a-4425-89b6-a40b2651c438" :associated
+  (:hash "0ac1aa93d06f136ed7c2360cd02ca6cf" :file "c:/S/EM/O/techo/extra/test/Wave.org" :inode 18577348463744859)
+  :expiry 30 :last-access 1742878082.199668 :last-access-hr "2025-03-24T21:48:02-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "c2/cb2eb6-a2b9-49c2-829c-9dc2cda1ccce" :associated
+  (:hash "5760b8c587b0013898f11f595036e73e" :file "c:/S/EM/O/techo/extra/test/VKAY.org" :inode 3096224744831505)
+  :expiry 30 :last-access 1742878082.137163 :last-access-hr "2025-03-24T21:48:02-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "44/6e456f-c9d9-4a08-97e5-79230d57e8b8" :associated
+  (:hash "c3e6e8423792a62dcddf5688ab786f03" :file "c:/S/EM/O/techo/extra/test/UDESIGN.org" :inode 4785074605269129)
+  :expiry 30 :last-access 1742878081.889959 :last-access-hr "2025-03-24T21:48:01-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "a7/369f04-f3e7-4bbb-9b6c-698c257d4c09" :associated
+  (:hash "474411301c0e8f04ee8efbea2cc56b7c" :file "c:/S/EM/O/techo/extra/test/Textfile3.org" :inode 46443371158035646)
+  :expiry 30 :last-access 1742878081.751267 :last-access-hr "2025-03-24T21:48:01-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "6b/21079d-05c5-4686-bb79-d8d6e1c262a5" :associated
+  (:hash "25fa5367838eb7ac20d4ab0e2b104261" :file "c:/S/EM/O/techo/extra/test/Storyboarding.org" :inode 8444249302333104)
+  :expiry 30 :last-access 1742878081.669231 :last-access-hr "2025-03-24T21:48:01-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ea/be0fcb-518c-4442-8238-ebc4919682ec" :associated
+  (:hash "474411301c0e8f04ee8efbea2cc56b7c" :file "c:/S/EM/O/techo/extra/test/Start-Up.org" :inode 1970324838149835)
+  :expiry 30 :last-access 1742878081.455159 :last-access-hr "2025-03-24T21:48:01-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "54/d95e1d-cd9e-4313-b36f-69f69930d5a7" :associated
+  (:hash "1a3df8ed5caf67da24a5916e229661b6" :file "c:/S/EM/O/techo/extra/test/ST.org" :inode 6473924465261201)
+  :expiry 30 :last-access 1742878081.367503 :last-access-hr "2025-03-24T21:48:01-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "78/86dfcd-cf47-4d66-a429-1f6523e23972" :associated
+  (:hash "fec961df74098fe4f0e432498fedeac6" :file "c:/S/EM/O/techo/extra/test/SL.org" :inode 5629499535399520)
+  :expiry 30 :last-access 1742878081.244422 :last-access-hr "2025-03-24T21:48:01-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "87/bd243e-f582-4a3f-844c-21cb9abcc851" :associated
+  (:hash "362fbf99f3bca8162764841ee325213c" :file "c:/S/EM/O/techo/extra/test/SAS.org" :inode 1688849861444269)
+  :expiry 30 :last-access 1742878081.159931 :last-access-hr "2025-03-24T21:48:01-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "bc/07c3a3-a1ac-4403-a3cf-f15c3382bb56" :associated
+  (:hash "971420924c80fbbdf742541fe7097c87" :file "c:/S/EM/O/techo/extra/test/Quotes.org" :inode 1407374884567281)
+  :expiry 30 :last-access 1742878080.952827 :last-access-hr "2025-03-24T21:48:00-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ef/84b211-66ec-40fc-a6eb-12274cfdabb4" :associated
+  (:hash "0063760f77322dc8ef4a13342511e023" :file "c:/S/EM/O/techo/extra/test/Python.org" :inode 844424930426085)
+  :expiry 30 :last-access 1742878080.899399 :last-access-hr "2025-03-24T21:48:00-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "82/a4a8a4-97c8-4059-b404-f969681de57e" :associated
+  (:hash "30c89a3ef8463c6fec50ae5d22130f49" :file "c:/S/EM/O/techo/extra/test/Painting.org" :inode 4503599628561201)
+  :expiry 30 :last-access 1742878080.816768 :last-access-hr "2025-03-24T21:48:00-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ed/7d108e-77c0-4700-9696-23ab0826f06b" :associated
+  (:hash "ed3f6ab8fc79d869f2e6679e25192118" :file "c:/S/EM/O/techo/extra/test/Keying Green Screen.org" :inode 10133099162542300)
+  :expiry 30 :last-access 1742878080.724397 :last-access-hr "2025-03-24T21:48:00-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ed/45e3c9-97b8-4ff0-9fc1-73f350f4d371" :associated
+  (:hash "fda509c954b261edb2caf44109733ade" :file "c:/S/EM/O/techo/extra/test/Job_Linefolk_03_11_2024.org" :inode 844424930426163)
+  :expiry 30 :last-access 1742878080.666657 :last-access-hr "2025-03-24T21:48:00-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "4e/dfbda7-78b9-4821-992a-4ae7a90d1598" :associated
+  (:hash "3081984ba14432573a744eee8437acf6" :file "c:/S/EM/O/techo/extra/test/JOB_imaginaires_03_11_2024.org" :inode 6755399441940627)
+  :expiry 30 :last-access 1742878080.599977 :last-access-hr "2025-03-24T21:48:00-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ce/03a11d-0875-4010-900a-0ae1ff9e930f" :associated
+  (:hash "8667dd06299e10137dd06e4fc34e85e9" :file "c:/S/EM/O/techo/extra/test/JOB_That'snomoon.org" :inode 16888498602809988)
+  :expiry 30 :last-access 1742878080.51856 :last-access-hr "2025-03-24T21:48:00-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "93/432812-3af6-4650-aeee-6880680958ea" :associated
+  (:hash "f85e73566030fcd6e8e741f2f4516020" :file "c:/S/EM/O/techo/extra/test/JOB_SOLAR_00.org" :inode 4503599628580153)
+  :expiry 30 :last-access 1742878080.423995 :last-access-hr "2025-03-24T21:48:00-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ba/abf77f-45db-4092-9780-5e3e009406bb" :associated
+  (:hash "514c14a952d714360329c7009d9be317" :file "c:/S/EM/O/techo/extra/test/JOB_Nickelodeon_Cover_Letter_02.org" :inode 19984723347401202)
+  :expiry 30 :last-access 1742878080.351001 :last-access-hr "2025-03-24T21:48:00-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "fa/f719d0-25fa-49a2-afb6-fe59ea57fc4b" :associated
+  (:hash "c06685b94f5d0cf31eacdda796f7f7e2" :file "c:/S/EM/O/techo/extra/test/JOB_Nickelodeon_Cover_Letter.org" :inode 844424930426180)
+  :expiry 30 :last-access 1742878080.272388 :last-access-hr "2025-03-24T21:48:00-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "73/196c1f-8976-4a38-b37a-f7c8a303ab32" :associated
+  (:hash "fbc014837f4e9d667a58e1ab1ce713ea" :file "c:/S/EM/O/techo/extra/test/JOB_Linefolk.org" :inode 844424930425901)
+  :expiry 30 :last-access 1742878080.222456 :last-access-hr "2025-03-24T21:48:00-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "1e/fcb240-f3c6-4b03-80bc-63d95fc162bb" :associated
+  (:hash "6afc3177f84313a61bacbee199dcb360" :file "c:/S/EM/O/techo/extra/test/JOB_Hunt_02_18.org" :inode 7318349395494180)
+  :expiry 30 :last-access 1742878080.047935 :last-access-hr "2025-03-24T21:48:00-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "d8/ba5576-4e71-4c70-9e07-71f62377060d" :associated
+  (:hash "30473688afcf99cc68a6d12daff0e1df" :file "c:/S/EM/O/techo/extra/test/JOB_Cover_Letter_Sony.org" :inode 10977524092561289)
+  :expiry 30 :last-access 1742878079.956668 :last-access-hr "2025-03-24T21:47:59-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ae/445ef2-21ff-470a-bf4f-d387d3d6607d" :associated
+  (:hash "07d4c0883a495e917877fc3754f96669" :file "c:/S/EM/O/techo/extra/test/JOB_Cover_Letter.org" :inode 10696049116215159)
+  :expiry 30 :last-access 1742878079.903797 :last-access-hr "2025-03-24T21:47:59-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "1b/ccf893-4a68-49df-9f34-6de68bb7c5e4" :associated
+  (:hash "4ac8c441b4e734f3aec48e4d88809b91" :file "c:/S/EM/O/techo/extra/test/HKE.org" :inode 12384898976189676)
+  :expiry 30 :last-access 1742878079.801142 :last-access-hr "2025-03-24T21:47:59-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "b8/e82a16-0818-4ec0-98c9-03d107b80275" :associated
+  (:hash "2587e680ed33da42011e0efacbff36be" :file "c:/S/EM/O/techo/extra/test/French2.org" :inode 1970324838140252)
+  :expiry 30 :last-access 1742878079.663717 :last-access-hr "2025-03-24T21:47:59-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "07/3f868f-cb93-49db-9599-9477c2288ed7" :associated
+  (:hash "2cbc297153420d634a3b91f0cc167020" :file "c:/S/EM/O/techo/extra/test/FA.org" :inode 1688849861442467)
+  :expiry 30 :last-access 1742878079.14036 :last-access-hr "2025-03-24T21:47:59-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "4b/8032fe-317e-4565-b75f-90c72e7dc923" :associated
+  (:hash "277e9820b6f1e4ddc8210efc09f0dbc0" :file "c:/S/EM/O/techo/extra/test/Emacs.org" :inode 1407374884720294)
+  :expiry 30 :last-access 1742878079.048697 :last-access-hr "2025-03-24T21:47:59-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "26/248646-16aa-4b9d-ad0a-d36f9e76175d" :associated
+  (:hash "d19c3e9df82fdfa0fedeacdd75ccb1b0" :file "c:/S/EM/O/techo/extra/test/Comp.org" :inode 1407374884568433)
+  :expiry 30 :last-access 1742878078.816117 :last-access-hr "2025-03-24T21:47:58-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "98/360266-af40-4ee8-bbaa-0c2ea8812f3c" :associated
+  (:hash "7d5a9864f55979d7d34f03c7ff68fd41" :file "c:/S/EM/O/techo/extra/test/Caricatures.org" :inode 19140298416544091)
+  :expiry 30 :last-access 1742878078.70696 :last-access-hr "2025-03-24T21:47:58-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "7e/755e60-1a3c-480b-a3c8-891f6adce131" :associated
+  (:hash "e6c26fa5f59b8682f66e32760e6cb611" :file "c:/S/EM/O/techo/extra/test/CMN.org" :inode 23925373021262054)
+  :expiry 30 :last-access 1742878078.556731 :last-access-hr "2025-03-24T21:47:58-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "63/00d075-3fdc-4a73-a6a7-ea3f2eb95ca7" :associated
+  (:hash "2b93f8055c1183977b766d9d4ab9cda5" :file "c:/S/EM/O/techo/extra/test/CD.org" :inode 1407374884567567)
+  :expiry 30 :last-access 1742878078.294764 :last-access-hr "2025-03-24T21:47:58-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "f0/0f9744-ada2-4b2b-95f3-428c74e89adb" :associated
+  (:hash "8fd1180399c079afb3b0dd439c6b7828" :file "c:/S/EM/O/techo/extra/test/CBR_.org" :inode 844424930425813)
+  :expiry 30 :last-access 1742878078.211261 :last-access-hr "2025-03-24T21:47:58-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "18/737969-1a2d-4c42-b008-7064a779d61b" :associated
+  (:hash "570d884736d9de715638de34605ddb62" :file "c:/S/EM/O/techo/extra/test/AN_Solid_Drawing.org" :inode 4503599628526995)
+  :expiry 30 :last-access 1742878078.166005 :last-access-hr "2025-03-24T21:47:58-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "fc/4c6289-a286-44ff-a402-fcd2027cf985" :associated
+  (:hash "e45de76109372522fca9bed15f980252" :file "c:/S/EM/O/techo/extra/test/AN_Reel.org" :inode 3096224744833780)
+  :expiry 30 :last-access 1742878078.083334 :last-access-hr "2025-03-24T21:47:58-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "2b/ecba14-e337-4ef5-86b1-bcc4da62b824" :associated
+  (:hash "c70529b0eb9886fd158bbe7d7feb8a86" :file "c:/S/EM/O/techo/extra/test/AN_01_04.org" :inode 2533274791605486)
+  :expiry 30 :last-access 1742878078.035327 :last-access-hr "2025-03-24T21:47:58-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "d6/b29347-65df-4f94-ba01-b06b9c7d3a98" :associated
+  (:hash "5090679b0d2224053646d29cdcf27699" :file "c:/S/EM/O/techo/extra/test/ANI_Notes.org" :inode 8162774325454945)
+  :expiry 30 :last-access 1742878077.925617 :last-access-hr "2025-03-24T21:47:57-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "9a/cf0c77-5b32-4b3a-8d6f-9fd943798c96" :associated
+  (:hash "161ea2a2debe4774e4759e44598bfbd5" :file "c:/S/EM/O/techo/extra/test/ANI.org" :inode 5348024558450725)
+  :expiry 30 :last-access 1742878077.861866 :last-access-hr "2025-03-24T21:47:57-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "10/70a939-e886-448a-877b-1f9eb9cf1891" :associated
+  (:hash "74c7d4d808571319511da26541947cd9" :file "c:/S/EM/O/techo/extra/test/AL_PC_Sophie_V2.org" :inode 1407374883846591)
+  :expiry 30 :last-access 1742878077.592397 :last-access-hr "2025-03-24T21:47:57-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "28/098b7a-9d68-4eea-97e3-69eb218a4f53" :associated
+  (:hash "650bb406f6ece24fe342939c504165aa" :file "c:/S/EM/O/techo/extra/test/AL_PC_Sophie_Class_File_03_08.org" :inode 3659174698265893)
+  :expiry 30 :last-access 1742878077.425754 :last-access-hr "2025-03-24T21:47:57-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "c5/2c6550-3f34-43f3-9e5e-10e1ffd38879" :associated
+  (:hash "8b5e56962f5800ce897f1c74973b7bde" :file "c:/S/EM/O/techo/extra/test/AL_PC_Sophie_Class_File.org" :inode 6192449488652217)
+  :expiry 30 :last-access 1742878077.305401 :last-access-hr "2025-03-24T21:47:57-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "20/82831b-29bd-4edc-9cfd-fefa7b5d3fb6" :associated
+  (:hash "441a1a34b5df68c5f03fa5906d7121c6" :file "c:/S/EM/O/techo/extra/test/AL_PC_Sophie.org" :inode 5910974512133442)
+  :expiry 30 :last-access 1742878077.182154 :last-access-hr "2025-03-24T21:47:57-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "47/906e05-f988-430f-a24f-446c50c36033" :associated
+  (:hash "5ed48108647021f3cba8c3af75f4e4ef" :file "c:/S/EM/O/techo/extra/test/AL_PC_SJ_03_08.org" :inode 1407374884567412)
+  :expiry 30 :last-access 1742878076.950232 :last-access-hr "2025-03-24T21:47:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "db/50eacb-19c3-4cb1-9cec-df041807166d" :associated
+  (:hash "7c2ae5f3ec89dfd3ec98df252173a7dc" :file "c:/S/EM/O/techo/extra/test/AL_PC_SJ_.org" :inode 1407374884763151)
+  :expiry 30 :last-access 1742878076.790334 :last-access-hr "2025-03-24T21:47:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "03/e28d0d-d06d-4e31-b118-7ec68a81d9e7" :associated
+  (:hash "c534921c320e393653bbc88da7231671" :file "c:/S/EM/O/techo/extra/test/AL_FC_YA_06_09_15.org" :inode 5910974512131268)
+  :expiry 30 :last-access 1742878076.65466 :last-access-hr "2025-03-24T21:47:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "34/95e301-072c-47f0-92b4-ba40726290f2" :associated
+  (:hash "190bb4fa3294387d25909931732d2447" :file "c:/S/EM/O/techo/extra/test/AL_FC_CU_06_13_15.org" :inode 5629499535404327)
+  :expiry 30 :last-access 1742878076.572682 :last-access-hr "2025-03-24T21:47:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "22/594870-45c7-4f22-ad47-715a753b60de" :associated
+  (:hash "77677ff801e9a1e501754487f1da4e3f" :file "c:/S/EM/O/techo/extra/test/AL_FC_CU_06_01_15_vfinal.org" :inode 22517998137796552)
+  :expiry 30 :last-access 1742878076.372346 :last-access-hr "2025-03-24T21:47:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "83/7ef482-2b92-47cd-8671-b64b2f395f17" :associated
+  (:hash "fa6765f14b5788cd6669e3f80625f71d" :file "c:/S/EM/O/techo/extra/test/AL_FC_ANI__.org" :inode 3096224744834177)
+  :expiry 30 :last-access 1742878076.317877 :last-access-hr "2025-03-24T21:47:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "28/818288-602a-4d2e-b143-6a3bc69d36af" :associated
+  (:hash "846512a1fef712f9f9d277b9f545b5af" :file "c:/S/EM/O/techo/extra/test/AL_FC_ANI_Dance.org" :inode 6192449488488348)
+  :expiry 30 :last-access 1742878076.202301 :last-access-hr "2025-03-24T21:47:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "c6/37e40e-515f-44c7-b073-7e54c368d71b" :associated
+  (:hash "dd21ea1d33a945600afb23376ab0aa84" :file "c:/S/EM/O/techo/extra/test/AL_FC_ANI_06_11_30.org" :inode 7599824372199021)
+  :expiry 30 :last-access 1742878076.096144 :last-access-hr "2025-03-24T21:47:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "56/29c8fd-fb42-4d0a-8bf2-9b35e257d9b0" :associated
+  (:hash "2eba60bfb24db82e1cd2c5407119ac49" :file "c:/S/EM/O/techo/extra/test/AL_FC_ANI_06_01_15.org" :inode 4503599628314839)
+  :expiry 30 :last-access 1742878075.884577 :last-access-hr "2025-03-24T21:47:55-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "1a/9314d9-558e-4db1-a9a7-efdc9251c7ff" :associated
+  (:hash "f4f76ed22ace0184ef1771b5711f1938" :file "c:/S/EM/O/techo/extra/test/AL_FC_ANI_05_09_.org" :inode 12666373953190557)
+  :expiry 30 :last-access 1742878075.810045 :last-access-hr "2025-03-24T21:47:55-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "70/06b547-8bd5-4d1f-b8b6-fa7c0cda583f" :associated
+  (:hash "6b9b42bd1e8ff191db21ba4ff0caafba" :file "c:/S/EM/O/techo/extra/test/AL_FC_ANI_.org" :inode 844424930426059)
+  :expiry 30 :last-access 1742878075.723312 :last-access-hr "2025-03-24T21:47:55-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "2b/81c155-a2a6-4c7d-b31a-5f753ea69c89" :associated
+  (:hash "662a6d023097ce3f995c33e670f126f9" :file "c:/S/EM/O/techo/extra/test/AL_CU.org" :inode 16607023626851400)
+  :expiry 30 :last-access 1742878075.640565 :last-access-hr "2025-03-24T21:47:55-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "d2/787cdc-877c-495b-8b48-1b73bdd5889b" :associated
+  (:hash "b04ffe080d9b5c89cdccfe3a7b46ad43" :file "c:/S/EM/O/techo/extra/test/AL.org" :inode 1970324838144466)
+  :expiry 30 :last-access 1742878075.559033 :last-access-hr "2025-03-24T21:47:55-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "42/b8b978-272f-4744-9dd5-5391262997bf" :associated
+  (:hash "9652a1dd654f23733ab050128994a392" :file "c:/S/EM/O/techo/extra/test/2024-04-09.org" :inode 25051272928072808)
+  :expiry 30 :last-access 1742878075.470486 :last-access-hr "2025-03-24T21:47:55-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "8d/0fbfb5-0cc1-49db-90c5-5fe278039ece" :associated
+  (:hash "be21ee21e6217da9b42857cbe8fad393" :file "c:/S/EM/O/techo/extra/test/.#zpmusic.org" :inode 2251799814511662)
+  :expiry 30 :last-access 1742878075.417105 :last-access-hr "2025-03-24T21:47:55-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "5b/9d4ba9-9066-426f-9a82-a5a13feb4a9f" :associated
+  (:hash "cff9dc60b8ee89a8691f78c10043b6ca" :file "c:/S/EM/O/techo/extra/test/++.org" :inode 3096224744993627)
+  :expiry 30 :last-access 1742878075.229873 :last-access-hr "2025-03-24T21:47:55-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "2c/aace65-9071-4724-a1e6-5d814dde2cf3" :associated
+  (:hash "45b19184c3cbee07cc53c1902e920200" :file "c:/S/EM/O/techo/Job/Job_Linefolk_03_11_2024.org" :inode 3096224745024831)
+  :expiry 30 :last-access 1742878074.502751 :last-access-hr "2025-03-24T21:47:54-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "22/a690f3-c117-44aa-9565-ab0c7cb86a0e" :associated
+  (:hash "3792d6ca936d30690f895258c7ef8889" :file "c:/S/EM/O/techo/Job/JOB_imaginaires_03_11_2024.org" :inode 7036874418929622)
+  :expiry 30 :last-access 1742878074.438469 :last-access-hr "2025-03-24T21:47:54-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "63/907a05-c211-4aa1-b11f-e4de56e73300" :associated
+  (:hash "0f36b8a9159c9791abd37e965c7ed801" :file "c:/S/EM/O/techo/Job/JOB_Titmouse_Application.org" :inode 10414574139237909)
+  :expiry 30 :last-access 1742878074.360129 :last-access-hr "2025-03-24T21:47:54-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "b8/42429f-00c6-48c8-af16-3a239de543fe" :associated
+  (:hash "8667dd06299e10137dd06e4fc34e85e9" :file "c:/S/EM/O/techo/Job/JOB_That'snomoon.org" :inode 1688849861278690)
+  :expiry 30 :last-access 1742878074.285423 :last-access-hr "2025-03-24T21:47:54-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "83/9b3aef-b555-4310-9349-0c97f2454c11" :associated
+  (:hash "f85e73566030fcd6e8e741f2f4516020" :file "c:/S/EM/O/techo/Job/JOB_SOLAR_00.org" :inode 12384898976135241)
+  :expiry 30 :last-access 1742878074.223945 :last-access-hr "2025-03-24T21:47:54-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ce/3b2a99-c986-47a8-9d51-4e0fae5cb6ee" :associated
+  (:hash "4b05529d7757ca803658055c7a1c28cd" :file "c:/S/EM/O/techo/Job/JOB_Nickelodeon_Cover_Letter_02.org" :inode 8725724278864603)
+  :expiry 30 :last-access 1742878074.155756 :last-access-hr "2025-03-24T21:47:54-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "cb/ef4d7b-0a97-41d7-8098-5796225135f2" :associated
+  (:hash "9405ba1693ef1aa5bf994ef7c1e7172d" :file "c:/S/EM/O/techo/Job/JOB_Nickelodeon_Cover_Letter.org" :inode 2814749768030762)
+  :expiry 30 :last-access 1742878074.095875 :last-access-hr "2025-03-24T21:47:54-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "9a/1c5df7-11cb-4d0e-a997-ff634a5c481b" :associated
+  (:hash "19dcdfea0ba01ff85377d28326fad376" :file "c:/S/EM/O/techo/Job/JOB_Linefolk.org" :inode 8725724278325880)
+  :expiry 30 :last-access 1742878074.042047 :last-access-hr "2025-03-24T21:47:54-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "5c/5dd98b-a5ed-4000-83b6-4bfda12e88ab" :associated
+  (:hash "30d94e1c2c80fe3ebb8c152e54981d1a" :file "c:/S/EM/O/techo/Job/JOB_Hunt_02_18.org" :inode 7881299349109198)
+  :expiry 30 :last-access 1742878073.965735 :last-access-hr "2025-03-24T21:47:53-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "b3/1b68d8-65eb-439c-8dc5-30a0f41f82c3" :associated
+  (:hash "945ffc42de252283ea3bca21b5f1ba99" :file "c:/S/EM/O/techo/Job/JOB_Cover_Letter_Sony.org" :inode 2814749767478080)
+  :expiry 30 :last-access 1742878073.770316 :last-access-hr "2025-03-24T21:47:53-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "82/0a3231-9db3-457e-bad4-f11329ca2bc8" :associated
+  (:hash "fc21004313c8916c73f16c2ff5ff9c18" :file "c:/S/EM/O/techo/Job/JOB_Cover_Letter.org" :inode 2814749768120871)
+  :expiry 30 :last-access 1742878073.716894 :last-access-hr "2025-03-24T21:47:53-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "09/724081-56e3-4436-9595-6ef7d3b83dec" :associated
+  (:hash "261008676e650edac8aedebaf6fd1f9f" :file "c:/S/EM/O/techo/CBR/CBR_Clocked_In_Hours.org" :inode 99360666778923074)
+  :expiry 30 :last-access 1742878073.645275 :last-access-hr "2025-03-24T21:47:53-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "dd/4b9db1-dc70-42ff-bc5e-b48b985f20f9" :associated
+  (:hash "fde5793cf71e7ca00167eaf903fcb06b" :file "c:/S/EM/O/techo/CBR/CBR.org" :inode 79375943432695315)
+  :expiry 30 :last-access 1742878073.58049 :last-access-hr "2025-03-24T21:47:53-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "35/a5138f-afcc-4ef3-9140-6f808048036f" :associated
+  (:hash "b7a4127eec56573a17e25493a81a5f0d" :file "c:/S/EM/O/techo/2023/2023_04_14_AS.org" :inode 13510798883321890)
+  :expiry 30 :last-access 1742878073.487121 :last-access-hr "2025-03-24T21:47:53-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "51/ce9fa2-af40-4e34-9b71-22546c1d365c" :associated
+  (:hash "2d00bea79c96f84e835b9dd41067f955" :file "c:/S/EM/O/techo/2023/2023_04_08.org" :inode 13510798883126286)
+  :expiry 30 :last-access 1742878073.421869 :last-access-hr "2025-03-24T21:47:53-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "94/ddcd31-74a2-42d8-bc65-f45f7b9295c7" :associated
+  (:hash "83fbd7655021e086d03bad45cec5c2b1" :file "c:/S/EM/O/techo/2023/2023-11-16.org" :inode 10414574139461272)
+  :expiry 30 :last-access 1742878073.375036 :last-access-hr "2025-03-24T21:47:53-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "c3/addedf-fded-4703-afba-0aba54f228af" :associated
+  (:hash "0f4aefc63a9dd72e49a974ccc0ed7c0f" :file "c:/S/EM/O/techo/2023/2023-10-27.org" :inode 2251799814894535)
+  :expiry 30 :last-access 1742878073.32914 :last-access-hr "2025-03-24T21:47:53-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "bc/225e6f-7c19-4003-b6e6-cf15e815739d" :associated
+  (:hash "1fb4add25d3b72df2182f61830f3a173" :file "c:/S/EM/O/techo/2023/2023-10-07.org" :inode 5910974512133409)
+  :expiry 30 :last-access 1742878073.283231 :last-access-hr "2025-03-24T21:47:53-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ca/5503e5-c5df-4e52-9260-83b8ff571d02" :associated
+  (:hash "af21a02f4c1edce2cbbea13ca1882346" :file "c:/S/EM/O/techo/2023/2023-09-24.org" :inode 1407374883846452)
+  :expiry 30 :last-access 1742878073.237757 :last-access-hr "2025-03-24T21:47:53-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "4f/d1210f-516b-40d4-90c7-559abbe2850f" :associated
+  (:hash "4fa31f45d2a3763fcbcb555fe7021501" :file "c:/S/EM/O/techo/2023/2023-09-23.org" :inode 15762598696621049)
+  :expiry 30 :last-access 1742878073.168617 :last-access-hr "2025-03-24T21:47:53-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "c8/cb0a50-09c5-4a47-8c49-3e2a4401dbfe" :associated
+  (:hash "2664f62da5352576e4f590e61180801b" :file "c:/S/EM/O/techo/2023/2023-09-21.org" :inode 1407374883846566)
+  :expiry 30 :last-access 1742878072.981874 :last-access-hr "2025-03-24T21:47:52-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "80/092298-de5e-4efd-a165-df3e85e1c270" :associated
+  (:hash "ae3123d3b955e1e4a19a70c0088d85af" :file "c:/S/EM/O/techo/2023/2023-09-19.org" :inode 2533274791573403)
+  :expiry 30 :last-access 1742878072.901346 :last-access-hr "2025-03-24T21:47:52-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "e9/aa8730-ed5c-4047-bc61-2b701e28636e" :associated
+  (:hash "7be1cb5fd7253d72976308cefaba7486" :file "c:/S/EM/O/techo/2023/2023-09-18.org" :inode 1970324837265401)
+  :expiry 30 :last-access 1742878072.83162 :last-access-hr "2025-03-24T21:47:52-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "42/cf4d5c-ec8e-49f4-bfe0-53e12393374b" :associated
+  (:hash "204f73b0b6f00420f5c37fe523a4f238" :file "c:/S/EM/O/techo/2023/2023-09-17.org" :inode 1125899907136435)
+  :expiry 30 :last-access 1742878072.76203 :last-access-hr "2025-03-24T21:47:52-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "0a/2762f0-8f3b-4e29-b970-ab1c94eebe39" :associated
+  (:hash "97c17a3adf327916d0b9a21f1cf1a505" :file "c:/S/EM/O/techo/2023/2023-09-16.org" :inode 1407374884567297)
+  :expiry 30 :last-access 1742878072.715535 :last-access-hr "2025-03-24T21:47:52-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "12/440504-be9e-4447-92de-3fd528a6e734" :associated
+  (:hash "57524bb87f3c7a112217e3c3dc0f6aa0" :file "c:/S/EM/O/techo/2023/2023-09-15.org" :inode 45598946227305222)
+  :expiry 30 :last-access 1742878072.657643 :last-access-hr "2025-03-24T21:47:52-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "e0/91bcb7-312d-464a-92d1-a729792e1127" :associated
+  (:hash "0d983d62d8831d7547b316e61a0370d9" :file "c:/S/EM/O/techo/2023/2023-09-12.org" :inode 5348024558451189)
+  :expiry 30 :last-access 1742878072.589097 :last-access-hr "2025-03-24T21:47:52-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "8d/3bd4d3-dad3-49e7-8e75-95d98efede4c" :associated
+  (:hash "152304770d64074f59570894a85a3ae9" :file "c:/S/EM/O/techo/2023/2023-09-08.org" :inode 29554872554896732)
+  :expiry 30 :last-access 1742878072.529128 :last-access-hr "2025-03-24T21:47:52-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "88/1eda23-339e-48e9-9c59-43c54cd328f3" :associated
+  (:hash "56ab256fbc5d811605c239d717a15c83" :file "c:/S/EM/O/techo/2023/2023-09-07.org" :inode 14636698789963580)
+  :expiry 30 :last-access 1742878072.470595 :last-access-hr "2025-03-24T21:47:52-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "05/d0711e-994f-4665-b6a6-ac5022181629" :associated
+  (:hash "73aefd165c4fc141e49a67da80ebb6c6" :file "c:/S/EM/O/techo/2023/2023-09-06.org" :inode 6192449488844385)
+  :expiry 30 :last-access 1742878072.398921 :last-access-hr "2025-03-24T21:47:52-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ed/c3ddc1-e145-46ac-a9d9-134cb2fc56c6" :associated
+  (:hash "1c3a81bda815ae441b594422b52b9ab2" :file "c:/S/EM/O/techo/2023/2023-09-03.org" :inode 6473924465171717)
+  :expiry 30 :last-access 1742878072.311865 :last-access-hr "2025-03-24T21:47:52-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ab/2b380d-34fe-400d-8df3-06aa26b312a9" :associated
+  (:hash "f008d7689af15fc60b52152301a9cc18" :file "c:/S/EM/O/techo/2023/2023-09-02.org" :inode 6192449488554723)
+  :expiry 30 :last-access 1742878072.234898 :last-access-hr "2025-03-24T21:47:52-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "b8/c5ba83-86d8-4647-a0fd-cd3aa20ec823" :associated
+  (:hash "e90005556d8c3e5275c8ad7baddb3dbb" :file "c:/S/EM/O/techo/2023/2023-09-01.org" :inode 1407374884567733)
+  :expiry 30 :last-access 1742878072.171309 :last-access-hr "2025-03-24T21:47:52-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "0c/5c8318-b93b-4caf-b7b9-5231b7ba47b9" :associated
+  (:hash "e99694ed080e9d06a033b9373ebb9edd" :file "c:/S/EM/O/techo/2023/2023-08-30.org" :inode 11540474046328525)
+  :expiry 30 :last-access 1742878071.972249 :last-access-hr "2025-03-24T21:47:51-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "d6/d91c76-7b6b-4984-bd11-055538d92b10" :associated
+  (:hash "2961f621d93cc2706775d9e3b1279d99" :file "c:/S/EM/O/techo/2023/2023-08-30-TODO-ALL.org" :inode 2533274791319791)
+  :expiry 30 :last-access 1742878071.903304 :last-access-hr "2025-03-24T21:47:51-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "e9/549bed-a6ea-4668-bddf-7c30165480f3" :associated
+  (:hash "ffd26ef6f4a806e4b6da226fbd30250f" :file "c:/S/EM/O/techo/2023/2023-08-22.org" :inode 2814749768284140)
+  :expiry 30 :last-access 1742878071.836225 :last-access-hr "2025-03-24T21:47:51-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "9c/4f62b3-2c1e-47aa-b810-fcd92adeba2b" :associated
+  (:hash "f52682f7f9de2f2cdec4bbe9dbc62ace" :file "c:/S/EM/O/techo/2023/2023-08-21.org" :inode 4222124651676810)
+  :expiry 30 :last-access 1742878071.764094 :last-access-hr "2025-03-24T21:47:51-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "01/595af6-1be0-4643-b640-b4fa71c6f638" :associated
+  (:hash "1897adf6f306f560646a81378eebaa45" :file "c:/S/EM/O/techo/2023/2023-08-09.org" :inode 33776997205529443)
+  :expiry 30 :last-access 1742878071.705832 :last-access-hr "2025-03-24T21:47:51-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "6b/b42d56-3cb5-4fa2-a5ca-dc2ce5c99fb2" :associated
+  (:hash "d8f043dfd8af65d6181d5ec294101c3f" :file "c:/S/EM/O/techo/2023/2023-08-07.org" :inode 844424930425974)
+  :expiry 30 :last-access 1742878071.64315 :last-access-hr "2025-03-24T21:47:51-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "b0/a43ae5-eea7-43ad-8a9b-8c253a2b28dd" :associated
+  (:hash "64e3d562d21953182767131164164333" :file "c:/S/EM/O/techo/2023/2023-08-06.org" :inode 7881299349108183)
+  :expiry 30 :last-access 1742878071.576609 :last-access-hr "2025-03-24T21:47:51-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "40/318c0e-42cb-4abd-b85f-3abbcd80d508" :associated
+  (:hash "3749aa8683bbdd8ee3582eebcb5c35c0" :file "c:/S/EM/O/techo/2023/2023-08-05.org" :inode 258112553643787472)
+  :expiry 30 :last-access 1742878071.506117 :last-access-hr "2025-03-24T21:47:51-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "f9/a2c3d6-4493-451c-ac66-83dcc8abcd64" :associated
+  (:hash "f70f8e9acedb36f242e9e7c351411748" :file "c:/S/EM/O/techo/2023/2023-08-01.org" :inode 844424930426135)
+  :expiry 30 :last-access 1742878071.443368 :last-access-hr "2025-03-24T21:47:51-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "0a/665c6a-8295-4a5c-8f64-0351635185e0" :associated
+  (:hash "81ec6513f5de9332cf64a100673eec52" :file "c:/S/EM/O/techo/2023/2023-07_JUNE.org" :inode 12384898976479537)
+  :expiry 30 :last-access 1742878071.369795 :last-access-hr "2025-03-24T21:47:51-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "53/42060f-cd31-4e70-a481-e085987ab85c" :associated
+  (:hash "918dcc8ba4d7bfc193d8d2a94a6de69b" :file "c:/S/EM/O/techo/2023/2023-07-31.org" :inode 4503599628556256)
+  :expiry 30 :last-access 1742878071.317113 :last-access-hr "2025-03-24T21:47:51-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "c4/f5d5d3-e085-437d-b6e9-e52481a82f23" :associated
+  (:hash "798a32c27fa14fc8ad2602ec43afa011" :file "c:/S/EM/O/techo/2023/2023-07-23.org" :inode 12384898976289952)
+  :expiry 30 :last-access 1742878071.240885 :last-access-hr "2025-03-24T21:47:51-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ac/1e628f-be3b-435b-aff1-609b27f0118f" :associated
+  (:hash "77c3e2f99dcd8d8ae7d921f6bb012bf7" :file "c:/S/EM/O/techo/2023/2023-07-22.org" :inode 3659174698112683)
+  :expiry 30 :last-access 1742878071.181181 :last-access-hr "2025-03-24T21:47:51-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "1e/1cfd04-f198-46ec-9874-dd52ea82d75b" :associated
+  (:hash "4b4bc4734c238bba65588ec85c1e3dc8" :file "c:/S/EM/O/techo/2023/2023-07-21.org" :inode 4222124651602593)
+  :expiry 30 :last-access 1742878071.124905 :last-access-hr "2025-03-24T21:47:51-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "de/fa4840-814c-49e7-9a70-95653e82f569" :associated
+  (:hash "24425205eff565c1b2aba88046cc20ea" :file "c:/S/EM/O/techo/2023/2023-07-20.org" :inode 6192449487923549)
+  :expiry 30 :last-access 1742878071.069541 :last-access-hr "2025-03-24T21:47:51-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "9e/52120e-12a6-473d-aebc-fecdb6ab0d5f" :associated
+  (:hash "cd2c9ed6d1685c178773a634dcd0134d" :file "c:/S/EM/O/techo/2023/2023-07-19.org" :inode 146085512912909665)
+  :expiry 30 :last-access 1742878071.009779 :last-access-hr "2025-03-24T21:47:51-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "8e/66a51b-def0-463b-9667-f2dc1085a681" :associated
+  (:hash "808eb9800b5b0cd530e0e0f6c4ebda05" :file "c:/S/EM/O/techo/2023/2023-07-19-AL-Plan.org" :inode 1407374883846485)
+  :expiry 30 :last-access 1742878070.690904 :last-access-hr "2025-03-24T21:47:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "07/7f7aa0-0618-4a06-b95d-e4f587177fc9" :associated
+  (:hash "3ea1dd59fb2f2152c51dcda478885c33" :file "c:/S/EM/O/techo/2023/2023-07-19-AL-Meeting-Notes.org" :inode 5066549581650705)
+  :expiry 30 :last-access 1742878070.632659 :last-access-hr "2025-03-24T21:47:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "67/04d38f-bf24-468e-9f53-9e32d19cf01a" :associated
+  (:hash "a868a6b458bc7dd7f5d26e5e65f8fb40" :file "c:/S/EM/O/techo/2023/2023-07-19-AL-Meeting-Notes-PDF.org" :inode 1688849861443485)
+  :expiry 30 :last-access 1742878070.560144 :last-access-hr "2025-03-24T21:47:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "c8/fa698f-ec98-4733-80f4-3636e2d204e5" :associated
+  (:hash "1c4b3fc490e4f5a5cace71d4243f1783" :file "c:/S/EM/O/techo/2023/2023-07-18.org" :inode 16044073673352253)
+  :expiry 30 :last-access 1742878010.977432 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "72/3108ff-3554-477c-b056-b211d69e6c45" :associated
+  (:hash "e9188f3813b8b655f77713a5a8456801" :file "c:/S/EM/O/techo/2023/2023-07-17.org" :inode 3659174698265887)
+  :expiry 30 :last-access 1742878010.947177 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "0b/759a45-9e16-4252-b1fc-dd7243d416dc" :associated
+  (:hash "2a2cf4fef13659a65feb04f377c57f64" :file "c:/S/EM/O/techo/2023/2023-07-16.org" :inode 844424930426198)
+  :expiry 30 :last-access 1742878010.912802 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "f6/5aa77a-3061-41b0-9869-eea2b4312130" :associated
+  (:hash "2edb5ca07d2ccf203a15c2b90f3f681e" :file "c:/S/EM/O/techo/2023/2023-07-15.org" :inode 13229323906414517)
+  :expiry 30 :last-access 1742878010.881161 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "0f/659db0-79d5-4e80-beb0-5982efcbd181" :associated
+  (:hash "ce384fe29be9ffc84a0e9de47d32d9ac" :file "c:/S/EM/O/techo/2023/2023-07-14.org" :inode 28428972647833574)
+  :expiry 30 :last-access 1742878010.853028 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "6e/9cc54e-54d9-4727-ae25-bdbdd38654b8" :associated
+  (:hash "dcc4cbd5533dec8dd9f50ec4466b300a" :file "c:/S/EM/O/techo/2023/2023-07-13.org" :inode 3940649675141292)
+  :expiry 30 :last-access 1742878010.824895 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "d2/02b1e1-0a41-4459-9256-f9ec334114d0" :associated
+  (:hash "d1353a0fe0c8ceb2f6c917555f848700" :file "c:/S/EM/O/techo/2023/2023-07-12.org" :inode 2251799814894637)
+  :expiry 30 :last-access 1742878010.790746 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "02/94ddfd-f901-46d6-b2d3-af18b2cb131b" :associated
+  (:hash "904fddf48831e44e8991d27058a61aaf" :file "c:/S/EM/O/techo/2023/2023-07-11.org" :inode 2533274791603284)
+  :expiry 30 :last-access 1742878010.698057 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "6d/5fa0ee-81c2-41fd-bbef-55b14ed093ea" :associated
+  (:hash "5489d4ee76b4df224a56dccbe41803f1" :file "c:/S/EM/O/techo/2023/2023-07-10.org" :inode 4222124651847822)
+  :expiry 30 :last-access 1742878010.668899 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "46/513ddf-32c8-4e97-98e3-ce1ed2ea4c82" :associated
+  (:hash "67c349a70b3daf58268ff82076417d48" :file "c:/S/EM/O/techo/2023/2023-07-09.org" :inode 1970324838128744)
+  :expiry 30 :last-access 1742878010.64255 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "34/279bd3-b0f0-4776-a0ad-6c50ba387b77" :associated
+  (:hash "bdffdaff80c92d8db1e5b0f417e076bd" :file "c:/S/EM/O/techo/2023/2023-07-08.org" :inode 7036874418785280)
+  :expiry 30 :last-access 1742878010.617003 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "08/f136c3-bff8-4a7d-83cf-2fc9bd74c141" :associated
+  (:hash "f68e826c7e362bba6bd93b8470263668" :file "c:/S/EM/O/techo/2023/2023-07-07.org" :inode 10696049115854057)
+  :expiry 30 :last-access 1742878010.588967 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ce/0b6e7a-850a-4a3d-9014-78410b21deab" :associated
+  (:hash "49fc53f0c0056afa094ec753b7fbc761" :file "c:/S/EM/O/techo/2023/2023-07-06.org" :inode 6755399441883795)
+  :expiry 30 :last-access 1742878010.554692 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "7e/2d9b64-482b-49c3-b069-913c9176d6b7" :associated
+  (:hash "225604229a006eb8ea43d94095e83bad" :file "c:/S/EM/O/techo/2023/2023-07-05.org" :inode 5629499535130311)
+  :expiry 30 :last-access 1742878010.520601 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "e6/b9c569-3788-4833-9feb-88762966813b" :associated
+  (:hash "cd1cf33b63db02f7d4f278728e4bd6a4" :file "c:/S/EM/O/techo/2023/2023-07-05 -V2.org" :inode 844424930426150)
+  :expiry 30 :last-access 1742878010.492718 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "01/a34597-0a4b-4be2-91e4-a65cf55b0481" :associated
+  (:hash "3e8398613781c73315ef0dfca68c9655" :file "c:/S/EM/O/techo/2023/2023-07-04.org" :inode 21110623254488695)
+  :expiry 30 :last-access 1742878010.463164 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "6a/822f21-f11d-485d-aff1-3c3a48883588" :associated
+  (:hash "517c3a431485f5f81a10308210277f75" :file "c:/S/EM/O/techo/2023/2023-07-04-V2.org" :inode 18577348463732835)
+  :expiry 30 :last-access 1742878010.429976 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "5a/9e1e36-d50b-44a9-a7c1-46e0a7a947c3" :associated
+  (:hash "7bb2e658b500a621c6e6531b483a8126" :file "c:/S/EM/O/techo/2023/2023-07-03.org" :inode 1688849861445174)
+  :expiry 30 :last-access 1742878010.400332 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "be/4c8440-5b84-4866-8b14-4e93247f52f4" :associated
+  (:hash "2c230f01e9bc0c94c9c0747abd31b9a6" :file "c:/S/EM/O/techo/2023/2023-07-02.org" :inode 1407374883846571)
+  :expiry 30 :last-access 1742878010.365077 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "c6/ea5957-8e48-4d38-b979-32de47082d22" :associated
+  (:hash "8df2323039891f191fc506086d989001" :file "c:/S/EM/O/techo/2023/2023-07-01.org" :inode 1407374884567457)
+  :expiry 30 :last-access 1742878010.33922 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "f0/5dfc5c-33c1-422a-9a6d-1e8bb1617434" :associated
+  (:hash "e939d86dcaa4650840b16deb7b35399c" :file "c:/S/EM/O/techo/2023/2023-06-30.org" :inode 2533274791603288)
+  :expiry 30 :last-access 1742878010.309942 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "bb/703ed7-f4c6-42d6-96e2-91811c63b043" :associated
+  (:hash "8295e03b84e27af92bd1cb594a87f3a1" :file "c:/S/EM/O/techo/2023/2023-06-29.org" :inode 844424930425889)
+  :expiry 30 :last-access 1742878010.272282 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "20/4912b9-c238-483e-886b-bb2905567650" :associated
+  (:hash "50005610fb0d472208ffe3198ba01afe" :file "c:/S/EM/O/techo/2023/2023-06-28.org" :inode 5629499535400927)
+  :expiry 30 :last-access 1742878010.177027 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "78/ccff57-b29c-4b45-8bcd-0a2cd067fc98" :associated
+  (:hash "25bf458359d308b68e0669cf7490e77b" :file "c:/S/EM/O/techo/2023/2023-06-27.org" :inode 36591746972584610)
+  :expiry 30 :last-access 1742878010.137903 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "90/eb8970-c8cd-437b-97f6-ca2f52c583ad" :associated
+  (:hash "3450dd47186744978670a68d0ee3fbe2" :file "c:/S/EM/O/techo/2023/2023-06-26.org" :inode 2251799814851856)
+  :expiry 30 :last-access 1742878010.096965 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "f4/8bde1a-d3ad-4f7c-9117-e073619a3ba7" :associated
+  (:hash "165e35d8a405ab300af2a6a68e214c87" :file "c:/S/EM/O/techo/2023/2023-06-25.org" :inode 2814749767395668)
+  :expiry 30 :last-access 1742878010.062684 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "86/4b580b-50cc-4a5c-bf2a-aab01f7e509d" :associated
+  (:hash "ab97d96bab132d2963d6a4ff65a15d04" :file "c:/S/EM/O/techo/2023/2023-06-24.org" :inode 1688849861278359)
+  :expiry 30 :last-access 1742878010.030479 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "74/45014e-4176-439f-b1bb-01e10510fc12" :associated
+  (:hash "48c10d5f87c0f135b9b36ede80871325" :file "c:/S/EM/O/techo/2023/2023-06-23.org" :inode 66428094503837964)
+  :expiry 30 :last-access 1742878010.004747 :last-access-hr "2025-03-24T21:46:50-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "d3/6401f4-8237-4335-babc-d8ece292104a" :associated
+  (:hash "2e849ac43cbd5fbf8eeb2139351ba17d" :file "c:/S/EM/O/techo/2023/2023-06-23 1.org" :inode 2814749768316305)
+  :expiry 30 :last-access 1742878009.972724 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "06/4e5305-decd-4b74-972a-9eb16344c1fd" :associated
+  (:hash "95566755b8b03cb5d622afb38a8884b8" :file "c:/S/EM/O/techo/2023/2023-06-22.org" :inode 15762598696081738)
+  :expiry 30 :last-access 1742878009.933636 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "78/86f87b-4a20-490d-acfe-12df33c95ff7" :associated
+  (:hash "001cdd0fa5b1413bf885bf9bc8c19a98" :file "c:/S/EM/O/techo/2023/2023-06-22 1.org" :inode 11821949022143185)
+  :expiry 30 :last-access 1742878009.896897 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "5d/03f2a7-8828-42c7-8e6f-9f45d3af844a" :associated
+  (:hash "4200edd5982e574b1836c4d612bf26e9" :file "c:/S/EM/O/techo/2023/2023-06-21.org" :inode 3659174698419952)
+  :expiry 30 :last-access 1742878009.793643 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "17/a00e3b-1766-405f-8893-b6477bef4afd" :associated
+  (:hash "80c209e0604e93f17d41a0396b4be304" :file "c:/S/EM/O/techo/2023/2023-06-20.org" :inode 2814749768129599)
+  :expiry 30 :last-access 1742878009.759077 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "72/46ea90-0f5d-467f-840f-dafa856bcacb" :associated
+  (:hash "d1b2571caf8709545845969000f8b4ea" :file "c:/S/EM/O/techo/2023/2023-06-19.org" :inode 2814749768129598)
+  :expiry 30 :last-access 1742878009.722269 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "41/968481-1ed4-4e0b-b390-e629f19673dd" :associated
+  (:hash "e0822d031ea2907a82c3cef97fa9f949" :file "c:/S/EM/O/techo/2023/2023-06-19- Class Plan for Digital Class.org" :inode 1970324837897910)
+  :expiry 30 :last-access 1742878009.689702 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "dc/82b560-6b5b-4eff-9580-457520809160" :associated
+  (:hash "aebd7c030c55a2e2f0ceed34bbb37e3f" :file "c:/S/EM/O/techo/2023/2023-06-12.org" :inode 25614222880764841)
+  :expiry 30 :last-access 1742878009.649346 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "6d/5faa73-022e-4f74-98d0-7ad1aa2087d9" :associated
+  (:hash "70128592db87cb28b8f4fd3b23b65dc2" :file "c:/S/EM/O/techo/2023/2023-06-08.org" :inode 4503599628147212)
+  :expiry 30 :last-access 1742878009.612699 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "cf/6ee25a-3b43-41be-a331-e354cadc20f1" :associated
+  (:hash "5ade762d8415fde6488fc508ef6e7486" :file "c:/S/EM/O/techo/2023/2023-06-06.org" :inode 10977524092663919)
+  :expiry 30 :last-access 1742878009.572681 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "3e/d5f3d0-6bde-4df0-acac-c4b5cdcec7e2" :associated
+  (:hash "0eadcc0a7804937d7d763fe067ead209" :file "c:/S/EM/O/techo/2023/2023-06-05.org" :inode 2814749768030760)
+  :expiry 30 :last-access 1742878009.525923 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "5c/ee09b6-2720-4990-9894-a4547d6096d3" :associated
+  (:hash "bd8f033ed0ef5865169f1fd1b6cecfe8" :file "c:/S/EM/O/techo/2023/2023-06-05 - 2023-06-10 _ AL _ CHD.org" :inode 6192449488826238)
+  :expiry 30 :last-access 1742878009.492476 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "20/c6d22b-a571-40b9-a097-6cbbadb6238b" :associated
+  (:hash "ec4a3ef59a6e857e22600b29d33366c1" :file "c:/S/EM/O/techo/2023/2023-06-05 - 2023-06-10 AL_Character_Design_Students.org" :inode 12103423999499163)
+  :expiry 30 :last-access 1742878009.455525 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "65/e7e587-9fe2-422e-8a22-1a5a89e4047d" :associated
+  (:hash "c620c8948268b764d161f5c9e3c8c867" :file "c:/S/EM/O/techo/2023/2023-06-03.org" :inode 2814749768030764)
+  :expiry 30 :last-access 1742878009.414562 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "4e/9a3699-ae30-4cc7-bb33-0cc0f78492b5" :associated
+  (:hash "f978bdbcf4fdfd97d851e59fec99dd22" :file "c:/S/EM/O/techo/2023/2023-06-02-AL-Meeting-Notes.org" :inode 844424930426153)
+  :expiry 30 :last-access 1742878009.31791 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "16/4aefe4-d02b-40c0-b5fa-54d10b48bef1" :associated
+  (:hash "6f081e2f7d82ec8e8aa7fc66eae0931f" :file "c:/S/EM/O/techo/2023/2023-05-30.org" :inode 844424930425846)
+  :expiry 30 :last-access 1742878009.280781 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "66/3b355c-f15d-4fc8-a3e2-703d4655e996" :associated
+  (:hash "6fe97c91685d8d9893eb9f7724d7882a" :file "c:/S/EM/O/techo/2023/2023-05-29.org" :inode 91760842407785057)
+  :expiry 30 :last-access 1742878009.25379 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "f4/363226-0f23-466e-b3b4-3c3ebeaf68d4" :associated
+  (:hash "0e3770e885a07f23422d6daea33c3876" :file "c:/S/EM/O/techo/2023/2023-05-28.org" :inode 2814749768129699)
+  :expiry 30 :last-access 1742878009.232621 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "c8/1f361a-39b4-44df-b40c-77da9187321c" :associated
+  (:hash "f224d532cc5f38a67bdb8c5238ff3984" :file "c:/S/EM/O/techo/2023/2023-05-27.org" :inode 2533274790685581)
+  :expiry 30 :last-access 1742878009.206773 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "c0/656efd-dd55-41d1-9b98-c79329bf31a3" :associated
+  (:hash "dff3946fd17bd9a559b8f77ed675d3ae" :file "c:/S/EM/O/techo/2023/2023-05-26.org" :inode 1688849861187202)
+  :expiry 30 :last-access 1742878009.180004 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "da/16bf46-9103-43ad-975a-d668e43f99cf" :associated
+  (:hash "d41d8cd98f00b204e9800998ecf8427e" :file "c:/S/EM/O/techo/2023/2023-05-24.org" :inode 3377699721369488)
+  :expiry 30 :last-access 1742878009.160042 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "cf/279e7e-46c5-4b01-9406-40e0476f5563" :associated
+  (:hash "9100ee963ca3a6b14219751854ceff25" :file "c:/S/EM/O/techo/2023/2023-05-23.org" :inode 60798594970362266)
+  :expiry 30 :last-access 1742878009.14163 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "8f/0bb629-fa93-4b90-a0c8-f875d24455aa" :associated
+  (:hash "381d860db8f11d9277cb7cdbf93c263f" :file "c:/S/EM/O/techo/2023/2023-05-22.org" :inode 5066549581978196)
+  :expiry 30 :last-access 1742878009.104913 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "26/b63ff4-0f2e-44e6-bb9c-3a7f9e8a83cf" :associated
+  (:hash "dc1528316aa7a38d82ecdb9e157371b7" :file "c:/S/EM/O/techo/2023/2023-05-21.org" :inode 5348024558516692)
+  :expiry 30 :last-access 1742878009.068801 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "3e/a74ef3-04de-48f3-be8f-152c3e697994" :associated
+  (:hash "85fce186bfbfd23034831fc4139ee310" :file "c:/S/EM/O/techo/2023/2023-05-20.org" :inode 15481123719913339)
+  :expiry 30 :last-access 1742878009.033034 :last-access-hr "2025-03-24T21:46:49-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "7d/fe6ac9-0177-445a-a63d-b61d55db19a8" :associated
+  (:hash "d41d8cd98f00b204e9800998ecf8427e" :file "c:/S/EM/O/techo/2023/2023-05-20-Groceries.org" :inode 10696049116215545)
+  :expiry 30 :last-access 1742878008.992529 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "e2/8ba45c-ac70-491f-b2ed-09cf7aae5b63" :associated
+  (:hash "559f027fbb6629fd570a5f545dccb876" :file "c:/S/EM/O/techo/2023/2023-05-19_Yuki_Class_Notes.org" :inode 3940649675160552)
+  :expiry 30 :last-access 1742878008.968954 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "28/e0b00a-4522-4b34-be16-3cda6957295a" :associated
+  (:hash "30e36dd72c68ff3cb657df8bc8fbce58" :file "c:/S/EM/O/techo/2023/2023-05-19_Duolingo.org" :inode 9007199254788283)
+  :expiry 30 :last-access 1742878008.944972 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ac/f663c4-9173-483c-b9b9-ea156c344ca3" :associated
+  (:hash "06baf2a2dc8c7a5bdd26183e3593e53b" :file "c:/S/EM/O/techo/2023/2023-05-19.org" :inode 6755399441344845)
+  :expiry 30 :last-access 1742878008.919776 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "b5/fbbd58-1d05-4c4c-bf9d-b4df4580b10a" :associated
+  (:hash "6056ad030397f8e503f73f03b7810c6b" :file "c:/S/EM/O/techo/2023/2023-05-18.org" :inode 7036874418973852)
+  :expiry 30 :last-access 1742878008.822775 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "b2/4689ff-af69-4a6b-9ed4-b09eafef562c" :associated
+  (:hash "2540f7d7d38ff5b2b72fb4858f063113" :file "c:/S/EM/O/techo/2023/2023-05-17.org" :inode 844424930426034)
+  :expiry 30 :last-access 1742878008.791044 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "25/18c5e3-7b4c-4ddb-bb4c-1a55e07f376f" :associated
+  (:hash "1fc19989414576e102cf7cf23b522345" :file "c:/S/EM/O/techo/2023/2023-05-16.org" :inode 8162774325798953)
+  :expiry 30 :last-access 1742878008.756924 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "14/bbbc19-ca88-4c14-97a8-7d81d3595c86" :associated
+  (:hash "9a1e0e4998c57e53f617c0036ae2bb84" :file "c:/S/EM/O/techo/2023/2023-05-15.org" :inode 12103423999383203)
+  :expiry 30 :last-access 1742878008.72263 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "49/23d3cf-db02-4ba6-9176-73475020d32b" :associated
+  (:hash "072ac39cca5a12e4362c9ef8a5c58eae" :file "c:/S/EM/O/techo/2023/2023-05-14.org" :inode 21392098230222949)
+  :expiry 30 :last-access 1742878008.673668 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ae/c6ca23-a38c-46f0-9c9e-acf4dcd42307" :associated
+  (:hash "04231674365b0db8c5f64f8a9de86628" :file "c:/S/EM/O/techo/2023/2023-05-13.org" :inode 1407374884706806)
+  :expiry 30 :last-access 1742878008.635992 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "26/3b889e-ac4e-45b7-9947-109a6689c329" :associated
+  (:hash "d529cb10aba3a6ae913570080bb6763b" :file "c:/S/EM/O/techo/2023/2023-05-12.org" :inode 2814749768270843)
+  :expiry 30 :last-access 1742878008.60202 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "01/c24418-b27f-4614-a912-e88921e33fd4" :associated
+  (:hash "3cd28ced6278f8c56f7d4de9358d4912" :file "c:/S/EM/O/techo/2023/2023-05-11.org" :inode 9288674232662507)
+  :expiry 30 :last-access 1742878008.568963 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "7c/d2ff5e-2c8a-48c4-bf4c-83d4f0900877" :associated
+  (:hash "07d4685dd52fbc3ca54ba19926fd7029" :file "c:/S/EM/O/techo/2023/2023-05-10.org" :inode 11540474046346541)
+  :expiry 30 :last-access 1742878008.530597 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "41/0b5e36-3661-460d-a2a2-c6091be2fa2b" :associated
+  (:hash "8ab30742bf5a19068a2076c088a213c9" :file "c:/S/EM/O/techo/2023/2023-05-09.org" :inode 61643019899907136)
+  :expiry 30 :last-access 1742878008.495447 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "9a/54d6d9-71d5-4fc7-92bd-96e0badfed23" :associated
+  (:hash "1e9985e9361f2ea3c79dbf5d4513c671" :file "c:/S/EM/O/techo/2023/2023-05-08.org" :inode 1970324838144508)
+  :expiry 30 :last-access 1742878008.462706 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "34/b8d24a-4493-4a4e-8062-ed99c182973f" :associated
+  (:hash "9a3c739a2b3efb7e5bac74529d2196c0" :file "c:/S/EM/O/techo/2023/2023-05-07.org" :inode 2814749768129597)
+  :expiry 30 :last-access 1742878008.428084 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "98/85c251-dbaf-42d0-80ee-5adeb8c9f2d1" :associated
+  (:hash "b0a2e841fb37d52586ade1bc0fb310d5" :file "c:/S/EM/O/techo/2023/2023-05-06.org" :inode 17451448556279636)
+  :expiry 30 :last-access 1742878008.328998 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ee/1cf61b-0cfe-42f7-bb16-06d06441aee7" :associated
+  (:hash "3f8581dc1f9ebef1541ee63049c9dd4d" :file "c:/S/EM/O/techo/2023/2023-05-05.org" :inode 5348024558659072)
+  :expiry 30 :last-access 1742878008.296619 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "99/d58f76-23fe-4a6c-bb3e-110288af9c22" :associated
+  (:hash "8d353e8e88a71ec54ffd2a395f6da1e4" :file "c:/S/EM/O/techo/2023/2023-05-03.org" :inode 844424930426211)
+  :expiry 30 :last-access 1742878008.264375 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "50/82c3bc-851b-436d-9d39-646e3843f0a2" :associated
+  (:hash "f67bf118a873497eb399f98607989bcf" :file "c:/S/EM/O/techo/2023/2023-05-011.org" :inode 1688849861139280)
+  :expiry 30 :last-access 1742878008.232243 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "47/faa20a-46af-434e-b5ed-ea72999475ab" :associated
+  (:hash "19e5f943a36b14eefae0342b12b195e9" :file "c:/S/EM/O/techo/2023/2023-05-01.org" :inode 9288674232610318)
+  :expiry 30 :last-access 1742878008.210105 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "7e/449e3b-1806-4b53-95c0-fe4b55eb50cf" :associated
+  (:hash "50e4cf109369e4baeb023fa99fe9248d" :file "c:/S/EM/O/techo/2023/2023-04-30.org" :inode 18295873487052960)
+  :expiry 30 :last-access 1742878008.180392 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "74/6d504e-bf3a-4953-af26-794b2ca893e0" :associated
+  (:hash "3d887b682cbbf14a7dcbfbca3af30265" :file "c:/S/EM/O/techo/2023/2023-04-29.org" :inode 1407374883846473)
+  :expiry 30 :last-access 1742878008.158334 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "39/1464a4-7fc9-4c96-b34c-faa9619b6298" :associated
+  (:hash "1598a66c1cf1ef1850ba7f8f494348aa" :file "c:/S/EM/O/techo/2023/2023-04-28.org" :inode 9007199255849611)
+  :expiry 30 :last-access 1742878008.125643 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "e7/12b464-09be-4e1f-8d48-7d746d238d01" :associated
+  (:hash "0d2d19ec67c04a86383dd5879a2bd630" :file "c:/S/EM/O/techo/2023/2023-04-27.org" :inode 30680772461756558)
+  :expiry 30 :last-access 1742878008.098104 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "e0/f13c81-f551-47f0-b743-8f01a9f9af95" :associated
+  (:hash "becd61ad6d42ade66c0adf641b8dc279" :file "c:/S/EM/O/techo/2023/2023-04-26.org" :inode 4503599628581684)
+  :expiry 30 :last-access 1742878008.076472 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "df/85daf4-831c-4276-8604-4ef46ecd3405" :associated
+  (:hash "74fc02f5dc96bce52c6acca7062616d5" :file "c:/S/EM/O/techo/2023/2023-04-25.org" :inode 4222124651825885)
+  :expiry 30 :last-access 1742878008.056178 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "7c/8c4776-53db-46b7-9c4c-1bb8318a23b8" :associated
+  (:hash "658a895f5a5c9c5454b4670a639b6406" :file "c:/S/EM/O/techo/2023/2023-04-24.org" :inode 1970324838137877)
+  :expiry 30 :last-access 1742878008.020293 :last-access-hr "2025-03-24T21:46:48-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "45/6b2afa-733b-4f86-a93e-d4ca62b1e468" :associated
+  (:hash "c802a8904df971abda404734ceeb1891" :file "c:/S/EM/O/techo/2023/2023-04-23.org" :inode 3659174698450219)
+  :expiry 30 :last-access 1742878007.993662 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "88/dae414-a765-43b0-8bd3-cfdef26e92f0" :associated
+  (:hash "336c4f828ec818978c74b1cabf3e38eb" :file "c:/S/EM/O/techo/2023/2023-04-22.org" :inode 5629499535401327)
+  :expiry 30 :last-access 1742878007.880811 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "a2/389644-6fbb-4786-bb83-e6330488a65e" :associated
+  (:hash "6fa365e077739f86f623e8ef85ea6129" :file "c:/S/EM/O/techo/2023/2023-04-21.org" :inode 3377699721545006)
+  :expiry 30 :last-access 1742878007.845491 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "4b/555c17-658b-4bc5-badc-196c98815e82" :associated
+  (:hash "99fa73a52da00ed0ca19ca8586de68a9" :file "c:/S/EM/O/techo/2023/2023-04-20.org" :inode 6755399441912264)
+  :expiry 30 :last-access 1742878007.81458 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "e9/e66e54-333e-4092-9a07-6fd99b1714f5" :associated
+  (:hash "6c3ddc94982431376e2ff7f73b66bf02" :file "c:/S/EM/O/techo/2023/2023-04-19.org" :inode 844424930426049)
+  :expiry 30 :last-access 1742878007.788362 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "49/260413-a666-4f83-8078-1747cf3d14ed" :associated
+  (:hash "86622ee3937937341b39780e5bc974f0" :file "c:/S/EM/O/techo/2023/2023-04-18.org" :inode 67835469387421050)
+  :expiry 30 :last-access 1742878007.7506 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "94/103dd7-cad4-43b9-a88a-7a73e8c5ee95" :associated
+  (:hash "abdbf9903a08dffaef801696497742ee" :file "c:/S/EM/O/techo/2023/2023-04-17.org" :inode 6755399442265573)
+  :expiry 30 :last-access 1742878007.718126 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "a5/cf278a-41c8-4fe0-85fb-28163799ec90" :associated
+  (:hash "b220bf2b8cb7a84cb1e698c863bede2b" :file "c:/S/EM/O/techo/2023/2023-04-16.org" :inode 5629499535423653)
+  :expiry 30 :last-access 1742878007.68907 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "e2/e29e09-2791-43ca-a2ed-b17ede929125" :associated
+  (:hash "a694499dbdf3cbe8b0ab3de0ae346b5a" :file "c:/S/EM/O/techo/2023/2023-04-15v2.org" :inode 844424930426171)
+  :expiry 30 :last-access 1742878007.659694 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "bb/0a1512-3c4b-422a-b8de-54790c11f1c9" :associated
+  (:hash "ce00838e4ab16ae49cf33f29000e45a2" :file "c:/S/EM/O/techo/2023/2023-04-14.org" :inode 8725724279239854)
+  :expiry 30 :last-access 1742878007.563496 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "d9/3377aa-c0d5-41d1-aafd-05f6b81798a3" :associated
+  (:hash "8b9399e81cddfe1e3d95ea02a1de1b81" :file "c:/S/EM/O/techo/2023/2023-04-13.org" :inode 18858823440562275)
+  :expiry 30 :last-access 1742878007.526223 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "75/b1407c-91c1-4108-8c5f-dd1c1cda9c1a" :associated
+  (:hash "3404316bbb4620e1ef7db8e73a97f7f0" :file "c:/S/EM/O/techo/2023/2023-04-12.org" :inode 1407374883846595)
+  :expiry 30 :last-access 1742878007.49134 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ac/988d7d-91ca-4a16-b257-a5e638fa94f2" :associated
+  (:hash "d41d8cd98f00b204e9800998ecf8427e" :file "c:/S/EM/O/techo/2023/2023-04-11.org" :inode 15762598695982082)
+  :expiry 30 :last-access 1742878007.461851 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "c2/39097d-3b6f-451c-95f7-89891a8e96cc" :associated
+  (:hash "9f6cd671987dc1bb9ee8654833f689d9" :file "c:/S/EM/O/techo/2023/2023-04-10.org" :inode 12103423999767305)
+  :expiry 30 :last-access 1742878007.438527 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "65/d3af17-75c7-4d52-b321-4bca812b8353" :associated
+  (:hash "91ae2755956e49b25720ec9a8b8e9d1b" :file "c:/S/EM/O/techo/2023/2023-04-09.org" :inode 5910974512133443)
+  :expiry 30 :last-access 1742878007.402488 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "62/d222ad-a05d-4ec6-a5d3-22007c125074" :associated
+  (:hash "5de54745681389854f5806f4d2f662d3" :file "c:/S/EM/O/techo/2023/2023-04-08.org" :inode 6473924465362508)
+  :expiry 30 :last-access 1742878007.377589 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "0b/1cd00f-b2d3-4df6-ace5-fa6268c52444" :associated
+  (:hash "167bdd4de57e2375302a3e0e3c276ae2" :file "c:/S/EM/O/techo/2023/2023-04-07.org" :inode 7036874418975547)
+  :expiry 30 :last-access 1742878007.345087 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ae/aa4cd3-57a9-453a-9491-24cd6803d0dd" :associated
+  (:hash "45b8a47e6f92de55bfc868edad97db11" :file "c:/S/EM/O/techo/2023/2023-04-06.org" :inode 23643898044887084)
+  :expiry 30 :last-access 1742878007.32363 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "82/74dbcf-4d29-4639-9a10-425cc5fb1dc6" :associated
+  (:hash "f66c4c3aa7000c47b232bf8f5d7dba73" :file "c:/S/EM/O/techo/2023/2023-04-05.org" :inode 3940649675160619)
+  :expiry 30 :last-access 1742878007.288669 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "c0/c28ee7-e5a2-4e53-b0b1-477e4f84a69a" :associated
+  (:hash "5822921fce6fbcd8f3221eb2255136d4" :file "c:/S/EM/O/techo/2023/2023-04-04.org" :inode 1688849861090362)
+  :expiry 30 :last-access 1742878007.182051 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "11/5a5e9f-2a84-4c17-b7e3-23a46af97162" :associated
+  (:hash "89a9f028dffd3818e3e64b2d8bc02d5b" :file "c:/S/EM/O/techo/2023/2023-04-04-AL_04_04_Young_Artists_.org" :inode 30680772461624102)
+  :expiry 30 :last-access 1742878007.130974 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ea/2e7cec-81ef-47fd-bc9c-1adbdb03cefe" :associated
+  (:hash "8a47971534e8fe4f019bde87d8b5cee8" :file "c:/S/EM/O/techo/2023/2023-03-31.org" :inode 2533274791410272)
+  :expiry 30 :last-access 1742878007.103952 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "65/0b86c7-d44b-4b5a-8406-23162d13ab36" :associated
+  (:hash "80a6ea655d1bc87edd4b2ebe802cdff9" :file "c:/S/EM/O/techo/2023/2023-03-05.org" :inode 844424930425871)
+  :expiry 30 :last-access 1742878007.080418 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "57/f6b685-8f73-4b22-af2a-15ae8dc69f9e" :associated
+  (:hash "90eed909891f67f84929148e7eb89abb" :file "c:/S/EM/O/techo/2022/2022-02-24 Viz Dev Class.org" :inode 3096224744836365)
+  :expiry 30 :last-access 1742878007.057337 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "7b/d432cb-c70c-4e84-9bb2-2f53e0b28202" :associated
+  (:hash "7d0cc1a82673db08578dd54d74e22386" :file "c:/S/EM/O/techo/00/00_about_me.org" :inode 5910974512134090)
+  :expiry 30 :last-access 1742878007.032296 :last-access-hr "2025-03-24T21:46:47-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "7b/cc4089-a46a-4150-b9c0-58ca1feb5a70" :associated
+  (:hash "10417b485fc226a45b7ca009884b588d" :file "c:/S/EM/O/techo/00/00_TVPaint Keyboard Shortcuts.org" :inode 2814749768120965)
+  :expiry 30 :last-access 1742878006.988516 :last-access-hr "2025-03-24T21:46:46-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "89/d9b13c-f836-4492-ad10-9126f60acb11" :associated
+  (:hash "c879e06ab4933816c886176a205857f1" :file "c:/S/EM/O/org roam/Painting.org" :inode 35465847065612704)
+  :expiry 30 :last-access 1742878006.952095 :last-access-hr "2025-03-24T21:46:46-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "e0/d15696-81cf-4212-9b1a-93ebae19cd53" :associated
+  (:hash "d41d8cd98f00b204e9800998ecf8427e" :file "c:/S/EM/O/org roam/DQ.org" :inode 302585599963981986)
+  :expiry 30 :last-access 1742878006.321073 :last-access-hr "2025-03-24T21:46:46-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "d0/850476-978f-4507-8128-e6d08702e58f" :associated
+  (:hash "8318a45935b48cff7a895ce748cff193" :file "c:/S/EM/O/org roam/20250115002841-dolice_class_notes_2024_01_15.org" :inode 134263563891062509)
+  :expiry 30 :last-access 1742878006.297354 :last-access-hr "2025-03-24T21:46:46-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "39/0debcf-ce7c-4ef3-bc0b-ba73c64f65f4" :associated
+  (:hash "1e19a3ebb101465575d93622ffdaf6c3" :file "c:/S/EM/O/org roam/20250114215932-dolice_notes.org" :inode 59672695062827197)
+  :expiry 30 :last-access 1742878006.264017 :last-access-hr "2025-03-24T21:46:46-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "11/3f376f-5cc6-4608-b8d4-8c0ede9b3f49" :associated
+  (:hash "cb64724e0607002bba1270df613d0bdb" :file "c:/S/EM/O/org roam/.#Art_.org" :inode 7599824371351028)
+  :expiry 30 :last-access 1742878005.223157 :last-access-hr "2025-03-24T21:46:45-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "e9/12c418-fb1e-4387-a9ac-6e79741e3aa5" :associated
+  (:hash "cd252ee5d9c0a7d5ca29b5b97edf1830" :file "c:/S/EM/O/emacs.d/elpa/spinner-1.7.4/README.org" :inode 1125899907136482)
+  :expiry 30 :last-access 1742878005.158077 :last-access-hr "2025-03-24T21:46:45-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "dd/401356-19a6-48e4-ad9c-4a9006f6f346" :associated
+  (:hash "9dd0b75e9aa6df89d92dd201ae3fbb5c" :file "c:/S/EM/O/emacs.d/elpa/plz-0.7/README.org" :inode 11258999069615730)
+  :expiry 30 :last-access 1743458414.009652 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "a4/ce7d44-c1b6-4d7d-97ab-1ecc68453e9e" :associated
+  (:hash "26052ee8b7d1ec4b8597a7f48e470715" :file "c:/S/EM/O/emacs.d/elpa/org-9.6.9/README.org" :inode 2814749768129625)
+  :expiry 30 :last-access 1742877958.672704 :last-access-hr "2025-03-24T21:45:58-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "48/f0efd2-d2db-4b38-82b2-0bdd6630260f" :associated
+  (:hash "f480788a2240add817cf7a0873f8b2b5" :file "c:/S/EM/O/emacs.d/elpa/org-9.6.9/CONTRIBUTE.org" :inode 1688849860557091)
+  :expiry 30 :last-access 1742877958.642843 :last-access-hr "2025-03-24T21:45:58-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "d5/de0fb2-46fc-4914-bad4-5e42eb6e0248" :associated
+  (:hash "390d749bec41571386e188daee47bea9" :file "c:/S/EM/O/emacs.d/elpa/org-9.6.9/doc/org-manual.org" :inode 844424930426009)
+  :expiry 30 :last-access 1742877958.523521 :last-access-hr "2025-03-24T21:45:58-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "2d/416ac7-1bd1-424c-a931-e676015ae567" :associated
+  (:hash "d22d85038ee616f1c9b09e1f3880268e" :file "c:/S/EM/O/emacs.d/elpa/org-9.6.9/doc/org-guide.org" :inode 21955048184288922)
+  :expiry 30 :last-access 1742877957.27181 :last-access-hr "2025-03-24T21:45:57-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "8c/90ef9b-e30d-489c-8dbc-155f83940497" :associated
+  (:hash "5c52691223de5721fb1c7b40d1b338f7" :file "c:/S/EM/O/emacs.d/elpa/org-9.6.9/doc/fdl.org" :inode 1970324838139204)
+  :expiry 30 :last-access 1742877956.947001 :last-access-hr "2025-03-24T21:45:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "dc/005559-95e7-42b1-9100-6075143dbe2b" :associated
+  (:hash "d2e8b6c9c6b7d44a340e60cb82bd896d" :file "c:/S/EM/O/emacs.d/elpa/org-9.6.9/doc/doc-setup.org" :inode 10133099162542706)
+  :expiry 30 :last-access 1742877956.904153 :last-access-hr "2025-03-24T21:45:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "39/de4fd0-3976-4366-8e7c-0c0a577b1d95" :associated
+  (:hash "875d3e990a091c4ffffc1597346cc5c5" :file "c:/S/EM/O/emacs.d/elpa/org-9.6.9/doc/Documentation_Standards.org" :inode 9570149209352524)
+  :expiry 30 :last-access 1742877956.863344 :last-access-hr "2025-03-24T21:45:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "85/6fd74e-aa46-4b55-b2a8-b12af40fa8d5" :associated
+  (:hash "af35592af8b9b4a6558a1e15471a4887" :file "c:/S/EM/O/emacs.d/elpa/ivy-20231025.2311/ivy-help.org" :inode 1407374884567374)
+  :expiry 30 :last-access 1742877956.572348 :last-access-hr "2025-03-24T21:45:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "14/05866f-7ce3-460d-a57c-3beb743e8a51" :associated
+  (:hash "39e5b095e19de438af491908919bd446" :file "c:/S/EM/O/emacs.d/elpa/compat-29.1.4.2/NEWS.org" :inode 6755399442070203)
+  :expiry 30 :last-access 1742877956.532357 :last-access-hr "2025-03-24T21:45:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "cd/7ef30d-12a8-4312-b4c9-81eaec5ba88a" :associated
+  (:hash "368ca4b3f9aff2d1d4b69862f7e3e978" :file "c:/S/EM/O/emacs.d/elpa/ample-theme-0.3.0/README.org" :inode 2533274791320053)
+  :expiry 30 :last-access 1742877956.428807 :last-access-hr "2025-03-24T21:45:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "eb/0ea969-4297-45b3-8edf-44bf30bf177a" :associated
+  (:hash "301d1bcf95f5335b5267aeb2aadaa22e" :file "c:/S/EM/O/Emacs/testingoutimginsert.org" :inode 281756451687402199)
+  :expiry 30 :last-access 1742877956.190353 :last-access-hr "2025-03-24T21:45:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "6c/f08cee-ceb1-4b88-9a4d-b5c2a4b31a0e" :associated
+  (:hash "24a6564942e8efc077f73f878ec3e61f" :file "c:/S/EM/O/Emacs/test.org" :inode 6755399442078907)
+  :expiry 30 :last-access 1742877956.161902 :last-access-hr "2025-03-24T21:45:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "a5/a25140-0086-4671-8106-5f5427d20686" :associated
+  (:hash "b4c6845315e373497fb458edde0bacff" :file "c:/S/EM/O/Emacs/techo.org" :inode 65583669573606398)
+  :expiry 30 :last-access 1742877956.125967 :last-access-hr "2025-03-24T21:45:56-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ba/b04b99-c0b2-4482-88a9-8aaeff407e4f" :associated
+  (:hash "37e28921b0d6c7de37b428526e36fca9" :file "c:/S/EM/O/Emacs/stopmo.org" :inode 29554872554648861)
+  :expiry 30 :last-access 1742877955.933754 :last-access-hr "2025-03-24T21:45:55-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "1f/90d22b-5d68-4dc1-8207-4378b7c16d5d" :associated
+  (:hash "f86068f65af17ec667e0bc603b03faa8" :file "c:/S/EM/O/Emacs/rss15.org" :inode 844424930426027)
+  :expiry 30 :last-access 1742877955.908358 :last-access-hr "2025-03-24T21:45:55-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "b3/6b47c1-7d07-4991-9c55-6bfd40e5232d" :associated
+  (:hash "febf286cf35936fe07f8211ecc685cf1" :file "c:/S/EM/O/Emacs/project list.org" :inode 27866022694527224)
+  :expiry 30 :last-access 1742877929.614419 :last-access-hr "2025-03-24T21:45:29-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "63/26e8a7-7c00-4ef0-87cc-11dbc407a4d9" :associated
+  (:hash "f84096943cb5d932f392829f39a0f9e0" :file "c:/S/EM/O/Emacs/portraits.org" :inode 7318349395666929)
+  :expiry 30 :last-access 1742877929.531359 :last-access-hr "2025-03-24T21:45:29-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "d3/6e9e68-6f46-4cee-8209-9cb0a1d5ad5a" :associated
+  (:hash "7dcfb044fa9ae28fe499834ea5d48d2d" :file "c:/S/EM/O/Emacs/phone notes.org" :inode 10133099162468343)
+  :expiry 30 :last-access 1742877929.491339 :last-access-hr "2025-03-24T21:45:29-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "fb/d10318-51c6-4c2c-8cac-513827b233dd" :associated
+  (:hash "652741d560af8063230a24874803a6a1" :file "c:/S/EM/O/Emacs/ok.org" :inode 3096224744834431)
+  :expiry 30 :last-access 1742877929.459644 :last-access-hr "2025-03-24T21:45:29-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "2d/5029af-ca6a-421e-95ec-c3bfc44003b3" :associated
+  (:hash "e90db3085172846549d63d54cad4d366" :file "c:/S/EM/O/Emacs/new.org" :inode 844424930425894)
+  :expiry 30 :last-access 1742877929.404279 :last-access-hr "2025-03-24T21:45:29-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ec/bfa8e8-6a9d-4e86-b562-94fccc212e07" :associated
+  (:hash "d41d8cd98f00b204e9800998ecf8427e" :file "c:/S/EM/O/Emacs/YAY.org" :inode 2814749767478135)
+  :expiry 30 :last-access 1742877929.373525 :last-access-hr "2025-03-24T21:45:29-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "94/cae501-3099-473e-b3b4-1458419ced5c" :associated
+  (:hash "17fa8345f5e1f65811b9f3b09d97f9de" :file "c:/S/EM/O/Emacs/Worklist.org" :inode 3096224744820850)
+  :expiry 30 :last-access 1742877929.248343 :last-access-hr "2025-03-24T21:45:29-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "fb/d87f7d-99de-447c-b631-ed4da482457d" :associated
+  (:hash "d7b905da4afef5ed6fccc1b403ddb279" :file "c:/S/EM/O/Emacs/VKAY.org" :inode 1688849861449516)
+  :expiry 30 :last-access 1742877929.104804 :last-access-hr "2025-03-24T21:45:29-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "b2/c5e0f6-5335-45a0-a6fc-324c5183d15f" :associated
+  (:hash "65bc51b7e624e8280dfa71b6a85096b6" :file "c:/S/EM/O/Emacs/UDESIGN.org" :inode 1407374884764535)
+  :expiry 30 :last-access 1742877928.890238 :last-access-hr "2025-03-24T21:45:28-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "d3/54dbfc-c806-4220-92f3-2ced2eccf2a2" :associated
+  (:hash "bb66a372d9a0a6d327f1f5f84285e83d" :file "c:/S/EM/O/Emacs/UDESIGN- Workhours 01-01-2024-01-15-2024.org" :inode 16888498603467362)
+  :expiry 30 :last-access 1742877928.76472 :last-access-hr "2025-03-24T21:45:28-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "74/00bb29-ddd3-4668-b8eb-57158d9b3411" :associated
+  (:hash "b3dd0ff6ff18f119766eae074c33b4f3" :file "c:/S/EM/O/Emacs/UD.org" :inode 62768919806589437)
+  :expiry 30 :last-access 1742877928.718542 :last-access-hr "2025-03-24T21:45:28-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "11/bec8c6-a96d-4692-81fc-1182f638a65b" :associated
+  (:hash "568d7355afc79d1a294d2c5a92106f18" :file "c:/S/EM/O/Emacs/Textfile3.org" :inode 1688849861420114)
+  :expiry 30 :last-access 1742877928.658077 :last-access-hr "2025-03-24T21:45:28-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "7c/9c485d-2b76-4060-8297-c34ec18e0ddf" :associated
+  (:hash "82bca6ce7fdb79e8cc02fcc190c80d6c" :file "c:/S/EM/O/Emacs/Stop_Motion_Supplies.org" :inode 14355223812344467)
+  :expiry 30 :last-access 1742877928.489798 :last-access-hr "2025-03-24T21:45:28-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "69/e2a1a5-cdd6-42d0-a288-7eac03be6856" :associated
+  (:hash "499e79410b0f30fcee63af94846993cf" :file "c:/S/EM/O/Emacs/Stop_Mo_L_1_w_images.org" :inode 47850746040848478)
+  :expiry 30 :last-access 1742877928.404035 :last-access-hr "2025-03-24T21:45:28-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "1d/ae7d9c-ee13-45d9-81e5-a5bb77de4ca1" :associated
+  (:hash "81f47bceefe8673a21f96bac15158274" :file "c:/S/EM/O/Emacs/Stop_Mo_L_1.org" :inode 4503599628570323)
+  :expiry 30 :last-access 1742877928.181111 :last-access-hr "2025-03-24T21:45:28-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "46/904239-38ca-4258-97c5-7c8568ed9652" :associated
+  (:hash "83d122a1c1cdfa3fe3ca3a80a694e57a" :file "c:/S/EM/O/Emacs/Stop_Mo_L.org" :inode 7318349395403958)
+  :expiry 30 :last-access 1742877928.05332 :last-access-hr "2025-03-24T21:45:28-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "38/8c596d-b69a-401b-b494-a684e4ad49f7" :associated
+  (:hash "44c0c0313c8f5ab98f209b4b08a56ec2" :file "c:/S/EM/O/Emacs/ST.org" :inode 1970324838137621)
+  :expiry 30 :last-access 1742877927.827748 :last-access-hr "2025-03-24T21:45:27-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "d8/55e7ff-0833-41fd-aeb0-d8b80f0e8b48" :associated
+  (:hash "346372025a4774a4417f7ed083da2079" :file "c:/S/EM/O/Emacs/SL.org" :inode 7881299348847672)
+  :expiry 30 :last-access 1742877927.763477 :last-access-hr "2025-03-24T21:45:27-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "8d/36df12-ece5-45ad-9091-759cb83fbf34" :associated
+  (:hash "a2a91b9a01436d806c64396d2fedb257" :file "c:/S/EM/O/Emacs/SAS.org" :inode 138485688541672752)
+  :expiry 30 :last-access 1742877927.689413 :last-access-hr "2025-03-24T21:45:27-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "61/6364ea-f32f-4eb1-8070-3499bde37da0" :associated
+  (:hash "1f48e77a591a609a05c4476140862905" :file "c:/S/EM/O/Emacs/HKE.org" :inode 43910096366966461)
+  :expiry 30 :last-access 1742877927.577665 :last-access-hr "2025-03-24T21:45:27-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "75/e694ae-30bd-4c70-9c56-d62e5d9eb670" :associated
+  (:hash "6eefda7b31d16f37eb3ac1afc64d0111" :file "c:/S/EM/O/Emacs/Caricatures.org" :inode 1970324838130789)
+  :expiry 30 :last-access 1742877927.507217 :last-access-hr "2025-03-24T21:45:27-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "37/4a3aa5-e3d4-4a4f-b482-20c82069f8c8" :associated
+  (:hash "9a58724ca110f17a9e1737664e6eab4d" :file "c:/S/EM/O/Emacs/CMN.org" :inode 2251799814608069)
+  :expiry 30 :last-access 1742877927.323144 :last-access-hr "2025-03-24T21:45:27-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "f1/4310d1-11b6-4bb4-8095-bc5d71dd253f" :associated
+  (:hash "9f27d9433afe7903edf26e5b6121273f" :file "c:/S/EM/O/Emacs/CBR_Clock_in.org" :inode 2251799814873035)
+  :expiry 30 :last-access 1742877927.265902 :last-access-hr "2025-03-24T21:45:27-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "d6/87713d-4e80-40ae-a354-a4a24182fba6" :associated
+  (:hash "b4e16065abb0f3d72b2413b514468555" :file "c:/S/EM/O/Emacs/CBR.org" :inode 3659174698015310)
+  :expiry 30 :last-access 1742877927.1418 :last-access-hr "2025-03-24T21:45:27-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "73/1a5b93-a3f0-4757-8c3c-08b4e35c21cf" :associated
+  (:hash "d39666fdd0cb224e95c6aa1bc50745a1" :file "c:/S/EM/O/Emacs/AN_01_04.org" :inode 15481123720295777)
+  :expiry 30 :last-access 1742877926.999523 :last-access-hr "2025-03-24T21:45:26-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "65/8649e8-222e-4ebc-8d33-13a07a005dd3" :associated
+  (:hash "7d4b193480851ff5201907be9b65ade7" :file "c:/S/EM/O/Emacs/ANI.org" :inode 5910974511872387)
+  :expiry 30 :last-access 1742877926.906982 :last-access-hr "2025-03-24T21:45:26-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "96/cfbca5-6cc4-4371-ae2a-e2ef07320d1d" :associated
+  (:hash "cde45bc21406113f59c6dfd252e52259" :file "c:/S/EM/O/Emacs/AL_FC_01_13_.org" :inode 72620543991383675)
+  :expiry 30 :last-access 1742877926.82717 :last-access-hr "2025-03-24T21:45:26-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "d7/495617-4bef-4a61-8ac4-46e02cbdcbd8" :associated
+  (:hash "1869b1a85f2b19f9b97c4648b4a8780c" :file "c:/S/EM/O/Emacs/AL.org" :inode 127789639426662093)
+  :expiry 30 :last-access 1742877926.694427 :last-access-hr "2025-03-24T21:45:26-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "39/d5a68c-ec82-49fc-8256-47aa64330086" :associated
+  (:hash "56692d4246a855632c742646f043ec71" :file "c:/S/EM/O/Emacs/2023-12-29.org" :inode 4785074605029711)
+  :expiry 30 :last-access 1742877926.57759 :last-access-hr "2025-03-24T21:45:26-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "95/e832a8-a3b9-4ab2-890b-4a02febfa49a" :associated
+  (:hash "7f76221407494c85f201c32cacd9b725" :file "c:/S/EM/O/Emacs/2023-12-27.org" :inode 18014398509579579)
+  :expiry 30 :last-access 1742877926.499011 :last-access-hr "2025-03-24T21:45:26-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "f3/97a574-7b26-4434-97c7-4bb8a141ab01" :associated
+  (:hash "a6cb459047cc3108205b160d7ccc3d3a" :file "c:/S/EM/O/Emacs/2023-12-21.org" :inode 225742931321973734)
+  :expiry 30 :last-access 1742877926.452348 :last-access-hr "2025-03-24T21:45:26-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "e2/86d3e3-991b-459d-a334-eb826e6b8a15" :associated
+  (:hash "c4a68b6e4272187b0a9780742e0b0abe" :file "c:/S/EM/O/Emacs/2023-12-20.org" :inode 84161018036521964)
+  :expiry 30 :last-access 1742877926.437346 :last-access-hr "2025-03-24T21:45:26-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "3e/3e1040-d4fb-40c1-889a-d0eac09a0bf4" :associated
+  (:hash "f4a1a8deca56e1f3b9380e1c1461c944" :file "c:/S/EM/O/Emacs/2023-12-19.org" :inode 43910096366899205)
+  :expiry 30 :last-access 1742877926.42008 :last-access-hr "2025-03-24T21:45:26-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "5c/cead3d-87eb-4b9e-819e-aa5b47e1948e" :associated
+  (:hash "c67a5d3e71b3f5817114490c5003a6c3" :file "c:/S/EM/O/Emacs/2023-12-14_UD_Building_Chair.org" :inode 4222124650837164)
+  :expiry 30 :last-access 1742877926.400863 :last-access-hr "2025-03-24T21:45:26-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "66/59a00c-a49b-47a2-bde4-67ea1b6347e6" :associated
+  (:hash "420adfd545098eff6a5a852041ee882f" :file "c:/S/EM/O/Emacs/2023-12-14.org" :inode 14355223813085186)
+  :expiry 30 :last-access 1742877926.382885 :last-access-hr "2025-03-24T21:45:26-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "52/947604-6442-4dc9-aee8-ffcb2074fbcf" :associated
+  (:hash "03c50ae4205ed8490c55de591d0cfe80" :file "c:/S/EM/O/Emacs/2023-12-14-Bus.org" :inode 19140298417531506)
+  :expiry 30 :last-access 1742877926.364028 :last-access-hr "2025-03-24T21:45:26-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "2d/5cff79-6629-459b-873b-e75a1639276a" :associated
+  (:hash "d9625800b00935e5efc434ce202eb7f8" :file "c:/S/EM/O/Emacs/01_15_2024_Notes.org" :inode 15481123720044755)
+  :expiry 30 :last-access 1742877926.282479 :last-access-hr "2025-03-24T21:45:26-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "b3/270b28-5ad7-4a98-a0cc-cb1585a46575" :associated
+  (:hash "5491f532fdce8c112503b66a9b3a4755" :file "c:/S/EM/O/Emacs/01_15_2024_Jobs.org" :inode 4222124651604290)
+  :expiry 30 :last-access 1742877925.949423 :last-access-hr "2025-03-24T21:45:25-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "54/df83d2-4d76-4eb0-93b1-809f135f7e64" :associated
+  (:hash "57c6658895c265c22c80fe7fc3b0c882" :file "c:/S/EM/O/Emacs/++.org" :inode 18014398509580234)
+  :expiry 30 :last-access 1742877925.834072 :last-access-hr "2025-03-24T21:45:25-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "a5/2fa5ed-fd35-425f-a598-7354e4d1e8a3" :associated
+  (:hash "473bc795c38db91091eff02cf3a83f4d" :file "c:/S/EM/O/Ani_0/ani-fa/F_Art.org" :inode 2814749768030744)
+  :expiry 30 :last-access 1742877924.850763 :last-access-hr "2025-03-24T21:45:24-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "80/f969f9-384f-4b4b-9612-14a428c3bdf1" :associated
+  (:hash "39f6af1d8602449d48505f51c6801b23" :file "c:/S/EM/O/Ani_0/Ani/arcs2.org" :inode 4785074605292067)
+  :expiry 30 :last-access 1742877924.802676 :last-access-hr "2025-03-24T21:45:24-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "71/7f9aeb-b936-4ac0-bb84-6d720c912080" :associated
+  (:hash "c49fcad699092dfec50c18efeec3ec9c" :file "c:/S/EM/O/Ani_0/Ani/Animation-Rule.org" :inode 5910974511872523)
+  :expiry 30 :last-access 1742877924.760913 :last-access-hr "2025-03-24T21:45:24-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "e6/ab0233-f434-4034-9c12-4538e4e93783" :associated
+  (:hash "61042fdaf1c9972c5c45192e879f7c88" :file "c:/S/EM/O/Ani_0/Ani/AN_Thesis_Film_Notes.org" :inode 1688849861433358)
+  :expiry 30 :last-access 1742877924.734787 :last-access-hr "2025-03-24T21:45:24-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "7a/a3eb33-8e3c-4b82-af0f-4b4122f92840" :associated
+  (:hash "e44810bd88e6d951f383085ec39685c7" :file "c:/S/EM/O/Ani_0/Ani/AN_Solid_Drawing.org" :inode 27866022695211825)
+  :expiry 30 :last-access 1742877924.695955 :last-access-hr "2025-03-24T21:45:24-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "9f/a0222b-5ace-4837-a783-344d0b71365e" :associated
+  (:hash "e45de76109372522fca9bed15f980252" :file "c:/S/EM/O/Ani_0/Ani/AN_Reel.org" :inode 1407374884567660)
+  :expiry 30 :last-access 1742877924.656291 :last-access-hr "2025-03-24T21:45:24-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "5f/0f0449-74ec-4472-ae02-c448d89d662b" :associated
+  (:hash "d50f7bc3bd1e304d45675204bc5d78f7" :file "c:/S/EM/O/Ani_0/Ani/AN_01_04.org" :inode 4503599628580119)
+  :expiry 30 :last-access 1742877924.578691 :last-access-hr "2025-03-24T21:45:24-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "a3/a21b2c-7c1c-4c93-8a96-557658ef3122" :associated
+  (:hash "2a6644cacc49a9400fccaf63f0aa1811" :file "c:/S/EM/O/Ani_0/Ani/ANI_Notes.org" :inode 9288674232399952)
+  :expiry 30 :last-access 1742877924.543036 :last-access-hr "2025-03-24T21:45:24-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "05/36f858-c521-4262-9779-e926355026ae" :associated
+  (:hash "0935ea46a1537007555ac74bbe39042c" :file "c:/S/EM/O/Ani_0/Ani/ANI.org" :inode 4222124651869228)
+  :expiry 30 :last-access 1742877924.500939 :last-access-hr "2025-03-24T21:45:24-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "aa/32309c-f47e-4e22-a09c-4c757ca6dc1c" :associated
+  (:hash "37e28921b0d6c7de37b428526e36fca9" :file "c:/S/EM/O/Ani_0/Ani/stop_mo/stopmo.org" :inode 10133099162594418)
+  :expiry 30 :last-access 1742877924.430343 :last-access-hr "2025-03-24T21:45:24-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "b2/ef3be6-d373-487f-a488-33c6cafc2053" :associated
+  (:hash "febf286cf35936fe07f8211ecc685cf1" :file "c:/S/EM/O/Ani_0/Ani/stop_mo/project list.org" :inode 5348024558446583)
+  :expiry 30 :last-access 1742877924.349195 :last-access-hr "2025-03-24T21:45:24-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "2f/b2e347-48a9-4fe6-a03e-9680da91475d" :associated
+  (:hash "64639119bd4f0cb82485bab5914c4c67" :file "c:/S/EM/O/Ani_0/Ani/stop_mo/Worklist.org" :inode 3096224744831230)
+  :expiry 30 :last-access 1742877923.931885 :last-access-hr "2025-03-24T21:45:23-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "34/164575-398d-4247-811b-43292d317596" :associated
+  (:hash "82bca6ce7fdb79e8cc02fcc190c80d6c" :file "c:/S/EM/O/Ani_0/Ani/stop_mo/Stop_Motion_Supplies.org" :inode 5629499535404325)
+  :expiry 30 :last-access 1742877923.409967 :last-access-hr "2025-03-24T21:45:23-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "f2/764948-2d9c-4f2a-993a-8eeeef6a96c7" :associated
+  (:hash "499e79410b0f30fcee63af94846993cf" :file "c:/S/EM/O/Ani_0/Ani/stop_mo/Stop_Mo_L_1_w_images.org" :inode 1407374883846588)
+  :expiry 30 :last-access 1742877923.280541 :last-access-hr "2025-03-24T21:45:23-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "c5/73a969-7c3a-4e24-a966-2e03e1b87e32" :associated
+  (:hash "81f47bceefe8673a21f96bac15158274" :file "c:/S/EM/O/Ani_0/Ani/stop_mo/Stop_Mo_L_1.org" :inode 184084634768900006)
+  :expiry 30 :last-access 1742877923.14801 :last-access-hr "2025-03-24T21:45:23-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "53/788ce8-1a56-407c-a7ac-df8d54f2dbe6" :associated
+  (:hash "83d122a1c1cdfa3fe3ca3a80a694e57a" :file "c:/S/EM/O/Ani_0/Ani/stop_mo/Stop_Mo_L.org" :inode 28428972648618147)
+  :expiry 30 :last-access 1742877923.063888 :last-access-hr "2025-03-24T21:45:23-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "e8/2c306d-acd9-4ecf-9e45-7b98cbc14c99" :associated
+  (:hash "92d6201b918faf5b3fcc0eadb3a5b76b" :file "c:/S/EM/O/Ani_0/Ani/PRINCIPLES/Principles.org" :inode 2814749768129560)
+  :expiry 30 :last-access 1742877922.925883 :last-access-hr "2025-03-24T21:45:22-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "94/0647e8-65e5-463d-bd3e-eb815e1f28f1" :associated
+  (:hash "c538fa9363c748a65d246ef7edf193d8" :file "c:/S/EM/O/Ani_0/Ani-fg/fg.org" :inode 34621422135816880)
+  :expiry 30 :last-access 1742877922.879933 :last-access-hr "2025-03-24T21:45:22-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "74/1a0e57-9ee5-4266-9b99-025d3c9649f6" :associated
+  (:hash "1549a848089164827611c2b490fc7d7a" :file "c:/S/EM/O/Ani_0/Ani-fg/fgfg/fg_face.org" :inode 844424930426188)
+  :expiry 30 :last-access 1742877922.825236 :last-access-hr "2025-03-24T21:45:22-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "25/4fd5fa-d3b8-46f7-8953-fa67f774ba05" :associated
+  (:hash "15cac3d065e637d2aea958caf0bb327f" :file "c:/S/EM/O/Ani_0/Ani-S/Story.org" :inode 24206847997407530)
+  :expiry 30 :last-access 1742877922.7669 :last-access-hr "2025-03-24T21:45:22-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "09/aede50-6660-4ece-b108-8c57a86f7099" :associated
+  (:hash "005b10214643082f398d3ceddb501372" :file "c:/S/EM/O/Ani_0/Ani-LAY-Props/Cars/cars.org" :inode 10696049115857646)
+  :expiry 30 :last-access 1742877922.610388 :last-access-hr "2025-03-24T21:45:22-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "61/32a16d-a887-4b95-b36d-fefad4e69d99" :associated
+  (:hash "463736aedec86674fa49eec6e4c7814e" :file "c:/S/EM/O/0PZ_Availability/Availability.org" :inode 9570149208190767)
+  :expiry 30 :last-access 1742877922.314076 :last-access-hr "2025-03-24T21:45:22-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "b1/11a3b7-be96-4118-96b0-612bba256d56" :associated
+  (:hash "2a10438ff4d888e259c4dfa46a0f21de" :file "c:/S/EM/O/portraits lesson class.org" :inode 3377699720831207)
+  :expiry 30 :last-access 1743458414.017794 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "0e/a43ac1-2be0-4129-9465-c8aa13294c0a" :associated
+  (:hash "711036365d6688a0dd08c0957da85cd2" :file "c:/S/EM/O/myavailability/Availability.org" :inode 36310271995684010)
+  :expiry 30 :last-access 1742878005.18923 :last-access-hr "2025-03-24T21:46:45-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "8e/3aea42-a12b-45c2-85a1-975bcde66640" :associated
+  (:hash "2253682db0f2f3ae1ccbf266784c383b" :file "c:/S/EM/O/myavailability.org" :inode 15199648742458916)
+  :expiry 30 :last-access 1743458414.023421 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "74/a4572c-759e-4270-85b6-5d7a535590c2" :associated
+  (:hash "b53c6a20ab414c745c0878c71fc3ec87" :file "c:/S/EM/O/organize_files_2025_02_10.org" :inode 23080948090289011)
+  :expiry 30 :last-access 1743458414.027651 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "c4/c83e44-24f8-47a4-ad08-8be167b0a564" :associated
+  (:hash "736e31cd1e38ad59e546d6457ce33e31" :file "c:/S/EM/O/Dailies/2025_02_10.org" :inode 4785074604093422)
+  :expiry 30 :last-access 1742877925.453542 :last-access-hr "2025-03-24T21:45:25-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "f5/876cb2-d19d-4ac1-a9df-5ec646543858" :associated
+  (:hash "5e0f4932a71b51b77c1084704195749e" :file "c:/S/EM/O/watch_movielist2025.org" :inode 62768919806485570)
+  :expiry 30 :last-access 1743458414.098026 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "9c/6fc257-c1c0-422a-b503-5084e7f48517" :associated
+  (:hash "583bf8dfd540a47b3220caa4ac40d404" :file "c:/S/EM/O/watch_movielist2024.org" :inode 180706935048458930)
+  :expiry 30 :last-access 1743458414.103109 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "9a/28c8e9-d833-4375-88b3-250935bbebe8" :associated
+  (:hash "483bd14a8876a76885bbce78bbdf7ef2" :file "c:/S/EM/O/whatanimation.org" :inode 30680772461781472)
+  :expiry 30 :last-access 1743458414.108779 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "56/e055ca-ede1-4c79-9772-01661111eab7" :associated
+  (:hash "71996f158746cd3548770e7849b739af" :file "c:/S/EM/O/Transit.org" :inode 51228445761339793)
+  :expiry 30 :last-access 1743458414.114408 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "5b/8c030f-f557-43cc-abc6-5b0f48897117" :associated
+  (:hash "9de4323b7ac5bed675da76f72b4aec97" :file "c:/S/EM/O/Screen_Sharing_Notes.org" :inode 7599824371228219)
+  :expiry 30 :last-access 1743458414.119701 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "a4/326c4f-1b4c-4386-bb9e-23e02d9c0db2" :associated
+  (:hash "ed1aaca67bbed8305b820623795da8c5" :file "c:/S/EM/O/MAP.org" :inode 10414574138507159)
+  :expiry 30 :last-access 1743458414.125225 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "4b/51c3e5-d630-4d47-a629-1d0ed13edf65" :associated
+  (:hash "8c88608aca029f2959c4a8b7823fb554" :file "c:/S/EM/O/Discord.org" :inode 7881299347915606)
+  :expiry 30 :last-access 1743458414.131714 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "28/6e2260-fa56-421c-b577-ce22c28343dc" :associated
+  (:hash "75ff72cc4e03195c284ab90d3019d77f" :file "c:/S/EM/O/Comic_Planning_Syllabus_Class.org" :inode 13510798882121444)
+  :expiry 30 :last-access 1743458414.136807 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "c7/30e8eb-cf64-4406-bf31-33228230993f" :associated
+  (:hash "21d6df0c5d3da934c624d57720546d5c" :file "c:/S/EM/O/Clean.org" :inode 18577348462911148)
+  :expiry 30 :last-access 1743458414.14083 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "11/a20e49-a360-47b8-ae26-31c166aa4bd3" :associated
+  (:hash "7bd6123673727b649eabd0dd6e53a3d3" :file "c:/S/EM/O/Blender_Zoetrope_.org" :inode 844424930786409)
+  :expiry 30 :last-access 1743458414.14569 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "a2/50c979-5985-4e60-82dd-d0d5f174d605" :associated
+  (:hash "aaeb25fbcc6bc8c50501a5f063ec461e" :file "c:/S/EM/O/fr03.org" :inode 38280596832661381)
+  :expiry 30 :last-access 1743458414.15236 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "c8/a9ae21-c69b-4f2e-9546-5732be87ff2d" :associated
+  (:hash "719fb0f525c48e3b8be20c5a68902fad" :file "c:/S/EM/O/bash.org" :inode 36310271995675916)
+  :expiry 30 :last-access 1743458414.160769 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "0b/d3f8ea-7380-47d8-8662-59bd4edc3f31" :associated
+  (:hash "6fec47429d51c72c72bc318ef82c3d48" :file "c:/S/EM/O/PAINT00.org" :inode 4222124651050854)
+  :expiry 30 :last-access 1743458414.168522 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "eb/0a147b-0536-4405-be1d-e377cad2dc65" :associated
+  (:hash "610f167adc8b77addf9c2f971cab79d8" :file "c:/S/EM/O/Outings.org" :inode 29273397577916941)
+  :expiry 30 :last-access 1743458414.176584 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "2d/1c854a-8685-445b-b121-8a32268318ad" :associated
+  (:hash "d1b41c870494bcc4de0c0fd9c5743300" :file "c:/S/EM/O/LEARN.ORG" :inode 19140298416351259)
+  :expiry 30 :last-access 1743458414.182319 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "1a/1092d6-ac15-429e-94c0-1cb456823b99" :associated
+  (:hash "6dd2527b1f7e75dd15dc9d311600e914" :file "c:/S/EM/O/Health.org" :inode 15199648742389162)
+  :expiry 30 :last-access 1743458414.187183 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "f9/f6db95-e36f-4a2e-bdf3-7a8a1d62d7f2" :associated
+  (:hash "c2b5e09f43adb8850a1d23c297786222" :file "c:/S/EM/O/Food-Diary3.org" :inode 176203335420896373)
+  :expiry 30 :last-access 1743458414.192886 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ac/320fab-857e-45d2-b042-7ac043049829" :associated
+  (:hash "dbd88bc649df6f185000ef60ab120617" :file "c:/S/EM/O/WATCH.org" :inode 1970324837365633)
+  :expiry 30 :last-access 1743458414.200273 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "c0/df23ad-3de0-4a8a-879c-1eb09e791975" :associated
+  (:hash "3a558ae01a968f19ff273d8aa57beb73" :file "c:/S/EM/O/My iPhone stuff.org" :inode 3659174697248586)
+  :expiry 30 :last-access 1743458414.285854 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "27/b82a7e-1a86-4c5e-a3fe-5affdedadd7a" :associated
+  (:hash "d41d8cd98f00b204e9800998ecf8427e" :file "c:/S/EM/O/test.org" :inode 5629499534221619)
+  :expiry 30 :last-access 1743458414.290079 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "4c/28ac99-26a6-4f2c-98be-a0598d35d2a2" :associated
+  (:hash "d0a42034c9de689d94638e7f7fbe268c" :file "c:/S/EM/O/config.org" :inode 9851624184889922)
+  :expiry 30 :last-access 1743458414.295505 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "c7/19d001-061f-4d3e-b479-6321cbed599f" :associated
+  (:hash "c8e28eab912b82c49b7c42f27b2902eb" :file "c:/S/EM/O/L-Kanji.org" :inode 2814749767158733)
+  :expiry 30 :last-access 1743458414.301719 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "57/b7cae9-8cea-4ce7-bb82-79a4621486d3" :associated
+  (:hash "61de9ccad8b34c7dd26815d3de2dd525" :file "c:/S/EM/O/Comic_Planning.org" :inode 11258999068437887)
+  :expiry 30 :last-access 1743458414.307175 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "1a/8957c3-fdd5-478c-a8a6-5305e03e8e31" :associated
+  (:hash "5e6ed89703d6faf257a21e9f4cff7eb5" :file "c:/S/EM/O/fundamentals.org" :inode 79938893385875014)
+  :expiry 30 :last-access 1743458414.312977 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "aa/49ed50-dbf5-47fe-816f-87e35f8591eb" :associated
+  (:hash "f4c91e9d9e67f1602e8fadb42524cfab" :file "c:/S/EM/O/cooking.org" :inode 33495522228595945)
+  :expiry 30 :last-access 1743458414.319125 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "39/bfaa39-351e-4aba-b8d7-8e6c6e2d5d69" :associated
+  (:hash "5466658528d3b46dc5d14ff61f091784" :file "c:/S/EM/O/computer_tool.org" :inode 11821949021876980)
+  :expiry 30 :last-access 1743458414.323483 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "fa/759474-f69e-406a-b618-dae312bd3529" :associated
+  (:hash "d18dbc664b3c2a4afce518115739b789" :file "c:/S/EM/O/electrical.org" :inode 6192449487678483)
+  :expiry 30 :last-access 1743458414.328768 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "19/2e856b-a9aa-414e-a6d0-368220146de3" :associated
+  (:hash "537d4ba7698fe9893784f6074f830ba6" :file "c:/S/EM/O/youtube_art.org" :inode 70650219154429085)
+  :expiry 30 :last-access 1743458414.336404 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "75/aabf59-7f83-4e0b-be7b-17cdc8e9c5fd" :associated
+  (:hash "261bfde331964a4ac7b9c0adb37dcf33" :file "c:/S/EM/O/Layout-02.org" :inode 50102545854504597)
+  :expiry 30 :last-access 1743458414.342233 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "32/c6d425-c1b3-4463-9c43-c9b865235abb" :associated
+  (:hash "6a693ea1d7390652839ad5b28d038072" :file "c:/S/EM/O/.#ANI_Projects.org" :inode 9570149208510903)
+  :expiry 30 :last-access 1742878104.766845 :last-access-hr "2025-03-24T21:48:24-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "04/90ae91-5dcd-4aaa-9fb2-88610630b314" :associated
+  (:hash "56e497d51ce2b7fb2a38eef19a67f81d" :file "c:/S/EM/O/0_organization.org" :inode 3377699720528052)
+  :expiry 30 :last-access 1743458414.347206 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "5b/d4e335-82c8-46b9-91dd-0aa6e0f3c75a" :associated
+  (:hash "de96f3d5abce20ba2b9ab9739081e8c8" :file "c:/S/EM/O/ghostty_.org" :inode 4785074604089718)
+  :expiry 30 :last-access 1743458414.351496 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "75/6f54a9-a3c6-4ea8-9d03-6fbc9b981cd3" :associated
+  (:hash "37247b80aa0278f5b300c31d2f39faaf" :file "c:/S/EM/O/DQ_Class_02.org" :inode 4503599627780973)
+  :expiry 30 :last-access 1743458414.355922 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "cd/7bc398-c22a-4c4c-bd47-4af90f7a4d4b" :associated
+  (:hash "08e5339ff916f9981b3e713fa3d2e595" :file "c:/S/EM/O/Nick_Artist_Program_02.org" :inode 4222124650951188)
+  :expiry 30 :last-access 1743458414.364882 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "a5/85b459-6da9-4097-ae9d-cd75d8d52023" :associated
+  (:hash "564a590f12e5632a7ebba4a5bedd116c" :file "c:/S/EM/O/.#2025_CD_Plan.org" :inode 46161896180665395)
+  :expiry 30 :last-access 1742878104.73092 :last-access-hr "2025-03-24T21:48:24-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "28/ace142-10ca-4ab3-ac6e-b1265e9d7321" :associated
+  (:hash "f56a9adae885b3edcb34b11973cb71a6" :file "c:/S/EM/O/sports-skateboarding.org" :inode 88383142687316479)
+  :expiry 30 :last-access 1743458414.371933 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "26/f3ded8-0025-4593-9a42-ae1323529680" :associated
+  (:hash "564a590f12e5632a7ebba4a5bedd116c" :file "c:/S/EM/O/.#Dolice_painting_notes.org" :inode 41376821576589556)
+  :expiry 30 :last-access 1742878104.825626 :last-access-hr "2025-03-24T21:48:24-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "07/c30736-831c-443d-9d6f-45732249ff3d" :associated
+  (:hash "d93f84e2ac623e3649205271b3d4bd37" :file "c:/S/EM/O/S_Camera_Notes.org" :inode 1125899907136443)
+  :expiry 30 :last-access 1743458414.377434 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "71/790d47-5cb8-48b4-b10b-317dd6fecae2" :associated
+  (:hash "f274636684fbeeb37c69f04b6c846498" :file "c:/S/EM/O/f_art_.org" :inode 103582791429610305)
+  :expiry 30 :last-access 1743458414.38334 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "b6/8a4249-ba87-4e33-a264-022b2e41773f" :associated
+  (:hash "ce551a312b994c16304e6a4263d8cea1" :file "c:/S/EM/O/CD 2.org" :inode 19984723346785345)
+  :expiry 30 :last-access 1743458414.39004 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "cf/89ca49-c9ac-4c86-812d-f08738ef92ce" :associated
+  (:hash "6a693ea1d7390652839ad5b28d038072" :file "c:/S/EM/O/.#000_Ani_Projects.org" :inode 65020719620209191)
+  :expiry 30 :last-access 1742878104.699743 :last-access-hr "2025-03-24T21:48:24-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "53/d07db2-db2f-46fb-af19-b859215b63c6" :associated
+  (:hash "38c334209881d885c34564cf75799144" :file "c:/S/EM/O/.#bookmarks.org" :inode 13792273858995365)
+  :expiry 30 :last-access 1742878104.863343 :last-access-hr "2025-03-24T21:48:24-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "f1/f90171-63d4-4354-a33a-e9e127250f7f" :associated
+  (:hash "cd472ab914d80340af21e092f0d1cab4" :file "c:/S/EM/O/.#CDv08072024.org" :inode 8444249302291631)
+  :expiry 30 :last-access 1742878104.794936 :last-access-hr "2025-03-24T21:48:24-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "22/c4e539-048d-41e4-ab9a-7f033c88fc4e" :associated
+  (:hash "732e78217989c3440577777100fc938a" :file "c:/S/EM/O/20241205.org" :inode 28147497671406055)
+  :expiry 30 :last-access 1743458414.399925 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "a7/aa0e03-ccc9-43c8-9d61-a0b37d1c178c" :associated
+  (:hash "3d8127b02254ca49118b006f9ee28e77" :file "c:/S/EM/O/My Storyboarding.org" :inode 27021597764270520)
+  :expiry 30 :last-access 1743458414.40484 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "0e/ab9976-f949-42d0-a8bf-2a566fff2aa1" :associated
+  (:hash "4c7ef41370901320a2cccc0bc32d9a0f" :file "c:/S/EM/O/Blender.org" :inode 38843546786079324)
+  :expiry 30 :last-access 1743458414.411132 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "1b/298706-17f1-4eee-a78b-a82a218286bb" :associated
+  (:hash "27fef69774fbe12cd170d27d5914c97b" :file "c:/S/EM/O/fd.org" :inode 4785074605268989)
+  :expiry 30 :last-access 1743458414.419252 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "1f/23d804-90e6-433b-a5b6-8bc49d967be9" :associated
+  (:hash "f17c05f778ed6067ec2953e5ee08b01b" :file "c:/S/EM/O/perspective.org" :inode 4785074605292161)
+  :expiry 30 :last-access 1743458414.42471 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "23/75bd04-8edd-46e4-bd3d-9a43dba2e433" :associated
+  (:hash "1d9f487df6100e3d032f676dbb512205" :file "c:/S/EM/O/Layout10_20.org" :inode 8162774325819833)
+  :expiry 30 :last-access 1743458414.42969 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "19/89ea4a-f1e4-4f5b-aed2-bfd9059f5814" :associated
+  (:hash "44b33afbe95a4467cfa57a26d44859d3" :file "c:/S/EM/O/0T202410151354_CD.org" :inode 8444249302240741)
+  :expiry 30 :last-access 1743458414.436004 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "29/09de88-8ea7-473e-be4c-a0d8ccf6ce83" :associated
+  (:hash "812b6c142b6ce1675c2b15fd3ae8a299" :file "c:/S/EM/O/0T202410151338.org" :inode 7318349395338082)
+  :expiry 30 :last-access 1743458414.516729 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ef/51e751-5e2b-450d-808c-d7b40bd95878" :associated
+  (:hash "fa27d060deac9bb66111b4d44ef09dae" :file "c:/S/EM/O/0T3.org" :inode 23362423066984695)
+  :expiry 30 :last-access 1743458414.525845 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "5c/63a8d1-04cb-40b8-b900-67314c4e1971" :associated
+  (:hash "1265863bdf99f61582282dff5f89d993" :file "c:/S/EM/O/comics.org" :inode 17732923532830267)
+  :expiry 30 :last-access 1743458414.623226 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "a9/88e2e6-5726-4f44-ba5f-d275f3842ab9" :associated
+  (:hash "cc3ecaa7064f9fd8d82f01a6ba5c4760" :file "c:/S/EM/O/contacts03.org" :inode 18295873486377722)
+  :expiry 30 :last-access 1743458414.627558 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "c3/5fbda0-8fb2-493e-b482-44efa32a7471" :associated
+  (:hash "b40039631d0bb5ea7a176414d4e0bdab" :file "c:/S/EM/O/bus.org" :inode 47006321110774521)
+  :expiry 30 :last-access 1743458414.634063 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "cb/71f171-71cd-4e0b-830e-8d7fd262ac3f" :associated
+  (:hash "4db4c709e1881f46ee55b79f8d5b56f8" :file "c:/S/EM/O/CH_08_08.org" :inode 18295873487206544)
+  :expiry 30 :last-access 1743458414.642459 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "74/491fbf-e8fc-4fa6-8eb6-ee5d99e99569" :associated
+  (:hash "8395c3581c990e2c20234e5b8207e2de" :file "c:/S/EM/O/SP01.org" :inode 1407374883846467)
+  :expiry 30 :last-access 1743458414.648989 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "f9/da36d8-272a-410b-a112-81beebdbf1e1" :associated
+  (:hash "301513997e48435142abb846e139e3a0" :file "c:/S/EM/O/PO_CD.org" :inode 7318349395491243)
+  :expiry 30 :last-access 1743458414.654757 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "3f/434040-5d6b-4fa0-be9d-b55ad1803f0e" :associated
+  (:hash "691b528c4905bc50d8ac85a2eeb03f35" :file "c:/S/EM/O/CD_20240807.org" :inode 9851624185163579)
+  :expiry 30 :last-access 1743458414.659743 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "cb/402242-0cb6-4957-a13d-a8372daa690f" :associated
+  (:hash "53082cdf4452c3acfb4c54f0d38057fc" :file "c:/S/EM/O/P_CH.org" :inode 71494644084516037)
+  :expiry 30 :last-access 1743458414.666586 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "5d/34f647-7e41-43bf-9f12-3b5acc098946" :associated
+  (:hash "ff874ede652d68126a0d2e5f580e3d61" :file "c:/S/EM/O/textfile2backup.org" :inode 3377699721736847)
+  :expiry 30 :last-access 1743458414.674274 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "1c/a96490-bdf3-4c18-8dbe-c1348cec2b12" :associated
+  (:hash "624fb82597eac70586664d13f532c1f4" :file "c:/S/EM/O/password.org" :inode 21392098230019287)
+  :expiry 30 :last-access 1743458414.680723 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "bb/ffa61a-8621-4a56-8201-3cbe6128e7d8" :associated
+  (:hash "08e5339ff916f9981b3e713fa3d2e595" :file "c:/S/EM/O/Nick_Artist_Program.org" :inode 6755399441426319)
+  :expiry 30 :last-access 1743458414.687957 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "15/2da71e-5281-4c71-aa7f-d8f7cbce0d2f" :associated
+  (:hash "88d5f22859f3eeb0af69fa4d4c19f675" :file "c:/S/EM/O/FR02.org" :inode 79657418409126361)
+  :expiry 30 :last-access 1743458414.695972 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "05/22f61f-f855-49c4-ac08-3516f57f9e77" :associated
+  (:hash "dd2c1ff607441f8c06a3dff6085a2104" :file "c:/S/EM/O/2024.org" :inode 2251799814699545)
+  :expiry 30 :last-access 1743458414.703598 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "b7/f692b2-4ec3-443a-a1d5-e898ed037e05" :associated
+  (:hash "7c1ec34e8d3f5bb07c2c1981d452a67f" :file "c:/S/EM/O/2023_v2.org" :inode 3659174698415608)
+  :expiry 30 :last-access 1743458414.715722 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "8e/b655b5-47a5-45f9-a12b-3370456a7c72" :associated
+  (:hash "e17561ced6e40bc1da2b140090a55061" :file "c:/S/EM/O/0T_EC_M.ORG" :inode 13510798883053495)
+  :expiry 30 :last-access 1743458414.813135 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "26/ce44d6-52b8-492a-bc72-abafe2f30be9" :associated
+  (:hash "e9d5d74d5e2448947ad832ae18892ff0" :file "c:/S/EM/O/00_BG.org" :inode 239253730204108167)
+  :expiry 30 :last-access 1743458414.819751 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "56/987c1d-7760-4eab-a5ae-d8f9b96f5d18" :associated
+  (:hash "79126077235737b1bc0b46bfcff0b653" :file "c:/S/EM/O/0T_EC_AL.org" :inode 844424930425884)
+  :expiry 30 :last-access 1743458414.826754 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "fe/a521c5-0bac-407a-8a83-7fe4ad4cc837" :associated
+  (:hash "f4ba23209608e3bc7615b4c9344cc8de" :file "c:/S/EM/O/0T3_2023.org" :inode 78531518502371511)
+  :expiry 30 :last-access 1743458414.8351 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "87/c5d40c-4613-46d1-a3c1-b07180975fae" :associated
+  (:hash "919090f12d78096460acb8c7db52009b" :file "c:/S/EM/O/00_P.org" :inode 5348024557584768)
+  :expiry 30 :last-access 1743458414.929881 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "69/647400-563a-47a1-9083-4523cc99e58c" :associated
+  (:hash "96ac617801fc9a9968bf2e08381f5393" :file "c:/S/EM/O/inbox.org" :inode 34339947159889167)
+  :expiry 30 :last-access 1743458414.936126 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ed/fd8f16-8a24-4f97-913c-dfeb3aa134a9" :associated
+  (:hash "bb7d1ff5a2d150131d68298408ff63ce" :file "c:/S/EM/O/03_SHOP.org" :inode 157907461934771242)
+  :expiry 30 :last-access 1743458414.944884 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "5b/f60e4d-6ffe-40f2-a961-fcd62725dbc7" :associated
+  (:hash "2fad4e5da9a722531975c7f2ebe5ef2a" :file "c:/S/EM/O/ZPF.org" :inode 15481123719151803)
+  :expiry 30 :last-access 1741753845.11216 :last-access-hr "2025-03-11T21:30:45-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "f9/67b61a-de40-420a-a1e9-3fe30c6eb59a" :associated
+  (:hash "d9e68702b850d51d2d8fbabaa5469074" :file "c:/S/EM/O/Directors.org" :inode 16044073673363386)
+  :expiry 30 :last-access 1743458414.954556 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "f8/aa8cb7-3550-4ab1-a5ca-72eff52eafa7" :associated
+  (:hash "afa494557b30e4cb53bbac652c147cdd" :file "c:/S/EM/O/L_Food.org" :inode 30399297485109008)
+  :expiry 30 :last-access 1743458414.964777 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "4a/4aba9a-9293-4e64-8ee8-088f61c08ffd" :associated
+  (:hash "354ba364f7a273ce8a7e6bc423feb614" :file "c:/S/EM/O/F_Ash.org" :inode 34339947158882952)
+  :expiry 30 :last-access 1743458414.970087 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "be/404bed-df77-4164-8a73-8219b7e877f1" :associated
+  (:hash "035dc991562020cc3a9edcb9e69c3e3c" :file "c:/S/EM/O/Jokes.org" :inode 5066549582002286)
+  :expiry 30 :last-access 1743458414.976138 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "0e/a2287b-2ddb-4937-8af9-039e20b2124c" :associated
+  (:hash "f1b7ce608d1ffec94ab0b9bee725e391" :file "c:/S/EM/O/05_VKAY.org" :inode 21955048184291012)
+  :expiry 30 :last-access 1743458414.982363 :last-access-hr "2025-03-31T15:00:14-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "ca/fbc8e7-dcde-497f-9e7b-ab60050270e8" :associated
+  (:hash "4374230c921a07732fc36872a3777c66" :file "c:/S/EM/O/H2U.org" :inode 9007199255950774)
+  :expiry 30 :last-access 1743458415.066832 :last-access-hr "2025-03-31T15:00:15-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "b2/2c60ab-d061-4fb8-b75a-f383f490d272" :associated
+  (:hash "17b131bba5c436debd4de6ee2db4981c" :file "c:/S/EM/O/Blender_Moon_Texture.org" :inode 4503599627543911)
+  :expiry 30 :last-access 1743458415.075913 :last-access-hr "2025-03-31T15:00:15-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "79/183157-07f9-4482-8e1f-95fd3d023515" :associated
+  (:hash "fc51649bf21364a0b55196c2b9025edf" :file "c:/S/EM/O/Script.org" :inode 3096224744840306)
+  :expiry 30 :last-access 1743458415.082313 :last-access-hr "2025-03-31T15:00:15-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "76/8a86cd-5810-4aac-ba46-b97eb34a29a9" :associated
+  (:hash "0759ca9c999edd317f2f46ea650efa0c" :file "c:/S/EM/O/Youtubers.org" :inode 10977524092561283)
+  :expiry 30 :last-access 1743458415.088373 :last-access-hr "2025-03-31T15:00:15-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "db/4a6593-f4ab-49c0-8e7e-efd157e350a4" :associated
+  (:hash "b108cc981538a38cb1f44946c3bcbfd1" :file "c:/S/EM/O/rss15.org" :inode 55169095435608774)
+  :expiry 30 :last-access 1743458415.096107 :last-access-hr "2025-03-31T15:00:15-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "e6/43982f-9428-4f31-b36a-7efa6bd813bf" :associated
+  (:hash "641025122221cfd2ff80937166044ae6" :file "c:/S/EM/O/random recorded conversation.org" :inode 2814749768129628)
+  :expiry 30 :last-access 1743458415.102238 :last-access-hr "2025-03-31T15:00:15-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "c4/a24e49-7cab-4b6e-bc2e-10c86b090564" :associated
+  (:hash "4acedaa49a7e447f1681a1850bb224d9" :file "c:/S/EM/O/pleinapril2.org" :inode 33776997205280287)
+  :expiry 30 :last-access 1743458415.108277 :last-access-hr "2025-03-31T15:00:15-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "a9/9d36e8-c866-424a-ac5d-1712b00adf0f" :associated
+  (:hash "a051f1b80d8bdeeca2ebc7bd36c217f8" :file "c:/S/EM/O/phone notes.org" :inode 76561193666123118)
+  :expiry 30 :last-access 1743458415.115722 :last-access-hr "2025-03-31T15:00:15-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "dd/74f058-6245-4870-a1e9-8fd49fddf3a2" :associated
+  (:hash "776e52e98e95fd15b0c7e77bdcc1e242" :file "c:/S/EM/O/funnyvideos.org" :inode 4222124651687072)
+  :expiry 30 :last-access 1743458415.122382 :last-access-hr "2025-03-31T15:00:15-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "f8/4ecd27-f31a-4bc9-8fef-bdacc435b1ca" :associated
+  (:hash "3278168c7ee6640ef3f5b272360882ec" :file "c:/S/EM/O/Exercise.org" :inode 844424930425875)
+  :expiry 30 :last-access 1743458415.129983 :last-access-hr "2025-03-31T15:00:15-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "00/71a5dc-b9aa-4669-983e-83b5a723e6e9" :associated
+  (:hash "1192b1a0f76955cb43394200f3f39e39" :file "c:/S/EM/O/Start-Up.org" :inode 15762598696576494)
+  :expiry 30 :last-access 1743458415.135888 :last-access-hr "2025-03-31T15:00:15-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "92/441327-0412-47d3-834f-86ae5b9f74ba" :associated
+  (:hash "edb8cbd8f171d5403759a0cd8d5188d3" :file "c:/S/EM/O/SAS.org" :inode 37154696925815964)
+  :expiry 30 :last-access 1743458415.142209 :last-access-hr "2025-03-31T15:00:15-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "e7/15069e-fef6-430e-827c-5069a93f2e8f" :associated
+  (:hash "0a8347e3f43e02a692f30fb13742af49" :file "c:/S/EM/O/Notes2.org" :inode 54887620458752011)
+  :expiry 30 :last-access 1743458415.15047 :last-access-hr "2025-03-31T15:00:15-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "35/e0a4bc-8b8a-4a84-95e9-98ef0a61e21f" :associated
+  (:hash "52d571e51153192d0af87723e78f292f" :file "c:/S/EM/O/Notes.org" :inode 1407374884567794)
+  :expiry 30 :last-access 1743458415.155585 :last-access-hr "2025-03-31T15:00:15-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "0c/e92286-3710-4f0f-be41-45fdccb4b049" :associated
+  (:hash "3ab6592dd6534fe576bf1dd723e5efdd" :file "c:/S/EM/O/Music.org" :inode 38843546786350297)
+  :expiry 30 :last-access 1743458415.163737 :last-access-hr "2025-03-31T15:00:15-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "33/0fa069-81c5-4aec-983d-5314681117cb" :associated
+  (:hash "06b283f27b624eb00b5188c89d05afd9" :file "c:/S/EM/O/Keying Green Screen.org" :inode 9851624185927119)
+  :expiry 30 :last-access 1743458415.171461 :last-access-hr "2025-03-31T15:00:15-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "f6/cda309-cb65-4096-811f-67d1fc04be19" :associated
+  (:hash "0c651ba88af26209dd35adb5b28ec6a9" :file "c:/S/EM/O/JOB.ORG" :inode 10977524091816363)
+  :expiry 30 :last-access 1743458415.257075 :last-access-hr "2025-03-31T15:00:15-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "4d/bc9e44-6079-4e36-adfa-e1a6fdfe9754" :associated
+  (:hash "a5a98e4075b1c1911d3846f6e2f5e31b" :file "c:/S/EM/O/HKE.org" :inode 6473924465534104)
+  :expiry 30 :last-access 1743458415.264081 :last-access-hr "2025-03-31T15:00:15-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "74/3a2657-a33c-48d1-8775-8946ddd5218c" :associated
+  (:hash "d19e031906874a2cf420a7b65db19910" :file "c:/S/EM/O/Emacs.org" :inode 9288674232280084)
+  :expiry 30 :last-access 1743458415.273599 :last-access-hr "2025-03-31T15:00:15-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "e2/eb823e-bb19-4c15-a628-4c9d942aa8c2" :associated
+  (:hash "58cc7a114fc0791a63ce324ac3be17e4" :file "c:/S/EM/O/CMN.org" :inode 10414574138310732)
+  :expiry 30 :last-access 1743458415.281405 :last-access-hr "2025-03-31T15:00:15-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "8d/03f8b5-3fa0-46cd-99cc-a7e48f73c6f2" :associated
+  (:hash "fe9cef337e8d452e907f7b506d435bd2" :file "c:/S/EM/O/CD.org" :inode 68116944364121827)
+  :expiry 30 :last-access 1743458415.287468 :last-access-hr "2025-03-31T15:00:15-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "6d/fc4459-9b25-41c0-9c5c-37680c661283" :associated
+  (:hash "5bcf1cb846b1f8b78cce9601028516f9" :file "c:/S/EM/O/ahav2.org" :inode 4222124651674170)
+  :expiry 30 :last-access 1743458415.29556 :last-access-hr "2025-03-31T15:00:15-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "22/f54102-f4e9-426b-a52a-56bc2f2849a1" :associated
+  (:hash "0bf484bea7e74681ba9bcd97a19f184e" :file "c:/S/EM/O/++.org" :inode 41376821576476753)
+  :expiry 30 :last-access 1743458415.307498 :last-access-hr "2025-03-31T15:00:15-0700")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "39/f0bbf7-467f-46a8-bb38-9fae05265b6e" :associated
+  (:hash "ed19ca99581136d44b35bbb2240a6bf6" :file "c:/S/EM/bin/ok.org" :inode 11821949022023744)
+  :expiry 30)
+ (:container
+  ((index "3.1"))
+  :persist-file "45/758a9b-9477-4d71-8a88-512b3722c356" :associated nil :expiry never :last-access 1743458415.397393 :last-access-hr "2025-03-31T15:00:15-0700"))

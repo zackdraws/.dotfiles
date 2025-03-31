@@ -1,0 +1,1447 @@
+;; -*- mode: emacs-lisp; lexical-binding:t; coding: utf-8-emacs; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Mon Mar 31 15:00:13 2025
+;; Desktop file format version 208
+;; Emacs version 29.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (26603 4205 696539 0) (desktop . "208") "Zack@THATSGOODSOUP" nil nil ((((minibuffer . t) (undecorated) (skip-taskbar) (font . "-outline-Cascadia Code-regular-normal-normal-mono-13-*-*-*-c-*-iso8859-1") (border-width . 0) (internal-border-width . 0) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#b9b5b8") (background-color . "#322931") (mouse-color . "black") (border-color . "#797379") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-focus-on-map) (no-accept-focus) (no-special-glyphs) (alpha-background) (alpha 95 . 95) (menu-bar-lines . 0) (tab-bar-lines . 0) (height . 53) (tool-bar-lines . 0) (inhibit-double-buffering) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 17) (scroll-bar-height . 17) (fullscreen) (z-group) (visibility . t) (scroll-bar-foreground . "systemscrollbar") (scroll-bar-background) (display-type . color) (background-mode . dark) (cursor-color . "#dd464c") (font-parameter) (environment) (last-focus-update . t) (modeline . t) (unsplittable) (frameset--id . "C7CC-24E8-F1EA-02A5") (frameset--mini t . t) (display . "w32") (icon-name) (explicit-name) (tool-bar-position . top) (width . 93) (left . 902) (top . 141)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 68) (min-pixel-width . 80) (min-pixel-height-ignore . 34) (min-pixel-width-ignore . 32) (min-pixel-height-safe . 17) (min-pixel-width-safe . 16)) leaf (pixel-width . 760) (pixel-height . 884) (total-width . 95) (total-height . 52) (normal-height . 1.0) (normal-width . 1.0) (buffer ".emacs" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 246) (start . 1)) (prev-buffers ("tmux.org" 1 1) ("watch_movielist2024.org" 1 1) ("textfile2backup.org" 1 1) ("test.org" 1 1) ("watch_movielist2025.org" 1 2) ("whatanimation.org" 1 1) ("youtube_art.org" 1 1) ("zpf.org" 1 434) ("*Messages*" 1 981) ("story_Intro.org" 1 1) ("sports-skateboarding.org" 1 1) ("shutdown-setup.org" 1 1) ("rss15.org" 1 1) ("random recorded conversation.org" 1 1) ("portraits lesson class.org" 1 1) ("pleinapril2.org" 1 1) ("phone notes.org" 1 1) ("perspective.org" 1 1) ("password.org" 1 1) ("organize_files_2025_02_10.org" 1 1) ("office_hours_03_14.org" 1 1) ("off_hours.org" 1 1) ("myavailability.org" 1 1) ("inbox.org" 1 1) ("howtovideos.org" 1 1) ("hermosa.org" 1 1) ("ghostty_.org" 1 1) ("funnyvideos.org" 1 1) ("fundamentals.org" 1 1) ("fr03.org" 1 1) ("fd.org" 1 1) ("f_art_.org" 1 1) ("electrical.org" 1 1) ("cooking.org" 1 1) ("contacts03.org" 1 1) ("config_photoshop.org" 1 1) ("config.org" 1 1) ("computer_tool.org" 1 1) ("comics.org" 1 1) ("bus.org" 1 1) ("bash.org" 1 1) ("ahav2.org" 1 1) ("Youtubers.org" 1 1) ("WATCH.org" 1 1) ("Transit.org" 1 1) ("Start-Up.org" 1 1) ("Script.org" 1 1) ("Screen_Sharing_Notes.org" 1 1) ("S_Camera_Notes.org" 1 1) ("SP01.org" 1 1) ("SAS.org" 1 1) ("P_CH.org" 1 1) ("PO_CD.org" 1 1) ("PAINT00.org" 1 1) ("Outings.org" 1 1) ("Notes2.org" 1 1) ("Notes.org" 1 1) ("Nick_Artist_Program_02.org" 1 1) ("Nick_Artist_Program.org" 1 1) ("My iPhone stuff.org" 1 1) ("My Storyboarding.org" 1 1) ("Music.org" 1 1) ("MAP.org" 1 1) ("Layout10_20.org" 1 1) ("Layout-02.org" 1 1) ("L_Food.org" 1 1) ("LEARN.ORG" 1 1) ("L-Kanji.org" 1 1) ("Keying Green Screen.org" 1 1) ("Jokes.org" 1 1) ("JOB.ORG" 1 1) ("Health.org" 1 1) ("HKE.org" 1 1) ("HABIT.org" 1 1) ("H2U.org" 1 1) ("Food-Diary3.org" 1 1) ("F_Ash.org" 1 1) ("FR03_02_23_2025.org" 1 1) ("FR03_02_22_2025.org" 1 1) ("FR02.org" 1 1) ("FG_2025_03_01.org" 1 1) ("Exercise.org" 1 1) ("Emacs.org" 1 1) ("Discord.org" 1 1) ("Directors.org" 1 1) ("Diary_Comic.org" 1 1) ("DQ_Class_02.org" 1 1) ("Comic_Planning_Syllabus_Class.org" 1 1) ("Comic_Planning.org" 1 1) ("Clean.org" 1 1) ("CMN.org" 1 1) ("CH_08_08.org" 1 1) ("CD_20240807.org" 1 1) ("CD.org" 1 1) ("CD 2.org" 1 1) ("Blender_Zoetrope_.org" 1 1) ("Blender_Moon_Texture.org" 1 1) ("Blender.org" 1 1) ("910_020_Anni__2.org" 1 1) ("910_020_Anni__1.org" 1 1) ("2025-03-23.org" 1 1) ("2025-03-20.org" 1 1) ("20241205.org" 1 1) ("2024.org" 1 1) ("2023_v2.org" 1 1) ("0_organization.org" 1 1) ("0T_EC_M.ORG" 1 1) ("0T_EC_AL.org" 1 1) ("0T3_2023.org" 1 1) ("0T3.org" 1 1) ("0T202410151354_CD.org" 1 1) ("0T202410151338.org" 1 1) ("05_VKAY.org" 1 1) ("03_SHOP.org" 1 1) ("00_PR.org" 1 1) ("00_P.org" 1 1) ("00_BG.org" 1 1) ("++.org" 1 1) ("README.org" 1 1) (".emacs" 1 1) ("*scratch*" 1 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '(#("theme" 0 5 (isearch-case-fold-search t isearch-regexp-function nil)) #("eric" 0 4 (isearch-case-fold-search t isearch-regexp-function nil)) #("C:/" 0 3 (isearch-case-fold-search nil isearch-regexp-function nil)) #("l." 0 2 (isearch-case-fold-search t isearch-regexp-function nil)) #("\"C:\\Users" 0 9 (isearch-case-fold-search nil isearch-regexp-function nil)) #("file" 0 4 (isearch-case-fold-search t isearch-regexp-function nil)) #("laika" 0 5 (isearch-case-fold-search t isearch-regexp-function nil)) #("please" 0 6 (isearch-case-fold-search t isearch-regexp-function nil)) #("fira" 0 4 (isearch-case-fold-search t isearch-regexp-function nil)) #("worktime" 0 8 (isearch-case-fold-search t isearch-regexp-function nil)) #("2025" 0 4 (isearch-case-fold-search t isearch-regexp-function nil)) #("sharkpar" 0 8 (isearch-case-fold-search t isearch-regexp-function nil)) #("mack" 0 4 (isearch-case-fold-search t isearch-regexp-function nil)) #("org-roam" 0 8 (isearch-case-fold-search t isearch-regexp-function nil)) #("org-roam-u" 0 10 (isearch-case-fold-search t isearch-regexp-function nil)) #("queer" 0 5 (isearch-case-fold-search t isearch-regexp-function nil))))
+(setq regexp-search-ring '(#("2024_tv_shows" 0 13 (isearch-case-fold-search t))))
+(setq register-alist (list (desktop-list* 111 (let ((mk (make-marker))) (add-hook 'desktop-delay-hook (lambda nil (set-marker mk nil (get-buffer " *temp*")))) mk)) (list :peep_dired_before "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook (lambda nil (set-marker mk nil (get-buffer " *temp*")))) mk)) (list :fzf-windows "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook (lambda nil (set-marker mk nil (get-buffer " *temp*")))) mk)) '(48 . #("\n;; Create the directory if it doesn't exist\n(make-directory desktop-dirname t)\n\n;; Save the desktop file automatically every time you exit Emacs\n(setq desktop-auto-save-timeout 10)  ;; Auto-save after 10 seconds of inactivity\n\n;; Load the desktop file (this will restore the session)\n(setq desktop-load-locked-desktop t)  ;; Automatically load the desktop when starting Emacs\n\n;; Save only the session state, not the buffer contents (optional)\n(setq desktop-restore-forces-onsave t)\n" 0 1 (fontified t) 1 4 (face font-lock-comment-delimiter-face fontified t) 4 45 (face font-lock-comment-face fontified t) 45 81 (fontified t) 81 84 (face font-lock-comment-delimiter-face fontified t) 84 101 (face font-lock-comment-face fontified t) 101 146 (face font-lock-comment-face fontified t) 146 147 (fontified t) 147 151 (face font-lock-keyword-face fontified t) 151 183 (fontified t) 183 186 (face font-lock-comment-delimiter-face fontified t) 186 227 (face font-lock-comment-face fontified t) 227 228 (fontified t) 228 231 (face font-lock-comment-delimiter-face fontified t) 231 285 (face font-lock-comment-face fontified t) 285 286 (fontified t) 286 290 (face font-lock-keyword-face fontified t) 290 323 (fontified t) 323 326 (face font-lock-comment-delimiter-face fontified t) 326 377 (face font-lock-comment-face fontified t) 377 378 (fontified t) 378 381 (face font-lock-comment-delimiter-face fontified t) 381 445 (face font-lock-comment-face fontified t) 445 446 (fontified t) 446 450 (face font-lock-keyword-face fontified t) 450 484 (fontified t)))))
+(setq file-name-history '(#("c:/Users/zacha/.emacs" 0 21 (ivy-index 2)) #("c:/Users/Zacha/.emacs" 0 21 (ivy-index 2)) #("c:/s/2025/T/941_Teach_UDesign/office_hours.org" 0 46 (ivy-index 5)) #("c:/S/2025/T/910_Teach_Indie/910_020_Annie/910_020_Anni_.org" 0 59 (ivy-index 8)) #("c:/S/2025/T/910_Teach_Indie/910_010_Dolice/Script_Example.org" 0 61 (ivy-index 0)) #("c:/s/2025/t/910_Teach_Indie/910_010_Dolice/" 0 43 (ivy-index 0)) #("c:/users/zacha/Onedrive/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1" 0 84 (ivy-index 0)) #("c:/S/2025/T/941_Teach_UDesign/office_hours.org" 0 46 (ivy-index 6)) #("c:/s/em/o/++.org" 0 16 (ivy-index 1)) #("c:/S/2025/T/office_hours.org" 0 28 (ivy-index 0)) #("c:/S/EM/O/office_hours_02.pdf" 0 29 (ivy-index 0)) #("c:/S/EM/O/office_hours.pdf" 0 26 (ivy-index 3)) #("c:/S/EM/O/" 0 10 (ivy-index 0)) #("c:/S/EM/O/CD.org" 0 16 (ivy-index 3)) #("c:/S/EM/O/office_hours.org" 0 26 (ivy-index 2)) #("c:/S/EM/O/ok_debug.org" 0 22 (ivy-index 0)) #("c:/S/EM/O/++_debug.pdf" 0 22 (ivy-index 0)) #("c:/S/EM/O/++.org" 0 16 (ivy-index 0)) #("c:/S/EM/O/ok.org" 0 16 (ivy-index 0)) #("c:/S/EM/O/0_organization.org" 0 28 (ivy-index 1)) #("c:/S/EM/O/myavailability/Availability.org" 0 41 (ivy-index 0)) #("c:/S/EM/o/++.org" 0 16 (ivy-index 0)) #("c:/S/EM/O/myavailability/" 0 25 (ivy-index 0)) #("c:/S/EM/O/myavailability/__.org" 0 31 (ivy-index 0)) #("c:/S/EM/O/myavailability.org" 0 28 (ivy-index 0)) #("c:/S/EM/O/CSSSA.org/" 0 20 (ivy-index 0)) #("c:/s/em/o/" 0 10 (ivy-index 0)) #("c:/users/zacha/.emacs" 0 21 (ivy-index 2)) #("//wsl.localhost/Ubuntu/home/zack/.config/yazi.toml" 0 50 (ivy-index 1)) #("//wsl.localhost/Ubuntu/home/zack/.config/" 0 41 (ivy-index 0)) #("//wsl.localhost/Ubuntu/home/zack/.dotfiles/yazi/yazi.toml" 0 57 (ivy-index 6)) #("//wsl.localhost/Ubuntu/home/zack/.dotfiles/" 0 43 (ivy-index 0)) #("//wsl.localhost/Ubuntu/home/zack/.dotfiles/.git/" 0 48 (ivy-index 0)) "//wsl.localhost/Ubuntu/home/zack/.dotfiles" "//wsl.localhost/Ubuntu/usr/local/bin" #("c:/" 0 3 (ivy-index 0)) #("c:/S/0/co/Emacs_Packages/friendly-tramp-path-0.1.0.tar" 0 54 (ivy-index 0)) #("c:/S/EM/O/HABIT.org" 0 19 (ivy-index 0)) #("c:/S/EM/O/WATCH.org" 0 19 (ivy-index 0)) #("c:/s/em/o/HB.org" 0 16 (ivy-index 0)) #("c:/S/EM/O/walk notes 2025-01-28.org" 0 35 (ivy-index 0)) #("c:/S/EM/O/T_UDESIGN.org" 0 23 (ivy-index 2)) #("c:/S/EM/O/AL.org" 0 16 (ivy-index 2)) #("c:/S/EM/O/FR02.org" 0 18 (ivy-index 0)) #("c:/S/EM/O/0T3.org" 0 17 (ivy-index 3)) #("c:/S/EM/O/config.org" 0 20 (ivy-index 0)) #("c:/S/EM/O/T_Shuh_Chih_Dolice.org" 0 32 (ivy-index 1)) #("c:/S/EM/O/L-Kanji.org" 0 21 (ivy-index 0)) #("c:/S/EM/O/Blender.org" 0 21 (ivy-index 0)) #("c:/S/EM/O/fundamentals.org" 0 26 (ivy-index 1)) #("c:/S/EM/O/Comic_Planning.org" 0 28 (ivy-index 0)) #("c:/S/EM/O/Ani-Fundamentals/" 0 27 (ivy-index 0)) #("c:/S/EM/O/cooking.org" 0 21 (ivy-index 0)) #("c:/S/EM/O/PORTHFOLIO_COLLEGE_PREP.org" 0 37 (ivy-index 0)) #("c:/S/EM/O/03_SHOP.org" 0 21 (ivy-index 2)) #("c:/S/EM/O/00_P.org" 0 18 (ivy-index 1)) #("c:/S/EM/O/ani-fg/fg.org" 0 23 (ivy-index 0)) #("c:/S/EM/O/ZPF.org" 0 17 (ivy-index 2)) #("c:/S/EM/O/computer_tool.org" 0 27 (ivy-index 0)) #("c:/S/EM/O/electrical.org" 0 24 (ivy-index 0)) #("c:/S/EM/O/terminal.org" 0 22 (ivy-index 0)) #("c:/S/EM/O/youtube_art.org" 0 25 (ivy-index 0)) #("c:/S/EM/O/Layout-02.org" 0 23 (ivy-index 0)) #("c:/S/EM/O/#Organization.org#" 0 28 (ivy-index 0)) #("c:/S/EM/O/password.org" 0 22 (ivy-index 1)) #("c:/S/EM/O/tvlist2025.org" 0 24 (ivy-index 0)) #("c:/S/EM/O/DQ_Zoey_Animation/" 0 28 (ivy-index 0)) #("c:/msg nickserv IDENTIFY triptasticvoyage12!" 0 44 (ivy-index 0)) #("c:/S/EM/O/passwords/" 0 20 (ivy-index 0)) #("c:/S/EM/O/DQ_Class.org" 0 22 (ivy-index 1)) #("c:/S/EM/O/DQ_Class_02.org" 0 25 (ivy-index 0)) #("c:/s/em/o/Ani-LAY/" 0 18 (ivy-index 5)) #("c:/Users/Zacha/.wezterm.lua" 0 27 (ivy-index 0)) #("c:/S/EM/O/Layout10_20.org" 0 25 (ivy-index 1)) #("c:/S/EM/O/Ani-LAY/" 0 18 (ivy-index 0)) #("c:/S/EM/O/20250116020130-udesign.org" 0 36 (ivy-index 0)) #("c:/S/EM/o/Props/" 0 16 (ivy-index 1)) #("c:/S/EM/O/Ani-CD/" 0 17 (ivy-index 0)) #("c:/S/EM/O/T_Shu_Chih/1_Outline_Character_Design/" 0 48 (ivy-index 0)) #("c:/S/EM/O/Ani-Layout-Props/" 0 27 (ivy-index 0)) #("c:/S/EM/O/S/" 0 12 (ivy-index 21)) #("c:/S/EM/O/Ani-stop_mo/" 0 22 (ivy-index 0)) #("c:/S/EM/O/P/" 0 12 (ivy-index 3)) #("c:/S/EM/O/LAY/" 0 14 (ivy-index 2)) #("c:/S/EM/O/Finances-Receipts/" 0 28 (ivy-index 0)) #("c:/S/EM/O/color_keys_.jpg" 0 25 (ivy-index 0)) #("c:/S/EM/O/Fruit_Creature_.jpg" 0 29 (ivy-index 0)) #("c:/S/EM/Fruit_Creature_02.jpg" 0 29 (ivy-index 0)) #("c:/S/EM/O/Finances-Shopping/" 0 28 (ivy-index 0)) #("c:/S/EM/O/00_P_good_example_of_how_to_format_md_files_for_images.md" 0 67 (ivy-index 0)) #("c:/S/EM/O/test.html" 0 19 (ivy-index 0)) #("c:/S/EM/O/DQ_Class.sync-conflict-20250115-060740-YQURZCG.org" 0 60 (ivy-index 2)) #("c:/S/EM/o/DQ_Class.sync-conflict-20250115-060740-YQURZCG.org" 0 60 (ivy-index 5)) #("c:/S/EM/O/Layout_marcel_the_shell.jpeg" 0 38 (ivy-index 0)) #("c:/S/EM/O/T_Dolice_lesson/" 0 26 (ivy-index 0)) #("c:/S/EM/O/sports-skateboarding.org" 0 34 (ivy-index 0)) #("c:/S/EM/O/skb_nanashi_doraemon_sketchbook.jpg" 0 45 (ivy-index 0)) #("c:/S/EM/O/Layout_Marcel_the_shell_with_shoes_on.jpg" 0 51 (ivy-index 0)) #("c:/S/EM/O/DQ_Zoey_Animation/ANIME_HEAD_TURN_HAIR_FLICK_DOKIDOKI_DRAWING.MP4" 0 75 (ivy-index 0))))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "c:/Users/Zacha/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(auto-complete-mode eldoc-mode font-lock-mode)
+  246
+  '(2879 nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2791 950539 0) (buffer-file-coding-system . undecided-dos))
+  '((mark-ring (2002 2879 2879 588 288))))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/tmux.org"
+  "tmux.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2778 899555 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/watch_movielist2025.org"
+  "watch_movielist2025.org"
+  'org-mode
+  '(text-scale-mode font-lock-mode)
+  2
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2723 945577 0) (buffer-file-coding-system . undecided-dos) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/emacs.d/elpa/plz-0.7/README.org"
+  "README.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2707 707611 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/++.org"
+  "++.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2707 826094 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/00_BG.org"
+  "00_BG.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2707 857678 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/00_P.org"
+  "00_P.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2707 885938 0) (buffer-file-coding-system . undecided-dos) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/00_PR.org"
+  "00_PR.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2707 915506 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/03_SHOP.org"
+  "03_SHOP.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2707 945720 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/05_VKAY.org"
+  "05_VKAY.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2708 16909 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/0T202410151338.org"
+  "0T202410151338.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2708 44141 0) (buffer-file-coding-system . undecided-dos) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/0T202410151354_CD.org"
+  "0T202410151354_CD.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2713 131478 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/0T3.org"
+  "0T3.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2713 211398 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/0T3_2023.org"
+  "0T3_2023.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2713 305551 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/0T_EC_AL.org"
+  "0T_EC_AL.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2713 329410 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/0T_EC_M.ORG"
+  "0T_EC_M.ORG"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2713 350578 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/0_organization.org"
+  "0_organization.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2713 373531 0) (buffer-file-coding-system . undecided-dos) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/2023_v2.org"
+  "2023_v2.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2713 411057 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/2024.org"
+  "2024.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2713 440598 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/20241205.org"
+  "20241205.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2713 468378 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/2025-03-20.org"
+  "2025-03-20.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2713 490402 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/2025-03-23.org"
+  "2025-03-23.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2713 513123 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/910_020_Anni__1.org"
+  "910_020_Anni__1.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2713 582480 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/910_020_Anni__2.org"
+  "910_020_Anni__2.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2713 603694 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Blender.org"
+  "Blender.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2713 633089 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Blender_Moon_Texture.org"
+  "Blender_Moon_Texture.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2713 680609 0) (buffer-file-coding-system . no-conversion) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Blender_Zoetrope_.org"
+  "Blender_Zoetrope_.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2713 708442 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/CD 2.org"
+  "CD 2.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2713 747927 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/CD.org"
+  "CD.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2713 781792 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/CD_20240807.org"
+  "CD_20240807.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2713 807108 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/CH_08_08.org"
+  "CH_08_08.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2713 835530 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/CMN.org"
+  "CMN.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2713 860308 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Clean.org"
+  "Clean.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2713 931700 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Comic_Planning.org"
+  "Comic_Planning.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2713 955782 0) (buffer-file-coding-system . undecided-dos) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Comic_Planning_Syllabus_Class.org"
+  "Comic_Planning_Syllabus_Class.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2713 977202 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/DQ_Class_02.org"
+  "DQ_Class_02.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 3260 0) (buffer-file-coding-system . undecided-dos) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Diary_Comic.org"
+  "Diary_Comic.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 27462 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Directors.org"
+  "Directors.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 59323 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Discord.org"
+  "Discord.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 81597 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Emacs.org"
+  "Emacs.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 114077 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Exercise.org"
+  "Exercise.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 141019 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/FG_2025_03_01.org"
+  "FG_2025_03_01.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 165608 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/FR02.org"
+  "FR02.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 192432 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/FR03_02_22_2025.org"
+  "FR03_02_22_2025.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 213807 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/FR03_02_23_2025.org"
+  "FR03_02_23_2025.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 236486 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/F_Ash.org"
+  "F_Ash.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 260542 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Food-Diary3.org"
+  "Food-Diary3.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 285713 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/H2U.org"
+  "H2U.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 389558 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/HABIT.org"
+  "HABIT.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 420004 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/HKE.org"
+  "HKE.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 461079 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Health.org"
+  "Health.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 495051 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/JOB.ORG"
+  "JOB.ORG"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 538094 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Jokes.org"
+  "Jokes.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 567005 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Keying Green Screen.org"
+  "Keying Green Screen.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 594208 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/L-Kanji.org"
+  "L-Kanji.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 618861 0) (buffer-file-coding-system . undecided-dos) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/LEARN.ORG"
+  "LEARN.ORG"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 642088 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/L_Food.org"
+  "L_Food.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 669362 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Layout-02.org"
+  "Layout-02.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 695097 0) (buffer-file-coding-system . undecided-dos) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Layout10_20.org"
+  "Layout10_20.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 718328 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/MAP.org"
+  "MAP.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 743109 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Music.org"
+  "Music.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 771764 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/My Storyboarding.org"
+  "My Storyboarding.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 800036 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/My iPhone stuff.org"
+  "My iPhone stuff.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 824479 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Nick_Artist_Program.org"
+  "Nick_Artist_Program.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 851274 0) (buffer-file-coding-system . utf-8-dos) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Nick_Artist_Program_02.org"
+  "Nick_Artist_Program_02.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 874427 0) (buffer-file-coding-system . utf-8-dos) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Notes.org"
+  "Notes.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 905623 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Notes2.org"
+  "Notes2.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2714 997634 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Outings.org"
+  "Outings.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 24604 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/PAINT00.org"
+  "PAINT00.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 65432 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/PO_CD.org"
+  "PO_CD.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 90640 0) (buffer-file-coding-system . undecided-dos) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/P_CH.org"
+  "P_CH.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 145534 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/SAS.org"
+  "SAS.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 185750 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/SP01.org"
+  "SP01.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 213132 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/S_Camera_Notes.org"
+  "S_Camera_Notes.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 240432 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Screen_Sharing_Notes.org"
+  "Screen_Sharing_Notes.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 266705 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Script.org"
+  "Script.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 292978 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Start-Up.org"
+  "Start-Up.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 325517 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Transit.org"
+  "Transit.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 355337 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/WATCH.org"
+  "WATCH.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 414702 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/Youtubers.org"
+  "Youtubers.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 455561 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/ahav2.org"
+  "ahav2.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 542897 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/bash.org"
+  "bash.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 572950 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/bus.org"
+  "bus.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 600605 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/comics.org"
+  "comics.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 627248 0) (buffer-file-coding-system . undecided-dos) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/computer_tool.org"
+  "computer_tool.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 648918 0) (buffer-file-coding-system . undecided-dos) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/config.org"
+  "config.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 674470 0) (buffer-file-coding-system . undecided-dos) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/config_photoshop.org"
+  "config_photoshop.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 698499 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/contacts03.org"
+  "contacts03.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 725019 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/cooking.org"
+  "cooking.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 755346 0) (buffer-file-coding-system . undecided-dos) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/electrical.org"
+  "electrical.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 784647 0) (buffer-file-coding-system . undecided-dos) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/f_art_.org"
+  "f_art_.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 818678 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/fd.org"
+  "fd.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 851337 0) (buffer-file-coding-system . undecided-dos) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/fr03.org"
+  "fr03.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 887254 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/fundamentals.org"
+  "fundamentals.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 919803 0) (buffer-file-coding-system . undecided-dos) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/funnyvideos.org"
+  "funnyvideos.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 961131 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/ghostty_.org"
+  "ghostty_.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2715 993275 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/hermosa.org"
+  "hermosa.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2716 21578 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/howtovideos.org"
+  "howtovideos.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2716 52401 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/inbox.org"
+  "inbox.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2716 145300 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/myavailability.org"
+  "myavailability.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2716 175283 0) (buffer-file-coding-system . undecided-dos) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/off_hours.org"
+  "off_hours.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2716 211615 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/office_hours_03_14.org"
+  "office_hours_03_14.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2716 263191 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/organize_files_2025_02_10.org"
+  "organize_files_2025_02_10.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2716 293714 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/password.org"
+  "password.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2716 318788 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/perspective.org"
+  "perspective.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2716 348836 0) (buffer-file-coding-system . undecided-dos) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/phone notes.org"
+  "phone notes.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2716 380672 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/pleinapril2.org"
+  "pleinapril2.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2716 465788 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/portraits lesson class.org"
+  "portraits lesson class.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2716 493965 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/random recorded conversation.org"
+  "random recorded conversation.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2716 524141 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/rss15.org"
+  "rss15.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2716 560949 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/shutdown-setup.org"
+  "shutdown-setup.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2716 592346 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/sports-skateboarding.org"
+  "sports-skateboarding.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2716 618800 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/story_Intro.org"
+  "story_Intro.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2716 641433 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/test.org"
+  "test.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2760 876056 0) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/textfile2backup.org"
+  "textfile2backup.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2761 309395 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/watch_movielist2024.org"
+  "watch_movielist2024.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2763 719759 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/whatanimation.org"
+  "whatanimation.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2721 754455 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/youtube_art.org"
+  "youtube_art.org"
+  'org-mode
+  '(font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2721 49645 0) (buffer-file-coding-system . undecided-dos) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/S/EM/O/zpf.org"
+  "zpf.org"
+  'org-mode
+  '(font-lock-mode)
+  434
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26603 2720 739115 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+

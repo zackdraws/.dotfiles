@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: jmulu-jdbr2
+created: 2024-11-11T18:02:19-08:00

@@ -1,0 +1,15 @@
+((dirvish-quicksort nil)
+ (emoji--command-Emoji nil)
+ (emoji--command-Emoji\ >\ Smileys nil)
+ (magit-commit nil)
+ (magit-dispatch nil)
+ (magit-fetch nil)
+ (magit-log
+  ("-n256" "--graph" "--decorate"))
+ (magit-pull nil)
+ (magit-push nil)
+ (magit-rebase
+  ("--autostash")
+  nil)
+ (magit-show-refs nil)
+ (magit-submodule nil))

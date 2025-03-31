@@ -1,0 +1,33 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".google.com"
+  [url-cookie "NID" "519=FCXnNbp-6BRWPEjVCqZSrdkFk8_Dltc62x1hyTLo8qt4i0z1wv2vBAtd2NNBcV4rEfYD7lNIV_XWC7TPTPOCeCExPdAz3q5CHDr86rkjqpP1EXIlyxlBOPzPZi1QZS6X4xgWDd8Y3XZxc19PbFg7YI0rhxJegeCJTRq4rT4UzmOzW1d4l1AvLnuO" "Wed, 04-Jun-2025 18:14:44 GMT" "/" ".google.com" nil]))
+)
+(setq url-cookie-secure-storage
+ '((".twitter.com"
+  [url-cookie "guest_id_marketing" "v1%3A169597308545386309" "Sun Sep 28 07:38:05 2025 GMT" "/" ".twitter.com" t]
+  [url-cookie "guest_id_ads" "v1%3A169597308545386309" "Sun Sep 28 07:38:05 2025 GMT" "/" ".twitter.com" t]
+  [url-cookie "personalization_id" "v1_qJshXm1MsYzbwfGnQXusLg==" "Sun Sep 28 07:38:05 2025 GMT" "/" ".twitter.com" t]
+  [url-cookie "guest_id" "v1%3A169597308545386309" "Sun Sep 28 07:38:05 2025 GMT" "/" ".twitter.com" t])
+ (".ebay.com"
+  [url-cookie "nonsession" "BAQAAAY5O25hEAAaAADMABWhHfjM5Mjg4NgDKACBqKLGzZmY5M2NiYTgxOGYwYTYwYzVhMDg5NWEzZmZjMDU2MDMAywABZmZRuzFGE6E6Nd+CaLH5uNJrtjTWqhIekA**" "Wed, 10 Jun 2026 00:37:07 GMT" "/" ".ebay.com" t]
+  [url-cookie "dp1" "bbl/US6a28b1b3^" "Wed, 10 Jun 2026 00:37:07 GMT" "/" ".ebay.com" t])
+ (".reddit.com"
+  [url-cookie "csv" "2" "Wed Feb 04 03:47:36 2026 GMT" "/" ".reddit.com" t])
+ ("reddit.com"
+  [url-cookie "edgebucket" "BPEySbSGo54vXuMVqK" "Wed Feb 04 03:47:35 2026 GMT" "/" "reddit.com" t])
+ ("www.polygon.com"
+  [url-cookie "vmidv1" "00bdc88d-dfa4-4146-93c2-349b7f06271d" "Sat, 03 Feb 2029 05:47:54 GMT" "/" "www.polygon.com" t])
+ (".evyy.net"
+  [url-cookie "brwsr" "4ce4b8a9-5f34-11ee-b975-2d6266fc8ae3" "Fri Sep 19 01:54:34 2025 GMT" "/" ".evyy.net" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; coding: utf-8-emacs-unix
+;; End:
+
+;;; cookies ends here
