@@ -69,9 +69,9 @@ palette = 14=#b33508
 
 palette = 15=#ffffff
 
-font-size = 12
+font-family = "TerminessNerdFont"
 
-font-feature = CascadiaCode-Regular
+font-size = 7
 
 keybind = alt+3=new_tab
 
