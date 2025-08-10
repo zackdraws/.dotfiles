@@ -1,1 +1,0 @@
-/home/zack/.config/fish/
