@@ -3,12 +3,11 @@ clipboard-write = allow
 copy-on-select = false
 window-decoration = false
 gtk-titlebar = true
-shell-integration = fish
 copy-on-select = false
 clipboard-paste-protection = false
 window-theme = dark
 window-padding-color = background
-background-opacity = .9
+background-opacity = .8
 theme = Hopscotch
 bold-is-bright = false
 background = #322931
@@ -41,6 +40,5 @@ keybind = alt+1=close_tab
 keybind = alt+3=new_tab
 keybind = alt+4=previous_tab
 keybind = alt+1=close_tab
-gtk-titlebar = true
 window-theme = dark
-window-decoration = false
+
