@@ -1,5 +1,6 @@
 set -gx EDITOR emacs -nw
 alias e=$EDITORS
+alias copydir="xsel -b"
 alias se="sudo $EDITOR"
 alias ghostty='cd ~/Projects/ghostty && ./zig-out/bin/ghostty &'
 alias gh="zig-out/bin/ghostty"
