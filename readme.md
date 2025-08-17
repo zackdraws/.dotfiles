@@ -1,5 +1,8 @@
 # Dotfiles
+
+
 # SH - Shell Files 
+
 ## Convert Files
 cnv_pdf->jpg - converts pdf file to jpeg files
 cnv_jpg_pdf - converts jpg files to pdf
@@ -24,3 +27,5 @@ rename_folder - renames files in folder
 ## Compressing
 
 Untar.sh - uncompresses files
+
+# Moving Around the Terminal
