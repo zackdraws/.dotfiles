@@ -4,11 +4,11 @@ copy-on-select = true
 clipboard-paste-protection = false
 window-theme = dark
 window-decoration = false
-background-opacity = .74
+background-opacity = .93
 theme = Hopscotch
 bold-is-bright = false
-background = #0E1221
-foreground = #b9b5b8
+background = #322931
+foreground = #b9b5b8 
 selection-background = #5c545b
 selection-foreground = #b9b5b8
 cursor-color = #8ACE00
@@ -41,4 +41,4 @@ keybind = alt+1=close_tab
 keybind = alt+3=new_tab
 keybind = alt+4=previous_tab
 keybind = alt+1=close_tab
-gtk-titlebar = true
+gtk-titlebar = false
