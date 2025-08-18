@@ -10,41 +10,22 @@ if ! command -v convert &> /dev/null; then
 fi
 
 # Supported extensions
-
 EXTENSIONS="jpg jpeg png JPG JPEG PNG"
-
-
-
 echo "🔄 Starting background removal in: $(pwd)"
-
-
-
 for ext in $EXTENSIONS; do
-
   for file in *.$ext; do
-
     [ -e "$file" ] || continue
-
-
 
     base="${file%.*}"
 
     output="${base}_bg_removed.png"
 
-
-
     echo "👉 Processing: $file"
 
-
-
     # Use rembg to remove background
-
     if rembg i "$file" temp_no_bg.png; then
-
         # Trim and save final output
-
         convert temp_no_bg.png -trim +repage "$output"
-
         echo "✅ Saved: $output"
 
     else
