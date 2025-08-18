@@ -38,6 +38,11 @@ psd_keyout_w_matte.sh - adds white matte underneath drawings
 psd_keyout_w_matte_soft.
 psd_select_sub.sh - inverts subject and takes out background
 
+### Captioning
+#### Caption.py - caption.py [image.jpg]
+- asks for caption
+- write in caption
+- outputs with caption
 
 
 
