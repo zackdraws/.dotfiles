@@ -1,4 +1,6 @@
 set -gx EDITOR emacs -nw
+set -gx PATH $PATH /home/zack/.local/bin
+set -Ux PATH $PATH /home/zack/.local/bin
 alias e=$EDITORS
 alias copydir="xsel -b"
 alias se="sudo $EDITOR"
