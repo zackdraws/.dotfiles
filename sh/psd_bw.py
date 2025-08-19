@@ -1,7 +1,7 @@
-git reset --mixed HEAD~1#!/usr/bin/env python3
+#!/usr/bin/env python3
 
 import os
-from PIL import Image, ImageEnhance
+from PIL import Image
 
 # Get current working directory
 cwd = os.getcwd()
@@ -15,17 +15,16 @@ for filename in os.listdir(cwd):
         input_path = os.path.join(cwd, filename)
 
         name, ext = os.path.splitext(filename)
-        output_filename = f"{name}_bright{ext}"
+        output_filename = f"{name}_bw{ext}"
         output_path = os.path.join(cwd, output_filename)
 
         try:
-            with Image.open(input_path).convert("RGB") as img:
-                # Gentle enhancements
-                img = ImageEnhance.Brightness(img).enhance(1.45)
-                img = ImageEnhance.Contrast(img).enhance(1.0)
-                img.save(output_path)
+            with Image.open(input_path) as img:
+                # Convert image to grayscale
+                bw_img = img.convert("L")
+                bw_img.save(output_path)
                 print(f"✅ {filename} → {output_filename}")
         except Exception as e:
             print(f"❌ Error processing {filename}: {e}")
 
-print("\n🎨 Done! Images enhanced with subtle brightness/contrast.")
+print("\n🖤 Done! Images converted to black and white.")
