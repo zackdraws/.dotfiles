@@ -1,22 +1,54 @@
 # Dotfiles
 - these are my dotfiles which controls the configuration of my computer.
 
-## setting up .dotfiles
-  1.  - cd to .dotfiles
-  2.  - make file
-  3.   - sudo ln -s /home/name/.dotfiles/file /usr/local/bin/ (for shell files)
-  this makes a symlink so you can edit the file in .dotfiles and that will edit the file in the usr local bin
-  
+## open git bash, ghostty or other unix based terminal
+
+-- git clone https://github.com/zackdraws/.dotfiles.git
+
+### set up .dotfiles
+  1.  - cd to .dotfiles (cd means change directory- directory is your 'folder')
+  2.  - make file (to make a file you need and editor in the terminal like emacs -nw or nano)
+  3.  - sudo ln -s /home/name/.dotfiles/file /usr/local/bin/ (for shell files) (this is to create a symlink which is a synthetic link between two files when you update from .dotfiles it then updates the file in the usr local bin.
+  3.1 - sudo is the command to run as 'administrator'
+  3.2 - Additional Note: from there you can go to .dotfiles run 'git add .' and then 'git commit -m "comment" and to publish to github run git push
+  3.3 to update folder from github run 'git pull'
   4.  cd - /usr/local/bin/ (changes the directory to usr/local/bin)
   5.  chmod +x file (this makes the sh follow usable)
+  6. use file within terminals
 
+Shell - for command history and command line editing - is within the terminal
+Fish - for syntax highlights and autosuggestions and themes
+
+Multiplexer -
+TMUX - 
+for tabs in the terminal and to save your place
+- tmux plug ins
+
+Yazi - to manage and look through files. eMacs in the terminal is used as the editor for the program.
+
+Broot - to manage and look through files, it's like Yazi but it is not.
+
+Zoxide - makes it insanely easier to find files
+
+FZF - is a fuzzy finder if you are in the directory use fzf to find your files
+
+# shell scripts
+symlinks - for linux, mac and git bash
+
+ln -s /home/name/.dotfiles/sh/ /usr/local/bin - for all  bash files and then go to /usr/local/bin
+
+chmod +x files.sh
 
 # Directories -
   	      different directories hold different dotfiles for configuration
 ## .bashrc
+   - 
 ## .emacs
+   - 
 ## .emacs.d
+
 ## .sh
+
 ## .zshrc
 
 ## ae
@@ -82,19 +114,9 @@ Caption.py - caption.py [image.jpg]
 	   - asks for caption
 	   - write in caption
 	   - outputs with caption
-
-
-
-
-
-
-
 ## Compressing
-
 Untar.sh - uncompresses files
-
 # Moving Around the Terminal
-
 # emacs -
 # fish -
 # ghostty -
