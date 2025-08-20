@@ -46,7 +46,19 @@ chmod +x files.sh
 ## .emacs
    - 
 ## .emacs.d
-
+calfw-cal
+catpuccin-them
+dash
+dired
+dirvish
+elfeed
+eln
+eshell
+magit
+org-download
+org-persist
+org-roam
+hopscotch-theme.el
 ## .sh
 
 ## .zshrc
