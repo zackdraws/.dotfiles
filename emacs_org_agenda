@@ -1,6 +1,0 @@
-emacs --batch -l ~/.emacs --eval "(prog\
-n (require 'org) (org-agenda nil \"a\") \
-(write-file \"/tmp/agenda.txt\"))" --no-\
-site-file --no-init-file
-
-head -n 200 /tmp/agenda.txt | bat it doesn't make the directory
