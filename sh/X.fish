@@ -1,66 +1,71 @@
 #!/usr/bin/env fish
 
+# Show usage help
 function usage
     echo "Usage: $argv[0] <directory_path>"
-    echo "This script deletes all files and folders in the specified directory"
+    echo "This script deletes all files and folders *inside* the specified directory"
     exit 1
 end
 
-# Function to format size nicely
+# Format size in binary units (KiB, MiB, GiB)
 function format_size
-    set -l size $argv[1]
-    set -l units B KB MB GB TB
-    set -l unit 0
+    set -l bytes $argv[1]
 
-    while test $size -gt 1024
-        set size (math "scale=2; $size / 1024")
-        set unit (math "$unit + 1")
-        if test $unit -ge (count $units) - 1
-            break
-        end
+    if test $bytes -lt 1024
+        printf "%d B\n" $bytes
+    else if test $bytes -lt 1048576
+        set -l kib (math "scale=2; $bytes / 1024")
+        printf "%.2f KiB\n" $kib
+    else if test $bytes -lt 1073741824
+        set -l mib (math "scale=2; $bytes / (1024 * 1024)")
+        printf "%.2f MiB\n" $mib
+    else
+        set -l gib (math "scale=2; $bytes / (1024 * 1024 * 1024)")
+        printf "%.2f GiB\n" $gib
     end
-
-    printf "%.2f %s\n" $size $units[$unit+1]
 end
 
-# Check if argument given
+# Argument check
 if test (count $argv) -ne 1
     usage
 end
 
-# Get full path
+# Resolve absolute path
 set dir_path (realpath $argv[1])
 
+# Check if it's a directory
 if not test -d "$dir_path"
     echo "Error: Directory '$dir_path' does not exist"
     exit 1
 end
 
-# Initial size in bytes
-set initial_size (du -sb $dir_path | cut -f1)
+# Get original size
+set initial_size (du -sb "$dir_path" | cut -f1)
 
-# Count files and dirs
-set file_list (find $dir_path -mindepth 1 -type f)
-set dir_list (find $dir_path -mindepth 1 -type d)
+# Get files and directories (excluding the main dir)
+set file_list (find "$dir_path" -mindepth 1 -type f)
+set dir_list (find "$dir_path" -mindepth 1 -type d)
 
 set file_count (count $file_list)
 set dir_count (count $dir_list)
 
+# Display info before deletion
 echo "Directory: $dir_path"
 echo "Contents to be deleted:"
 echo "- Files: $file_count"
 echo "- Folders: $dir_count"
 echo "- Total size: (format_size $initial_size)"
 
+# First confirmation
 echo ""
 echo "WARNING: This will delete ALL files and folders in the directory!"
 read -P "Type 'yes' to confirm: " answer
-
 if test "$answer" != "yes"
     echo "Operation cancelled"
     exit 0
 end
 
+# Second confirmation
 read -P "Are you REALLY sure? Type 'yes' again to confirm: " second_answer
 if test "$second_answer" != "yes"
     echo "Operation cancelled"
@@ -69,18 +74,19 @@ end
 
 # Delete files
 for f in $file_list
-    rm -f $f
+    rm -f "$f"
 end
 
-# Delete dirs in reverse order
+# Delete directories in reverse depth order
 for d in (printf '%s\n' $dir_list | sort -r)
-    rmdir $d 2>/dev/null
+    rmdir "$d" 2>/dev/null
 end
 
-# Final size
-set final_size (du -sb $dir_path | cut -f1)
+# Get new size
+set final_size (du -sb "$dir_path" | cut -f1)
 set freed (math "$initial_size - $final_size")
 
+# Final report
 echo ""
 echo "Deletion completed:"
 echo "- Removed $file_count files"
