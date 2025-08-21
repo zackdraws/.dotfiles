@@ -1,0 +1,12 @@
+#+title: After Effects: Notes
+* 
+** Loop -
+to loop animation first key create keys of movement
+then hold down u and click the timer button which will allow you to put in expressions
+type in loopOut(); or loopOut(“cycle”); and it will cycle through your keys for the duration of the scene
+make sure to drag it out all the way 
+[[https://www.schoolofmotion.com/blog/loop-expression-after-effects][link]]
+** Pre-Compose 
+** Canvas Size
+
+** Render Queue
