@@ -4,7 +4,7 @@ copy-on-select = true
 clipboard-paste-protection = false
 window-theme = dark
 window-decoration = false
-background-opacity = .93
+background-opacity = .9
 theme = Hopscotch
 bold-is-bright = false
 background = #322931
@@ -37,8 +37,9 @@ palette = 202=#0094FF
 font-family = "TerminessNerdFont"
 keybind = alt+3=new_tab
 keybind = alt+4=previous_tab
+keybind = alt+5=new_split
 keybind = alt+1=close_tab
 keybind = alt+3=new_tab
 keybind = alt+4=previous_tab
 keybind = alt+1=close_tab
-gtk-titlebar = true
+gtk-titlebar = false
