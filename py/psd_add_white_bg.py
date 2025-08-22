@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+
+import os
+from PIL import Image
+
+# Get current working directory
+cwd = os.getcwd()
+
+# Only handle PNG files
+for filename in os.listdir(cwd):
+    if filename.lower().endswith(".png"):
+        input_path = os.path.join(cwd, filename)
+
+        name, ext = os.path.splitext(filename)
+        output_filename = f"{name}_whitebg{ext}"
+        output_path = os.path.join(cwd, output_filename)
+
+        try:
+            with Image.open(input_path) as img:
+                if img.mode in ("RGBA", "LA") or (img.mode == "P" and "transparency" in img.info):
+                    # Create a white background
+                    bg = Image.new("RGB", img.size, (255, 255, 255))
+                    # Paste image onto background using alpha channel as mask
+                    bg.paste(img.convert("RGBA"), mask=img.convert("RGBA").split()[3])
+                else:
+                    # No transparency, just convert to RGB
+                    bg = img.convert("RGB")
+
+                bg.save(output_path)
+                print(f"✅ {filename} → {output_filename}")
+        except Exception as e:
+            print(f"❌ Error processing {filename}: {e}")
+
+print("\n🧼 Done! Transparent PNGs now have a white background.")
