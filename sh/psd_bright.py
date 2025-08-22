@@ -1,4 +1,4 @@
-git reset --mixed HEAD~1#!/usr/bin/env python3
+#!/usr/bin/env python3
 
 import os
 from PIL import Image, ImageEnhance
@@ -29,3 +29,4 @@ for filename in os.listdir(cwd):
             print(f"❌ Error processing {filename}: {e}")
 
 print("\n🎨 Done! Images enhanced with subtle brightness/contrast.")
+
