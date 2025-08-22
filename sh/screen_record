@@ -1,0 +1,5 @@
+ffmpeg.exe -y -f gdigrab -framerate 30 -i desktop "$(wslpath -w $Home)/name.mp4"
+
+-t 5 for time based
+
+q + enter to make it quit
