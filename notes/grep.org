@@ -1,0 +1,5 @@
+#+title: Grep 
+- Use Grep to find files
+* Find
+** To find a phrase in a folder search like this
+grep -r "'4c566a" ~/.config/fish/
