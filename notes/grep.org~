@@ -1,0 +1,1 @@
+grep -r "'4c566a" ~/.config/fish/
