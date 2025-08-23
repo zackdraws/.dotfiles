@@ -1,0 +1,91 @@
+#!/usr/bin/env python3
+
+import os
+import cv2
+import numpy as np
+import math
+
+def draw_full_fibonacci_spiral(image, color=(0, 165, 255), thickness=2, turns=4):
+    """
+    Draw a smooth golden spiral over the entire image,
+    starting from the top-right corner and spiraling clockwise
+    toward the bottom-left.
+    """
+    height, width, _ = image.shape
+
+    # Spiral center toward bottom-left
+    center_x = int(width * 0.25)
+    center_y = int(height * 0.75)
+
+    # Spiral scaling to fit whole image
+    max_radius = math.hypot(width, height)
+    a = 1  # Initial radius
+    b = 0.306349  # Controls growth rate for golden spiral
+
+    # Generate points along the spiral
+    points = []
+    total_theta = 2 * math.pi * turns
+    for theta in np.linspace(0, total_theta, 2000):
+        r = a * np.exp(b * theta)
+
+        # x and y from polar coordinates (inverted Y-axis)
+        x = int(center_x + r * math.cos(theta))
+        y = int(center_y + r * math.sin(theta))
+
+        if 0 <= x < width and 0 <= y < height:
+            points.append((x, y))
+
+    # Rotate and mirror to start from top-right and spiral clockwise
+    M = cv2.getRotationMatrix2D((width // 2, height // 2), 135, 1)  # 135° rotation
+    points = [tuple(np.dot(M, [px, py, 1]).astype(int)) for px, py in points]
+
+    # Draw the spiral line
+    for i in range(1, len(points)):
+        cv2.line(image, points[i - 1], points[i], color, thickness)
+
+def read_image_unicode_safe(path):
+    try:
+        data = np.fromfile(path, dtype=np.uint8)
+        return cv2.imdecode(data, cv2.IMREAD_COLOR)
+    except Exception:
+        return None
+
+def write_image_unicode_safe(path, image):
+    ext = os.path.splitext(path)[1]
+    result, encoded = cv2.imencode(ext, image)
+    if result:
+        encoded.tofile(path)
+        return True
+    return False
+
+def process_images_recursively(folder):
+    supported_exts = ('.jpg', '.jpeg', '.png', '.bmp', '.tiff', '.webp')
+    for dirpath, _, filenames in os.walk(folder):
+        for filename in filenames:
+            if not filename.lower().endswith(supported_exts):
+                continue
+            if '_fib_line' in filename:
+                continue
+
+            input_path = os.path.join(dirpath, filename)
+            image = read_image_unicode_safe(input_path)
+            if image is None:
+                print(f"⚠️ Could not read: {filename}")
+                continue
+
+            print(f"✨ Processing: {filename}")
+            output_image = image.copy()
+            draw_full_fibonacci_spiral(output_image)
+
+            name, ext = os.path.splitext(filename)
+            output_filename = f"{name}_fib_line{ext}"
+            output_path = os.path.join(dirpath, output_filename)
+            if write_image_unicode_safe(output_path, output_image):
+                print(f"✅ Saved: {output_path}")
+            else:
+                print(f"❌ Failed to save: {output_filename}")
+
+if __name__ == "__main__":
+    current_dir = os.getcwd()
+    print(f"�� Working in: {current_dir}")
+    process_images_recursively(current_dir)
