@@ -108,7 +108,7 @@ rules = [
 
     { mime = "image/*", use = ["open_nomacs", "reveal"] },
 
-    { mime = "text/*", use = ["edit"] },
+    { mime = "text/*", use = ["open_text_editor"] },
 
     { mime = "application/vnd.openxmlformats-officedocument.presentationml.presentation", use = ["open_pptx", "reveal"] },
 
