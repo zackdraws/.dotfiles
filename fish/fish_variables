@@ -6,8 +6,8 @@ SETUVAR __fish_initialized:3400
 SETUVAR fish_color_cancel:\x2d\x2dreverse\x0d
 SETUVAR fish_color_command:88c0d0\x0d
 SETUVAR fish_color_cwd:5e81ac\x0d
-SETUVAR fish_color_cwd_root:bf616a\x0d
-SETUVAR fish_color_end:81a1c1\x0d
+SETUVAR fish_color_cwd_root:\x0d
+SETUVAR fish_color_end:\x0d
 SETUVAR fish_color_error:bf616a\x0d
 SETUVAR fish_color_escape:ebcb8b\x0d
 SETUVAR fish_color_history_current:e5e9f0\x1e\x2d\x2dbold\x0d
