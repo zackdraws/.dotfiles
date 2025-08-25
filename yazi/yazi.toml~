@@ -1,69 +1,33 @@
 [mgr] 
-
 ratio = [1, 1, 2] 
-
 sort_by = "alphabetical" 
-
 sort_sensitive = false 
-
 sort_reverse = false 
-
 sort_dir_first = true 
-
 linemode = "none" 
-
 show_hidden = true 
-
 show_symlink = true 
-
 scrolloff = 5
-
-
-
 [show_hidden]
-
 show_hidden = true
-
-
-
 [preview] 
-
 tab_size = 2 
-
 max_width = 1900 
-
 max_height = 500 
-
 cache_dir = "" 
-
 image_filter = "triangle" 
-
 image_quality = 89 
-
 sixel_fraction = 15 
-
 ueberzug_scale = 1 
-
 ueberzug_offset = [0, 0, 0, 0]
-
-
-
 [opener]
-
 edit = [
-
     { run = 'cd "$(dirname "$1")" && emacs -nw "$1"', desc = "$EDITOR", block = true, for = "unix" },
-
 ]
-
 open_pptx = [
-
     { run = 'xournal "$1"', desc = "Open PowerPoint", for = "windows" },
-
     { run = 'xournal "$1"', desc = "Open PowerPoint", for = "linux" },
-
 ]
-
 open_nomacs = [
 
     { run = 'nomacs "$1"', desc = "Open with Nomacs", for = "linux" },
@@ -108,7 +72,7 @@ rules = [
 
     { mime = "image/*", use = ["open_nomacs", "reveal"] },
 
-    { mime = "text/*", use = ["open_text_editor"] },
+    { mime = "text/*", use = ["edit", "reveal"] },
 
     { mime = "application/vnd.openxmlformats-officedocument.presentationml.presentation", use = ["open_pptx", "reveal"] },
 
