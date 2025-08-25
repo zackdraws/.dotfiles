@@ -34,6 +34,6 @@ play = [
 [open]
 rules = [
     { mime = "application/pdf", use = ["open_zathura", "reveal"] },
-    { mime = "text/*", use = ["edit, "reveal"]},
+    { mime = "text/*", use = ["edit", "reveal"]},
 
 ]
