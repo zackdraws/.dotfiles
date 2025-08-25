@@ -1,1 +1,0 @@
-/home/zack/.dotfiles/tvpaint.sh

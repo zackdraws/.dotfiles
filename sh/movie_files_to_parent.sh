@@ -1,1 +1,0 @@
-/home/zack/.dotfiles/movie_files_to_parent.sh
