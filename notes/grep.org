@@ -1,6 +1,14 @@
+<<<<<<< HEAD
+#+title: Grep 
+- Use Grep to find files
+* Find
+** To find a phrase in a folder search like this
+grep -r "'4c566a" ~/.config/fish/
+=======
 
 #+title: Grep 
 - Use Grep to find files
 * Find
 ** To find a phrase in a folder search like this
 grep -r "'4c566a" ~/.config/fish/
+>>>>>>> 161f55bb925ed9e1394d1ab47a8c821a5de1fe85

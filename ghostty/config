@@ -35,11 +35,4 @@ palette = 88=#005687
 palette = 160=#00C3D7
 palette = 202=#0094FF
 font-family = "TerminessNerdFont"
-keybind = alt+3=new_tab
-keybind = alt+4=previous_tab
-keybind = alt+5=new_split
-keybind = alt+1=close_tab
-keybind = alt+3=new_tab
-keybind = alt+4=previous_tab
-keybind = alt+1=close_tab
 gtk-titlebar = false
