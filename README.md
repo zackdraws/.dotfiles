@@ -1,10 +1,7 @@
 # Dotfiles
 - these are my dotfiles which controls the configuration of my computer.
-
 ## open git bash, ghostty or other unix based terminal
-
 -- git clone https://github.com/zackdraws/.dotfiles.git
-
 ### set up .dotfiles
   1.  - cd to .dotfiles (cd means change directory- directory is your 'folder')
   2.  - make file (to make a file you need and editor in the terminal like emacs -nw or nano)
@@ -15,12 +12,20 @@
   4.  cd - /usr/local/bin/ (changes the directory to usr/local/bin)
   5.  chmod +x file (this makes the sh follow usable)
   6. use file within terminals
+# Shell - for command history and command line editing - is within the terminal
+## Fish - for syntax highlights and autosuggestions and themes
+--- commands
 
-Shell - for command history and command line editing - is within the terminal
-Fish - for syntax highlights and autosuggestions and themes
+### List Files
+-ls
+- ls -l
+- ls -a
+- ls -t -
+- ls -r
+- ls -t -r
 
-Multiplexer -
-TMUX - 
+## Multiplexer -
+### TMUX - 
 for tabs in the terminal and to save your place
 - tmux plug ins
 
@@ -66,8 +71,32 @@ hopscotch-theme.el
 ## ae
 #bash
 
+## PY - Python Files
+-
+-
+-
+-
+-
+
 ## SH - Shell Files 
 - these are my shell files they are located in my usr/local/bin using sudo chmod +x
+### Make
+- Export_Org_To_pdf.sh - this exports the org to pdf
+ to_latex.sh - this pipes a file into the correct format for pandoc
+cnv_pdf_jpg.sh - another sh script to convert pdf files to jpg
+cnv_pdf__jpg.sh* - another sh script to convert pdf files to jpg
+grep_thumbnails.sh - to extract image paths and then convert them to latex
+grep_t.sh - this is the same folder as grep_thumbnails but with a shorter name
+syncthing_stop.sh- simple script stops syncthing
+mkto.sh - makes a todo with the date that the file is made
+FI_^^.sh' - moves file from the cild folder to the parent folder
+copy_out.sh - 
+export_org_to_pdf_02.org
+export_org_to_pdf_02.sh*
+export_org_to_pdf.sh*
+bracket_format.sh - formats brackets around files
+### Formatting
+- Bracket_Format.sh puts brackets around
 
 ### Convert Files - scripts to convert from one file format to another or change the size of files
 cnv_pdf->jpg - converts pdf file to jpeg files
@@ -82,6 +111,7 @@ psd_jpeg.sh -  convert psd to jpeg
 heic_jpeg.sh - convert heic to jpeg
 jfif_jpeg.sh - convert jfif to jpeg
 convert_webloc_to_jpeg.sh - convert webloc to jpeg 
+
 
 ### Compress Files
 tiny_vid.sh - to make videos smaller - dependent on ffmpeg
