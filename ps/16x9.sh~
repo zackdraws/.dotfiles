@@ -1,10 +1,2 @@
-#!/bin/bash
-
-# Full WSL-accessible path to Photoshop executable
-PHOTOSHOP_PATH="/mnt/c/Program Files/Adobe/Adobe Photoshop 2025/Photoshop.exe"
-
-# Full Windows-style path to your JSX script (double backslashes required)
-JSX_SCRIPT_PATH="C:\\Users\\zacha\\scripts\\new_canvas.jsx"
-
-# Run Photoshop with the script
-"$PHOTOSHOP_PATH" -r "$JSX_SCRIPT_PATH"
+#!/usr/bin/env node
+var doc = app.documents.add(width, height, resolution, documentName, NewDocumentMode.RGB); var doc = app.documents.add(16, 9, 300, "16x9 Document", NewDocumentMode.RGB);
