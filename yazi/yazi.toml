@@ -35,7 +35,7 @@ play = [
 rules = [
     { mime = "application/pdf", use = ["open_zathura", "reveal"] },
     { mime = "text/*", use = ["edit", "reveal"]},
-
+     { mime = "video/mp4", use = ["play"] }, 
 ]
 
 [tasks]
