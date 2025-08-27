@@ -37,3 +37,6 @@ rules = [
     { mime = "text/*", use = ["edit", "reveal"]},
 
 ]
+
+[tasks]
+image_bound = [ 10000, 10000 ]
