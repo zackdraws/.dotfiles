@@ -1,0 +1,50 @@
+#+title: Clip Studio Paint
+** Pt 1: Configurartion - Keyboard Shortcuts 
+   SCHEDULED: <2025-08-28 Thu>
+   
+ - 
+*** Animation Shortcuts
+New Animation cel - Shift +G
+that makes a new cel
+so a new drawing
+
+select previous cel  A
+is previous page drawing
+
+select next cel      D
+next drawing
+
+Insert Frame Shift+X
+
+go to previous frame C
+
+go to next frame     V
+
+insert frame        Shift+X
+inserts the frame into the drawing timeline
+
+
+play = shift q
+
+new animation folder Shift +Alt A
+
+
+*** 
+
+Zoom                Z
+zoom - in 2
+zoom - out 1 
+make brush smaller     shift +z
+
+make brush bigger      shift + a
+ 
+** Pt 2: 
+   SCHEDULED: <2025-08-30 Sat>
+
+Brushes 
+
+import brushes into clip studio paint
+have brushes in organized folder 
+
+set brush opacity shortcut
+
