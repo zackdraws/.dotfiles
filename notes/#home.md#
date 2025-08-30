@@ -1,0 +1,152 @@
+  /mnt/c/users/zacha:
+  total used in directory 237736 available 10.3 GiB
+  -rwxrwxrwx 1 zack zack       93 Sep 29  2023 #%2Amail%2A#cIPgzv#
+  -rwxrwxrwx 1 zack zack        0 Sep 25  2023 #.emacs!RET!#
+  -rwxrwxrwx 1 zack zack      262 Feb 18  2025 #.wezterm2.lua#
+  -rwxrwxrwx 1 zack zack        3 May 13 07:46 #20250512.org#
+  drwxrwxrwx 1 zack zack     4096 Aug 29 21:49 .
+  -rwxrwxrwx 1 zack zack       35 Feb 18  2025 .#.wezterm2.lua
+  dr-xr-xr-x 1 zack zack     4096 Jan  8  2025 ..
+  drwxrwxrwx 1 zack zack     4096 Jan 12  2024 .android
+  -rwxrwxrwx 1 zack zack    10969 Aug 29 21:49 .bash_history
+  -rwxrwxrwx 1 zack zack       37 Aug 22 15:54 .bash_profile
+  -rwxrwxrwx 1 zack zack       99 Feb  9  2025 .bash_profile_backup
+  -rwxrwxrwx 1 zack zack       37 Aug 22 15:53 .bashrc
+  -rwxrwxrwx 1 zack zack        0 Aug 20 18:13 .bashrc_backup
+  drwxrwxrwx 1 zack zack     4096 Oct 19  2024 .cache
+  drwxrwxrwx 1 zack zack     4096 Aug 25  2024 .chocolatey
+  drwxrwxrwx 1 zack zack     4096 Aug 28 14:54 .config
+  drwxrwxrwx 1 zack zack     4096 Aug 22 16:07 .dotfiles
+  drwxrwxrwx 1 zack zack     4096 Aug 17 18:43 .dotfiles_02
+  -rwxrwxrwx 1 zack zack     2298 Aug  3 13:52 .dotifles
+  drwxrwxrwx 1 zack zack     4096 Dec 27  2024 .dotnet
+  drwxrwxrwx 1 zack zack     4096 Feb 13  2025 .elfeed
+  -rwxrwxrwx 1 zack zack     7968 Jul 24 13:02 .emacs
+  drwxrwxrwx 1 zack zack     4096 Aug 29 11:55 .emacs.d
+  -rwxrwxrwx 1 zack zack     3369 Feb  4  2025 .emacs.desktop
+  -rwxrwxrwx 1 zack zack    16384 Jul 16  2024 .emacs.swp
+  -rwxrwxrwx 1 zack zack     6446 Feb 19  2025 .emacs_backup0219
+  -rwxrwxrwx 1 zack zack     7996 Jul 18 11:59 .emacs~
+  -rwxrwxrwx 1 zack zack       16 Feb  1  2025 .esd_auth
+  -rwxrwxrwx 1 zack zack      828 Mar 31 15:37 .gitconfig
+  drwxrwxrwx 1 zack zack     4096 Sep 28  2023 .idlerc
+  drwxrwxrwx 1 zack zack     4096 Aug 24  2023 .insomniac
+  drwxrwxrwx 1 zack zack     4096 Apr 15  2024 .local
+  drwxrwxrwx 1 zack zack     4096 Aug 19  2023 .ms-ad
+  -rwxrwxrwx 1 zack zack       60 Dec 26  2023 .notes
+  -rwxrwxrwx 1 zack zack     2111 Aug 29 21:56 .oh-my-posh.nu
+  drwxrwxrwx 1 zack zack     4096 Feb  1  2025 .pulse
+  -rwxrwxrwx 1 zack zack      256 Feb  1  2025 .pulse-cookie
+  drwxrwxrwx 1 zack zack     4096 Apr 15  2024 .shiv
+  drwxrwxrwx 1 zack zack     4096 Sep  8  2024 .ssh
+  drwxrwxrwx 1 zack zack     4096 Aug 15  2023 .thumbnails
+  drwxrwxrwx 1 zack zack     4096 Sep 17  2023 .vscode
+  -rwxrwxrwx 1 zack zack     1325 Feb 18  2025 .wezterm.lua
+  -rwxrwxrwx 1 zack zack     1350 Feb 18  2025 .wezterm.lua~
+  -rwxrwxrwx 1 zack zack      179 Feb 18  2025 .wezterm2.lua
+  -rwxrwxrwx 1 zack zack      169 Aug 25  2024 .wget-hsts
+  -rwxrwxrwx 1 zack zack     5299 Jul 15  2024 .yazi.toml
+  -rwxrwxrwx 1 zack zack     1980 Aug 29 21:56 .zoxide.nu
+  drwxrwxrwx 1 zack zack     4096 Feb 27  2025 2021
+  drwxrwxrwx 1 zack zack     4096 Feb 27  2025 2022
+  drwxrwxrwx 1 zack zack     4096 Feb 25  2025 2023
+  drwxrwxrwx 1 zack zack     4096 May 19 02:49 2024
+  drwxrwxrwx 1 zack zack     4096 Aug 20 14:08 2025
+  drwxrwxrwx 1 zack zack     4096 Jun  7 18:45 Android Camera
+  -rwxrwxrwx 1 zack zack   161667 Feb 10  2025 Animation_Presets.py
+  drwxrwxrwx 1 zack zack     4096 Feb  6  2025 AppData
+  lrwxrwxrwx 1 zack zack       34 Jan  8  2025 Application Data -> /mnt/c/Users/zacha/AppData/Roaming
+  -rwxrwxrwx 1 zack zack   162609 Feb 10  2025 Blender.py
+  -rwxrwxrwx 1 zack zack 13292465 Jul 23 16:03 Brother Bear- Koda Key Pose Sheets.pdf
+  drwxrwxrwx 1 zack zack     4096 Jan  8  2025 Contacts
+  lrwxrwxrwx 1 zack zack       62 Jan  8  2025 Cookies -> /mnt/c/Users/zacha/AppData/Local/Microsoft/Windows/INetCookies
+  drwxrwxrwx 1 zack zack     4096 Aug 29 15:41 Desktop
+  drwxrwxrwx 1 zack zack     4096 Jul  6 14:45 Desktop-Documents
+  drwxrwxrwx 1 zack zack     4096 Feb 13  2025 Desktopclock
+  drwxrwxrwx 1 zack zack     4096 Aug 26 19:18 Documents
+  drwxrwxrwx 1 zack zack     4096 Aug 29 20:51 Downloads
+  drwxrwxrwx 1 zack zack     4096 Dec 27  2023 Dragonframe
+  drwxrwxrwx 1 zack zack     4096 Jul 27 14:12 Dropbox
+  drwxrwxrwx 1 zack zack     4096 Oct  5  2023 Emacs
+  -rwxrwxrwx 1 zack zack  7300354 Aug 25 15:45 FX_animation_02.mp4
+  drwxrwxrwx 1 zack zack     4096 Mar  7 08:01 Favorites
+  drwxrwxrwx 1 zack zack     4096 Jan  8  2025 Links
+  drwxrwxrwx 1 zack zack     4096 Feb  8  2024 Lobster
+  lrwxrwxrwx 1 zack zack       32 Jan  8  2025 Local Settings -> /mnt/c/Users/zacha/AppData/Local
+  -rwxrwxrwx 1 zack zack    73103 Jul 24 19:48 Mountain.jpg
+  drwxrwxrwx 1 zack zack     4096 Jan  8  2025 Music
+  lrwxrwxrwx 1 zack zack       28 Jan  8  2025 My Documents -> /mnt/c/Users/zacha/Documents
+  -rwxrwxrwx 1 zack zack    65536 Jan  8  2025 NTUSER.DAT{232d94fc-cd97-11ef-af9d-00155da25346}.TM.blf
+  -rwxrwxrwx 1 zack zack   524288 Jan  8  2025 NTUSER.DAT{232d94fc-cd97-11ef-af9d-00155da25346}.TMContainer00000000000000000001.regtrans-ms
+  -rwxrwxrwx 1 zack zack   524288 Jan  8  2025 NTUSER.DAT{232d94fc-cd97-11ef-af9d-00155da25346}.TMContainer00000000000000000002.regtrans-ms
+  lrwxrwxrwx 1 zack zack       70 Jan  8  2025 NetHood -> /mnt/c/Users/zacha/AppData/Roaming/Microsoft/Windows/Network Shortcuts
+  drwxrwxrwx 1 zack zack     4096 Aug 29 19:27 New folder
+  drwxrwxrwx 1 zack zack     4096 Aug 29 19:28 New folder (2)
+  drwxrwxrwx 1 zack zack     4096 Jan 30  2025 OD
+  drwxrwxrwx 1 zack zack     4096 Feb 27  2025 OneDrive
+  drwxrwxrwx 1 zack zack     4096 Feb 26  2025 OneDrive - lcad.edu
+  drwxrwxrwx 1 zack zack     4096 Jun 26 19:21 Pictures
+  lrwxrwxrwx 1 zack zack       70 Jan  8  2025 PrintHood -> /mnt/c/Users/zacha/AppData/Roaming/Microsoft/Windows/Printer Shortcuts
+  lrwxrwxrwx 1 zack zack       59 Jan  8  2025 Recent -> /mnt/c/Users/zacha/AppData/Roaming/Microsoft/Windows/Recent
+  drwxrwxrwx 1 zack zack     4096 Jan  8  2025 Saved Games
+  drwxrwxrwx 1 zack zack     4096 Jan  8  2025 Searches
+  lrwxrwxrwx 1 zack zack       59 Jan  8  2025 SendTo -> /mnt/c/Users/zacha/AppData/Roaming/Microsoft/Windows/SendTo
+  drwxrwxrwx 1 zack zack     4096 Aug  3 14:13 Soundbound
+  lrwxrwxrwx 1 zack zack       63 Jan  8  2025 Start Menu -> /mnt/c/Users/zacha/AppData/Roaming/Microsoft/Windows/Start Menu
+  lrwxrwxrwx 1 zack zack       62 Jan  8  2025 Templates -> /mnt/c/Users/zacha/AppData/Roaming/Microsoft/Windows/Templates
+  -rwxrwxrwx 1 zack zack  3023713 Jul 23 12:15 Tom Bancroft Animation Notes.pdf
+  -rwxrwxrwx 1 zack zack     5339 Feb 21  2025 UDesign LOGO _edited.xmp
+  lrwxrwxrwx 1 zack zack       13 Jun 20  2024 Videos -> /mnt/c/P/V/TV
+  -rwxrwxrwx 1 zack zack       21 Jul 21  2024 _lesshst
+  drwxrwxrwx 1 zack zack     4096 Jul 12 00:46 blender
+  drwxrwxrwx 1 zack zack     4096 Jun 25 10:44 blenderkit_data
+  drwxrwxrwx 1 zack zack     4096 Oct 29  2023 castero
+  -rwxrwxrwx 1 zack zack 11089781 Aug 25 15:42 cats_don't_dance_animation.mp4
+  drwxrwxrwx 1 zack zack     4096 Aug 24  2024 chafa
+  drwxrwxrwx 1 zack zack     4096 Aug 25  2024 clifm
+  -rwxrwxrwx 1 zack zack 21289018 Aug 25 15:42 dance.mp4
+  -rwxrwxrwx 1 zack zack 19848600 Aug 25 15:48 dancing-ish.mp4
+  -rwxrwxrwx 1 zack zack   929042 Aug 25 15:47 dancing_animation.mp4
+  drwxrwxrwx 1 zack zack     4096 Jul 18 11:33 dired-sidebar
+  -rwxrwxrwx 1 zack zack      680 Feb 18  2025 emacs_backtrace.txt
+  drwxrwxrwx 1 zack zack     4096 Oct 29  2023 ffmpeg
+  drwxrwxrwx 1 zack zack     4096 Apr 15  2024 flix-cli
+  -rwxrwxrwx 1 zack zack        5 Sep 30  2023 fns.c
+  -rwxrwxrwx 1 zack zack 11464417 Aug 12 00:42 fx_animation.mp4
+  drwxrwxrwx 1 zack zack     4096 Jan 29  2025 go
+  drwxrwxrwx 1 zack zack     4096 Jul 15  2024 konsole
+  drwxrwxrwx 1 zack zack     4096 Aug 24  2024 libsixel
+  drwxrwxrwx 1 zack zack     4096 Aug 29 19:29 mshare
+  -rwxrwxrwx 1 zack zack 30867456 Jan 28  2025 node-v22.13.1-x64.msi
+  -rwxrwxrwx 1 zack zack 27000832 Aug 27 00:41 ntuser.dat
+  -rwxrwxrwx 1 zack zack  6807552 Jan  8  2025 ntuser.dat.log1
+  -rwxrwxrwx 1 zack zack  6807552 Jan  8  2025 ntuser.dat.log2
+  -rwxrwxrwx 1 zack zack    65536 Feb 14  2025 ntuser.dat{30f041d8-ea8e-11ef-afb9-d239570b686b}.TM.blf
+  -rwxrwxrwx 1 zack zack   524288 Feb 14  2025 ntuser.dat{30f041d8-ea8e-11ef-afb9-d239570b686b}.TMContainer00000000000000000001.regtrans-ms
+  -rwxrwxrwx 1 zack zack   524288 Feb 14  2025 ntuser.dat{30f041d8-ea8e-11ef-afb9-d239570b686b}.TMContainer00000000000000000002.regtrans-ms
+  -rwxrwxrwx 1 zack zack       20 Jan  8  2025 ntuser.ini
+  -rwxrwxrwx 1 zack zack 70834393 Aug 20 19:26 obs-backgroundremoval-1.1.13-windows-x64.zip
+  drwxrwxrwx 1 zack zack     4096 Jan 28  2025 obs-cli
+  drwxrwxrwx 1 zack zack     4096 Feb 18  2025 oh-my-posh
+  drwxrwxrwx 1 zack zack     4096 Feb 18  2025 oh-my-posh-main
+  -rwxrwxrwx 1 zack zack     2147 Feb 19  2025 oh-my-posh.nu
+  drwxrwxrwx 1 zack zack     4096 Jan 25  2025 org-roam
+  drwxrwxrwx 1 zack zack     4096 Apr 15  2024 pipx
+  drwxrwxrwx 1 zack zack     4096 Jul 15  2024 poppler-0.73.0
+  -rwxrwxrwx 1 zack zack     5339 Feb 21  2025 premium_photo-1674654419441-86439073da99.xmp
+  drwxrwxrwx 1 zack zack     4096 Sep 26  2023 requests
+  -rwxrwxrwx 1 zack zack        0 Sep 24  2023 restart
+  drwxrwxrwx 1 zack zack     4096 Aug 10 16:11 sb03
+  drwxrwxrwx 1 zack zack     4096 Jul 14  2024 scoop
+  drwxrwxrwx 1 zack zack     4096 Jun 17 09:39 scriptable
+  drwxrwxrwx 1 zack zack     4096 Aug 24 00:20 scripts
+  drwxrwxrwx 1 zack zack     4096 Oct 29  2023 source
+  drwxrwxrwx 1 zack zack     4096 Aug 20 20:06 test
+  drwxrwxrwx 1 zack zack     4096 Aug 29 19:28 video
+  drwxrwxrwx 1 zack zack     4096 Aug 29 21:50 videom
+  drwxrwxrwx 1 zack zack     4096 Aug 29  2024 vifm
+  -rwxrwxrwx 1 zack zack 10121257 Aug 12 00:48 walk_animation.mp4
+  drwxrwxrwx 1 zack zack     4096 Jul 14  2024 yazi
+  drwxrwxrwx 1 zack zack     4096 Aug 27 21:57 zackdraws.github.io
+  -rwxrwxrwx 1 zack zack        0 Sep 25  2023 ~.emacs
+  -rwxrwxrwx 1 zack zack        2 Sep 25  2023 ~.emacs~
