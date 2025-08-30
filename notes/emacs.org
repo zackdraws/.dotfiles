@@ -17,3 +17,4 @@ cat >> my_notes.org
 echo "This is another line in the file."
 cat
 ```
+    (setq cfw:org-agenda-schedule-args '(:scheduled))
