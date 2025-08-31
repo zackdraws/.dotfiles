@@ -72,8 +72,16 @@ hopscotch-theme.el
 #bash
 
 ## PY - Python Files
--
--
+- cnv_mp4_gif.py
+
+bash
+   python mp4_to_gif.py your_input_file.mp4 output_file.gif
+4.To change the frame duration, use the `-d` or `--duration` argument:
+examples -
+   python mp4_to_gif.py your_input_file.mp4 output_file.gif -d 0.2  # 0.2 seconds per frame
+
+   - opposite of that is cnv_gif_mp4.bash
+   - /create_gif.sh wUsers/myuser/Pictures/my_images output.gif
 -
 -
 -

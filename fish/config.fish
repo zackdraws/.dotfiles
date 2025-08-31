@@ -27,3 +27,6 @@ function e
     emacs -nw $argv
 
 end
+
+set -x ANDROID_HOME ~/Android
+set -x PATH $ANDROID_HOME/cmdline-tools/latest/bin $ANDROID_HOME/platform-tools $ANDROID_HOME/emulator $PATH
