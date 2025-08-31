@@ -1,0 +1,19 @@
+** tmux <2025-02-26 Wed 14:29>
+b- , . to move split
+b -  < - swap left
+         swap right
+source-file ~/.tmux.conf
+b - s - splits 
+b - ctrl - s saves 
+b - t - time
+b-y to copy all
+b- u something to do with urls 
+b - i info
+b - j selects different window
+b - z focuses just on window
+b - x splits
+b - c - creates new window
+b - < more settings
+b - & kills window pane
+b % 
+

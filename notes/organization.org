@@ -1,0 +1,53 @@
+#+title: Organize 
+sym-link file
+
+ls - l location /file/ -> /file/ 
+
+location stays here in origin file
+
+-> 
+
+moves symbiotic link to em o
+
+but can it read a symbiotic link and will github be able to see the differences? 
+
+
+
+
+
+D- Backup hard drive -> holds all files
+- 0C_STORY
+- OG_Viz Dev
+adobeTemp
+Configuration
+- Applications
+- 
+convert
+convert2
+Data
+Ebook
+New Folder
+p
+PSAutoRecover
+S
+.BridgeLabelsAndRatings
+.BridgeSort
+Blender
+Bridge
+Chrome.exe
+OBS
+Photoshop Temp
+SnapTimerPortable.exe
+Syncthing
+Thunderbird
+ulog_HeadlightsCC_ApprCrash_deda4ec2-fc59-49d2-a7549
+version.dll
+wacomtablet_6.4.7-3.exe
+
+
+https://www.youtube.com/watch?v=WVZFla10Egk
+
+* Organizing
+**** Edit config files to back-up iphone photos <2025-08-07 Thu 11:26>
+
+

@@ -1,0 +1,161 @@
+#+Title: Start-up
+* Explorer
+- ctrl + shift + 1 
+- ctrl + shift + 2
+- ctrl + shift + 3
+- ctrl + shift + 4
+- ctrl + shift + 5 
+- ctrl + shift + 6 
+- ctrl + shift + 7
+- ctrl + shift + 8
+
+* Using a computer with just the keyboard
+- tab to move down
+  - shift tab to move up
+    alt tab - to move along windows
+    alt shift tab -  to move along windows in the opposite direction
+        - ctrl + k works a lot for searching
+      ctrl + l usually works for searching as well
+      ctrl + g works a lot for entering
+      ctrl + j
+      ctrl + k also usually work a lot for entering along with the enter button itself
+      windows logo button + # starts up programs on your taskbar
+       windows logo button (super key) + r makes it so you can run keys
+       super key + e = windows explore
+       super key + w = opening up this weird task thing
+       super key + q = second start up
+       super key + a = quick actions
+       super key + z = window quick actions
+       super key + x = quick actions
+       $ c = keyboard
+       $ v = emoji
+       $ b = show hidden icons
+       $ n notification
+       $ m = minimize
+       $ l = lock
+       & k = kast
+       & h = voice typing
+       & g = game bar
+       & d = minimize windows
+       & p = project setting
+
+       
+* cmd.exe
+cmd.exe /c
+* wsl / linux
+** terminals
+*** ghostty
+*** kitty
+*** foot
+*** wezterm
+*** alacritty
+
+** fish
+
+** 
+*** tmux
+* To sync across computers
+- Syncthing is open source and works pretty well 
+* Start-up Programs
+** Syncthing
+cmd.exe /c "C:\Users\zacha\OneDrive\Documents\Syncthing\syncthing-windows-amd64-v1.23.2\syncthing.exe"
+** Thunderbird
+cmd.exe /c "C:\Program Files\Mozilla Thunderbird Beta\thunderbird.exe"
+** Emacs
+cmd.exe /c "C:\S\EM\bin\emacs-29.1.exe"
+** Plex 
+cmd.exe /c "C:\Users\zacha\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Plex Media Server.lnk"
+* Computer Programs
+
+** Terminal
+
+* Art Programs
+** TvPaint
+- 
+** Toonboom Storyboard Pro
+cmd.exe/c "C:\Program Files (x86)\Toon Boom Animation\Toon Boom Storyboard Pro 20\win64\bin\StoryboardPro.exe"
+
+* Terminal 
+** MPV
+
+** ffmpeg
+use this in terminal to export avi files to mp4 
+[[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
+ ffmpeg -i input.avi -r 24 output.mp4
+-fs limit_size (output)
+Set the file size limit, expressed in bytes. No further chunk of bytes is written after the limit is exceeded. The size of the output file is slightly more than the requested file size
+** Git 
+update 
+git push
+** oh my posh
+oh-my-posh init pwsh --config "$env:C:\Posh\THemes\bubbles.omp.json"
+(@(& 'C:/Users/zacha/scoop/apps/oh-my-posh/current/oh-my-posh.exe' init pwsh --config='C:\Posh\THemes\bubbles.omp.json' --print) -join "`n") | Invoke-Expression
+** syncthing
+
+** ncdu
+
+
+** btop
+
+** fzf
+fzf is for fuzzy finding in the terminal. Search inside the directory by typing fzf in the directory that you are in.
+
+** zoxide
+makes searching easy by typing in z it just goes right to the place
+** Pastel
+for looking up colors
+** Linux Commands
+mv - move files
+cp - copy files
+cd - goes to directory
+
+
+* Emacs -
+** Keyboard Shortcuts
+- alt-shift 5 - query replace
+  alt-shift 1 - shell command
+  alt shift 2 select				
+  alt shift u makes word uppercase
+  alt shift y pulls up yank kill ring
+  alt shift r moves around
+  alt d deletes word
+  ctrl d deletes characters
+  ctrl g quits
+  alt c - uppercase first letter of each word
+  
+  
+*** - Important Links -
+- Org-Toggle-Inline-Images - C-C C-X C-V
+An image without description
+
+[[file:/tmp/image.png]]
+
+an image with description
+[[file:/tmp/image.png][my description]]
+go to your dired buffer then press 0 w or C-u 0 w 
+
+
+* Website Building in Emacs                                :config:portfolio:
+
+Emacs can be used as a text editor for websites.
+
+to get a preview of your site type
+** m-x M-x httpd-start
+and then go to http://localhost:8080
+for impatient mode first type the command m-x impa
+and then go to the address in your web browser
+http://localhost:8080/imp/
+
+** programs
+
+*** Pictus
+if you would like to see photoshop inside your system explorer like Bridge install Pictus
+
+** Learning Apps
+*** Anki -
+
+
+* Email -
+** Thunderbird
+** Mutt
+
