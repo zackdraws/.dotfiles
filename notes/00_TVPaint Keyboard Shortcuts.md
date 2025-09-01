@@ -1,0 +1,50 @@
+D- Stroke
+L- Lasso 
+'' for color picker
+Z for size change 
+1 for zoom out
+2 for zoom in 
+3 for previous panel
+4 for next panel
+5 deletes panel
+6 deletes panel
+7 and 8 to rotate
+`` - timeline hide
+Q up layer
+A down layer
+
+B- Color
+
+C Toggles Bookmark 
+
+U and I flips switch
+
+[ flip your drawing horizontal
+]
+] flip your drawing veritcal
+
+, . prev and next drawing
+
+m new window
+
+shift s file project save 
+
+Shift V output full play 
+
+{rotate 15 
+
+! Notes
+
+Shift N New Project
+
+Shift L Open Project
+
+Shift S Save Project
+
+Shift U Redo Last Operation
+
+Shift I insert instances before current img
+
+How would I configure this onto a tourbox? 
+![[Tourbox Configuration  Example.png]]
+#hotkeys #tvpaint #tourbox

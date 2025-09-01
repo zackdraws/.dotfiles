@@ -10,7 +10,8 @@ read output_file
 
 # Run pandoc with the provided input and output file
 pandoc "$input_file" -o "$output_file" --pdf-engine=xelatex \
-  --variable mainfont="CascadiaCode-Regular" \
-  --variable geometry:"left=0.90in, right=0.90in, top=0.35in, bottom=0.35in"
+  --variable mainfont="Europa" \
+  --variable geometry:"left=0.90in, right=0.90in, top=0.50in, bottom=0.35in"
+
 
 echo "Export complete! Output saved to $output_file"
