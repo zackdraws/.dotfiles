@@ -1,16 +1,18 @@
 # Dotfiles
 - these are my dotfiles which controls the configuration of my computer. the .dotfiles are just the local settings stored on the computer and then I sync them here and then when I have to move to another computer I just download these .dotfiles and sync them to the programs that I use.
 
-# 1. to use these .dotfiles you will need to use the terminal (you can use these without a terminal but it won't update without using the terminal and you won't be able to sync them or automatically set them up. A user would basically
+- to use these .dotfiles you will need to use the terminal (you can use these without a terminal but it won't update without using the terminal and you won't be able to sync them or automatically set them up. A user would basically
 have to drag and drop them, and then do that each time there is an update.)
 
 
-## 1. The Terminal - Use these recommended terminals
-   *** !! if you are on windows use mingw64 or wsl - I would suggest mingw64 though not wsl because you will have to run wsl which is a virtual computer which will take up a lot of ram !! **
-  	   mingw64 (windows) - if you are on windows use this terminal
-	   foot (linux/wsl) - if you are on linux and want a very quick lightweight terminal I would recommend this
-	   ghostty (mac/linux/wsl) - if you want something very fresh, dynamic and customizeable with a growing community of users and editors I would recommend ghostty
-	   kitty (mac/linux/wsl) - if you want something very stable use kitty.
+## 1. The Terminal
+### - recommended terminals
+- if you are on windows use mingw64 or wsl 
+- I would recommend mingw64 > wsl 
+    -	   mingw64 (windows) - if you are on windows use this terminal
+    -	   foot (linux/wsl) - if you are on linux and want a very quick lightweight terminal I would recommend this
+    -	   ghostty (mac/linux/wsl) - if you want something very fresh, dynamic and customizeable with a growing community of users and editors I would recommend ghostty
+    -	   kitty (mac/linux/wsl) - if you want something very stable use kitty.
 
 ## 1.2. Once you have a terminal picked out install git
    -     pacman -S mingw-w64-x86_64-git
@@ -40,11 +42,12 @@ have to drag and drop them, and then do that each time there is an update.)
    - eMacs - install emacs
      pacman -S mingw-w64-x86_64-emacs
 
-     - brew install emacs
+        - brew install emacs
      
-     - now you can write into files in the terminal using the command 'emacs -nw file'
+		- now you can write into files in the terminal using the command 'emacs -nw file'
+	
 
-     I would also suggest installing nano - it's a very quick editor for fast editing text
+- Nano - I would also suggest installing nano - it's a very quick editor for fast editing text
 
 # 3. Link files - (ln)
     sudo ln -s /home/name/.dotfiles/file /usr/local/bin/ (for shell files)
