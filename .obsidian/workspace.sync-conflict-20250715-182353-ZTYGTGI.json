@@ -1,0 +1,243 @@
+{
+  "main": {
+    "id": "d5301ae0758e3b43",
+    "type": "split",
+    "children": [
+      {
+        "id": "b7f6e8585c205df5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0af45978c0085d7c",
+            "type": "leaf",
+            "state": {
+              "type": "video",
+              "state": {
+                "file": "Ani/1Walk_2-anime.mp4"
+              },
+              "icon": "lucide-file",
+              "title": "1Walk_2-anime"
+            }
+          },
+          {
+            "id": "08bc003aced46297",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Comics Class.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Comics Class"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ab9416dfc6b719c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b5ff6fd323ede65",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae0c489981e048a8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0d4db9e137cfe2a7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "96a429a1d09ef5a8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 251.5
+  },
+  "right": {
+    "id": "f3a56cfca880de67",
+    "type": "split",
+    "children": [
+      {
+        "id": "9b630529c45db50e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2e07bdc5866cff4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "T_Shuh_Shih.org",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from T_Shuh_Shih"
+            }
+          },
+          {
+            "id": "826ac23682dd2408",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b6b9212d3356fd18",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "T_Shuh_Shih.org"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of T_Shuh_Shih"
+            }
+          },
+          {
+            "id": "3de6bf5d98f2461c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ptest.org",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for ptest"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "simple-rss:Simple RSS": false,
+      "webpage-html-export:Export Vault to HTML": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "08bc003aced46297",
+  "lastOpenFiles": [
+    "Ani-Comics/Comic_Character_Design_Example/Colleen Costlemon_simple_character.png",
+    "Ani-Comics/motion_to_motion/Madagascar Marty,  Alex ~ StunnaBoyJ0yOzii.mp4",
+    "Ani-Comics/motion_to_motion",
+    "Dolice/Practice Exercises/_IMG_4018.jpg",
+    "Dolice/Practice Exercises/_IMG_4017.jpg",
+    "Dolice/Practice Exercises/_IMG_4016.jpg",
+    "Dolice/Practice Exercises/_IMG_4014.jpg",
+    "Dolice/Practice Exercises",
+    "Dolice/New folder",
+    "Dolice/_IMG_4014.jpg",
+    "Dolice/_IMG_4018.jpg",
+    "Dolice/_IMG_4017.jpg",
+    "Dolice/_IMG_4016.jpg",
+    "Dolice/IMG_4015.heic",
+    "Dolice/IMG_4016.heic",
+    "Dolice/IMG_4020.heic",
+    "Dolice/IMG_4019.heic",
+    "Dolice/IMG_4018.heic",
+    "Dolice/IMG_4017.heic",
+    "T_DQ_Castle_/00018.jpg",
+    "T_DQ_Castle_/00017.jpg",
+    "insect.canvas",
+    "Comics Class.canvas",
+    "Untitled 1.md",
+    "Untitled.md",
+    "Ani/AN_Basic Principles of Animation.md",
+    "0PZ/Lupus Films.md",
+    "0PZ/Cover_Letter_New Vision Entertainment.md",
+    "00_P.md",
+    "Untitled 2.md",
+    "Links.md",
+    "Fitness.canvas",
+    "Home.canvas",
+    "Organizing Photoshop Files.md",
+    "Phrases to avoid.md",
+    "UDESIGN.canvas",
+    "dolice.canvas",
+    "Perspective.canvas",
+    "S/Sergei Eisenstein.md",
+    "P/P_Color.md",
+    "P/P_Painters.md",
+    "P/P_COLOR_WHEEL.md",
+    "P/P_Painting Lips.md",
+    "P/P_Maitland Graves Notes.md",
+    "L-Books/Big Swiss Notes.md",
+    "Shoe Reference.canvas",
+    "DQ_Class 1.md",
+    "Ani-stop_mo/Project List.md",
+    "Ani-fg/fg_heads/Expressions.canvas",
+    "Ani-fg/fg_ad/Raccoons.md",
+    "Ani-fg/fg_ad/FG_AD_Cats.canvas",
+    "Ani-fg/fgfg/FG_Figure Drawing.md",
+    "Ani-fg/fgfg/FG_Arm Drapery.md",
+    "ani-stop_mo/Project List.md",
+    "Ani-LAY/VD/VD_Viz Dev Artist.md",
+    "Ani-LAY/VD/VD_Viz Dev Notes.md"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "defaultPath": "",
+  "defaultTemplate": "Source: {{item.link}}\n\n{{item.description}}",
+  "autoPull": false,
+  "timeInterval": 60,
+  "feeds": [
+    {
+      "name": "polygon",
+      "url": "https://www.polygon.com/rss/index.xml",
+      "title": "{{item.title}}",
+      "path": "/RSS"
+    }
+  ]
+}

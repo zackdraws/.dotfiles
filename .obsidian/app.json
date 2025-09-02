@@ -1,0 +1,16 @@
+{
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": false,
+  "defaultViewMode": "source",
+  "rightToLeft": false,
+  "showLineNumber": true,
+  "livePreview": true,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 10
+  },
+  "promptDelete": false,
+  "showInlineTitle": false
+}

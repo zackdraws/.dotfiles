@@ -83,3 +83,4 @@ set -gx PULSE_SERVER "tcp:(awk '/nameserver/ {print $2; exit}' /etc/resolv.conf)
 set -gx LIBGL_ALWAYS_INDIRECT 1
 set -gx DISPLAY localhost:0
 eval "$(zoxide init bash)"
+. "$HOME/.cargo/env"

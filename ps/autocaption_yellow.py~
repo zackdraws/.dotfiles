@@ -1,0 +1,77 @@
+import os
+import subprocess
+import json
+from vosk import Model, KaldiRecognizer
+from moviepy.editor import VideoFileClip
+
+VIDEO_PATH = "/path/to/your/video.mp4"
+MODEL_PATH = "vosk-model-small-en-us-0.15"
+AUDIO_PATH = "temp.wav"
+ASS_PATH = "styled_subtitles.ass"
+OUTPUT_VIDEO = "output_with_subs.mp4"
+
+# 1. Extract audio
+video = VideoFileClip(VIDEO_PATH)
+video.audio.write_audiofile(AUDIO_PATH, fps=16000, codec='pcm_s16le')
+
+# 2. Transcribe with Vosk
+model = Model(MODEL_PATH)
+rec = KaldiRecognizer(model, 16000)
+rec.SetWords(True)
+
+results = []
+with open(AUDIO_PATH, "rb") as f:
+    while True:
+        data = f.read(4000)
+        if len(data) == 0:
+            break
+        if rec.AcceptWaveform(data):
+            results.append(json.loads(rec.Result()))
+    results.append(json.loads(rec.FinalResult()))
+
+# 3. Create styled .ass subtitles
+def format_time(seconds):
+    h = int(seconds // 3600)
+    m = int((seconds % 3600) // 60)
+    s = int(seconds % 60)
+    cs = int((seconds - int(seconds)) * 100)  # centiseconds
+    return f"{h:01}:{m:02}:{s:02}.{cs:02}"
+
+with open(ASS_PATH, "w", encoding="utf-8") as f:
+    # Header and styling
+    f.write("""[Script Info]
+ScriptType: v4.00+
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,36,&H00FFFF00,&H000000FF,&H00000000,&H00000000,-1,0,1,2,0,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+""")
+
+    index = 0
+    for result in results:
+        if not result.get("result"):
+            continue
+        words = result["result"]
+        line = ""
+        start_time = words[0]['start']
+        for i, word in enumerate(words):
+            end_time = word['end']
+            line += word['word'] + " "
+            # You can group by time or word count for line breaks
+            if (i + 1) % 6 == 0 or i == len(words) - 1:
+                f.write(f"Dialogue: 0,{format_time(start_time)},{format_time(end_time)},Default,,0,0,0,,{line.strip()}\n")
+                if i + 1 < len(words):
+                    start_time = words[i + 1]['start']
+                line = ""
+
+# 4. Burn subtitles into the video using ffmpeg
+subprocess.run([
+    "ffmpeg", "-y", "-i", VIDEO_PATH,
+    "-vf", f"ass={ASS_PATH}",
+    "-c:a", "copy", OUTPUT_VIDEO
+])
+
+print("✅ Video with styled subtitles saved as:", OUTPUT_VIDEO)

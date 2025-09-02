@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "c1f3242cf66a7239",
+    "type": "split",
+    "children": [
+      {
+        "id": "a5209607b0cf9b9c",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e13f42cdbe084a5f",
+    "type": "split",
+    "children": [
+      {
+        "id": "97b49ae3cd53c4f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8ecea66b6add902",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ea56159b14ba1a5d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 279.49999809265137
+  },
+  "right": {
+    "id": "90b84b7711973ff7",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ea250916c12c234",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e339a8264dcfc202",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "a5209607b0cf9b9c",
+  "lastOpenFiles": [
+    "Color.md",
+    "Photoshop.md",
+    "These kinds of videos.md",
+    "Feature vs TV Storyboarding note TAG Discord Lecture V2.md",
+    "Viz Dev.md",
+    "Ollie Johnston.md",
+    "John Lounsbery.md",
+    "Milt Kahl.md",
+    "Woolie Reitherman.md",
+    "Directors.md"
+  ]
+}

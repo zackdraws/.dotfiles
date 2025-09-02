@@ -1,0 +1,173 @@
+.cm-line:has(.org-heading) {
+  font-size: 1.05em;
+}
+
+.cm-line:has(.org-planning),
+.cm-line:has(.org-propertydrawer) {
+  font-size: 0.95em;
+}
+
+.theme-dark .org-heading,
+.theme-dark .org-title,
+.theme-dark :is(.org-heading, .org-priority, .org-title) + :is(.org-text-bold, .org-text-italic, .org-text-underline, .org-text-verbatim, .org-text-code, .org-text-strikethrough) {
+  color: #2fbd23;
+}
+
+.theme-dark .org-planning {
+  color: #bb8210;
+}
+
+.theme-dark .org-propertydrawer {
+  color: #aa944f;
+}
+
+.theme-dark .org-text-bold,
+.theme-dark .org-text-italic,
+.theme-dark .org-text-underline,
+.theme-dark .org-text-verbatim,
+.theme-dark .org-text-code,
+.theme-dark .org-text-strikethrough,
+.theme-dark .org-section {
+  color: #b9cddb;
+}
+
+.theme-dark .org-comment {
+  color: #a68fa7;
+}
+
+.theme-dark .org-keyword {
+  color: #bb0f0f;
+}
+
+.theme-dark .org-priority {
+  color: #058fc7;
+}
+
+.theme-dark .org-tags {
+  color: #02ffc7;
+}
+
+.theme-dark .org-text-bold {
+  font-weight: 600;
+}
+.theme-dark .org-text-italic {
+  font-style: italic;
+}
+.theme-dark .org-text-underline {
+  text-decoration: underline;
+}
+.theme-dark .org-text-verbatim {
+  background-color: black;
+}
+.theme-dark .org-text-code {
+  background-color: black;
+}
+.theme-dark .org-text-strikethrough {
+  text-decoration: line-through;
+}
+
+
+
+
+
+
+.theme-light .org-heading,
+.theme-light .org-title,
+.theme-light :is(.org-heading, .org-priority, .org-title) + :is(.org-text-bold, .org-text-italic, .org-text-underline, .org-text-verbatim, .org-text-code, .org-text-strikethrough) {
+  color: #2f8925;
+}
+
+.theme-light .org-planning {
+  color: #895f0a;
+}
+
+.theme-light .org-propertydrawer {
+  color: #705f2c;
+}
+
+.theme-light .org-text-bold,
+.theme-light .org-text-italic,
+.theme-light .org-text-underline,
+.theme-light .org-text-verbatim,
+.theme-light .org-text-code,
+.theme-light .org-text-strikethrough,
+.theme-light .org-section {
+  color: rgb(58, 69, 74);
+}
+
+.theme-light .org-comment {
+  color: #a68fa7;
+}
+
+.theme-light .org-keyword {
+  color: #931212;
+}
+
+.theme-light .org-priority {
+  color: #197aa0;
+}
+
+.theme-light .org-tags {
+  color: #1d9077;
+}
+
+.theme-light .org-text-bold {
+  font-weight: 600;
+}
+.theme-light .org-text-italic {
+  font-style: italic;
+}
+.theme-light .org-text-underline {
+  text-decoration: underline;
+}
+.theme-light .org-text-verbatim {
+  background-color: white;
+}
+.theme-light .org-text-code {
+  background-color: white;
+}
+.theme-light .org-text-strikethrough {
+  text-decoration: line-through;
+}
+
+
+
+.theme-dark .orgmode-view .cm-fat-cursor {
+  background-color: var(--text-accent) !important;
+}
+.theme-dark .orgmode-view:not(.cm-focused) .cm-fat-cursor {
+  background-color: unset !important;
+  outline-color: var(--text-accent) !important;
+}
+.theme-dark .orgmode-view .cm-selectionBackground {
+  background-color: var(--text-selection) !important;
+}
+.theme-dark .cm-editor .cm-cursor {
+  border-left-color: white; /* caret-color */
+}
+
+.theme-light .orgmode-view .cm-fat-cursor {
+  background-color: var(--text-accent) !important;
+}
+.theme-light .orgmode-view:not(.cm-focused) .cm-fat-cursor {
+  background-color: unset !important;
+  outline-color: var(--text-accent) !important;
+}
+.theme-light .orgmode-view .cm-selectionBackground {
+  background-color: var(--text-selection) !important;
+}
+.theme-light .cm-editor .cm-cursor {
+  border-left-color: black; /* caret-color */
+}
+
+.orgmode-view.cm-focused {
+  outline: unset;
+}
+
+.orgmode-view .cm-foldPlaceholder {
+  color: var(--text-faint);
+  background-color: transparent;
+  border: none;
+  margin-left: 8px;
+  user-select: none;
+}

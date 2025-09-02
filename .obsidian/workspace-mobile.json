@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "e688382aebca71aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d0430407b7e1b36",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "223738f0bf933c2f",
+            "type": "leaf",
+            "state": {
+              "type": "orgmode",
+              "state": {
+                "file": "ZPF.org"
+              },
+              "icon": "lucide-file",
+              "title": "ZPF"
+            }
+          },
+          {
+            "id": "0e09bf0b76d2679f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ec944016d8912905",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "17a202229fc21a5d",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "byModifiedTime",
+            "autoReveal": true
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "6a419236b4f3ff7a",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "432d4a25c8ad7b5c",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "ac10c0ff93530d29",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "8a0b8b099783e208",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "620e48bc4460f395",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "H2U.org",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "370e6e6be144cdf7",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "H2U.org",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "c4df27ba6793446f",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "H2U.org"
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "0e09bf0b76d2679f",
+  "lastOpenFiles": [
+    "bash.org",
+    "ok.org",
+    "ok_debug.org",
+    "Untitled 3.md",
+    "ZPF.org",
+    "organize_files_2025_02_10.org",
+    "office_hours.pdf",
+    "CD_20240807.org",
+    "IMG_3704 2.PNG",
+    "ZPF.tex",
+    "S/Sketchbook Brainstorm4.PNG",
+    "S/Sketchbook Brainstorm.PNG",
+    "S/Sketchbook Brainstorm3.PNG",
+    "S/Sketchbook Brainstorm2.PNG",
+    "Artists/Aymeric Kevin/Aymeric_3.jpg",
+    "Artists/Aymeric Kevin/Aymeric_2.jpg",
+    "Artists/Aymeric Kevin/Aymeric_4.jpg",
+    "Artists/Aymeric Kevin/Aymeric_.jpg",
+    "Artists/Patridge/em_partridge_05.jpg",
+    "Artists/AR_List of Artists.md~",
+    "Artists/AR_List of Artists.md",
+    "Artists/Aymeric Kevin",
+    "Artists/AR_Marc Davis.md",
+    "Artists/Patridge",
+    "ZPF.md",
+    "Dolice.md",
+    "CD/ShuhChuh_outline_Rough_Draft-Zack_johnson.md",
+    "CD_20240807.md",
+    "ShuhChuh_outline_Rough_Draft-Zack_johnson.md",
+    "T_Shuh_Shih.md",
+    "Robotics.md",
+    "Untitled.md",
+    "Robotics.sync-conflict-20240726-185102-OL5QHX4.md",
+    "Robotics.sync-conflict-20240727-001443-ZTYGTGI.md",
+    "techo/00/00_INDEX.md",
+    "Skateboarding Animation.md",
+    "Untitled 4.md",
+    "2024_06_19.md",
+    "AL_ZOOM_CLASSROOM_ID_CODES.md",
+    "Camera Notes.md",
+    "+++.md",
+    "AL_SU_24.md",
+    "DR_00.canvas",
+    "Spanish.md",
+    "S/Storyboarding Notes.md",
+    "S/SB_JF_04_05_Notes.md",
+    "S/Storyboard Pro Hotkeys.md",
+    "Artists/Aymeric Kevin/Aymeric Kevin.canvas",
+    "Untitled.canvas",
+    "fg/fgfg/FG_Figure_Drawing.canvas",
+    "fg/fg_ad/FG_AD_Cats.canvas",
+    "fg/fg_exp/Expressions.canvas",
+    "Home.canvas",
+    "Rough Animation.canvas",
+    "Perspective.canvas",
+    "techo/Job/Job Apps.canvas"
+  ]
+}
