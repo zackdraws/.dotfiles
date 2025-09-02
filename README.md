@@ -181,3 +181,19 @@ Untar.sh - uncompresses files
 # tvp -
 # yazi - to look through files in terminal
 
+*** Python - Scripts
+
+these are the python scripts that I use - these are installed in linux
+they are installed in
+
+and they are on my path
+
+
+rembg - for removing backgrounds 
+numpy -
+pymatting -
+pooch -
+scikit-image -
+tqdm -
+scipy - 
+opencv - python headless
