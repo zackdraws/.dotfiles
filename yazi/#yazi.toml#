@@ -86,7 +86,7 @@ rules = [
 
 [tasks]
 
-image_bound = [0, 0]
+image_bound = [1000, 1000]
 
 
 
@@ -98,8 +98,7 @@ image_rotate = "true"
 
 image_transparency = "true"
 
-
-
+max_width = 300 
 
 delay = 50
 

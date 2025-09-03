@@ -1,14 +1,7 @@
-#!/usr/bin/env fish
-
-
-
-# Kill Windows Syncthing process from WSL (via PowerShell)
-
 powershell.exe -Command "Stop-Process -Name syncthing -Force -ErrorAction SilentlyContinue"
 
 
 
-# Check if it succeeded
 
 set status $status
 

@@ -21,7 +21,9 @@ alias ytd="mov-cli -s youtube.yt-dlp -d"
 alias ze="zellij"
 zoxide init fish | source
 set -gx GDK_SCALE 2 #GWSL
-
+set -gx TERM xterm-256color
+set -gx COLORTERM truecolor
+set -gx YAZI_PREVIEW_IMAGE_PRORTOCOL chafa
 function e
 
     emacs -nw $argv
@@ -32,3 +34,5 @@ set -x ANDROID_HOME ~/Android
 set -x PATH $ANDROID_HOME/cmdline-tools/latest/bin $ANDROID_HOME/platform-tools $ANDROID_HOME/emulator $PATH
 set -x ANDROID_HOME ~/Android/Sdk
 set -x PATH $ANDROID_HOME/cmdline-tools/latest/bin $ANDROID_HOME/platform-tools $ANDROID_HOME/emulator $PATH
+
+set -x PATH $HOME/.local/kitty.app/bin $PATH

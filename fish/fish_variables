@@ -39,4 +39,4 @@ SETUVAR fish_pager_color_selected_background:\x2d\x2dbackground\x3d434c5e\x0d\x0
 SETUVAR fish_pager_color_selected_completion:\x1d\x0d\x0d
 SETUVAR fish_pager_color_selected_description:\x1d\x0d\x0d
 SETUVAR fish_pager_color_selected_prefix:\x1d\x0d\x0d
-SETUVAR fish_user_paths:/home/zack/\x2elocal\x1e/usr/bin
+SETUVAR fish_user_paths:/home/zack/\x2elocal\x1e/usr/bin\x1e/home/zack/\x2elocal/bin

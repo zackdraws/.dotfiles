@@ -1,9 +1,6 @@
-[mgr]
-ratio = [1, 1, 4]
+ratio = [1, 1, 2]
 
-max_height = 500
-
-sort_by = "mtime"
+sort_by = "alphabetical"
 
 sort_sensitive = false
 
@@ -76,8 +73,13 @@ play = [
 rules = [
 
     { mime = "application/pdf", use = ["open_zathura", "reveal"] },
+
     { mime = "text/*", use = ["edit", "reveal"] },
+
+    { mime = "audio/*", use = ["play", "reveal"] },
+
     { mime = "image/*", use = ["open_nomacs", "reveal"] },
+
     { mime = "video/*", use = ["play", "reveal"] },
 
 ]
@@ -97,9 +99,6 @@ image_filter = "true"
 image_rotate = "true"
 
 image_transparency = "true"
-
-
-
 
 delay = 50
 
