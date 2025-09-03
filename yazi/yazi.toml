@@ -1,8 +1,7 @@
 [mgr]
-ratio = [1, 1, 4]
+ratio = [1, 1, 2]
 
-max_height = 500
-
+max_height = 300
 sort_by = "mtime"
 
 sort_sensitive = false
@@ -97,11 +96,6 @@ image_filter = "true"
 image_rotate = "true"
 
 image_transparency = "true"
-
-
-
-
-delay = 50
 
 previewers = [
 
