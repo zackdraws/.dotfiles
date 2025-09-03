@@ -16,12 +16,17 @@
 have to drag and drop them, and then do that each time there is an update.)
 
 ### - Recommended Terminals
-    to use dotfiles download one of these terminals, you can use your default one on apple that's already installed but I would recommend one of thse
--       if you are on windows use mingw64 or wsl (mingw64 > wsl) 
-    -	   mingw64 (windows) - if you are on windows use this terminal
-    -	   foot (linux/wsl) - if you are on linux and want a very quick lightweight terminal I would recommend this
-    -	   ghostty (mac/linux/wsl) - if you want something very fresh, dynamic and customizeable with a growing community of users and editors I would recommend ghostty (you can use the command brew install ghostty) (to use homebrew use these instructions https://brew.sh/)
-    -	   kitty (mac/linux/wsl) - if you want something very stable use kitty. (curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin)
+    to use dotfiles download one of these terminals, you can use your default one on apple that's already installed but I would recommend one of these
+    
+    -	   mingw64 (windows) - use on windows
+    -	   foot (linux/wsl) - fast terminal, weird name
+    -	   ghostty (mac/linux/wsl) - new, user friendly
+    	   (you can use the command brew install ghostty)
+	   	    (to use homebrew use these instructions [[https://brew.sh/]])
+    -	   kitty (mac/linux/wsl) - stable and fast
+    	   (curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh	/dev/stdin)
+    -      if you are on windows use mingw64 or wsl (mingw64 > wsl) 
+
 ## 1.2. Next install git
    -     pacman -S mingw-w64-x86_64-git
    -     kitty terminal - > /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -43,7 +48,7 @@ have to drag and drop them, and then do that each time there is an update.)
 		  - ls -r
 		  - ls -t -r
 
-## 2. The Editor - to edit files you will need an editor
+# 2. The Editor - to edit files you will need an editor
       - eMacs - install emacs
      pacman -S mingw-w64-x86_64-emacs
 
@@ -70,103 +75,117 @@ have to drag and drop them, and then do that each time there is an update.)
         3.5     Shell - for command history and command line editing - is within the terminal
                     -Fish - for syntax highlights and autosuggestions and themes
 
-### -  Navigating terminal -
-    Yazi - to manage and look through files. eMacs in the terminal is used as the editor for the program.
+## -  Navigating terminal -
 
-    Broot - to manage and look through files, it's like Yazi but it is not.
+       Yazi - to manage and look through files. 
 
-    Zoxide - makes it insanely easier to find files
+       Broot - to manage and look through files, it's like Yazi but it is not.
 
-    FZF - is a fuzzy finder if you are in the directory use fzf to find your files
+       Zoxide - quick search for files
 
-# Directories -
-  	      different directories hold different dotfiles for configuration
+       FZF - is a fuzzy finder if you are in the directory use fzf to find your files
 
-## 4. Automating (Scripts)
-    - cnv_mp4_gif.py
+# 4. Automating (Scripts)
+####      -- these are the scripts that I use to automate my tasks
+
+
+
+## .py - Python Files
+    cnv_mp4_gif.py
                         python mp4_to_gif.py your_input_file.mp4 output_file.gif
                         4.To change the frame duration, use the `-d` or `--duration` argument:
     examples -
                         python mp4_to_gif.py your_input_file.mp4 output_file.gif -d 0.2  # 0.2 seconds per frame
                         - opposite of that is cnv_gif_mp4.bash
                         - /create_gif.sh wUsers/myuser/Pictures/my_images output.gif
-## SH - Shell Files 
-      - these are my shell files they are located in my usr/local/bin using sudo chmod +x
-### Make
-    - Export_Org_To_pdf.sh	exports the org to pdf
-    - to_latex.sh 	    	pipes a file into the correct format for pandoc
+## .sh - Shell Files/Fish Files 
+      - these are my shell files
+      - located in /sh in .dotfiles
+      - sync (ln -s)  to /usr/local/bin/
+      - sudo chmod +x to use from anywhere
+      - used for automating tasks
+### Scripts for making things
+    - Export_Org_To_pdf.sh		converts .org file to pdf
+      					        $ need to change name from export to convert
+    - to_latex.sh 	    	    pipes a file into the correct format for pandoc
     - cnv_pdf_jpg.sh	     	convert pdf files to jpg
-    - cnv_pdf__jpg.sh*    	convert pdf files to jpg
+    - cnv_pdf__jpg.sh*    		convert pdf files to jpg
     - grep_thumbnails.sh     	extract image paths and then convert them to latex
     - grep_t.sh 	      		s/a grep_thumbnails but with a shorter name
     - syncthing_stop.sh     	stops syncthing
-    - mkto.sh 		   	makes a todo with the date that the file is made
-    - FI_^^.sh' 	   		moves file from the cild folder to the parent folder
+    - mkto.sh 		   		    makes a todo with the date that the file is made
+    - FI_^^.sh' 	   		    moves file from the child folder to the parent folder
     - copy_out.sh 	     	    
     - export_org_to_pdf_02.org
     - export_org_to_pdf_02.sh*
     - export_org_to_pdf.sh*
-    - bracket_format.sh - formats brackets around files
-### Formatting
-    - Bracket_Format.sh			puts brackets around
-### Convert Files - 			scripts to convert from one file format to another or change the size of files
-    - cnv_pdf->jpg 			        - converts pdf file to jpeg files
-    - cnv_jpg_pdf 			        - converts jpg files to pdf
-    - convert_heic_to_jpeg.sh -		- to convert heic to jpeg
-    - convert_heic_to_jpg.sh - 		- to convert heic to jpg
-    - convert_png_j.sh -     		- to convert png to jpg
-    - convert_webloc_jpeg -  		- to convert webloc to jpeg
-    - convert_webp_jpeg - 		        to convert webp to jpeg
-    - heic_jpeg.sh - 			    convert heic to jpeg
-    - jfif_jpeg.sh -   			    convert jfif to jpeg
-    - convert_webloc_to_jpeg.sh - 	 convert webloc to jpeg 
+    - bracket_format.sh -       formats brackets around files
+### Scripts for Formatting
+    - Bracket_Format.sh			puts brackets around file
+      					-       tempermental doesn't work well
+### Scripts for converting Files -
+    - cnv_pdf->jpg 		                - converts pdf file to jpeg files
+    - cnv_jpg_pdf 		                - converts jpg files to pdf
+    - convert_heic_to_jpeg.sh -		    - convert heic to jpeg
+    - convert_heic_to_jpg.sh - 		    - convert heic to jpg
+    - convert_png_j.sh -     		    - convert png to jpg
+    - convert_webloc_jpeg -  		    - convert webloc to jpeg
+    - convert_webp_jpeg - 		        - convert webp to jpeg
+    - heic_jpeg.sh - 			        - convert heic to jpeg
+    - jfif_jpeg.sh -   			        - convert jfif to jpeg
+    - convert_webloc_to_jpeg.sh - 	    - convert webloc to jpeg
+      					                    (doesn't always work)
 ### convert- image files
-    - psd_convert.sh -			convert psd to jpg
-    - psd_jpeg.sh -  			 convert psd to jpeg
+    - psd_convert.sh -			    - convert psd to jpg
+      		     			
+    - psd_jpeg.sh -  			     convert psd to jpeg
 ### Compress Files
-    - tiny_vid.sh -			to make videos smaller - dependent on ffmpeg
+    - tiny_vid.sh -		        	- to make videos smaller
+      		  			
 ### Move 
-    - move_files_to_parent.sh -		moves files to the parent directory
+    - move_files_to_parent.sh -		mv files to parent directory
 ### Rename - F2
     - F2_date_taken.sh -
-    - rename.sh -			renames files
-      - rename_date_taken.sh - 		renames files with date taken
-      - rename_folder.sh -   		renames files in folder
+    - rename.sh -			        renames file
+      					-
+    - rename_date_taken.sh - 		renames files with date taken
+      			   		-
+    - rename_folder.sh -   		    renames files in folder
+      		       			-
 ### Delete - X
-    - X.sh -				to delete a folder of files
-    - clean.sh - 			deletes files
-    - delete_all_heic - 		deletes all heic files
-    - delete_all_jfif - 		deletes all jfif files
-    - delete_duplicates - 		tried to get a script that deletes duplicate files but it doesn't work
-    - delete_duplicate_images - 
-    - delete_text_string - 
+    - X.sh -				        deletes files inside folder
+    - clean.sh - 			        deletes files
+    - delete_all_heic - 		    deletes all heic files
+    - delete_all_jfif - 		    deletes all jfif files
+    - delete_duplicates - 		    tried to get a script that deletes 
+    - delete_duplicate_images - 	script to delete duplicate images
+      			      		        doesn't work well
+    - delete_text_string - 		    $$ can't remember what this one does
 ### PSD - scripts to change images
-    - change-
-	- psd_bright.py
-	- psd_bw.py
-    - psd_convert.sh - converts psd files - exports layers
-    - output - 
-    - psd_flat.sh - flattens layers and converts to psd
-    - psd_flats.sh - adds colors randomly to closed contour areas
-    - psd_jpeg.sh - converts psd to jpeg
+    - change				-
+    - psd_bright.py			-
+    - psd_bw.py				-
+    - psd_convert.sh 			             - converts psd files - exports layers
+    - output -      
+    - psd_flat.sh			                - flattens layers and converts to psd
+    - psd_flats.sh 			                - adds colors randomly to closed contour areas
+    - psd_jpeg.sh 			                - converts psd to jpeg
     - keyout -
-    - psd_key_matte_folder.sh - adds matte to files in a folder
-    - psd_key_mate_folder_strong.sh - like psd key matte but stronger
-    - psd_keyout.sh - takes out the white background
-    - psd_keyout_w_matte.sh - adds white matte underneath drawings
-    - psd_keyout_w_matte_soft.
-    - psd_select_sub.sh - inverts subject and takes out background
-    - crop.sh - to crop files
+    - psd_key_matte_folder.sh		        - adds matte to files in a folder
+    - psd_key_mate_folder_strong.sh 	    - like psd key matte but stronger
+    - psd_keyout.sh 			            - takes out the white background
+    - psd_keyout_w_matte.sh 		        - adds white matte underneath drawings
+    - psd_keyout_w_matte_soft.		 
+    - psd_select_sub.sh 		            - inverts subject and takes out background
+    - crop.sh 				                - to crop files
 ### Captioning
-Caption.py - caption.py [image.jpg]
-	   - asks for caption
-	   - write in caption
-	   - outputs with caption
+Caption.py				- caption.py [image.jpg]
+	   				- asks for caption
+	   				- write in caption
+					- outputs with caption
 ## Compressing
          -Untar.sh - uncompresses files
-
 ## 6. Saving
-
 ### TMUX - 
 for tabs in the terminal and to save your place
 - tmux plug ins
