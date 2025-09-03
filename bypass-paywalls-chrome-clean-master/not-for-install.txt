@@ -1,2 +1,0 @@
-
-See changelog for location of master zip-file (install by 'load unpacked' folder).

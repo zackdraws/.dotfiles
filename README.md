@@ -32,6 +32,12 @@ have to drag and drop them, and then do that each time there is an update.)
    -     kitty terminal - > /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    - 	 home brew - >      brew install git
 
+
+
+then install git here
+git config --global user.name "Your Name"
+git config --global user.email 
+"your.email@example.com"
 ## 1.4.  clone files (cl)
 	 	  1.  open your terminal
           type "cd ~/" (without quotes)
@@ -178,19 +184,37 @@ have to drag and drop them, and then do that each time there is an update.)
     - psd_keyout_w_matte_soft.		 
     - psd_select_sub.sh 		            - inverts subject and takes out background
     - crop.sh 				                - to crop files
-### Captioning
-Caption.py				- caption.py [image.jpg]
+### Captioning - just a quick python script to add a caption to images like storyboards 
+Caption.py				- usage: caption.py [image.jpg]
 	   				- asks for caption
 	   				- write in caption
 					- outputs with caption
 ## Compressing
-         -Untar.sh - uncompresses files
-## 6. Saving
-### TMUX - 
-for tabs in the terminal and to save your place
-- tmux plug ins
+         -Untar.sh -			unzips files from terminal
+# 5. Back-up and Save 
+### Syncthing - 
+-   with syncthing you can sync one computer to another
+1. - install on macos with homebrew - brew install syncthing
+2. - run 'syncthing' in terminal
+loads syncthing in the terminal -
+3. - run
+brew services start syncthing
+for syncthing to start on start up
 
-#7. For Work
+4. access syncthing by going to 127.0.0.1:8384 in your web browser
+
+5. Go to another computer to install Syncthing
+
+6. sync files by adding them to your folders
+
+### TMUX -
+- https://github.com/omerxx/dotfiles 
+- https://github.com/tmux-plugins/tpm
+- https://github.com/omerxx/tmux-sessionx
+- https://github.com/tmux/tmux/wiki/Getting-Started
+- https://github.com/omerxx/go-blocksite
+
+# 7. For Work
 
 
 # 7.1 Tools for Creating (still working on this part)
@@ -218,3 +242,13 @@ for tabs in the terminal and to save your place
 
 # 7.2 Reviewing
 
+## Docs
+### For PDFS
+- Adobe Acrobat-
+- Zathura - https://github.com/pwmt/zathura.git 
+- Mozilla FIrefox - 
+### For DocX
+- Word -
+- OpenDocs -
+- Drive
+# 8 
