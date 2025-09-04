@@ -1,0 +1,262 @@
+;; -*- lexical-binding: t; -*-
+
+
+;; Bootstrap Elpaca
+
+(defvar elpaca-installer-version 0.5)
+
+(let* ((repo  "https://github.com/progfolio/elpaca.git")
+
+       (dir   (expand-file-name "elpaca/" user-emacs-directory))
+
+       (repo-dir (expand-file-name "repos/elpaca" dir))
+
+       (build-dir (expand-file-name "build" repo-dir))
+
+       (default-directory repo-dir))
+
+  (unless (file-exists-p repo-dir)
+
+    (make-directory dir t)
+
+    (when (executable-find "git")
+
+      (call-process "git" nil nil nil "clone" "--depth" "1" repo repo-dir)))
+
+  (unless (file-exists-p build-dir)
+
+    (make-directory build-dir t)
+
+    (byte-compile-file (expand-file-name "elpaca.el" repo-dir)))
+
+  (add-to-list 'load-path dir)
+
+  (require 'elpaca)
+
+  (elpaca-setup))
+
+
+
+;; Use elpaca with use-package
+
+(require 'elpaca-use-package)
+
+(setq elpaca-use-package-by-default t)
+
+
+
+;; UI Settings
+
+(setq inhibit-startup-message t
+
+      initial-major-mode 'fundamental-mode
+
+      initial-scratch-message nil
+
+      initial-buffer-choice nil
+
+      visible-bell 1
+
+      frame-title-format '((:eval default-directory)))
+
+
+
+(tool-bar-mode -1)
+
+(menu-bar-mode -1)
+
+(scroll-bar-mode -1)
+
+
+
+;; Theme
+
+(use-package base16-theme
+
+  :config (load-theme 'base16-hopscotch t))
+
+
+
+;; Org Mode
+
+(use-package org
+
+  :config
+
+  (setq org-startup-with-inline-images t
+
+        org-image-actual-width (list 260)
+
+        org-duration-format 'h:mm
+
+        org-agenda-files '("~/.ok/ok")
+
+        org-latex-listings 'minted))
+
+
+
+;; Org Roam
+
+(use-package org-roam
+
+  :commands (org-roam-node-find))
+
+
+
+;; Calendar
+
+(use-package calfw)
+
+(use-package calfw-org
+
+  :after (calfw org)
+
+  :config
+
+  (setq cfw:org-agenda-schedule-args '(:scheduled)
+
+        cfw:org-overwrite-default-keybinding t))
+
+
+
+;; Interface & File navigation
+
+(use-package ivy
+
+  :config (ivy-mode 1))
+
+
+
+(use-package counsel)
+
+
+
+(use-package cua-base
+
+  :config (cua-mode 1))
+
+
+
+(use-package neotree)
+
+(use-package peep-dired)
+
+(use-package fzf)
+
+
+
+;; HTTP Server
+
+(use-package impatient-mode)
+
+(use-package simple-httpd)
+
+
+
+;; Magit
+
+(use-package magit)
+
+
+
+;; Completion
+
+(use-package company
+
+  :hook (after-init . global-company-mode)
+
+  :config
+
+  (setq company-idle-delay 0.2
+
+        company-minimum-prefix-length 1))
+
+
+
+;; Optional: Corfu (disabled by default)
+
+;; (use-package corfu
+
+;;   :custom
+
+;;   (corfu-auto t)
+
+;;   (corfu-auto-delay 0.2)
+
+;;   :init
+
+;;   (global-corfu-mode)
+
+;;   :bind (:map corfu-map
+
+;;               ("TAB" . corfu-insert)
+
+;;               ("<tab>" . corfu-insert)))
+
+
+
+;; Safe local eval
+
+(setq enable-local-eval t)
+
+(setq safe-local-eval-forms '((progn (org-agenda-list) (other-window 1))))
+
+
+
+;; Disable desktop save mode
+
+(desktop-save-mode 0)
+
+
+
+;; Global keybindings
+
+(global-set-key (kbd "C-c n f") #'org-roam-node-find)
+
+(global-set-key (kbd "C-c a") #'org-agenda)
+
+(global-set-key (kbd "C-c c") #'org-capture)
+
+(global-set-key (kbd "C-c d") #'org-clock-timestamps-down)
+
+(global-set-key (kbd "C-c e") #'org-clock-timestamps-up)
+
+(global-set-key (kbd "C-c f") #'neotree-dir)
+
+(global-set-key (kbd "C-c g") #'0blayout-switch)
+
+(global-set-key (kbd "C-c h") #'httpd-serve-directory)
+
+(global-set-key (kbd "C-c i") #'overwrite-mode)
+
+(global-set-key (kbd "C-c l") #'org-store-link)
+
+(global-set-key (kbd "C-c m") #'magit)
+
+(global-set-key (kbd "C-c q") #'make-directory)
+
+(global-set-key (kbd "C-c r") #'counsel-outline)
+
+(global-set-key (kbd "C-c t") #'set-frame-alpha)
+
+(global-set-key (kbd "C-c w") #'peep-dired)
+
+(global-set-key (kbd "C-c z") #'fzf)
+
+
+
+;; After installing packages, you can run:
+
+;; (elpaca-install)
+
+;; to force Elpaca to install any missing packages.
+
+
+
+(custom-set-variables
+
+ '(custom-safe-themes t))
+
+
+
+(custom-set-faces)

@@ -1,1 +1,0 @@
-usr/local/bin/convert_png_to_j.sh
