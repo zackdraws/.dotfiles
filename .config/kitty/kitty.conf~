@@ -1,0 +1,157 @@
+remember_window_size  no
+
+initial_window_width 920
+
+initial_window_height 500
+
+background_blur 1
+
+
+
+font_family        JetBrainsMono Nerd Font Mono
+
+bold_font          auto
+
+italic_font        Operator Mono Bold Italic
+
+bold_italic_font   auto
+
+
+
+# Font size (in pts)
+
+
+
+# NOTE: Do not use odd values as these affect how kitty renders margin
+
+
+
+font_size        10
+
+
+
+tab_bar_style powerline
+
+
+
+tab_powerline_style slanted
+
+
+
+tab_bar_edge bottom
+
+
+
+tab_bar_align left
+
+
+
+active_tab_font_style   bold
+
+
+
+inactive_tab_font_style normal
+
+
+
+
+
+
+
+
+
+
+
+# background_opacity 0.85
+
+
+
+
+
+
+
+dynamic_background_opacity yes
+
+
+
+
+
+hide_window_decorations titlebar-only
+
+
+
+window_padding_width 5
+
+
+
+
+
+enable_audio_bell no
+
+
+
+# Colors
+
+
+
+
+
+
+
+include theme.conf
+
+
+
+
+
+
+
+
+
+background_opacity         0.8
+
+
+
+
+
+
+
+dynamic_background_opacity yes
+
+
+
+
+
+
+
+# Image preview support (Kitty handles this natively)
+
+
+
+
+
+
+
+# No additional config needed, but you can use `kitten icat` to display images
+
+
+
+
+
+
+
+# Example usage: kitten icat image.png
+
+
+
+
+
+# Uncomment below to allow image previews even in background windows (optional)
+
+
+
+allow_remote_control yes
+
+
+
+listen_on unix:/tmp/mykitty
