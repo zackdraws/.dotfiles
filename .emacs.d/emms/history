@@ -1,9 +1,0 @@
-;;; emms history -*- mode: emacs-lisp; coding: utf-8; -*-
-(
-;; active playlist
-" *EMMS Playlist*"
-;; playlists: ((BUFFER_NAME SELECT_POSITION TRACKS) ...)
-((" *EMMS Playlist*" 1 ((*track* (type . file) (name . "File not found - -IREGEX")) (*track* (type . file) (name . "File not found - -L")) (*track* (type . file) (name . "File not found - -TYPE")) (*track* (type . file) (name . "File not found - C:/S/M/")) (*track* (type . file) (name . "File not found - F")))))
-;; play method
-((emms-repeat-track) (emms-repeat-playlist))
-)
