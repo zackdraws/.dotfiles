@@ -2,3 +2,8 @@ sh/download_wiki.sh
 sh/download_wiki.sh~
 sh/download.sh
 # sh/download.sh
+.gitconfig
+.gitignore
+.tmux.conf~
+#.emacs#
+/.dotfiles/.zsh_history
