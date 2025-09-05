@@ -1,38 +1,77 @@
 clipboard-read = allow
+
+keybind = ctrl+shift+d=new_split:right
+
 clipboard-write = allow
+
 copy-on-select = true
+
 clipboard-paste-protection = false
+
 window-theme = dark
+
 window-decoration = false
-background-opacity = .6
+
+background-opacity = .8
+
 theme = Hopscotch
+
 bold-is-bright = false
+
 background = #322931
+
 foreground = #b9b5b8 
+
 selection-background = #5c545b
+
 selection-foreground = #b9b5b8
+
 cursor-color = #8ACE00
+
 cursor-text = #322931
+
 cursor-style-blink = true
+
 palette = 0=#322931
+
 palette = 1=#4685DD
+
 palette = 2=#8fc13e
+
 palette = 3=#fdcc59
+
 palette = 4=#1290bf
+
 palette = 5=#c85e7c
+
 palette = 6=#149b93
+
 palette = 7=#b9b5b8
+
 palette = 8=#797379
+
 palette = 9=#20A6F2
+
 palette = 10=#433b42
+
 palette = 11=#5c545b
+
 palette = 12=#989498
+
 palette = 13=#d5d3d5
+
 palette = 14=#b33508
+
 palette = 15=#ffffff
+
 palette = 52=#00495F
+
 palette = 88=#005687
+
 palette = 160=#00C3D7
+
 palette = 202=#0094FF
+
 font-family = "TerminessNerdFont"
+
 gtk-titlebar = false
