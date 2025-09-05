@@ -64,12 +64,24 @@ git config --global user.email
 
         - Nano - I would also suggest installing nano - it's a very quick editor for fast editing text
 
+	- * autosuggestions - the plug-in company is installed you (ctrl-m to select from the dropdownlist) 
+
+
+
+
 # 3. Files
         3.1     Link files - (ln)
                         sudo ln -s /home/name/.dotfiles/file /usr/local/bin/ (for shell files)
     	 			    (this is to create a symlink)
 	                    (symlinks are synthetic links between two files 
                         (when you update from .dotfiles it then updates the file in the usr local bin.)
+
+
+			- sudo ln -f //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
+			       cd //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
+
+
+
 		                *       sudo is the command to run a command as 'administrator'
 	    3.2 -   Additional Note: from there you can go to .dotfiles run 'git add .' 
                         next run 'git commit -m "comment" and to 
@@ -251,4 +263,5 @@ for syncthing to start on start up
 - Word -
 - OpenDocs -
 - Drive
-# 8 
+
+# 8
