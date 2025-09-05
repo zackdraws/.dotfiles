@@ -1,0 +1,23 @@
+#!/bin/bash
+
+
+
+# Reads file paths from stdin or a file
+
+# For each path, outputs \includegraphics line with filename only
+
+
+
+while IFS= read -r filepath || [[ -n "$filepath" ]]; do
+
+    # Extract filename with extension
+
+    filename=$(basename "$filepath")
+
+    
+
+    # Output LaTeX includegraphics command
+
+    echo "\\includegraphics[width=0.34\\textwidth]{${filename}}"
+
+done
