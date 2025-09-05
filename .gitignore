@@ -3,10 +3,10 @@
 
 .DS_Store
 
-sh/download_wiki.sh
-sh/download_wiki.sh~
+shell_files/download_wiki.sh
+shell_files/download_wiki.sh~
+shell_files/download.sh
 sh/download.sh
-# sh/download.sh
 .gitconfig
 .gitignore
 .tmux.conf~
