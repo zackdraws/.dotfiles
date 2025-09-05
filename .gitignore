@@ -1,3 +1,8 @@
+
+# Ignore macOS system files
+
+.DS_Store
+
 sh/download_wiki.sh
 sh/download_wiki.sh~
 sh/download.sh
