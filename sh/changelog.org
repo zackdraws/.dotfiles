@@ -1,0 +1,9 @@
+heic2jpg.sh doesn't work
+
+
+heic2jpg files don't work in convert
+- have to make a new one
+  have to delete the old ones
+  have to install
+  
+  sudo apt install libheif-examples imagemagick

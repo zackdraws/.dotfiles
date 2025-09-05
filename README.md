@@ -93,6 +93,12 @@ git config --global user.email
         3.5     Shell - for command history and command line editing - is within the terminal
                     -Fish - for syntax highlights and autosuggestions and themes
 
+
+		    WINDOWS - 
+		    	    - do not use wsl but if you do and you have your dotfiles in wsl you would have to do this to link them
+		    sudo ln -s //wsl.localhost/Ubuntu/home/zack/.dotfiles/sh/p 1/cnvheic2j.ps1 /c/users/user/Documents/WindowsPowerShell/Scripts/cnvheic2j.ps1
+
+
 ## -  Navigating terminal -
 
        Yazi - to manage and look through files. 
@@ -265,3 +271,301 @@ for syncthing to start on start up
 - Drive
 
 # 8
+├── #mp4_frames.sh#
+├── 0T5.sh
+├── 16x9.sh
+├── 16x92.sh
+├── autocaption.sh
+├── autocaption.sh:Zone.Identifier
+├── autocaption_1.sh
+├── backup.txt
+├── bracket_format.sh
+├── bracket_format.sh~
+├── caption.py
+├── clean.sh
+├── cnv_jpg_pdf.sh
+├── cnv_pdf__jpg.sh
+├── cnv_pdf_jpg.sh
+├── compress_video.sh
+├── compress_video2.sh
+├── convert
+│   ├── cnv_jpg_pdf.sh
+│   ├── cnv_pdf__jpg.sh
+│   ├── cnv_pdf_jpg.sh
+│   ├── convert-path
+│   ├── convert_heic_to_jpeg.sh
+│   ├── convert_heic_to_jpg.sh
+- cnvheicj.sh - this one works
+
+│   ├── convert_png_j.sh
+│   ├── convert_webloc_jpeg.sh
+│   ├── convert_webloc_jpeg.sh~
+│   ├── convert_webloc_to_jpeg.sh
+│   ├── convert_webp_jpeg.sh
+│   ├── heic_jpeg.sh
+│   ├── jfif_jpeg.sh
+│   ├── mp4_frames.sh
+│   ├── psd_convert.sh
+│   ├── untar.sh
+│   └── webloc_jpeg.sh
+├── convert-path
+├── convert_heic_to_jpeg.sh
+├── convert_heic_to_jpg.sh
+├── convert_png_j.sh
+├── convert_webloc_jpeg.sh
+├── convert_webloc_to_jpeg.sh
+├── convert_webp_jpeg.sh
+├── copy_clip2.sh
+├── copy_out.sh
+├── crop.sh
+├── deldoop.sh
+├── deldoop2.sh
+├── delete
+│   ├── clean.sh
+│   ├── deldoop.sh
+│   ├── deldoop2.sh
+│   ├── delete_all_heic.sh
+│   ├── delete_all_jfif.sh
+│   ├── delete_duplicate_images.sh
+│   ├── delete_duplicates.sh
+│   ├── delete_text_string.sh
+│   ├── X.fish
+│   ├── X.fish~
+│   └── X.sh
+├── delete_all_heic.sh
+├── delete_all_jfif.sh
+├── delete_duplicate_images.sh
+├── delete_duplicates.sh
+├── delete_text_string.sh
+├── document
+├── export
+│   ├── copy_out.sh
+│   ├── export_org_to_pdf.sh
+│   ├── export_org_to_pdf.sh~
+│   ├── export_org_to_pdf_02.org
+│   ├── export_org_to_pdf_02.sh
+│   ├── export_org_to_pdf_02.sh~
+│   ├── F2_txt.sh
+│   └── sequence_.sh
+├── export_org_to_pdf.sh
+├── export_org_to_pdf.sh~
+├── export_org_to_pdf_02.org
+├── export_org_to_pdf_02.sh
+├── export_org_to_pdf_02.sh~
+├── f2.sh
+├── F2_date_taken.sh
+├── F2_txt.sh
+├── FI_^.sh
+├── FI_^^.sh
+├── file
+│   ├── copy_clip2.sh
+│   ├── FI_^^.sh
+│   ├── filecopyimg.sh
+│   ├── filecopyimgmultiple.sh
+│   ├── filecopyimgmultiple02.sh
+│   ├── filecopyimgmultiple03.sh
+│   ├── filecopyimgmultiple_1.sh
+│   ├── filepath.sh
+│   └── filepathcopy.sh
+├── filecopyimg.sh
+├── filecopyimgmultiple.sh
+├── filecopyimgmultiple02.sh
+├── filecopyimgmultiple03.sh
+├── filecopyimgmultiple_1.sh
+├── filepath.sh
+├── filepathcopy.sh
+├── fix
+│   ├── #fix.sh#
+│   ├── #fixfix.sh#
+│   ├── fix.sh
+│   ├── fix.sh~
+│   ├── list.sh
+│   ├── list.sh~
+│   ├── listlist.sh
+│   └── listlist.sh~
+├── format
+│   ├── bracket_format.sh
+│   ├── bracket_format.sh~
+│   ├── grep_t.sh
+│   ├── grep_thumbnails.sh
+│   ├── grep_thumbnails.sh~
+│   ├── to_latex.sh
+│   └── to_latex.sh~
+├── ghostty-launcher.sh
+├── grep_t.sh
+├── grep_thumbnails.sh
+├── grep_thumbnails.sh~
+├── heic_jpeg.sh
+├── iph.sh
+├── jfif_jpeg.sh
+├── jpeg.sh
+├── launch
+│   ├── ghostty-launcher.sh
+│   ├── 'open_tvpaint (2).sh'
+│   ├── open_tvpaint.sh
+│   ├── syncthing.sh
+│   ├── syncthing_stop.sh
+│   └── syncthing_stop.sh~
+├── list.txt
+├── make
+│   ├── autocaption.sh
+│   ├── autocaption_1.sh
+│   ├── merge_mp3.bash
+│   ├── mkdup.sh
+│   ├── mkpdf.sh
+│   ├── mkto.sh
+│   ├── mkto.sh~
+│   ├── save_screen.sh
+│   ├── save_screen.sh~
+│   ├── screen_record
+│   └── yt-dl.sh
+├── maketiny
+│   ├── compress_video.sh
+│   ├── compress_video2.sh
+│   └── tiny_vid_split.sh
+├── merge_mp3.bash
+├── mkdup.sh
+├── mkpdf.sh
+├── mkto.sh
+├── mkto.sh~
+├── move
+│   └── FI_^.sh
+├── mp4_frames.sh
+├── open
+├── 'open_tvpaint (2).sh'
+├── plan
+│   └── 0T5.sh
+├── psd
+│   ├── 16x9.sh
+│   ├── 16x92.sh
+│   ├── crop.sh
+│   ├── psd_bright.py
+│   ├── psd_bright_pencil.py
+│   ├── psd_bw.py
+│   ├── psd_fill.py
+│   ├── psd_fill.py~
+│   ├── psd_fill.sh
+│   ├── psd_fill.sh~
+│   ├── psd_fill_extra.sh
+│   ├── psd_fill_working.py
+│   ├── psd_flat.sh
+│   ├── psd_flats.sh
+│   ├── psd_flats.sh~
+│   ├── psd_jpeg.sh
+│   ├── psd_jpeg_w_gimp.sh
+│   ├── psd_key_matte_folder.sh
+│   ├── psd_key_matte_folder.sh~
+│   ├── psd_key_matte_folder_strong.sh
+│   ├── psd_keyout.sh
+│   ├── psd_keyout.sh~
+│   ├── psd_keyout_soft.sh
+│   ├── psd_keyout_w_matte.sh
+│   ├── psd_keyout_w_matte.sh~
+│   ├── psd_keyout_w_matte_soft.sh
+│   ├── psd_keyout_w_matte_soft.sh~
+│   └── psd_select_sub.sh
+├── psd_bright.py
+├── psd_bright_pencil.py
+├── psd_bw.py
+├── psd_convert.sh
+├── psd_fill.py
+├── psd_fill.py~
+├── psd_fill.sh
+├── psd_fill.sh~
+├── psd_fill_extra.sh
+├── psd_fill_working.py
+├── psd_flat.sh
+├── psd_flats.sh
+├── psd_flats.sh~
+├── psd_jpeg.sh
+├── psd_jpeg_w_gimp.sh
+├── psd_key_matte_folder.sh
+├── psd_key_matte_folder.sh~
+├── psd_key_matte_folder_strong.sh
+├── psd_keyout.sh
+├── psd_keyout.sh~
+├── psd_keyout_soft.sh
+├── psd_keyout_w_matte.sh
+├── psd_keyout_w_matte.sh~
+├── psd_keyout_w_matte_soft.sh
+├── psd_keyout_w_matte_soft.sh~
+├── psd_select_sub.sh
+├── rename
+│   ├── f2.sh
+│   ├── F2_date_taken.sh
+│   ├── iph.sh
+│   ├── rename.sh
+│   ├── rename_blank.sh
+│   ├── rename_date_taken.sh
+│   ├── rename_folder.sh
+│   ├── rename_still_life.sh
+│   └── rm_not_cropped.sh
+├── rename.sh
+├── rename_blank.sh
+├── rename_date_taken.sh
+├── rename_folder.sh
+├── rename_still_life.sh
+├── rm_not_cropped.sh
+├── save_screen.sh
+├── save_screen.sh~
+├── screen_record
+├── sequence_.sh
+├── shell_files
+│   ├── F2.sh
+│   ├── F2.sh~
+│   ├── F2_date_taken.sh
+│   ├── F2_date_taken_1.sh
+│   ├── F2_date_taken_1.sh~
+│   ├── F2_folder.sh
+│   ├── F2_folder.sh~
+│   ├── F2iph.sh
+│   ├── F2iph.sh~
+│   ├── filecopyimg.sh
+│   ├── filecopyimgmultiple.sh
+│   ├── filecopyimgmultiple02.sh
+│   ├── filecopyimgmultiple03.sh
+│   ├── filepath.sh
+│   ├── filepathcopy.sh
+│   ├── forward_slashes-to-backward_slashes.sh
+│   ├── ghostty-launcher.sh
+│   ├── heic__jpg.sh
+│   ├── heic_jpeg.sh
+│   ├── jfif_jpeg.sh
+│   ├── jfif_jpeg.sh~
+│   ├── jpeg.sh
+│   ├── move_files_to_parent.sh
+│   ├── png-j.sh
+│   ├── png-recursive.ps1
+│   ├── psd2jpeg.sh
+│   ├── psd_convert.sh
+│   ├── psd_jpeg_w_gimp.sh
+│   ├── syncthing.sh
+│   ├── tiny_vid.sh
+│   ├── UTO.sh
+│   ├── webloc_jpeg.sh
+│   ├── webloc_jpeg_02.sh
+│   ├── webloc_jpeg_1.sh
+│   ├── webloc_jpeg_1.sh~
+│   ├── webp_jpeg.sh
+│   ├── X.sh
+│   ├── X_all_heic.sh
+│   ├── X_all_jfif.sh
+│   ├── X_duplicate_images.sh
+│   ├── X_duplicates.sh
+│   ├── X_text_string.sh
+│   ├── Xdoop.sh
+│   ├── Xdoop.sh~
+│   └── Xdoop_1.sh
+├── syncthing.sh
+├── syncthing_stop.sh
+├── syncthing_stop.sh~
+├── tiny_vid_split.sh
+├── to_latex.sh
+├── to_latex.sh~
+├── untar.sh
+├── webloc_jpeg.sh
+├── X.fish
+├── X.fish~
+├── X.sh
+└── yt-dl.sh
+ 
