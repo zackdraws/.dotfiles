@@ -1,23 +1,6 @@
 #!/bin/bash
-
-
-
-
-
-
-
 # Prompt the user for the directory path
-
-
-
 read -p "Enter the directory path: " directory
-
-
-
-
-
-
-
 # Check if the directory exists
 
 
