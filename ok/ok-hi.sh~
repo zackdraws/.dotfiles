@@ -1,0 +1,5 @@
+ppkg install git
+pkg install emacs
+pkg install syncthing
+mkdir ~/.ok/ok/
+
