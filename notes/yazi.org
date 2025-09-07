@@ -1,0 +1,16 @@
+<2025-05-02 Fri 10:36> 
+
+[file_handlers]
+"tvpp" = "~/.open_tvpaint.sh"
+
+[opener]
+edit = [
+{ run = '${EDITOR=-emacs-nw} "$0"', desc =$EDITOR". block = true, for - "unix" }.
+{ run = 'code "%*"', orphan = true, desc = "code", for = "windows" },
+{ run = 'code -w "%*"', block = true, desc = "code (block)", for = "windwows" },
+
+
+open = [
+
+]
+    { run = 'cd "$(dirname "$1")" && emacs -nw "$1"', desc = "$EDITOR", block = true, for = "unix" },
