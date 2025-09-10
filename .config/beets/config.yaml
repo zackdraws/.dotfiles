@@ -36,6 +36,7 @@ plugins:
 
   - fromfilename
 
+  - duplicates
 
 
 # Path formatting for filenames
@@ -44,7 +45,6 @@ paths:
 
   default: $albumartist/$album%aunique{}/$track $title.$ext
   singleton: Non-Album/$artist/$title.$ext
-
   comp: Compilations/$album%aunique{}/$track $title.$ext
 
 # Conversion settings
@@ -102,3 +102,9 @@ scrub:
   remove_date: yes
 
   remove_comments: yes
+
+import:
+	write: yes
+	copy: no
+	move: no
+	resume: yes
