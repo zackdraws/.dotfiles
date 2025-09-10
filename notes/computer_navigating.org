@@ -1,0 +1,13 @@
+*** keyboard switch
+* Using a computer with just the keyboard
+** Moving around
+- tab to move down
+  - shift tab to move up
+    alt tab - to move along windows
+    alt shift tab -  to move along windows in the opposite direction
+        - ctrl + k works a lot for searching
+
+  - ctrl + l usually works for searching as well
+        - ctrl + g works a lot for entering
+        - ctrl + j
+        - ctrl + k also usually work a lot for entering along with the enter button itself

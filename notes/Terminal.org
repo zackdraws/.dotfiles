@@ -1,22 +1,26 @@
-#+Title: Start-up
-* Start programs from cmd
-** Syncthing
-cmd.exe /c "C:\Users\zacha\OneDrive\Documents\Syncthing\syncthing-windows-amd64-v1.23.2\syncthing.exe"
-** Thunderbird
-cmd.exe /c "C:\Program Files\Mozilla Thunderbird Beta\thunderbird.exe"
-** Emacs
-cmd.exe /c "C:\S\EM\bin\emacs-29.1.exe"
-** Plex 
-cmd.exe /c "C:\Users\zacha\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Plex Media Server.lnk"
-** Toonboom Storyboard Pro
-cmd.exe/c "C:\Program Files (x86)\Toon Boom Animation\Toon Boom Storyboard Pro 20\win64\bin\StoryboardPro.exe"
 * Terminal 
+** MPV
+** ffmpeg
+use this in terminal to export avi files to mp4 
+[[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
+ ffmpeg -i input.avi -r 24 output.mp4
+-fs limit_size (output)
+Set the file size limit, expressed in bytes. No further chunk of bytes is written after the limit is exceeded. The size of the output file is slightly more than the requested file size
 ** Git 
 update 
 git push
 ** oh my posh
 oh-my-posh init pwsh --config "$env:C:\Posh\THemes\bubbles.omp.json"
 (@(& 'C:/Users/zacha/scoop/apps/oh-my-posh/current/oh-my-posh.exe' init pwsh --config='C:\Posh\THemes\bubbles.omp.json' --print) -join "`n") | Invoke-Expression
+** syncthing
+** ncdu
+** btop
+** fzf
+fzf is for fuzzy finding in the terminal. Search inside the directory by typing fzf in the directory that you are in.
+** zoxide
+makes searching easy by typing in z it just goes right to the place
+** Pastel
+for looking up colors
 *** - Important Links -
 - Org-Toggle-Inline-Images - C-C C-X C-V
 An image without description

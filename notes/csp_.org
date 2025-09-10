@@ -1,8 +1,6 @@
 #+title: Clip Studio Paint
 ** Pt 1: Configurartion - Keyboard Shortcuts 
    SCHEDULED: <2025-08-28 Thu>
-   
- - 
 *** Animation Shortcuts
 New Animation cel - Shift +G
 that makes a new cel
@@ -27,8 +25,6 @@ inserts the frame into the drawing timeline
 play = shift q
 
 new animation folder Shift +Alt A
-
-
 *** 
 
 Zoom                Z
@@ -40,6 +36,7 @@ make brush bigger      shift + a
  
 ** Pt 2: 
    SCHEDULED: <2025-08-30 Sat>
+
 
 Brushes 
 
