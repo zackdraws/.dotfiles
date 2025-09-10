@@ -1,67 +1,29 @@
 #!/bin/bash
-
-
-
 set -e
-
-
-
 echo "▶ Setting up for UNIX-based system..."
-
-
-
 # Detect OS
-
 OS="$(uname)"
-
 IS_MAC=false
-
 IS_LINUX=false
-
-
-
 if [[ "$OS" == "Darwin" ]]; then
-
     IS_MAC=true
-
 elif [[ "$OS" == "Linux" ]]; then
-
     IS_LINUX=true
-
 else
-
     echo "❌ Unsupported OS: $OS"
-
     exit 1
-
 fi
-
-
-
 # --- Install Powerline or Nerd Fonts ---
-
 echo "▶ Installing fonts for powerline support..."
-
-
-
 if $IS_LINUX; then
-
     if command -v apt &> /dev/null; then
-
         sudo apt update
-
         sudo apt install -y fonts-powerline
-
     elif command -v pacman &> /dev/null; then
-
         sudo pacman -S --noconfirm ttf-dejavu ttf-hack ttf-nerd-fonts-symbols
-
     else
-
         echo "⚠ Please manually install a Nerd Font. Skipping font install."
-
     fi
-
 elif $IS_MAC; then
 
     if ! command -v brew &> /dev/null; then
