@@ -1,0 +1,32 @@
+*** Animation Shortcuts
+New Animation cel - Shift +G
+that makes a new cel
+so a new drawing
+
+select previous cel  A
+is previous page drawing
+
+select next cel      D
+next drawing
+
+Insert Frame Shift+X
+
+go to previous frame C
+
+go to next frame     V
+
+insert frame        Shift+X
+inserts the frame into the drawing timeline
+
+
+play = shift q
+
+new animation folder Shift +Alt A
+*** 
+
+Zoom                Z
+zoom - in 2
+zoom - out 1 
+make brush smaller     shift +z
+
+make brush bigger      shift + a
