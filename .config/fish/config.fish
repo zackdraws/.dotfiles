@@ -2,8 +2,6 @@ set -gx EDITOR emacs -nw
 alias e=$EDITORS
 alias se="sudo $EDITOR"
 alias ghostty='cd ~/Projects/ghostty && ./zig-out/bin/ghostty &'
-
-alias g="z ghostty ghostty"
 alias deldoop="delete_duplicate_images.sh"
 alias y="yazi"
 alias 0T5="TODO.sh"
