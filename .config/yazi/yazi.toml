@@ -65,11 +65,8 @@ rules = [
 
 [tasks]
 image_bound = [0, 0]
-[preview]
-image_filter = "true"
-image_rotate = "true"
-image_transparency = "true"
-previewers = [
-    { mime = "image/*", run = "w3m" },
-]
+
+
+
+
 
