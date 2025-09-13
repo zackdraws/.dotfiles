@@ -1,29 +1,28 @@
 #!/bin/bash
 
-# Loop through all .HEIC or .heic files in the current directory
-for file in *.heic *.HEIC; do
-  # Check if the file exists
+shopt -s nullglob nocaseglob  # Enable globbing for lowercase/uppercase matching
+
+# Loop through all .heic or .HEIC files in the current directory
+for file in *.heic; do
+  # Check if the file exists and is a regular file
   if [[ -f "$file" ]]; then
     echo "Processing $file..."
 
-    # Generate output file name by replacing .HEIC or .heic with .JPEG
-    output="${file%.[Hh][Ee][Ii][Cc]}.jpeg"
+    # Generate output file name by replacing extension with .jpeg
+    output="${file%.*}.jpeg"
 
-    # Convert .HEIC to .JPEG using ImageMagick or heif-convert
-    if command -v magick &> /dev/null; then
-      # Use ImageMagick (magick command)
+    # Convert using available tool
+    if command -v magick &>/dev/null; then
       magick "$file" "$output"
       echo "Converted $file to $output using ImageMagick."
-    elif command -v heif-convert &> /dev/null; then
-      # Use heif-convert
+    elif command -v heif-convert &>/dev/null; then
       heif-convert "$file" "$output"
       echo "Converted $file to $output using heif-convert."
     else
-      echo "Neither ImageMagick nor heif-convert is installed. Please install one of these tools."
+      echo "Neither ImageMagick nor heif-convert is installed. Please install one of them."
       exit 1
     fi
-
-  else
-    echo "No .HEIC files found!"
   fi
 done
+
+echo "Done."
