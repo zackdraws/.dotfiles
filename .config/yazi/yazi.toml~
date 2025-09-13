@@ -48,4 +48,4 @@ rules = [
 ]
 [tasks]
 image_bound = [0, 0]
-
+[preview]
