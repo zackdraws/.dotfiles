@@ -1,7 +1,14 @@
 [mgr]
+<<<<<<< HEAD
 ratio = [1, 3, 2]
 max_height = 300
 sort_by = "alphabetical"
+=======
+ratio = [1, 1, 3]
+max_width = 200
+max_height = 300
+sort_by = "mtime"
+>>>>>>> 90dc92eb9787202831930072ce2228be4b30ed52
 sort_sensitive = false
 sort_reverse = false
 sort_dir_first = true
@@ -9,12 +16,26 @@ linemode = "none"
 show_hidden = true
 show_symlink = true
 scrolloff = 5
+<<<<<<< HEAD
 [yank]
 command = "wl-copy"  # or "xclip -selection clipboard"
+=======
+
+[preview]
+max_width = 200
+max_height = 200
+[yank]
+command = "wl-copy"  # or "xclip -selection clipboard"
+
+>>>>>>> 90dc92eb9787202831930072ce2228be4b30ed52
 [opener]
 edit = [
     { run = 'cd "$(dirname "$1")" && emacs -nw "$1"', desc = "$EDITOR", block = true, for = "unix" },
 ]
+<<<<<<< HEAD
+=======
+
+>>>>>>> 90dc92eb9787202831930072ce2228be4b30ed52
 open_pptx = [
     { run = 'xournal "$1"', desc = "Open PowerPoint", for = "windows" },
     { run = 'xournal "$1"', desc = "Open PowerPoint", for = "linux" },
@@ -44,3 +65,4 @@ image_transparency = "true"
 previewers = [
     { mime = "image/*", run = "w3m" },
 ]
+
