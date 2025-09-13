@@ -1,0 +1,88 @@
+# ==========================␍
+# BEETS CONFIGURATION TIPS␍
+# ==========================␍
+␍
+# 1. Path formatting - avoid "New Album" or wrong folders by using clear format:␍
+paths:␍
+  default: $albumartist/$album%aunique{}/$track - $title␍
+  singleton: $albumartist/Unknown Album/$track - $title␍
+  comp: Compilations/$album%aunique{}/$track - $title␍
+# Explanation:␍
+# - %aunique{} avoids overwriting folders when album names duplicate␍
+# - singleton directs tracks without album tags to "Unknown Album" folder instead of "Non-Album"␍
+# - $track - $title adds clarity and prevents collisions␍
+␍
+# 2. Prevent files going into Non-Album folder:␍
+# - No direct config option to disable this fallback␍
+# - Instead, fix missing album metadata (e.g., via beet modify or autotag)␍
+# - Or set singleton path to a preferred folder (see above)␍
+# Example to fix missing album tags:␍
+# beet modify album="Unknown Album" album: ''␍
+␍
+# 3. Import settings to move files instead of copying:␍
+import:␍
+  move: yes    # Move files instead of copying␍
+  copy: no     # Disable copying␍
+  resume: yes  # Resume interrupted imports␍
+  write: yes   # Write metadata to files␍
+# When importing, make sure to NOT use --copy flag (overrides config)␍
+␍
+# 4. Speed up imports and reduce prompts:␍
+# Use this command to import with minimal interaction:␍
+# - --autotag: Automatically apply metadata without asking␍
+# - --quiet: Reduce verbosity and skip extra prompts␍
+# - --yes: Auto-confirm "yes" to any prompts␍
+# Example:␍
+beet import --autotag --quiet --yes /path/to/folder␍
+# Notes:␍
+# - There is NO --no-interactive option in beet␍
+# - --autotag risks wrong metadata if matching is bad␍
+# - To be safer, do manual imports without --autotag or use --timid␍
+␍
+# 5. Matching behavior:␍
+lookup:␍
+  auto: yes␍
+  fuzzy: yes   # Can slow down import but helps fuzzy matching␍
+  max_error: 5␍
+# To speed up, you can disable fuzzy matching:␍
+# fuzzy: no␍
+␍
+# 6. Plugin threading example for speed (if applicable):␍
+convert:␍
+  threads: 4  # Use multiple threads if CPU supports it␍
+␍
+# 7. Handling incorrect matches with --autotag:␍
+# --autotag automatically applies metadata without asking for confirmation.␍
+# If match is wrong:␍
+# - Beets may mis-tag files silently␍
+# - Uncertain matches are skipped␍
+# - Use --timid to confirm only uncertain matches:␍
+#   beet import --timid /path/to/folder␍
+␍
+# 8. Summary of import modes and prompts:␍
+# Mode         | Prompting            | Risk of mis-tags␍
+# -------------|----------------------|-----------------␍
+# Default      | Ask every file       | Low␍
+# --autotag    | No prompts           | Higher␍
+# --timid      | Prompt if uncertain  | Medium␍
+␍
+# 9. Useful beet commands:␍
+# Check current config values:␍
+beet config import.move␍
+beet config import.copy␍
+# Fix missing album tag:␍
+beet modify album="Unknown Album" album: ''␍
+# Update metadata and move files:␍
+beet update␍
+beet move␍
+# List library stats and spot odd tags:␍
+beet stats␍
+beet list␍
+# Import safely with auto-tagging and minimal prompts:␍
+beet import --autotag --quiet --yes /path/to/folder␍
+␍
+# 10. Common troubleshooting tips:␍
+# - Avoid importing the same folder multiple times if files aren't moved␍
+# - Disable fetchart plugin temporarily to speed import if art fetching slows down␍
+# - Use fromfilename plugin to help infer tags from filenames␍
+# - Delete or clean up old empty/wrong folders after moving files␍
