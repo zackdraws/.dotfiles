@@ -42,15 +42,9 @@ open_zathura = [
 ]
 
 
-
 play = [
-
-    { run = 'mpv "$@"', orphan = true, for = "unix" },
-
+     { run = 'mpv "$@"', orphan = true, for = "unix" },
 ]
-
-
-
 [open]
 rules = [
 
@@ -58,7 +52,8 @@ rules = [
     { mime = "text/*", use = ["edit", "reveal"] },
     { mime = "image/*", use = ["open_nomacs", "reveal"] },
     { mime = "video/*", use = ["play", "reveal"] },
-
+    { mime = "video/*", use = ["play", ] },
+    { name = "*.mp3", use = "play" },
 ]
 
 
