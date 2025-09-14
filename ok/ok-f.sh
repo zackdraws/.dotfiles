@@ -3,75 +3,35 @@ set -e
 echo "▶ Installing Powerline fonts..."
 # Install powerline fonts
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-
     if command -v apt &> /dev/null; then
-
         sudo apt update
-
         sudo apt install -y fonts-powerline
-
     else
-
         echo "⚠ Skipping font install: 'apt' not found."
-
     fi
-
 elif [[ "$OSTYPE" == "darwin"* ]]; then
-
     brew tap homebrew/cask-fonts
-
     brew install --cask font-hack-nerd-font
-
 fi
-
-
-
 echo "▶ Installing Oh My Fish..."
-
 curl -L https://get.oh-my.fish | fish
-
-
-
 echo "▶ Installing bobthefish theme..."
-
 fish -c "omf install bobthefish"
-
-
-
 echo "▶ Creating Fish config with boxed bobthefish..."
-
-
-
 FISH_CONFIG="$HOME/.config/fish/config.fish"
-
 mkdir -p "$(dirname "$FISH_CONFIG")"
-
-
-
 cat > "$FISH_CONFIG" <<'EOF'
-
 # --- bobthefish boxed prompt settings ---
-
 set -g theme_display_user yes
-
 set -g theme_display_hostname yes
-
 set -g theme_display_pwd full
-
 set -g theme_nerd_fonts yes
-
 set -g theme_powerline_fonts yes
 
-
-
 # --- Environment Variables ---
-
 set -gx EDITOR emacs -nw
-
 set -gx GDK_SCALE 2
-
 set -gx TERM xterm-256color
-
 set -gx COLORTERM truecolor
 
 set -gx YAZI_PREVIEW_IMAGE_PROTOCOL chafa
