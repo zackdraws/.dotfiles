@@ -1,0 +1,61 @@
+ThemeFile=
+Term=xterm-256color
+ClipShortcuts=no
+CtrlShiftShortcuts=yes
+Font=Terminess Nerd Font Mono
+FontWeight=normal
+FontHeight=10
+
+# Hopscotch Noir for mintty — soft background, strong colors
+
+# Background and foreground
+BackgroundColour=50,41,49          # #322931 — soft and moody (base00)
+ForegroundColour=200,190,200       # #C8BEC8 — bright but warm
+
+# Standard 8 colors
+Black=65,50,60                    # #41323C — deep muted black
+Red=230,50,60                     # #E6323C — vivid scarlet red
+Green=150,210,70                  # #96D246 — strong lime green
+Yellow=255,200,85                 # #FFC855 — bold golden yellow
+Blue=45,150,220                   # #2D96DC — punchy blue
+Magenta=220,80,140                # #DC508C — bold magenta
+Cyan=30,180,160                   # #1EB4A0 — clean teal
+White=245,240,245                 # #F5F0F5 — soft light gray
+
+# Bold colors (brighter, stronger)
+BoldBlack=90,80,95                # #5A505F — muted purple-black
+BoldRed=255,80,90                 # #FF505A — brighter scarlet
+BoldGreen=175,235,95              # #AFEB5F — neon moss
+BoldYellow=255,225,100            # #FFE164 — bright golden
+BoldBlue=60,170,240               # #3CAAF0 — strong sky blue
+BoldMagenta=240,100,160           # #F064A0 — electric magenta
+BoldCyan=50,210,190               # #32D2BE — bright aqua
+BoldWhite=255,255,255             # white
+
+# Bright ANSI colors (same as bolds)
+AnsiBlack=90,80,95
+AnsiRed=255,80,90
+AnsiGreen=175,235,95
+AnsiYellow=255,225,100
+AnsiBlue=60,170,240
+AnsiMagenta=240,100,160
+AnsiCyan=50,210,190
+AnsiWhite=255,255,255
+
+# Cursor colors
+CursorColour=200,190,200          # #C8BEC8 — same as foreground
+CursorTextColour=50,41,49         # #322931 — same as background
+
+# Selection colors
+SelectionColour=80,40,60          # deep muted burgundy
+SelectedTextColour=240,240,240    # soft gray for contrast
+
+# Scrollbar
+ScrollBarColour=65,50,60          # #41323C
+
+# Underline
+UnderlineColour=255,80,90         # strong scarlet
+
+BoldFont=yes
+ItalicFont=yes
+UnderlineFont=yes
