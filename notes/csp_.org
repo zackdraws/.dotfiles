@@ -45,3 +45,7 @@ have brushes in organized folder
 
 set brush opacity shortcut
 
+
+** Pt 3 import drawings
+first go to import drawings
+after go to animation and click batch change
