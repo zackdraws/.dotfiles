@@ -1,63 +1,20 @@
-import subprocess
+#!/usr/bin/env bash
+set -e
+echo "📂 Converting all .m4a files in: $(pwd)"
+echo "🔖 Preserving metadata"
+echo
+shopt -s nullglob  
+shopt -s nocaseglob 
 
-import sys
-
-
-
-def m4a_to_mp4(audio_file, image_file, output_file):
-
-    command = [
-
-        "ffmpeg",
-
-        "-loop", "1",
-
-        "-i", image_file,
-
-        "-i", audio_file,
-
-        "-c:v", "libx264",
-
-        "-c:a", "aac",
-
-        "-b:a", "192k",
-
-        "-shortest",
-
-        "-movflags", "+faststart",
-
-        output_file
-
-    ]
-
-
-
-    subprocess.run(command, check=True)
-
-
-
-# Example usage:
-
-# python convert.py input.m4a image.jpg output.mp4
-
-
-
-if __name__ == "__main__":
-
-    if len(sys.argv) != 4:
-
-        print("Usage: python convert.py input.m4a image.jpg output.mp4")
-
-        sys.exit(1)
-
-
-
-    audio = sys.argv[1]
-
-    image = sys.argv[2]
-
-    output = sys.argv[3]
-
-
-
-    m4a_to_mp4(audio, image, output)
+for AUDIO_FILE in *.m4a; do
+    OUTPUT_FILE="${AUDIO_FILE%.m4a}.mp3"
+    echo "🎵 Converting: \"$AUDIO_FILE\" → \"$OUTPUT_FILE\""
+    ffmpeg -y -i "$AUDIO_FILE" \
+        -map_metadata 0 \
+        -codec:a libmp3lame \
+        -b:a 192k \
+        "$OUTPUT_FILE"
+    echo "✅ Done: \"$OUTPUT_FILE\""
+    echo
+done
+echo "🏁 All .m4a files converted to .mp3 with metadata preserved!"
