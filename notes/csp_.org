@@ -45,3 +45,7 @@ have brushes in organized folder
 
 set brush opacity shortcut
 
+- click the menu button in the upper left corner of the sub tool palette  
+- select [import sub tool]
+
+
