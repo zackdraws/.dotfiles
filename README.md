@@ -1,4 +1,4 @@
-	     	    	     GLOSSARY                               
+	     	    	     GLOSSARY                 
                 1. Set up your terminal
                 2. Using the Editor in the terminal 
                 3. Managing Files
@@ -6,28 +6,23 @@
                 5. Saving 
                 6. Tools for Creating 
 # .dotfiles
-- .dotfiles controls the configuration of your computer.
-- .dotfiles are the local settings stored on your computer in the home directory.
--  Dotfiles are called dotfiles because they start with a dot and are usually hidden.
--  Dotfiles can be used to sync your settings to ease moving from one computer to another.
--  All of my .dotfiles are stored here and then sync to the correct location on my compu
--  .That way if I make any changes I can easily update and sync them.
-## 1.       	    Set up your Terminal
-- the terminal is basically in simple terms a text based way to run commands on your computer using text
+- .dotfiles are the (usually hidden) files in your computer located in the home directory (~/) (usually). These are my .dotfiles, by cloning these files you can link to them to set your computer up.
+## 1. Set up your Terminal
 - to use the dotfiles it is easier and faster to use the terminal.
-### - Recommended Terminals
-    -	   mingw64 UCRT64 (windows) -
+### - Terminals - 
     -	   foot (linux/wsl) - fast terminal, weird name
-    -	   ghostty (mac/linux/wsl) - new, user friendly
-    	   (you can use the command brew install ghostty)
-	   	    (to use homebrew use these instructions [[https://brew.sh/]])
-    -	   [[kitty][https://sw.kovidgoyal.net/kitty/]] (mac/linux/wsl) - stable and fast
-    	   (curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh	/dev/stdin)
+    -	   Ghostty (mac/linux/wsl) - new, user friendly
+    	            (you can use the command brew install ghostty)
+	   	            (to use homebrew use these instructions (https://brew.sh/)
+    -	   kitty (mac/linux/wsl) - stable and fast
+            (https://sw.kovidgoyal.net/kitty/) 
+    	            (curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh	/dev/stdin) - kitty installs will vary but you can use curl to install.
     -      if you are on windows use mingw64 UCRT64 or wsl (mingw64 > wsl) 
+    -	   mingw64 UCRT64 (windows) - uses pacman to install programs
 ## 1.2.1   Next install git
+   - 	 homebrew ->  brew install git
    -     pacman -S mingw-w64-x86_64-git
-   -     kitty terminal - >      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-   - 	 home brew 	- >      brew install git
+   -     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ## 1.2.2 After that install gh [[https://cli.github.com/][link]]
 ## 1.4.  clone files (cl)
 	 	  1.  open your terminal
@@ -38,12 +33,6 @@
 		  4. git clone this repo
                 	    git clone https://github.com/zackdraws/.dotfiles.git
 		  ** to see your files cd into .dotfiles use these commands
-		    -ls
-		  - ls -l
-		  - ls -a
-		  - ls -t -
-		  - ls -r
-		  - ls -t -r
 ### Additional Terminal add-ons	
     - fzf 	       	  - helps to look through all the files
     - ncdu 	      	  - disk utility - look at your disk
@@ -100,7 +89,7 @@
                         4.To change the frame duration, use the `-d` or `--duration` argument:
     examples -
                         python mp4_to_gif.py your_input_file.mp4 output_file.gif -d 0.2  # 0.2 seconds per frame
-                        - opposite of that is cnv_gif_mp4.bash
+10;rgb:c8c8/bebe/c8c811;rgb:3232/2929/3131- opposite of that is cnv_gif_mp4.bash
                         - /create_gif.sh wUsers/myuser/Pictures/my_images output.gif
 ## .sh - Shell Files/Fish Files 
       - these are my shell files
@@ -202,29 +191,39 @@
     - https://github.com/omerxx/tmux-sessionx
     - https://github.com/tmux/tmux/wiki/Getting-Started
     - https://github.com/omerxx/go-blocksite
-# 7. Working -
-# 7.1 Tools for Creating (still working on this part)
+# 7. Work -
 ##  Photoshop
+Photoshop is what I used for most painting. My brushes actions and scripts are in the folder marked ps ~/.dotfiles/ps
+Photoshop Actions
+
+Photoshop Brushes - this folder is empty right now because most of the brushes I use are not made by me.
+
+Photoshop Scripts
+
 ##  Clip Studio Paint -
+
 ##  TVPaint
+- this folder holds my hotkeys, brushes, and home configuration.
 ##  Storyboard Pro
+
 ##  Toonboom Harmony
+
 # 7.1.2 Time Tracking
+
 ## Excel
+## Manictime as well can be used for extreme time logging.
 # 7.3 Compositing/Editing
-# Premiere
-# Blender
-# After Effects
+## Premiere - For editing reels and animation scenes.
+## Blender - For editing reels and animation scenes, it's similar to Premiere, most things can be done in Blender but they just require a bit more research and time.
+## After Effects
 # 7.3.2 Sound
 ## Audacity
 ## Adobe Audition
 # 7.4 Publishing/Posting
 # 7.5 Storing/Backing up/File Management
 # 7.2 Reviewing
-- mpv -
-- ffmpeg 
-** MPV
-** ffmpeg
+## - mpv -
+## - ffmpeg 
 use this in terminal to export avi files to mp4 
 [[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
  ffmpeg -i input.avi -r 24 output.mp4
@@ -234,11 +233,92 @@ Set the file size limit, expressed in bytes. No further chunk of bytes is writte
 ### For PDFS
 - Adobe Acrobat-
 - Zathura - https://github.com/pwmt/zathura.git 
+- Sioyek - 
 - Mozilla FIrefox - 
 ### For DocX
 - Word -
 - OpenDocs -
 - Drive
-# 8
-cnvheicj.sh - this one works tempermental back up what ever you use this script on first
- 
+
+# Where files can usually be found
+   
+# Photoshop config locations
+$photoshopConfigDir = "$env:APPDATA\Adobe\Adobe Photoshop <version>\Adobe Photoshop <version> Settings"
+New-Item -ItemType SymbolicLink -Path $photoshopConfigDir -Target "$dotfilesDir\photoshop\Settings" -Force
+
+$photoshopPresetsDir = "$env:APPDATA\Adobe\Adobe Photoshop <version>\Presets"
+New-Item -ItemType SymbolicLink -Path $photoshopPresetsDir -Target "$dotfilesDir\photoshop\Presets" -Force
+
+# TVPaint config location
+$tvpaintConfigDir = "$env:APPDATA\TVPaint Animation"
+New-Item -ItemType SymbolicLink -Path $tvpaintConfigDir -Target "$dotfilesDir\tvpaint\Animation" -Force
+
+Write-Host "Configuration files have been successfully linked!"
+```
+
+### Summary
+
+- **Photoshop and TVPaint Configuration Files** are usually located in the `AppData` folder (Roaming or Local)
+- **Symlinks** allow you to point these configuration files to their expected locations, making it easy to synchronize settings across multiple machines.
+### 5. **Alternative Syncing Options**
+
+
+# 9. Setting up a Portfolio site
+* domain fixing
+https://www.youtube.com/watch?v=EX4w9hsduNA
+* Github
+- terminal
+--  https://www.youtube.com/watch?v=hrTQipWp6co
+-- open in your code editor
+-- git
+config.js
+index.js
+- git setup
+ls shows list of current folder
+- the terminal is to control the computer
+it is running at first in the home folder
+make sure to go into your own folder
+cd = change directory
+---> cd ~/Desktop/git-tutorial
+ls - shows the files in the folder
+config.s 
+src
+it restarts in your home folder make sure to go into your git folder first
+now learning git 
+creating a version
+git init
+initializes empty git 
+git status
+- this shows the commits
+- untracked files
+git add  
+https://supersimpledev.github.io/references/git-github-reference.pdf 
+git config --global user.email ""
+git config --global user.name ""
+git commit - m "Version 1"
+git log 
+- git restore <file>
+git restore .
+unstage 
+2. You staged a file (with git add) but havenΓÇÖt committed yet
+You can unstage it:
+bash
+Copy
+Edit
+git restore --staged <file>
+Then you can also run git restore <file> to undo the change itself.
+3. You already committed it
+There are a few options here depending on what you want:
+Copy
+Edit
+git reset --soft HEAD~1
+Copy
+Edit
+git reset HEAD~1
+
+
+
+
+
+
+
