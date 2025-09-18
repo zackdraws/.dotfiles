@@ -193,7 +193,7 @@ run this command - >                     git clone https://github.com/zackdraws/
 		    brew services start syncthing
 		    for syncthing to start on start up
 - Web interface
-  4. access syncthing by going to 127.0.0.1:8384 in your web browser
+  4. access syncthing by in web browser it should be at 127.0.0.1:8384 
   5. Go to another computer to install Syncthing
   6. sync files by adding them to your folders
 ### TMUX - terminal multiplexer
