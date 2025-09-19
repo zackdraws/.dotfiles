@@ -1,0 +1,43 @@
+#+title: Command Line
+* Hide
+hide things in windows using 
+attrib +h file 
+in the terminal
+shutdown -s -t timeInSeconds
+#+title: Grep 
+- Use Grep to find files
+* Find
+** To find a phrase in a folder search like this
+** grep 
+grep -r "'4c566a" ~/.config/fish/
+
+#!/bin/bash
+
+*** grep 
+based on grep -E '/mnt/.+\.(jpg|jpeg|png|pdf|eps)' notes.org | ./gen_tex.sh | clip.exe
+
+** cat file  
+*** copying to the clipboard
+ cat file.org | to_latex.sh | xclip -selection clipboard
+*** to write text to a file
+echo "text" >> filename.org
+** 
+```bash
+echo "Your text here" > filename.org
+```
+** 
+```bash
+cat >> filename.org
+echo "text"
+cat
+```
+** 
+```bash
+cat >> my_notes.org
+echo "This is another line in the file."
+cat
+
+```
+
+* Emacs Org Agenda
+    (setq cfw:org-agenda-schedule-args '(:scheduled))

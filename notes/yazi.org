@@ -1,8 +1,14 @@
-<2025-05-02 Fri 10:36> 
+#+title: Yazi Notes
+** main differences between my yazi and the default
+*** File handling
+- I tried to have it so that I could open tvpaint files from terminal but it doesn't work too well from linux to windows
 
 [file_handlers]
 "tvpp" = "~/.open_tvpaint.sh"
 
+
+*** For using emacs
+I changed the editor to be emacs-nw
 [opener]
 edit = [
 { run = '${EDITOR=-emacs-nw} "$0"', desc =$EDITOR". block = true, for - "unix" }.
@@ -10,7 +16,7 @@ edit = [
 { run = 'code -w "%*"', block = true, desc = "code (block)", for = "windwows" },
 
 
+*** also here
 open = [
-
 ]
     { run = 'cd "$(dirname "$1")" && emacs -nw "$1"', desc = "$EDITOR", block = true, for = "unix" },

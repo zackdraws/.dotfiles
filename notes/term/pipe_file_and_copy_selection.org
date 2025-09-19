@@ -1,1 +1,0 @@
- cat file.org | to_latex.sh | xclip -selection clipboard

@@ -1,3 +1,0 @@
-hide things in windows using 
-attrib +h file 
-in the terminal
