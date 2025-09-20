@@ -48,10 +48,7 @@ if you have to import a drawing sequence make sure to have them labeled
 go to import drawings
 then go to animation and click batch change 
 
-
-first go to import drawings
-after go to animation and click batch change
-
+If they are png images you have to rasterize them in order to draw.
 ** Pt 4 Fill Tool
 types of fill tool
 **** - use the Fill tool > Lasso fill 
