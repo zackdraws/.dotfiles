@@ -6,34 +6,13 @@
                 5. Saving 
                 6. Tools for Creating 
 # .dotfiles
-<<<<<<< HEAD
-- .dotfiles are the (usually hidden) files in your computer located in the home directory (~/) (usually). These are my .dotfiles, by cloning these files you can link to them to set your computer up.
-## 1. Set up your Terminal
-- to use the dotfiles it is easier and faster to use the terminal.
-### - Terminals - 
-    -	   foot (linux/wsl) - fast terminal, weird name
-    -	   Ghostty (mac/linux/wsl) - new, user friendly
-    	            (you can use the command brew install ghostty)
-	   	            (to use homebrew use these instructions (https://brew.sh/)
-    -	   kitty (mac/linux/wsl) - stable and fast
-            (https://sw.kovidgoyal.net/kitty/) 
-    	            (curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh	/dev/stdin) - kitty installs will vary but you can use curl to install.
-    -      if you are on windows use mingw64 UCRT64 or wsl (mingw64 > wsl) 
-    -	   mingw64 UCRT64 (windows) - uses pacman to install programs
-## 1.2.1   Next install git
-   - 	 homebrew ->  brew install git
-   -     pacman -S mingw-w64-x86_64-git
-   -     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-## 1.2.2 After that install gh [[https://cli.github.com/][link]]
-## 1.4.  clone files (cl)
-=======
   - .dotfiles controls the configuration of your computer.
   -  they are the local settings stored on your computer in the home directory.
   -  sync from your dotfiles folder to the correct locations
-  -  that way if I make any changes I can easily update and sync them.
+  -  changes can be updated and synced.
 ## 1. Set up your Terminal
-- Use the terminal to edit dotfiles.
-### - Recommended Terminals
+   - Use the terminal to edit dotfiles.
+###  	 - Recommended Terminals
     -	   mingw64 UCRT64 terminal (windows) -
     -	   fooT terminal (linux/wsl) - 
     -	   ghostty terminal (mac/linux/wsl) - new, user friendly
@@ -48,19 +27,8 @@
    - 	   home brew 	- >      brew install git
 ## 1.2.2   After that install gh [[https://cli.github.com/][link]]
 ## 1.4.    clone files (cl)
->>>>>>> refs/remotes/origin/main
-	 	  1.  open your terminal
-          	  type "cd ~/" 
-		  - this is your home directory
-		  2. mkdir .dotfiles
-		  3. cd .dotfiles
-		  4. git clone this repo
-<<<<<<< HEAD
-                	    git clone https://github.com/zackdraws/.dotfiles.git
-		  ** to see your files cd into .dotfiles use these commands
-=======
-run this command - >                     git clone https://github.com/zackdraws/.dotfiles.git
->>>>>>> refs/remotes/origin/main
+  git clone https://github.com/zackdraws/.dotfiles.git
+  ** to see your files cd into .dotfiles use these commands
 ### Additional Terminal add-ons	
     - fzf 	       	  - helps to look through all the files
     - ncdu 	      	  - disk utility - look at your disk
@@ -70,15 +38,17 @@ run this command - >                     git clone https://github.com/zackdraws/
     - syncthing 	  - can be used to sync all of your files
     - ffmpeg    	  - use for mp4 editing
  			  - use this in terminal to export avi files to mp4 
-**           [[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
+** fzf - 
+run fzf in the directory for what ever file you are looking for. Run nano "$(fzf)" or whatever editor you are using to open it inside that editor
+** ffmpeg -
+           [[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
              ffmpeg -i input.avi -r 24 output.mp4
 	     	    -fs limit_size (output)
-
 ** Set the file size limit, expressed in bytes. No further chunk of bytes is written after the limit is exceeded. The size of the output file is slightly more than the requested file size
-
 # 2. The Editor - the editor is used to edit files from the terminal.
-      - eMacs - install emacs
-           pacman -S mingw-w64-x86_64-emacs
+      - eMacs - eMacs stands for Editor Macros and can be used as editor for files.
+	install emacs
+        		 pacman -S mingw-w64-x86_64-emacs
         - brew install emacs
 		- now you can write into files in the terminal using the command 'emacs -nw file'
         - Nano - small quick editor.
@@ -101,7 +71,7 @@ run this command - >                     git clone https://github.com/zackdraws/
 	    3.5     Shell - for command history and command line editing - is within the terminal
                     Fish - for syntax highlights and autosuggestions and themes
 		    WINDOWS - 
-		    	    - do not use wsl but if you do and you have your dotfiles in wsl you would have to do this to link them
+			WSL
 		    sudo ln -s //wsl.localhost/Ubuntu/home/zack/.dotfiles/sh/p 1/cnvheic2j.ps1 /c/users/user/Documents/WindowsPowerShell/Scripts/cnvheic2j.ps1
 
 ## -  Navigating terminal -
@@ -112,7 +82,6 @@ run this command - >                     git clone https://github.com/zackdraws/
        Broot - to manage and look through files, it's like Yazi but it is not.
        Zoxide - quick search for files
        FZF - is a fuzzy finder if you are in the directory use fzf to find your files
-
 # 4. Automating (Scripts)
 ####      -- these are the scripts that I use to automate my tasks
 ## .py - Python Files
@@ -229,12 +198,8 @@ run this command - >                     git clone https://github.com/zackdraws/
     - https://github.com/omerxx/tmux-sessionx
     - https://github.com/tmux/tmux/wiki/Getting-Started
     - https://github.com/omerxx/go-blocksite
-<<<<<<< HEAD
-# 7. Work -
-=======
-# 7. Working - tools for work
+# 7. Work - tools for work
 # 7.1 Creating
->>>>>>> refs/remotes/origin/main
 ##  Photoshop
 Photoshop is what I used for most painting. My brushes actions and scripts are in the folder marked ps ~/.dotfiles/ps
 Photoshop Actions
@@ -265,21 +230,6 @@ Photoshop Scripts
 # 7.4 Publishing/Posting
 # 7.5 Storing/Backing up/File Management
 # 7.2 Reviewing
-<<<<<<< HEAD
-## - mpv -
-## - ffmpeg 
-use this in terminal to export avi files to mp4 
-[[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
- ffmpeg -i input.avi -r 24 output.mp4
--fs limit_size (output)
-Set the file size limit, expressed in bytes. No further chunk of bytes is written after the limit is exceeded. The size of the output file is slightly more than the requested file size
-## Docs
-### For PDFS
-- Adobe Acrobat-
-- Zathura - https://github.com/pwmt/zathura.git 
-- Sioyek - 
-- Mozilla FIrefox - 
-=======
 - mpv - use for watching videos
 - ffmpeg - use for editing, converting and trimming videos
   	   use this in terminal to export avi files to mp4 
@@ -293,7 +243,6 @@ Set the file size limit, expressed in bytes. No further chunk of bytes is writte
 - Zathura	  - https://github.com/pwmt/zathura.git 
 - Sioyek  	  - fast pdf viewer
 - Mozilla FIrefox - firefox also has a pdf viewer
->>>>>>> refs/remotes/origin/main
 ### For DocX
 - Word		- 
 - OpenDocs	-
@@ -312,11 +261,10 @@ New-Item -ItemType SymbolicLink -Path $photoshopPresetsDir -Target "$dotfilesDir
 $tvpaintConfigDir = "$env:APPDATA\TVPaint Animation"
 New-Item -ItemType SymbolicLink -Path $tvpaintConfigDir -Target "$dotfilesDir\tvpaint\Animation" -Force
 
-Write-Host "Configuration files have been successfully linked!"
-```
+# Screen Recordings
+  if you are on windows you can use Win+G and set the location I set mine to c/P/Captures
 
 ### Summary
-
 - **Photoshop and TVPaint Configuration Files** are usually located in the `AppData` folder (Roaming or Local)
 - **Symlinks** allow you to point these configuration files to their expected locations, making it easy to synchronize settings across multiple machines.
 ### 5. **Alternative Syncing Options**
@@ -359,21 +307,6 @@ git log
 - git restore <file>
 git restore .
 unstage 
-2. You staged a file (with git add) but havenΓÇÖt committed yet
-You can unstage it:
-bash
-Copy
-Edit
-git restore --staged <file>
-Then you can also run git restore <file> to undo the change itself.
-3. You already committed it
-There are a few options here depending on what you want:
-Copy
-Edit
-git reset --soft HEAD~1
-Copy
-Edit
-git reset HEAD~1
 
 
 
