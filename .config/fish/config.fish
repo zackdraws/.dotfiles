@@ -16,7 +16,8 @@ function e
     emacs -nw $argv
 end
 
-oh-my-posh init fish --config ~/jandedobbeleer.omp.json | source
+oh-my-posh init fish --config ~/.config/oh-my-posh/themes/honukai.omp.json | source
+
 set -x ANDROID_HOME ~/Android
 set -x PATH $ANDROID_HOME/cmdline-tools/latest/bin $ANDROID_HOME/platform-tools $ANDROID_HOME/emulator $PATH
 set -x ANDROID_HOME ~/Android/Sdk
