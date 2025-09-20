@@ -1,5 +1,6 @@
-oh-my-posh init fish --config ~/.config/oh-my-posh/themes/honukai.omp.json | source
+oh-my-posh init fish --config ~/.config/oh-my-posh/themes/amro.omp.json | source
 zoxide init fish | source
+set -U fish_greeting
 set -gx GDK_SCALE 2 #GWSL
 set -gx TERM xterm-256color
 set -gx COLORTERM truecolor

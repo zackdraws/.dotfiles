@@ -25,6 +25,7 @@ SETUVAR fish_color_selection:d8dee9\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3d434
 SETUVAR fish_color_status:red\x0d\x0d
 SETUVAR fish_color_user:a3be8c\x0d\x0d
 SETUVAR fish_color_valid_path:\x2d\x2dunderline\x0d\x0d
+SETUVAR fish_greeting:\x1d
 SETUVAR fish_key_bindings:fish_default_key_bindings
 SETUVAR fish_pager_color_background:\x1d\x0d\x0d
 SETUVAR fish_pager_color_completion:e5e9f0\x0d\x0d
