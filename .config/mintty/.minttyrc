@@ -18,7 +18,7 @@ Red=230,50,60                     # #E6323C — vivid scarlet red
 Green=150,210,70                  # #96D246 — strong lime green
 Yellow=255,200,85                 # #FFC855 — bold golden yellow
 Blue=45,150,220                   # #2D96DC — punchy blue
-Magenta=220,80,140                # #DC508C — bold magenta
+Magenta=255,192.203                # #DC508C — bold magenta
 Cyan=30,180,160                   # #1EB4A0 — clean teal
 White=245,240,245                 # #F5F0F5 — soft light gray
 

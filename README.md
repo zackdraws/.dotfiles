@@ -6,6 +6,7 @@
                 5. Saving 
                 6. Tools for Creating 
 # .dotfiles
+<<<<<<< HEAD
 - .dotfiles are the (usually hidden) files in your computer located in the home directory (~/) (usually). These are my .dotfiles, by cloning these files you can link to them to set your computer up.
 ## 1. Set up your Terminal
 - to use the dotfiles it is easier and faster to use the terminal.
@@ -25,27 +26,56 @@
    -     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ## 1.2.2 After that install gh [[https://cli.github.com/][link]]
 ## 1.4.  clone files (cl)
+=======
+  - .dotfiles controls the configuration of your computer.
+  -  they are the local settings stored on your computer in the home directory.
+  -  sync from your dotfiles folder to the correct locations
+  -  that way if I make any changes I can easily update and sync them.
+## 1. Set up your Terminal
+- Use the terminal to edit dotfiles.
+### - Recommended Terminals
+    -	   mingw64 UCRT64 terminal (windows) -
+    -	   fooT terminal (linux/wsl) - 
+    -	   ghostty terminal (mac/linux/wsl) - new, user friendly
+    	   (you can use the command brew install ghostty)
+	   	    (to use homebrew use these instructions [[https://brew.sh/]])
+    -	   kitty (https://sw.kovidgoyal.net/kitty/) (mac/linux/wsl) - stable and fast
+    	   (curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh	/dev/stdin)
+    -      if you are on windows use mingw64 UCRT64 or wsl (mingw64 > wsl) 
+## 1.2.1   install git
+   -       pacman -S mingw-w64-x86_64-git
+   -       kitty terminal - >      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   - 	   home brew 	- >      brew install git
+## 1.2.2   After that install gh [[https://cli.github.com/][link]]
+## 1.4.    clone files (cl)
+>>>>>>> refs/remotes/origin/main
 	 	  1.  open your terminal
-          type "cd ~/" (without quotes)
+          	  type "cd ~/" 
 		  - this is your home directory
 		  2. mkdir .dotfiles
 		  3. cd .dotfiles
 		  4. git clone this repo
+<<<<<<< HEAD
                 	    git clone https://github.com/zackdraws/.dotfiles.git
 		  ** to see your files cd into .dotfiles use these commands
+=======
+run this command - >                     git clone https://github.com/zackdraws/.dotfiles.git
+>>>>>>> refs/remotes/origin/main
 ### Additional Terminal add-ons	
     - fzf 	       	  - helps to look through all the files
     - ncdu 	      	  - disk utility - look at your disk
     - btop 	      	  - look at your settings
     - zoxide      	  - search for anything and snap to it in the terminal
-    - pastel   	  - helps to pick out colors from the terminal
+    - pastel   	  	  - helps to pick out colors from the terminal
     - syncthing 	  - can be used to sync all of your files
-    - ffmpeg    	  -
-    -- use this in terminal to export avi files to mp4 
-          [[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
+    - ffmpeg    	  - use for mp4 editing
+ 			  - use this in terminal to export avi files to mp4 
+**           [[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
              ffmpeg -i input.avi -r 24 output.mp4
 	     	    -fs limit_size (output)
- ** Set the file size limit, expressed in bytes. No further chunk of bytes is written after the limit is exceeded. The size of the output file is slightly more than the requested file size
+
+** Set the file size limit, expressed in bytes. No further chunk of bytes is written after the limit is exceeded. The size of the output file is slightly more than the requested file size
+
 # 2. The Editor - the editor is used to edit files from the terminal.
       - eMacs - install emacs
            pacman -S mingw-w64-x86_64-emacs
@@ -73,6 +103,7 @@
 		    WINDOWS - 
 		    	    - do not use wsl but if you do and you have your dotfiles in wsl you would have to do this to link them
 		    sudo ln -s //wsl.localhost/Ubuntu/home/zack/.dotfiles/sh/p 1/cnvheic2j.ps1 /c/users/user/Documents/WindowsPowerShell/Scripts/cnvheic2j.ps1
+
 ## -  Navigating terminal -
        Yazi - this terminal app can be used to manage and look through files. 
        - your yazi can be found at either
@@ -81,6 +112,7 @@
        Broot - to manage and look through files, it's like Yazi but it is not.
        Zoxide - quick search for files
        FZF - is a fuzzy finder if you are in the directory use fzf to find your files
+
 # 4. Automating (Scripts)
 ####      -- these are the scripts that I use to automate my tasks
 ## .py - Python Files
@@ -109,12 +141,17 @@
       - mkto.sh 		   	makes a todo with the date that the file is made
       - FI_^^.sh' 	   		moves file from the child folder to the parent folder
       - copy_out.sh 	     	    
-      - export_org_to_pdf_02.org
-      - export_org_to_pdf_02.sh*
-      - export_org_to_pdf.sh*
-      - bracket_format.sh -		formats brackets around files
+      				    export-
+      - export_org_to_pdf_02.org	another exporting org files to pdfs (need to check what is different about this one)
+      - export_org_to_pdf_02.sh*	another exporting of org files to pdfs (need to check what is different about this file)
+      - export_org_to_pdf.sh*		exports .org documents to pdf files (need to check what is different about this file)
+
+      			  	    format
 ###   Scripts for Formatting
       - Bracket_Format.sh		puts brackets around file
+
+      				    converting     
+
 ###   Scripts for converting Files -
       - cnv_pdf->jpg			converts pdf file to jpeg files
       - cnv_jpg_pdf 		        converts jpg files to pdf
@@ -135,7 +172,7 @@
 ### Move 
     - move_files_to_parent.sh -		mv files to parent directory
 ### Rename - F2
-    - F2_date_taken.sh -
+    - F2_date_taken.sh -		renames files with the date taken
     - rename.sh -			renames file
     - rename_date_taken.sh - 		renames files with date taken
     - rename_folder.sh -   		renames files in folder
@@ -146,25 +183,25 @@
     - delete_all_jfif - 		deletes all jfif files
     - delete_duplicates  		tried to get a script that deletes 
     - delete_duplicate_images - 	script to delete duplicate images
-      			      		        doesn't work well
+      			      		        (doesn't work well)
     - delete_text_string		can't remember what this one does
 ### PSD - scripts to change images
     - change				
-    - psd_bright.py			
-    - psd_bw.py				
-    - psd_convert.sh 			converts psd files - exports layers
-    - output -      
-    - psd_flat.sh			flattens layers and converts to psd
-    - psd_flats.sh 			adds colors randomly to closed contour areas
-    - psd_jpeg.sh 			converts psd to jpeg
-    - keyout -
-    - psd_key_matte_folder.sh		adds matte to files in a folder
-    - psd_key_mate_folder_strong.sh 	like psd key matte but stronger
-    - psd_keyout.sh 			takes out the white background
-    - psd_keyout_w_matte.sh 		adds white matte underneath drawings
-    - psd_keyout_w_matte_soft.		 
-    - psd_select_sub.sh 		inverts subject and takes out background
-    - crop.sh 				to crop files
+          - psd_bright.py			
+    	  - psd_bw.py				
+          - psd_convert.sh 			converts psd files - exports layers
+	    - output -      
+    	    - psd_flat.sh			flattens layers and converts to psd
+	    - psd_flats.sh 			adds colors randomly to closed contour areas
+	    - psd_jpeg.sh 			converts psd to jpeg
+	    - keyout -
+	    - psd_key_matte_folder.sh		adds matte to files in a folder
+	    - psd_key_mate_folder_strong.sh 	like psd key matte but stronger
+	    - psd_keyout.sh 			takes out the white background
+	    - psd_keyout_w_matte.sh 		adds white matte underneath drawings
+	    - psd_keyout_w_matte_soft.		 
+	    - psd_select_sub.sh 		inverts subject and takes out background
+	    - crop.sh 				to crop files
 ### Captioning - 			just a quick python script to add a caption to images like storyboards 
     - Caption.py			usage: caption.py [image.jpg]
 	   				asks for caption
@@ -177,21 +214,27 @@
      	       with syncthing you can sync one computer to another
    	       	    1. - install on macos with homebrew - brew install syncthing
 	   	    2. - run 'syncthing' in terminal
-   loads syncthing in the terminal -
+  		       	      loads syncthing in the terminal -
    	 	    3. - run
 		    (on mac)
 		    brew services start syncthing
 		    for syncthing to start on start up
-4. access syncthing by going to 127.0.0.1:8384 in your web browser
-5. Go to another computer to install Syncthing
-6. sync files by adding them to your folders
-### TMUX -
+- Web interface
+  4. access syncthing by in web browser it should be at 127.0.0.1:8384 
+  5. Go to another computer to install Syncthing
+  6. sync files by adding them to your folders
+### TMUX - terminal multiplexer
     - https://github.com/omerxx/dotfiles 
     - https://github.com/tmux-plugins/tpm
     - https://github.com/omerxx/tmux-sessionx
     - https://github.com/tmux/tmux/wiki/Getting-Started
     - https://github.com/omerxx/go-blocksite
+<<<<<<< HEAD
 # 7. Work -
+=======
+# 7. Working - tools for work
+# 7.1 Creating
+>>>>>>> refs/remotes/origin/main
 ##  Photoshop
 Photoshop is what I used for most painting. My brushes actions and scripts are in the folder marked ps ~/.dotfiles/ps
 Photoshop Actions
@@ -222,6 +265,7 @@ Photoshop Scripts
 # 7.4 Publishing/Posting
 # 7.5 Storing/Backing up/File Management
 # 7.2 Reviewing
+<<<<<<< HEAD
 ## - mpv -
 ## - ffmpeg 
 use this in terminal to export avi files to mp4 
@@ -235,9 +279,24 @@ Set the file size limit, expressed in bytes. No further chunk of bytes is writte
 - Zathura - https://github.com/pwmt/zathura.git 
 - Sioyek - 
 - Mozilla FIrefox - 
+=======
+- mpv - use for watching videos
+- ffmpeg - use for editing, converting and trimming videos
+  	   use this in terminal to export avi files to mp4 
+	       	       [[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
+		       	  ffmpeg -i input.avi -r 24 output.mp4
+			  -fs limit_size (output)
+
+## Docs
+### For PDFS
+- Adobe Acrobat	  -
+- Zathura	  - https://github.com/pwmt/zathura.git 
+- Sioyek  	  - fast pdf viewer
+- Mozilla FIrefox - firefox also has a pdf viewer
+>>>>>>> refs/remotes/origin/main
 ### For DocX
-- Word -
-- OpenDocs -
+- Word		- 
+- OpenDocs	-
 - Drive
 
 # Where files can usually be found
