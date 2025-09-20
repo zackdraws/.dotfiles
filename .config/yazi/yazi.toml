@@ -8,7 +8,6 @@ linemode = "none"
 show_hidden = true
 show_symlink = true
 scrolloff = 5
-
 [preview]
 max_width = 600
 max_height = 800
@@ -50,7 +49,6 @@ rules = [
 ]
 [tasks]
 image_bound = [0, 0]
-
 
 
 
