@@ -138,6 +138,8 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
       - psd_jpeg.sh -  			convert psd to jpeg
 ### Compress Files
       - tiny_vid.sh -		        to make videos smaller     		  			
+      - tiny_vid_split.sh
+      - splits videos in to ten minute portions
 ### Move 
     - move_files_to_parent.sh -		mv files to parent directory
 ### Rename - F2
