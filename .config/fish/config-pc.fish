@@ -2,7 +2,7 @@
 set -U fish_greeting
 
 # oh-my-posh and zoxide
-oh-my-posh init fish --config ~/.config/oh-my-posh/themes/emodipt-extend.omp.json | source
+oh-my-posh init fish --config ~/.config/oh-my-posh/themes/uew.omp.json | source
 zoxide init fish | source
 
 # Environment variables
