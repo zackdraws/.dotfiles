@@ -19,13 +19,8 @@ here information https://share.clip-studio.com/en-us/contents/view?code=8f22c9c0
 - Insert Frame         Shift+X
 - select previous frame C
 - select next frame     V
-
 *** Still need to assign
 - enable onion skin
-- 
-
-
-
 *** Interface
 Zoom                Z
 zoom - in 2
@@ -68,4 +63,3 @@ https://help.clip-studio.com/en-us/manual_en/180_layers/Blending_modes.htm
 * sources
 - how to animate in Clip Studio Paint 2025
    https://www.youtube.com/watch?v=mR7FJ8wxn7U
-
