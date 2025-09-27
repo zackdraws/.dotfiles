@@ -1,4 +1,4 @@
-oh-my-posh init fish --config ~/.config/oh-my-posh/themes/amro.omp.json | source
+oh-my-posh init fish --config ~/.config/oh-my-posh/themes/probua.minimal.omp.json | source
 zoxide init fish | source
 set -U fish_greeting
 set -gx GDK_SCALE 2 #GWSL
