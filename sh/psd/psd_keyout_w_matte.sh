@@ -1,106 +1,46 @@
 #!/bin/bash
-
-
-
 set -e
-
-
-
 echo "🧼 Running softer subject detection and matte fill..."
-
-
-
 # Ensure Python 3 is available
-
 if ! command -v python3 &>/dev/null; then
-
     echo "❌ Python 3 is required."
-
     exit 1
-
 fi
-
-
-
 # Install Python deps if missing
-
 python3 - <<EOF
-
 try:
-
     import cv2
-
     import numpy
-
 except ImportError:
-
     print("📦 Installing OpenCV and NumPy...")
-
     import subprocess
-
     subprocess.check_call(["pip3", "install", "--user", "opencv-python", "numpy"])
-
 EOF
-
-
-
 # Process all .jpg/.jpeg images
-
 for file in *.jpg *.jpeg; do
-
     if [ ! -f "$file" ]; then
-
         continue
-
     fi
-
-
-
     base="${file%.*}"
-
     output="${base}_softmatte.png"
-
-
-
     echo "🎨 Processing: $file → $output"
-
-
-
     python3 - <<EOF
-
 import cv2
-
 import numpy as np
-
-
-
 input_path = "$file"
-
 output_path = "$output"
-
-
-
 # Load and prep image
-
 image = cv2.imread(input_path)
-
 if image is None:
-
     raise ValueError("Could not read image.")
 
-
-
 h, w = image.shape[:2]
-
-
 
 # Step 1: Convert to grayscale and blur slightly
 
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 blurred = cv2.GaussianBlur(gray, (5, 5), 0)
-
-
 
 # Step 2: Adaptive threshold to gently pull subject from white bg
 
@@ -111,9 +51,6 @@ thresh = cv2.adaptiveThreshold(
     cv2.THRESH_BINARY_INV, 11, 2
 
 )
-
-
-
 # Step 3: Find the largest contour (assumed to be subject)
 
 contours, _ = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
@@ -122,13 +59,8 @@ if not contours:
 
     raise ValueError("No subject found.")
 
-
-
 # Get the largest contour
-
 main_contour = max(contours, key=cv2.contourArea)
-
-
 
 # Create subject mask
 

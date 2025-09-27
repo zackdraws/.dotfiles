@@ -1,34 +1,14 @@
 #!/bin/bash
-
-
-
 set -e
-
-
-
 echo "✨ Applying ultra soft light yellow matte..."
-
-
-
 if ! command -v python3 &>/dev/null; then
-
     echo "❌ Python 3 required."
-
     exit 1
-
 fi
-
-
-
 python3 - <<EOF
-
 import cv2
-
 import numpy as np
-
 import glob
-
-
 
 for file in glob.glob('*.jpg') + glob.glob('*.jpeg'):
 
@@ -36,11 +16,7 @@ for file in glob.glob('*.jpg') + glob.glob('*.jpeg'):
 
     output = f"{base}_ultrasoftyellow.png"
 
-
-
     print(f"Processing {file} → {output}")
-
-
 
     image = cv2.imread(file)
 
@@ -50,11 +26,7 @@ for file in glob.glob('*.jpg') + glob.glob('*.jpeg'):
 
         continue
 
-
-
     h, w = image.shape[:2]
-
-
 
     # Grayscale & gentle threshold to isolate subject
 
@@ -62,15 +34,11 @@ for file in glob.glob('*.jpg') + glob.glob('*.jpeg'):
 
     _, binary = cv2.threshold(gray, 245, 255, cv2.THRESH_BINARY_INV)
 
-
-
     # Small morphology open to clean noise
 
     kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (3, 3))
 
     clean_mask = cv2.morphologyEx(binary, cv2.MORPH_OPEN, kernel, iterations=1)
-
-
 
     # Find largest contour = subject
 
@@ -84,13 +52,9 @@ for file in glob.glob('*.jpg') + glob.glob('*.jpeg'):
 
     main_contour = max(contours, key=cv2.contourArea)
 
-
-
     subject_mask = np.zeros((h, w), dtype=np.uint8)
 
     cv2.drawContours(subject_mask, [main_contour], -1, 255, thickness=cv2.FILLED)
-
-
 
     # Dilate mask to create matte area
 
@@ -98,13 +62,9 @@ for file in glob.glob('*.jpg') + glob.glob('*.jpeg'):
 
     matte_mask = cv2.dilate(subject_mask, kernel_dilate, iterations=1)
 
-
-
     # Gaussian blur for ultra soft edges
 
     matte_mask_blurred = cv2.GaussianBlur(matte_mask, (101, 101), 0)  # big blur kernel for softness
-
-
 
     # Matte color - very light yellow pastel (BGR) + alpha
 
@@ -112,17 +72,11 @@ for file in glob.glob('*.jpg') + glob.glob('*.jpeg'):
 
     matte_color = np.array([204, 255, 255, 255], dtype=np.uint8)
 
-
-
     matte = np.zeros((h, w, 4), dtype=np.uint8)
-
-    for c in range(3):
 
         matte[:, :, c] = matte_color[c]
 
     matte[:, :, 3] = matte_mask_blurred
-
-
 
     # Create alpha from white removal softly within subject mask
 
