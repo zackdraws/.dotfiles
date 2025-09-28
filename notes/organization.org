@@ -1,4 +1,4 @@
-#+title: Organize 
+#+title: Organization Notes
 sym-link file
 ls - l location /file/ -> /file/ 
 location stays here in origin file
@@ -31,9 +31,7 @@ Thunderbird
 ulog_HeadlightsCC_ApprCrash_deda4ec2-fc59-49d2-a7549
 version.dll
 wacomtablet_6.4.7-3.exe
-
 [[https://www.youtube.com/watch?v=WVZFla10Egk][link]]
-
 * Organizing
 **** Edit config files to back-up iphone photos <2025-08-07 Thu 11:26>
 

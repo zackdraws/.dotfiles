@@ -39,7 +39,6 @@ play = [
 ]
 [open]
 rules = [
-
     { mime = "application/pdf", use = ["open_zathura", "reveal"] },
     { mime = "text/*", use = ["edit", "reveal"] },
     { mime = "image/*", use = ["open_nomacs", "reveal"] },
