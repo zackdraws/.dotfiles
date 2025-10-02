@@ -123,10 +123,9 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
 
 ###   Scripts for converting Files -
       - cnv_jpg_pdf 		        convert jpg to pdf
-      - psd_convert.sh -		convert psd to jpg     		     			
+      - psd_convert.sh -		convert psd to jpg     		     		
       - psd_jpeg.sh -  			convert psd to jpeg
       - cnv_pdf->jpg			convert pdf to jpg
-
       - convert_heic_to_jpeg.sh -	convert heic to jpeg
       - convert_heic_to_jpg.sh - 	convert heic to jpg
       - convert_png_j.sh -     		convert png to jpg
@@ -309,10 +308,3 @@ git log
 - git restore <file>
 git restore .
 unstage 
-
-
-
-
-
-
-
