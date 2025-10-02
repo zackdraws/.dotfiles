@@ -122,8 +122,11 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
       				    converting     
 
 ###   Scripts for converting Files -
-      - cnv_pdf->jpg			converts pdf file to jpeg files
-      - cnv_jpg_pdf 		        converts jpg files to pdf
+      - cnv_jpg_pdf 		        convert jpg to pdf
+      - psd_convert.sh -		convert psd to jpg     		     			
+      - psd_jpeg.sh -  			convert psd to jpeg
+      - cnv_pdf->jpg			convert pdf to jpg
+
       - convert_heic_to_jpeg.sh -	convert heic to jpeg
       - convert_heic_to_jpg.sh - 	convert heic to jpg
       - convert_png_j.sh -     		convert png to jpg
@@ -133,10 +136,7 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
       - jfif_jpeg.sh -   		convert jfif to jpeg
       - convert_webloc_to_jpeg.sh - 	convert webloc to jpeg
       					                    (doesn't always work)
-### Convert image files
-      - psd_convert.sh -		convert psd to jpg     		     			
-      - psd_jpeg.sh -  			convert psd to jpeg
-### Compress Files
+      ### Compress Files
       - tiny_vid.sh -		        to make videos smaller     		  			
       - tiny_vid_split.sh
       - splits videos in to ten minute portions
