@@ -1,59 +1,61 @@
-	     	    	     GLOSSARY                 
-                1. Set up your terminal
-                2. Using the Editor in the terminal 
-                3. Managing Files
-                4. Automating (Scripts) 
-                5. Saving 
-                6. Tools for Creating 
+	     	    	     GLOSSARY              
+	   1. Set up your terminal
+           2. Using the Editor in the terminal
+           3. Managing Files
+           4. Automating (Scripts) 
+           5. Saving 
+           6. Tools for Creating 
 # .dotfiles
-  - .dotfiles controls the configuration of your computer.
-  -  they are the local settings stored on your computer in the home directory.
-  -  sync from your dotfiles folder to the correct locations
-  -  changes can be updated and synced.
-## 1. Set up your Terminal
-   - Use the terminal to edit dotfiles.
-###  	 - Recommended Terminals
-    -	   mingw64 UCRT64 terminal (windows) -
-    -	   fooT terminal (linux/wsl) - 
-    -	   ghostty terminal (mac/linux/wsl) - new, user friendly
+   -       .dotfiles controls the configuration of your computer.
+   -       they are the local settings stored on your computer usually in the home directory.
+   -       dotfile changes can be synced.
+## 1. Set up - Terminal
+   -       The terminal can be used to edit dotfiles.
+###  - Recommended Terminals
+   -       mingw64 UCRT64 terminal (windows) -
+   -	   fooT terminal (linux/wsl) - 
+   -	   ghostty terminal (mac/linux/wsl) - new, user friendly
     	   (you can use the command brew install ghostty)
 	   	    (to use homebrew use these instructions [[https://brew.sh/]])
-    -	   kitty (https://sw.kovidgoyal.net/kitty/) (mac/linux/wsl) - stable and fast
+   -	   kitty (https://sw.kovidgoyal.net/kitty/) (mac/linux/wsl) - stable and fast
     	   (curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh	/dev/stdin)
-    -      if you are on windows use mingw64 UCRT64 or wsl (mingw64 > wsl) 
+   -       if you are on windows use mingw64 UCRT64 or wsl (mingw64 > wsl) 
 ## 1.2.1   install git
    -       pacman -S mingw-w64-x86_64-git
    -       kitty terminal - >      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    - 	   home brew 	- >      brew install git
-## 1.2.2   After that install gh [[https://cli.github.com/][link]]
+## 1.2.2   install gh [[https://cli.github.com/][link]]
+   -       this allows you to put in your credentials
 ## 1.4.    clone files (cl)
-  git clone https://github.com/zackdraws/.dotfiles.git
-  ** to see your files cd into .dotfiles use these commands
+   -       git clone https://github.com/zackdraws/.dotfiles.git
+   -       ** to see your files cd into .dotfiles use these commands
 ### Additional Terminal add-ons	
-    - fzf 	       	  - helps to look through all the files
-    - ncdu 	      	  - disk utility - look at your disk
-    - btop 	      	  - look at your settings
-    - zoxide      	  - search for anything and snap to it in the terminal
-    - pastel   	  	  - helps to pick out colors from the terminal
-    - syncthing 	  - can be used to sync all of your files
-    - ffmpeg    	  - use for mp4 editing
- 			  - use this in terminal to export avi files to mp4 
-** fzf - 
+    -      fzf 	       	  - search through files 
+    -      ncdu 	  - disk utility - look at disk disc size
+    -      btop 	  - look at your settings
+    -      zoxide      	  - navigate to folders quickly
+    -      pastel   	  - pick out colors from the terminal
+    -      syncthing 	  - sync files from one computer to another
+    -      ffmpeg    	  - edit and watch mp4 videos - use this in terminal to export avi files to mp4#### fzf - 
+
 run fzf in the directory for what ever file you are looking for. Run nano "$(fzf)" or whatever editor you are using to open it inside that editor
-** ffmpeg -
-           [[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
-             ffmpeg -i input.avi -r 24 output.mp4
-	     	    -fs limit_size (output)
-** Set the file size limit, expressed in bytes. No further chunk of bytes is written after the limit is exceeded. The size of the output file is slightly more than the requested file size
-# 2. The Editor - the editor is used to edit files from the terminal.
-      - eMacs - eMacs stands for Editor Macros and can be used as editor for files.
-	install emacs
-        		 pacman -S mingw-w64-x86_64-emacs
-        - brew install emacs
-		- now you can write into files in the terminal using the command 'emacs -nw file'
-        - Nano - small quick editor.
+#### ffmpeg commands -
+##### convert mp4 files
+[[ ffmpeg -i filepath.avi filename.mp4]] 
+ffmpeg -i input.avi -r 24 output.mp4
+-fs limit_size (output)
+(Set the file size limit, (bytes).)
+# 2. Editor - the editor is used to edit files in the terminal.
+    -      eMacs - eMacs stands for Editor Macros and can be used as editor for files.
+
+    - install emacs  		 
+      - pacman -S mingw-w64-x86_64-emacs
+      - brew install emacs
+	- now you can write into files in the terminal using the command 'emacs -nw file'
+# 2.1. Editor - optional additional editor -     
+- Nano - small quick editor.
 # 3. Files
-            3.1     Link files - (ln)
+##             3.1     Link files - (ln)
                         sudo ln -s /home/name/.dotfiles/file /usr/local/bin/ (for shell files)
     	 			    (this is to create a symlink)
 	                    (symlinks are synthetic links between two files 
@@ -61,14 +63,13 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
 			- sudo ln -f //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
 			       cd //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
 		                *       sudo is the command to run a command as 'administrator'
-	    3.2    Additional Note: from there you can go to .dotfiles run 'git add .' 
+###  	    3.2    Additional Note: from there you can go to .dotfiles run 'git add .' 
                         next run 'git commit -m "comment" and to 
-                        run git push to publish to git
-	    3.3    to update folder from github run 'git pull'
-            3.3.1.  Make Script files actionable from anywhere in the terminal - 
-            3.4.1   cd - /usr/local/bin/ (changes the directory to usr/local/bin)
-            3.4.2  chmod +x file (this makes the sh follow usable)
-	    3.5     Shell - for command history and command line editing - is within the terminal
+                        run git push to publish to git  
+###            3.3.1.  Make Script files actionable from anywhere in the terminal - 
+###            3.4.1   cd - /usr/local/bin/ (changes the directory to usr/local/bin)
+###            3.4.2  chmod +x file (this makes the sh follow usable)
+##	    3.5     Shell - for command history and command line editing - is within the terminal
                     Fish - for syntax highlights and autosuggestions and themes
 		    WINDOWS - 
 			WSL
@@ -85,19 +86,18 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
 # 4. Automating (Scripts)
 ####      -- these are the scripts that I use to automate my tasks
 ## .py - Python Files
-    cnv_mp4_gif.py
-                        python mp4_to_gif.py your_input_file.mp4 output_file.gif
-                        4.To change the frame duration, use the `-d` or `--duration` argument:
+       cnv_mp4_gif.py
+       python mp4_to_gif.py your_input_file.mp4 output_file.gif
+      4.To change the frame duration, use the `-d` or `--duration` argument:
     examples -
-                        python mp4_to_gif.py your_input_file.mp4 output_file.gif -d 0.2  # 0.2 seconds per frame
+      python mp4_to_gif.py your_input_file.mp4 output_file.gif -d 0.2  # 0.2 seconds per frame
 10;rgb:c8c8/bebe/c8c811;rgb:3232/2929/3131- opposite of that is cnv_gif_mp4.bash
-                        - /create_gif.sh wUsers/myuser/Pictures/my_images output.gif
+                        - /create_gif.sh /Users/myuser/Pictures/my_images output.gif
 ## .sh - Shell Files/Fish Files 
-      - these are my shell files
+      - shell files are bash scripts that are ran through the terminal to automate tasks
       - located in /sh in .dotfiles
       - sync (ln -s)  to /usr/local/bin/
       - sudo chmod +x to use from anywhere
-      - used for automating tasks
 ###   Scripts for making things
       - Export_Org_To_pdf.sh		converts .org file to pdf
       					$ need to change name from export to convert
@@ -142,6 +142,7 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
       - tiny_vid.sh -		        to make videos smaller     		  			
       - tiny_vid_split.sh
       - splits videos in to ten minute portions
+      - cnv_org_doc		       converts org files to doc files
 ### Move 
     - move_files_to_parent.sh -		mv files to parent directory
 ### Rename - F2
@@ -160,8 +161,8 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
     - delete_text_string		can't remember what this one does
 ### PSD - scripts to change images
     - change				
-          - psd_bright.py			
-    	  - psd_bw.py				
+      - psd_bright.py			
+ - psd_bw.py				
           - psd_convert.sh 			converts psd files - exports layers
 	    - output -      
     	    - psd_flat.sh			flattens layers and converts to psd
@@ -175,7 +176,8 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
 	    - psd_keyout_w_matte_soft.		 
 	    - psd_select_sub.sh 		inverts subject and takes out background
 	    - crop.sh 				to crop files
-### Captioning - 			just a quick python script to add a caption to images like storyboards 
+### Captioning - 			
+- just a quick python script to add a caption to images like storyboards 
     - Caption.py			usage: caption.py [image.jpg]
 	   				asks for caption
 	   				write in caption
@@ -207,21 +209,14 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
 ##  Photoshop
 Photoshop is what I used for most painting. My brushes actions and scripts are in the folder marked ps ~/.dotfiles/ps
 Photoshop Actions
-
 Photoshop Brushes - this folder is empty right now because most of the brushes I use are not made by me.
-
 Photoshop Scripts
-
 ##  Clip Studio Paint -
-
 ##  TVPaint
 - this folder holds my hotkeys, brushes, and home configuration.
 ##  Storyboard Pro
-
 ##  Toonboom Harmony
-
 # 7.1.2 Time Tracking
-
 ## Excel
 ## Manictime as well can be used for extreme time logging.
 # 7.3 Compositing/Editing
@@ -272,7 +267,6 @@ New-Item -ItemType SymbolicLink -Path $tvpaintConfigDir -Target "$dotfilesDir\tv
 - **Photoshop and TVPaint Configuration Files** are usually located in the `AppData` folder (Roaming or Local)
 - **Symlinks** allow you to point these configuration files to their expected locations, making it easy to synchronize settings across multiple machines.
 ### 5. **Alternative Syncing Options**
-
 
 # 9. Setting up a Portfolio site
 * domain fixing
