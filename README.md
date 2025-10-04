@@ -124,7 +124,10 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
 ###   Scripts for converting Files -
       - cnv_jpg_pdf 		        convert jpg to pdf
       - psd_convert.sh -		convert psd to jpg     		     		
+      	- this converts all visible layers to a jpg. Make sure to turn layers off that are in folders.
       - psd_jpeg.sh -  			convert psd to jpeg
+      	- this is different then psd_convert.sh ?
+	
       - cnv_pdf->jpg			convert pdf to jpg
       - convert_heic_to_jpeg.sh -	convert heic to jpeg
       - convert_heic_to_jpg.sh - 	convert heic to jpg
