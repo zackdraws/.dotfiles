@@ -59,3 +59,5 @@ pacman -S --needed mingw-w64-ucrt-x86_64-chromaprint \
                      mingw-w64-ucrt-x86_64-libffi \
                      mingw-w64-ucrt-x86_64-libyaml
 
+
+							
