@@ -1,0 +1,5 @@
+pwd | clip
+# Alias to copy the current directory to the clipboard
+alias cppath='pwd | pbcopy'  # For macOS
+alias cppath='pwd | xclip -selection clipboard'  # For Linux
+alias cppath='pwd | clip'  # For Windows (Git Bash/WSL)
