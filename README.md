@@ -6,11 +6,10 @@
            5. Saving 
            6. Tools for Creating 
 # .dotfiles
-   -       .dotfiles controls the configuration of your computer.
-   -       they are the local settings stored on your computer usually in the home directory.
-   -       dotfile changes can be synced.
+   -       controls the configuration of your computer.
+   -       can be the local settings stored on your computer usually in the home directory.
+   -       dotfile changes can be synced and backed up.
 ## 1. Set up - Terminal
-   -       The terminal can be used to edit dotfiles.
 ###  - Recommended Terminals
    -       mingw64 UCRT64 terminal (windows) -
    -	   fooT terminal (linux/wsl) - 
@@ -36,9 +35,9 @@
     -      zoxide      	  - navigate to folders quickly
     -      pastel   	  - pick out colors from the terminal
     -      syncthing 	  - sync files from one computer to another
-    -      ffmpeg    	  - edit and watch mp4 videos - use this in terminal to export avi files to mp4#### fzf - 
-
-run fzf in the directory for what ever file you are looking for. Run nano "$(fzf)" or whatever editor you are using to open it inside that editor
+    -      ffmpeg    	  - edit and watch mp4 videos - use this in terminal to export avi files to#### fzf - 
+Run fzf in the directory for what ever file you are looking for.
+Run nano "$(fzf)" or whatever editor you are using to open it inside that editor
 #### ffmpeg commands -
 ##### convert mp4 files
 [[ ffmpeg -i filepath.avi filename.mp4]] 
@@ -47,16 +46,15 @@ ffmpeg -i input.avi -r 24 output.mp4
 (Set the file size limit, (bytes).)
 # 2. Editor - the editor is used to edit files in the terminal.
     -      eMacs - eMacs stands for Editor Macros and can be used as editor for files.
-
-    - install emacs  		 
-      - pacman -S mingw-w64-x86_64-emacs
-      - brew install emacs
-	- now you can write into files in the terminal using the command 'emacs -nw file'
+        - install emacs  		 
+    	  - pacman -S mingw-w64-x86_64-emacs
+      	  - brew install emacs
+- now you can write into files in the terminal using the command 'emacs -nw file'
 # 2.1. Editor - optional additional editor -     
 - Nano - small quick editor.
 # 3. Files
-##             3.1     Link files - (ln)
-                        sudo ln -s /home/name/.dotfiles/file /usr/local/bin/ (for shell files)
+##  3.1     Link files - (ln)
+    	                  sudo ln -s /home/name/.dotfiles/file /usr/local/bin/ (for shell files)
     	 			    (this is to create a symlink)
 	                    (symlinks are synthetic links between two files 
                         (when you update from .dotfiles it then updates the file in the usr local bin.)
@@ -74,7 +72,6 @@ ffmpeg -i input.avi -r 24 output.mp4
 		    WINDOWS - 
 			WSL
 		    sudo ln -s //wsl.localhost/Ubuntu/home/zack/.dotfiles/sh/p 1/cnvheic2j.ps1 /c/users/user/Documents/WindowsPowerShell/Scripts/cnvheic2j.ps1
-
 ## -  Navigating terminal -
        Yazi - this terminal app can be used to manage and look through files. 
        - your yazi can be found at either
