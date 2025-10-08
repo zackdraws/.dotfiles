@@ -1,108 +1,51 @@
 directory: /mnt/c/users/zacha/Music/Music/
-
 library: /home/zack/.config/library.db
-
 art_filename: albumart
-
 threaded: yes
-
 original_date: no
-
 per_disc_numbering: no
-
-
-
 # Plugins to use
-
 plugins:
-
   - fetchart
-
   - embedart
-
   - convert
-
   - scrub
-
   - replaygain
-
   - lastgenre
-
   - chroma
-
   - web
-
   - spotify
-
   - fromfilename
-
   - duplicates
-
-
 # Path formatting for filenames
-
 paths:
-
   default: $albumartist/$album%aunique{}/$track $title.$ext
   singleton: Non-Album/$artist/$title.$ext
   comp: Compilations/$album%aunique{}/$track $title.$ext
-
 # Conversion settings
-
 convert:
-
   auto: no
-
   ffmpeg: /usr/bin/ffmpeg
-
   opts: -ab 320k -ac 2 -ar 48000
-
   max_bitrate: 320
-
   threads: 1
-
-
-
 # Metadata lookup options
-
 lookup:
-
   auto: yes
-
   fuzzy: yes
-
   max_error: 5
-
-
-
 # MusicBrainz fetching
-
 musicbrainz:
-
   fetch_pictures: yes
-
   track_id: yes
-
-
-
 # Chroma (fingerprinting) to help match files
-
 chroma:
-
   auto: yes
-
-
-
 # Clean up bad tags
-
 scrub:
-
   auto: yes
-
   remove_date: yes
-
   remove_comments: yes
-
 import:
 	write: yes
 	copy: no
