@@ -45,11 +45,6 @@ for pdf_file in "${pdf_files[@]}"; do
         mv "$img" "$output_dir/${safe_name}.jpg"
         echo "Saved as: ${safe_name}.jpg"
     done
-
-
-
     echo
-
     echo "All images for $pdf_file saved in: $output_dir/"
-
 done
