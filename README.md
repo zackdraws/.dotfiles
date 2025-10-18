@@ -1,24 +1,25 @@
-#	     	    	     GLOSSARY                 
- 1. Set up your terminal
+# GLOSSARY                 
+ 1. Set up 
  2. Using the Editor in the terminal 
  3. Managing Files
  4. Automating (Scripts) 
  5. Saving 
- 6. Tools for Creating 
+ 6. Tools for Creating
 # .dotfiles
   - .dotfiles controls the configuration of your computer. - they are the local settings stored on your 
   computer in the home directory. - sync from your dotfiles folder to the correct locations - changes can be 
   updated and synced.
-## 1. Set up your Terminal
+## 1. Set up
    - Use the terminal to edit dotfiles.
-###  	 - Recommended Terminals
-    -	   mingw64 UCRT64 terminal (windows) -
+### Install terminal
+ - Recommended Terminals
+    -      mingw64 UCRT64 terminal (windows) -
     -	   fooT terminal (linux/wsl) - 
     -	   ghostty terminal (mac/linux/wsl) - new, user friendly
     	   (you can use the command brew install ghostty)
 	   	    (to use homebrew use these instructions [[https://brew.sh/]])
     -	   kitty (https://sw.kovidgoyal.net/kitty/) (mac/linux/wsl) - stable and fast
-    	   (curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh	/dev/stdin)
+        	   (curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh	/dev/stdin)
     -      if you are on windows use mingw64 UCRT64 or wsl (mingw64 > wsl) 
 ## 1.2.1   install git
    -       pacman -S mingw-w64-x86_64-git
@@ -29,30 +30,36 @@
   git clone https://github.com/zackdraws/.dotfiles.git
   ** to see your files cd into .dotfiles use these commands
 ### Additional Terminal add-ons	
-    - fzf 	       	  - helps to look through all the files
-    - ncdu 	      	  - disk utility - look at your disk
-    - btop 	      	  - look at your settings
-    - zoxide      	  - search for anything and snap to it in the terminal
-    - pastel   	  	  - helps to pick out colors from the terminal
-    - syncthing 	  - can be used to sync all of your files
-    - ffmpeg    	  - use for mp4 editing
- 			  - use this in terminal to export avi files to mp4 
+   - 	   fzf 	       	  - helps to look through all the files
+   - 	   ncdu 	  - disk utility - look at your disk
+   - 	   btop 	  - look at your settings
+   - 	   zoxide      	  - search for anything and snap to it in the terminal
+   - 	   pastel    	  - helps to pick out colors from the terminal
+   - 	   syncthing 	  - can be used to sync all of your files
+   - 	   ffmpeg    	  - use for mp4 editing
+			  - use this in terminal to export avi files to mp4 
 ** fzf - 
 run fzf in the directory for what ever file you are looking for. Run nano "$(fzf)" or whatever editor you are using to open it inside that editor
 ** ffmpeg -
            [[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
              ffmpeg -i input.avi -r 24 output.mp4
 	     	    -fs limit_size (output)
-** Set the file size limit, expressed in bytes. No further chunk of bytes is written after the limit is exceeded. The size of the output file is slightly more than the requested file size
+** Set the file size limit, expressed in bytes. No further chunk of bytes is written after the limit is exceeded. The size of the output file is slightly more than the requested file size.
 # 2. The Editor - the editor is used to edit files from the terminal.
-      - eMacs - eMacs stands for Editor Macros and can be used as editor for files.
-	install emacs
-        		 pacman -S mingw-w64-x86_64-emacs
+ - eMacs - eMacs stands for Editor Macros and can be used as editor for files.
+ to install emacs 'pacman -S mingw-w64-x86_64-emacs'
         - brew install emacs
-		- now you can write into files in the terminal using the command 'emacs -nw file'
-        - Nano - small quick editor.
-# 3. Files
-            3.1     Link files - (ln)
+	- Nano - small quick editor.
+## 2. Opening the editor
+- emacs can be opened from the desktop if you have a shortcut or from the terminal.
+  	run the command 'emacs -nw' (to run emacs inside the terminal) or 'emacs' to open emacs in an application
+## Configuring the editor.
+   the settings for configuring emacs are in [[~/.emacs.d/init.el]] and inside my dotfiles are in [[~/.dotfiles/.config/emacs/.emacs-pc]]
+   write the command
+   'ln -s ~/.dotfiles/.config/emacs/.emacs-pc ~/.emacs.d/init.el
+   this creates a symboliclink between the .dotfile and the init file
+# 3.  Files
+  3.1 Link files - (ln)
                         sudo ln -s /home/name/.dotfiles/file /usr/local/bin/ (for shell files)
     	 			    (this is to create a symlink)
 	                    (symlinks are synthetic links between two files 
@@ -60,27 +67,25 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
 			- sudo ln -f //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
 			       cd //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
 		                *       sudo is the command to run a command as 'administrator'
-	    3.2    Additional Note: from there you can go to .dotfiles run 'git add .' 
+   3.2    Additional Note: from there you can go to .dotfiles run 'git add .' 
                         next run 'git commit -m "comment" and to 
                         run git push to publish to git
-	    3.3    to update folder from github run 'git pull'
-            3.3.1.  Make Script files actionable from anywhere in the terminal - 
-            3.4.1   cd - /usr/local/bin/ (changes the directory to usr/local/bin)
-            3.4.2  chmod +x file (this makes the sh follow usable)
-	    3.5     Shell - for command history and command line editing - is within the terminal
+   3.3    to update folder from github run 'git pull'
+   3.3.1.  Make Script files actionable from anywhere in the terminal - 
+   3.4.1   cd - /usr/local/bin/ (changes the directory to usr/local/bin)
+   3.4.2  chmod +x file (this makes the sh follow usable)
+   3.5     Shell - for command history and command line editing - is within the terminal
                     Fish - for syntax highlights and autosuggestions and themes
 		    WINDOWS - 
 			WSL
 		    sudo ln -s //wsl.localhost/Ubuntu/home/zack/.dotfiles/sh/p 1/cnvheic2j.ps1 /c/users/user/Documents/WindowsPowerShell/Scripts/cnvheic2j.ps1
-
 ## -  Navigating terminal -
-       Yazi - this terminal app can be used to manage and look through files. 
-       - your yazi can be found at either
-       ~/.config/yazi/yazi.toml
-       or c/users/zacha/Appdata/Roaming/yazi/config/yazi.toml
-       Broot - to manage and look through files, it's like Yazi but it is not.
-       Zoxide - quick search for files
-       FZF - is a fuzzy finder if you are in the directory use fzf to find your files
+    Yazi    - this terminal app can be used to manage and look through files. 
+            - your yazi can be at ~/.config/yazi/yazi.toml
+            or c/users/zacha/Appdata/Roaming/yazi/config/yazi.toml
+    Broot   - to manage and look through files, it's like Yazi but it is not.
+    Zoxide  - quick search for files
+    FZF     - is a fuzzy finder if you are in the directory use fzf to find your files
 # 4. Automating (Scripts)
 ####      -- these are the scripts that I use to automate my tasks
 ## .py - Python Files
@@ -157,8 +162,8 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
     - delete_text_string		can't remember what this one does
 ### PSD - scripts to change images
     - change				
-          - psd_bright.py			
-    	  - psd_bw.py				
+    - psd_bright.py			
+ 	  - psd_bw.py				
           - psd_convert.sh 			converts psd files - exports layers
 	    - output -      
     	    - psd_flat.sh			flattens layers and converts to psd
