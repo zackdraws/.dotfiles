@@ -49,3 +49,13 @@ scoop install blender-lts
 scoop install discord
 scoop install nerd-fonts/FiraCode-NF
 
+pacman -S mingw-w64-ucrt-x86_64-python
+pip install 'beets[fetchart,lyrics,lastgenre,ftintitle,chromaprint]'
+
+pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
+
+pacman -S --needed mingw-w64-ucrt-x86_64-chromaprint \
+                     mingw-w64-ucrt-x86_64-ffmpeg \
+                     mingw-w64-ucrt-x86_64-libffi \
+                     mingw-w64-ucrt-x86_64-libyaml
+

@@ -1,16 +1,12 @@
 #!/bin/bash
-
 shopt -s nullglob nocaseglob  # Enable globbing for lowercase/uppercase matching
-
 # Loop through all .heic or .HEIC files in the current directory
 for file in *.heic; do
   # Check if the file exists and is a regular file
   if [[ -f "$file" ]]; then
     echo "Processing $file..."
-
     # Generate output file name by replacing extension with .jpeg
     output="${file%.*}.jpeg"
-
     # Convert using available tool
     if command -v magick &>/dev/null; then
       magick "$file" "$output"
@@ -24,5 +20,4 @@ for file in *.heic; do
     fi
   fi
 done
-
 echo "Done."

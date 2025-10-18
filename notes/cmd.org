@@ -62,3 +62,11 @@ fzf is for fuzzy finding in the terminal. Search inside the directory by typing 
 makes searching easy by typing in z it just goes right to the place
 ** Pastel
 for looking up colors
+* oh-my-posh
+** oh-my-posh in bash
+ for using oh-my-posh in bash
+eval "$(oh-my-posh init bash --config ~/jandedobbeleer.omp.json)"
+add this in to either ~/.bashrc or ~/.profile or ~/.bash_profile
+then reload using exec bash 
+or
+eval "$(oh-my-posh init bash)"

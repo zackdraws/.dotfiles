@@ -16,4 +16,7 @@ and then go to http://localhost:8080
 for impatient mode first type the command m-x impa
 and then go to the address in your web browser
 http://localhost:8080/imp/
+* Org-clock-report
+- emacs can be used to write org clock report
 
+  m-x org-clock-report
