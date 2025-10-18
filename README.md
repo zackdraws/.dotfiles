@@ -1,15 +1,14 @@
-	     	    	     GLOSSARY                 
-                1. Set up your terminal
-                2. Using the Editor in the terminal 
-                3. Managing Files
-                4. Automating (Scripts) 
-                5. Saving 
-                6. Tools for Creating 
+#	     	    	     GLOSSARY                 
+ 1. Set up your terminal
+ 2. Using the Editor in the terminal 
+ 3. Managing Files
+ 4. Automating (Scripts) 
+ 5. Saving 
+ 6. Tools for Creating 
 # .dotfiles
-  - .dotfiles controls the configuration of your computer.
-  -  they are the local settings stored on your computer in the home directory.
-  -  sync from your dotfiles folder to the correct locations
-  -  changes can be updated and synced.
+  - .dotfiles controls the configuration of your computer. - they are the local settings stored on your 
+  computer in the home directory. - sync from your dotfiles folder to the correct locations - changes can be 
+  updated and synced.
 ## 1. Set up your Terminal
    - Use the terminal to edit dotfiles.
 ###  	 - Recommended Terminals
@@ -211,7 +210,6 @@ Photoshop Brushes - this folder is empty right now because most of the brushes I
 Photoshop Scripts
 
 ##  Clip Studio Paint -
-
 ##  TVPaint
 - this folder holds my hotkeys, brushes, and home configuration.
 ##  Storyboard Pro
@@ -219,9 +217,10 @@ Photoshop Scripts
 ##  Toonboom Harmony
 
 # 7.1.2 Time Tracking
+x## Excel
 
-## Excel
-## Manictime as well can be used for extreme time logging.
+## Manictime 
+
 # 7.3 Compositing/Editing
 ## Premiere - For editing reels and animation scenes.
 ## Blender - For editing reels and animation scenes, it's similar to Premiere, most things can be done in Blender but they just require a bit more research and time.
