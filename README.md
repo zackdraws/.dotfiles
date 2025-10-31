@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # GLOSSARY                 
  1. Set up 
  2. Using the Editor in the terminal 
@@ -55,7 +54,6 @@
    -       git clone https://github.com/zackdraws/.dotfiles.git
    -       ** to see your files cd into .dotfiles use these commands
 ### Additional Terminal add-ons	
-<<<<<<< HEAD
    - 	   fzf 	       	  - helps to look through all the files
    - 	   ncdu 	  - disk utility - look at your disk
    - 	   btop 	  - look at your settings
