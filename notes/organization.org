@@ -1,10 +1,63 @@
 #+title: Organization Notes
-* Windows - PC
-windows holds computers in the c drive
-from there there is users
-then the default user
-to reach this directory one can use the tilde key ~/
 
+* Windows - PC
+- before starting make sure to halt overdrive and uninstall bloatware on pc
+https://www.oo-software.com/en/shutup10
+
+windows holds computers in the c drive
+apple holds files in /
+linux holds files in /
+on msys32 files are in /
+from there there is a user and all users file
+to reach the home (or default) directory one can use the tilde key ~/
+- ~/ - is /mnt/c/users/zacha/
+         ~/pictures/Screenshots/ - this is where screenshots are
+	 make sure to turn off overdrive
+	 ~/ - this is where most user configuration files are
+~/
+- 2021
+  2022
+  2023
+  2024
+  2025
+  Android Camera
+  AppData
+  Application...
+  blender
+  castero
+  chafa
+  clifm
+  contacts
+  cookies
+  desktop
+  desktop-
+  dired-sidebar
+  Documents
+  Downloads
+  Dragonframe
+  Dropbox
+  Emacs
+  Favorites
+  ffmpeg
+  fish-shell
+  org-roam
+  Pictures
+  pipx
+  poppler-
+  scoop
+  scriptable
+  scripts
+  Searches
+  termv
+  _lesshst - stores search history
+  emacs_backtrace.txt - 
+ntuser.dat contains registry settings - do not delete
+oh-my-posh.nu - is for oh-my-posh
+~.emacs -  idk
+~.emacs~ - idk
+- delete - avast
+- ~/AppData/Roaming - user settings are here 
+  files can also be found in 'All Users'
 - 2025
  -- anp
                              - some of these notes are similar to the notes in my sketchbook
@@ -34,8 +87,32 @@ I've also used a file directly in the /c/ folder for the year which holds all of
 - C:\.\2025\Notes              - this folder is for notes. these are different then ~/.dotfiles/notes/ these are art notes
 - C:\.\2025\P                  - this is painting
 - C:\.\2025\random             - this is random which might be merged with Miscellaneous
-                               it would be good to find a different word then miscellanous
+  it would be good to find a different word then miscellanous
 - C:\.\2025\anp                - 
 - C:\.\2025\temp               -
 - C:\.\2025\zackdraws.github.io- this is the folder for my website - this might go outside of the 2025 folder as this is not only important for 2025 
- 
+~/.dotfiles/
+- I am organizing this file on <2025-11-01 Sat 11:04>
+  /c/s/ - this is the folder that I use for shared folders to back up between computers
+  - c/s/IPAD/ - temp files are in here that I need to see what they are?
+    this file syncs to my ipad
+    - 0 -
+      00
+      2017
+      2020
+      2021
+      2022
+      2023
+      2024
+      2025
+      Ebooks
+      EM
+      emacs.d_backup
+      EXTRA
+      IPAD
+      NTS
+      PH - D
+           P
+	     -
+	       Screenshots
+      r - reference  

@@ -1,3 +1,4 @@
+#+title: tmux hotkeys
 ** tmux <2025-02-26 Wed 14:29>
 b- , . to move split
 b -  < - swap left

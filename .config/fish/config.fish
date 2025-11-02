@@ -12,7 +12,7 @@ set -gx TERM xterm-256color
 set -gx COLORTERM truecolor
 set -gx YAZI_PREVIEW_IMAGE_PRORTOCOL chafa
 alias se="sudo $EDITOR"
-alias ghostty='cd ~/Projects/ghostty && ./zig-out/bin/ghostty &'
+alias ghostty='cd ~/Projects/ghostty && /zig-out/bin/ghostty'
 alias deldoop="delete_duplicate_images.sh"
 alias y="yazi"
 alias 0T5="TODO.sh"

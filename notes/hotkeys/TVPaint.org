@@ -1,3 +1,4 @@
+#+title: TVPaint - Hotkeys
 *** Drawing 
 D - Stroke
 B - Color
@@ -11,9 +12,7 @@ shift s file project save
 Shift V output full play 
 { rotate 15 
 ! Notes
-
 *** Projects 
-
 Shift N New Project
 Shift L Open Project
 Shift S Save Project
@@ -34,39 +33,23 @@ Z for size change
 `` - timeline hide
 Q up layer
 A down layer
-
 B- Color
-
 C Toggles Bookmark 
-
 U and I flips switch
-
 [ flip your drawing horizontal
 ]
 ] flip your drawing veritcal
-
 , . prev and next drawing
-
 m new window
-
 shift s file project save 
-
 Shift V output full play 
-
 {rotate 15 
-
 ! Notes
-
 Shift N New Project
-
 Shift L Open Project
-
 Shift S Save Project
-
 Shift U Redo Last Operation
-
 Shift I insert instances before current img
-
 How would I configure this onto a tourbox? 
 ![[Tourbox Configuration  Example.png]]
 #hotkeys #tvpaint #tourbox

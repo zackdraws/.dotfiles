@@ -1,3 +1,4 @@
+#+title: Clip Studio Paint
 *** Animation Shortcuts
 New Animation cel - Shift +G
 that makes a new cel

@@ -1,3 +1,4 @@
+#+title: Painting
 ** Primary Colors - from these three colors you can make all of the colors
 1. Red
 2. Yellow
