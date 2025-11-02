@@ -1,0 +1,91 @@
+
+
+1. Sequential Execution (Unconditional):
+
+
+
+    Semicolon (;): This operator executes commands one after another, regardless of whether the previous command succeeded or failed. 
+
+
+
+Code
+
+
+
+    command1; command2; command3
+
+
+
+2. Conditional Execution:
+
+
+
+    Logical AND (&&): This operator executes the subsequent command only if the preceding command completed successfully (exited with a zero status code). 
+
+
+
+Code
+
+
+
+    command1 && command2 && command3
+
+
+
+    Logical OR (||): This operator executes the subsequent command only if the preceding command failed (exited with a non-zero status code). 
+
+
+
+Code
+
+
+
+    command1 || command2 || command3
+
+
+
+3. Command Grouping:
+
+
+
+    Parentheses (): Commands enclosed in parentheses are executed in a subshell, meaning any changes to the environment (like variable assignments) within the parentheses will not affect the parent shell. 
+
+
+
+Code
+
+
+
+    (command1; command2) && command3
+
+
+
+    Braces {}: Commands enclosed in braces are executed in the current shell context. Note that a space is required after the opening brace and before the closing brace, and a semicolon or newline is required after the last command before the closing brace. 
+
+
+
+Code
+
+
+
+    { command1; command2; } && command3
+
+
+
+4. Multiline Commands:
+
+
+
+    Backslash (`\`): A backslash at the end of a line indicates that the command continues on the next line. This is useful for improving readability of long commands. 
+
+
+
+Code
+
+
+
+    long_command_part1 \
+
+    --option1 value1 \
+
+    --option2 value2
