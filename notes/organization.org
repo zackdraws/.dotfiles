@@ -116,3 +116,5 @@ I've also used a file directly in the /c/ folder for the year which holds all of
 	     -
 	       Screenshots
       r - reference  
+
+organized references folder

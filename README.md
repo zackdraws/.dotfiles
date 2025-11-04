@@ -5,23 +5,6 @@
  4. Automating (Scripts) 
  5. Saving 
  6. Tools for Creating
-# .dotfiles
-  - .dotfiles controls the configuration of your computer. - they are the local settings stored on your 
-  computer in the home directory. - sync from your dotfiles folder to the correct locations - changes can be 
-  updated and synced.
-## 1. Set up
-   - Use the terminal to edit dotfiles.
-### Install terminal
- - Recommended Terminals
-    -      mingw64 UCRT64 terminal (windows) -
-    -	   fooT terminal (linux/wsl) - 
-    -	   ghostty terminal (mac/linux/wsl) - new, user friendly
-    	   (you can use the command brew install ghostty)
-	   	    (to use homebrew use these instructions [[https://brew.sh/]])
-    -	   kitty (https://sw.kovidgoyal.net/kitty/) (mac/linux/wsl) - stable and fast
-        	   (curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh	/dev/stdin)
-    -      if you are on windows use mingw64 UCRT64 or wsl (mingw64 > wsl) 
-=======
 	     	    	     GLOSSARY              
 	   1. Set up your terminal
            2. Using the Editor in the terminal
@@ -43,7 +26,6 @@
    -	   kitty (https://sw.kovidgoyal.net/kitty/) (mac/linux/wsl) - stable and fast
     	   (curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh	/dev/stdin)
    -       if you are on windows use mingw64 UCRT64 or wsl (mingw64 > wsl) 
->>>>>>> refs/remotes/origin/main
 ## 1.2.1   install git
    -       pacman -S mingw-w64-x86_64-git
    -       kitty terminal - >      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -261,7 +243,9 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
       					$ need to change name from export to convert
       - to_latex.sh 	    	    	pipes a file into the correct format for pandoc
       - cnv_pdf_jpg.sh	     		convert pdf files to jpg
+       - this is for a specific file
       - cnv_pdf__jpg.sh*    		convert pdf files to jpg
+      	- this is for all pdf files in a folder
       - grep_thumbnails.sh     		extract image paths and then convert them to latex
       - grep_t.sh 	      		s/a grep_thumbnails but with a shorter name
       - syncthing_stop.sh     		stops syncthing
