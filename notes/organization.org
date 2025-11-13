@@ -1,9 +1,7 @@
 #+title: Organization Notes
-
 * Windows - PC
 - before starting make sure to halt overdrive and uninstall bloatware on pc
 https://www.oo-software.com/en/shutup10
-
 windows holds computers in the c drive
 apple holds files in /
 linux holds files in /
