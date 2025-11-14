@@ -36,4 +36,3 @@ palette = 88=#005687
 palette = 160=#00C3D7
 palette = 202=#0094FF
 font-family = "TerminessNerdFont"
-gtk-titlebar-style = tabs
