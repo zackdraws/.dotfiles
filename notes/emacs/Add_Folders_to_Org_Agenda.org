@@ -1,0 +1,67 @@
+To add multiple folders to your Org Agenda in Emacs, you can configure the org-agenda-files variable to include all the directories (folders) where your Org files are located. Here's how you can do it:
+
+
+
+    Open your Emacs configuration file (typically ~/.emacs or ~/.emacs.d/init.el).
+
+
+
+    Set the org-agenda-files variable to a list of folders or Org files you want included in the agenda. For example:
+
+
+
+(setq org-agenda-files '(
+
+  "~/org/project1/"
+
+  "~/org/project2/"
+
+  "~/org/tasks.org"
+
+  "~/org/notes.org"
+
+))
+
+
+
+In this example:
+
+
+
+    ~/org/project1/ and ~/org/project2/ are folders that contain Org files.
+
+    ~/org/tasks.org and ~/org/notes.org are specific Org files.
+
+
+
+If you have a folder structure, you can use a wildcard to include all .org files in a folder:
+
+
+
+    (setq org-agenda-files '(
+
+      "~/org/project1/*.org"
+
+      "~/org/project2/*.org"
+
+    ))
+
+
+
+    Reload your Emacs configuration by either restarting Emacs or evaluating the modified config file.
+
+
+
+    To evaluate the config file, you can use M-x eval-buffer if you're in the config file buffer, or M-x eval-expression with (load-file "~/.emacs.d/init.el").
+
+
+
+Once set, Org Agenda will include all files from those folders when you open the agenda with C-c a a or other agenda commands.
+
+
+
+Let me know if you need further assistance with your setup!
+
+
+
+
