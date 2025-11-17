@@ -116,3 +116,41 @@ I've also used a file directly in the /c/ folder for the year which holds all of
       r - reference  
 
 organized references folder
+* [#A] Sync
+** TODO sync .ok to big computer
+*** TODO move 2025 folder out of desktop into easier $
+- what folder is easier?
+/mnt/c/users/zacha/2025/ which is ~/2025
+- or /mnt/c/s/2025/
+**** DONE or /mnt/c/2025 - I don't think this is poss$
+     - /mnt/c/.ok/2025/
+                  T
+                  or
+                  2025 / T
+                  and then 2026 T
+keep all of the folders in
+   c/ 2025
+         .ok is for all year round files?
+/mnt/c/2025/T
+          .ok/r for example is for immediate referenc$
+    - rr is for master reference
+    - r0 is for master reference
+** Resync
+*** TODO pause syncthing
+**** TODO move the files on L1
+**** TODO delete that syncthing folder on webgui
+**** TODO notice to connect new folder
+**** TODO reconnect - select the folder from before
+
+* Keys
+- documents - .ok
+- music -    ~/Music/
+ - photos
+   - iphone photos
+     -
+
+[[/c/.ok/2025]]       2025 - work files
+
+
+dotfiles - organize and control my settings
+
