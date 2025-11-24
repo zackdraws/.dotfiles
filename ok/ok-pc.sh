@@ -23,39 +23,23 @@ else
     echo "    Please update the script with a valid Zen Browser download link."
 fi
 echo "==> All done."
-
 # Basic packages
 pacman -S --needed base-devel git fzf fish gh yazi syncthing wget curl unzip zip tar
-
 # Optional but useful
 pacman -S neovim htop ripgrep fd bat jq tree tmux zoxide lazygit glow xclip bat ripgrep fd
 # Add fish to /etc/shells if it's not there
 command -v fish | sudo tee -a /etc/shells
-
 # Change default shell to fish
 chsh -s /usr/bin/fish
-
 powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -Command "
 if (-not (Get-Command scoop -ErrorAction SilentlyContinue)) {
     iwr -useb get.scoop.sh | iex
 }
-scoop install git 7zip
-scoop bucket add extras
-scoop bucket add versions
-scoop bucket add nerd-fonts
-
-scoop install fzf gh yazi fish syncthing neovim
-scoop install blender-lts
-scoop install discord
-scoop install nerd-fonts/FiraCode-NF
-
+pacman -S mingw-w64-ucrt-x86_64-github-cli
 pacman -S mingw-w64-ucrt-x86_64-python
-pip install 'beets[fetchart,lyrics,lastgenre,ftintitle,chromaprint]'
-
 pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
-
 pacman -S --needed mingw-w64-ucrt-x86_64-chromaprint \
                      mingw-w64-ucrt-x86_64-ffmpeg \
                      mingw-w64-ucrt-x86_64-libffi \
                      mingw-w64-ucrt-x86_64-libyaml
-
+pip install 'beets[fetchart,lyrics,lastgenre,ftintitle,chromaprint]'
