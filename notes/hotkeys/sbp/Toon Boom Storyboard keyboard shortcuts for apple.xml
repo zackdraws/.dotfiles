@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shortcuts currentFlavour="Toon Boom Storyboard_1_5">
+ <shortcut id="DELETE_KEY">
+  <flavour key="Ctrl+X" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="EDIT_PREFERENCES">
+  <flavour key="Meta+," id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="SELECT_ALL_PANELS_IN_CURRENT_SCENE">
+  <flavour key="Meta+Shift+A" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="DRAWING_ZOOM_TOOL_KEY">
+  <flavour key="" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="ZOOM_OUT_KEY">
+  <flavour key="Z" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="ZOOM_IN_KEY">
+  <flavour key="X" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="DRAWING_OS_TOGGLE_KEY">
+  <flavour key="Q" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="ADD_VECTOR_LAYER_KEY">
+  <flavour key="W" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="COPY_LAYERS_KEY">
+  <flavour key="Alt+C" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="PASTE_LAYERS_KEY">
+  <flavour key="Alt+V" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="DELETE_LAYER_KEY">
+  <flavour key="Shift+D" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="SB_GENERATE_AUTO_MATTE_KEY">
+  <flavour key="Alt+G" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="DRAWING_PAINT_UNPAINTED_TOOL_KEY">
+  <flavour key="G" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="DRAWING_ERASER_TOOL_KEY">
+  <flavour key="E" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="DRAWING_BRUSH_TOOL_KEY">
+  <flavour key="B" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="DRAWING_STENCIL_BRUSH_TOOL_KEY">
+  <flavour key="" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="DRAWING_SELECT_TOOL_BY_COLOR_KEY">
+  <flavour key="R" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="SP_CAMERA_TRANSFORM_TOOL_KEY">
+  <flavour key="C" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="DRAWING_FLIP_HORIZONTAL_KEY">
+  <flavour key="Meta+Shift+F" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="DRAWING_FLIP_VERTICAL_KEY">
+  <flavour key="Meta+Shift+D" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="DRAWING_BRUSH_DRAW_BEHIND_MODE">
+  <flavour key="Alt+B" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="DRAWING_INCREMENT_BRUSH_SIZE">
+  <flavour key="H" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="DRAWING_DECREMENT_BRUSH_SIZE">
+  <flavour key="N" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="PREV_FRAME_KEY">
+  <flavour key="Alt+A" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="TOGGLE_PLAYBACK_ALL_KEY">
+  <flavour key="Alt+R" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="NEW_SCENE_KEY">
+  <flavour key="Alt+2" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="JOIN_PANEL_KEY">
+  <flavour key="S" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="DURATION_PANEL_KEY">
+  <flavour key="F2" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="ADD_MARKER">
+  <flavour key="F6" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="GOTO_NEXT_MARKER">
+  <flavour key="F8" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="GOTO_PREVIOUS_MARKER">
+  <flavour key="F7" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <flavour id="Toon Boom Storyboard_1_5"/>
+ <shortcut id="IMPORT_IMAGE_LAYER_KEY">
+  <flavour key="Meta+Alt+Q" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="IMPORT_IMAGES_SHOT_KEY">
+  <flavour key="Meta+Shift+I" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="NEW_SCENE_BEFORE_KEY">
+  <flavour key="Alt+1" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="ADD_FRAME_KEY">
+  <flavour key="=" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+ <shortcut id="NEW_PANEL_BEFORE_KEY">
+  <flavour key="1" id="Toon Boom Storyboard_1_5"/>
+ </shortcut>
+</shortcuts>
