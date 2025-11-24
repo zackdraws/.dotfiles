@@ -67,6 +67,7 @@
 (setq initial-scratch-message nil)
 (setq initial-buffer-choice nil)
 (setq inhibit-startup-screen t)
+(global-display-line-numbers-mode)
 (desktop-save-mode -1)
 (global-corfu-mode)
 (global-company-mode)
