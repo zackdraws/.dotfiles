@@ -9,11 +9,10 @@ show_hidden = true
 show_symlink = true
 scrolloff = 5
 [preview]
-max_width = 600
-max_height = 800
+max_width = 2400
+max_height = 3600
 [yank]
 command = "wl-copy"  # or "xclip -selection clipboard"
-
 [opener]
 edit = [
     { run = 'cd "$(dirname "$1")" && emacs -nw "$1"', desc = "$EDITOR", block = true, for = "unix" },
@@ -48,6 +47,3 @@ rules = [
 ]
 [tasks]
 image_bound = [0, 0]
-
-
-
