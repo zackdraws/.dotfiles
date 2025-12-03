@@ -26,6 +26,9 @@
 ;;(straight-use-package 'org-roam)
 ;;(straight-use-package 'calfw)
 ;;(straight-use-package 'calfw-org)
+(straight-use-package 'auctex)
+(straight-use-package 'latex-preview-pane)
+
 (straight-use-package 'base16-theme)
 (straight-use-package 'catppuccin-theme)
 (straight-use-package 'ivy)
@@ -41,7 +44,12 @@
 (straight-use-package 'company)
 (straight-use-package 'corfu)
 (straight-use-package 'dirvish)
+(straight-use-package 'dirtree)
+
 ;; Require packages
+(require 'auctex)
+
+(require 'dirtree)
 (require 'org)
 (require 'corfu)
 ;;(require 'org-roam)
@@ -67,6 +75,8 @@
 (setq initial-scratch-message nil)
 (setq initial-buffer-choice nil)
 (setq inhibit-startup-screen t)
+(setq TeX-engine 'xelatex)
+
 (global-display-line-numbers-mode)
 (desktop-save-mode -1)
 (global-corfu-mode)
