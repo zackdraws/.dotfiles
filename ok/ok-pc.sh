@@ -43,3 +43,13 @@ pacman -S --needed mingw-w64-ucrt-x86_64-chromaprint \
                      mingw-w64-ucrt-x86_64-libffi \
                      mingw-w64-ucrt-x86_64-libyaml
 pip install 'beets[fetchart,lyrics,lastgenre,ftintitle,chromaprint]'
+
+pacman -S mingw-w64-ucrt-x86_64-texlive-bin \
+
+        mingw-w64-ucrt-x86_64-texlive-core \
+
+        mingw-w64-ucrt-x86_64-texlive-luatex \
+
+        mingw-w64-ucrt-x86_64-texlive-latex-recommended \
+
+        mingw-w64-ucrt-x86_64-texlive-latex-extra
