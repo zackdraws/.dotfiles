@@ -53,3 +53,7 @@ pacman -S mingw-w64-ucrt-x86_64-texlive-bin \
         mingw-w64-ucrt-x86_64-texlive-latex-recommended \
 
         mingw-w64-ucrt-x86_64-texlive-latex-extra
+
+pacman -Syu
+pacman -S mingw-w64-ucrt-x86_64-gcc mingw-w64-ucrt-x86_64-toolchain \
+             mingw-w64-ucrt-x86_64-libevent mingw-w64-ucrt-x86_64-ncurses
