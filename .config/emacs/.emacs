@@ -26,9 +26,6 @@
 ;;(straight-use-package 'org-roam)
 ;;(straight-use-package 'calfw)
 ;;(straight-use-package 'calfw-org)
-(straight-use-package 'auctex)
-(straight-use-package 'latex-preview-pane)
-
 (straight-use-package 'base16-theme)
 (straight-use-package 'catppuccin-theme)
 (straight-use-package 'ivy)
@@ -44,12 +41,7 @@
 (straight-use-package 'company)
 (straight-use-package 'corfu)
 (straight-use-package 'dirvish)
-(straight-use-package 'dirtree)
-
 ;; Require packages
-(require 'auctex)
-
-(require 'dirtree)
 (require 'org)
 (require 'corfu)
 ;;(require 'org-roam)
@@ -75,8 +67,6 @@
 (setq initial-scratch-message nil)
 (setq initial-buffer-choice nil)
 (setq inhibit-startup-screen t)
-(setq TeX-engine 'xelatex)
-
 (global-display-line-numbers-mode)
 (desktop-save-mode -1)
 (global-corfu-mode)
@@ -160,3 +150,23 @@
   (setq dired-sidebar-theme 'vscode)
   (setq dired-sidebar-use-term-integration t)
   (setq dired-sidebar-use-custom-font t))
+
+;; -----------------------------
+;; AUCTeX / XeLaTeX integration
+;; -----------------------------
+(setq TeX-engine 'xetex)         ;; Use XeLaTeX by default
+(setq TeX-PDF-mode t)            ;; Always generate PDF
+(setq TeX-save-query nil)        ;; Save without asking
+
+(add-hook 'LaTeX-mode-hook
+          (lambda ()
+            (setq TeX-command-default "XeLaTeX")
+            (TeX-global-PDF-mode 1)
+            ;; Optional: view with PDF Tools if installed
+            (setq TeX-view-program-selection '((output-pdf "PDF Tools")))))
+
+;; Optional quick keybinding to compile current file with XeLaTeX
+(global-set-key (kbd "C-c x") (lambda ()
+                                (interactive)
+                                (TeX-command "XeLaTeX" 'TeX-master-file -1)))
+
