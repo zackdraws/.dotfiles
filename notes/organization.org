@@ -154,3 +154,5 @@ keep all of the folders in
 
 dotfiles - organize and control my settings
 
+
+*** <2025-11-24 Mon 14:53> DELETED /mnt/users/zacha/.emacs
