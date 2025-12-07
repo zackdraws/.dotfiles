@@ -11,39 +11,3 @@ scrolloff = 5
 [preview]
 max_width = 2400
 max_height = 3600
-[yank]
-command = "wl-copy"  # or "xclip -selection clipboard"
-[opener]
-edit = [
-    { run = 'cd "$(dirname "$1")" && emacs -nw "$1"', desc = "$EDITOR", block = true, for = "unix" },
-]
-open_pptx = [
-    { run = 'xournal "$1"', desc = "Open PowerPoint", for = "windows" },
-    { run = 'xournal "$1"', desc = "Open PowerPoint", for = "linux" },
-]
-open_nomacs = [
-
-    { run = 'nomacs "$1"', desc = "Open with Nomacs", for = "linux" },
-
-]
-open_zathura = [
-
-    { run = 'zathura "$1"', desc = "Open with Zathura", for = "linux" },
-
-]
-
-
-play = [
-     { run = 'mpv "$@"', orphan = true, for = "unix" },
-]
-[open]
-rules = [
-    { mime = "application/pdf", use = ["open_zathura", "reveal"] },
-    { mime = "text/*", use = ["edit", "reveal"] },
-    { mime = "image/*", use = ["open_nomacs", "reveal"] },
-    { mime = "video/*", use = ["play", "reveal"] },
-    { mime = "video/*", use = ["play", ] },
-    { name = "*.mp3", use = "play" },
-]
-[tasks]
-image_bound = [0, 0]

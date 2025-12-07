@@ -1,5 +1,4 @@
-* Explorer
-** 
+# Explorer
 - alt + up arrow to go back in directory
 - alt + arrows to go back in history
 - ctrl + shift + 1 

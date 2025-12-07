@@ -1,4 +1,4 @@
-** Super Key Shortcuts
+# Super Key Shortcuts
   - windows logo button + # starts up programs on your taskbar
     windows logo button (super key) + r makes it so you can run keys
     super  e = windows explore

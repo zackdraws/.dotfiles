@@ -1,5 +1,4 @@
-#hotkeys  
-
+# SBP hotkeys  
 | Action                   | Shortcut          |
 | ------------------------ | ----------------- |
 | Generate Auto-Matte      | Alt + G           |
