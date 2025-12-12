@@ -1,21 +1,9 @@
 #!/bin/bash
-
-
 read -p "Enter the directory path: " directory
-
 if [[ ! -d "$directory" ]]; then
-
   echo "The directory does not exist. Please check the path and try again."
-
   exit 1
-
-
 fi
-
-
-
-
-
 # Prompt the user for the file format (extension)
 read -p "Enter the file extension (e.g., jpg, png, etc.): " file_extension
 # Change to the specified directory
@@ -29,70 +17,12 @@ for file in *.$file_extension; do
     # If Date Taken exists
     if [[ -n "$date_taken" ]]; then
       # Create the new filename with 'iph_' prefix and the Date Taken
-
       new_filename="Still_Life_${date_taken}_${file}"
-      
-
-
-
-
-
-
-
       # Rename the file
-
-
-
-
-
-
-
       mv "$file" "$new_filename"
-
-
-
-
-
-
-
       echo "Renamed: $file -> $new_filename"
-
-
-
-
-
-
-
     else
-
-
-
-
-
-
-
       echo "No Date Taken found for $file. Skipping."
-
-
-
-
-
-
-
     fi
-
-
-
-
-
-
-
   fi
-
-
-
-
-
-
-
 done

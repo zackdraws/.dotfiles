@@ -1,5 +1,4 @@
 shopt -s nullglob nocaseglob
-
 for psd in *.psd; do
     basename="${psd%.*}"
     jpg="${basename}.jpg"
