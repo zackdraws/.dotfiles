@@ -1,6 +1,6 @@
-;; - linux emacs config
-;; ln -s ~/.dotfiles/emacs/.emacs ~/.emacs.d/init.el 
 ;; shortcuts
+(setq org-display-remote-inline-images 'cache)
+(setq org-startup-with-inline-images t)
 (global-set-key (kbd "C-c n t") #'treemacs)
 (global-set-key (kbd "C-c a") #'org-agenda)
 (global-set-key (kbd "C-c c") #'org-capture)
@@ -65,7 +65,6 @@
 (straight-use-package 'corfu)
 (straight-use-package 'cape)
 (straight-use-package 'fzf)
-
 (ivy-mode 1)
 (global-company-mode 1)
 (global-corfu-mode 1)
@@ -112,43 +111,24 @@
 (require 'simple-httpd)
 ;;(require 'magit)
 ;; org
+(setq org-startup-with-inline-images t
+      org-image-actual-width (list 1200)
+      org-duration-format 'h:mm
+      org-agenda-files '("~/.ok/ok")
+      org-latex-listings 'minted)
 (setq org-roam-directory (file-truename "~/.ok/ok/org"))
-(setq org-agenda-files '("~/.ok/ok"))
 (use-package org-roam
   :after org
   :custom
   (org-roam-v2-ack t)
   :config
   (org-roam-db-autosync-enable)
-  (setq org-roam-capture-templates
-        '(("m" "main" plain "%?"
-           :if-new (file+head "main/${slug}.org" "#+title: ${title}\n")
-           :immediate-finish t
-           :unnarrowed t)
-          ("r" "reference" plain "%?"
-           :if-new (file+head "reference/${title}.org" "#+title: ${title}\n")
-           :immediate-finish t
-           :unnarrowed t)
-(cl-defmethod org-roam-node-type ((node org-roam-node))
-  "Return the TYPE of NODE."
-  (condition-case nil
-      (file-name-nondirectory
-       (directory-file-name
-        (file-name-directory
-         (file-relative-name (org-roam-node-file node) org-roam-directory))))
-    (error "")))
-(setq org-roam-node-display-template
-      (concat "${type:15} ${title:*} " (propertize "${tags:10}" 'face 'org-tag)))
-;; org-roam ui
-(use-package org-roam-ui
-  :ensure t
-  :after org-roam
-  :config
+  ;; org-roam ui
+(use-package org-roam-ui)
   (setq org-roam-ui-sync-theme t
         org-roam-ui-follow t
         org-roam-ui-update-on-save t
         org-roam-ui-open-on-start nil))
-
 ;; citar
 (setq citar-bibliography '("~/.ok/ok/org/biblio.bib"))
 (setq citar-notes-paths '("~/.ok/ok/org/reference"))
@@ -156,26 +136,18 @@
   :ensure t
   :custom
   (citar-bibliography '("~/.ok/ok/org/biblio.bib"))) 
-
 (setq native-comp-async-report-warnings-errors nil)
-
-
-
-
 ;; AUCTeX / XeLaTeX integration
-(setq TeX-engine 'xetex)         ;; Use XeLaTeX by default
-(setq TeX-PDF-mode t)            ;; Always generate PDF
-(setq TeX-save-query nil)        ;; Save without asking
-
+(setq TeX-engine 'xetex) 
+(setq TeX-PDF-mode t)    
+(setq TeX-save-query nil)       
 (add-hook 'LaTeX-mode-hook
           (lambda ()
            (setq TeX-command-default "XeLaTeX")
-            (TeX-global-PDF-mode 1)
-            ;; Optional: view with PDF Tools if installed
-            (setq TeX-view-program-selection '((output-pdf
-            ;; Optional: view with PDF Tools if installed
-            (setq TeX-view-program-selection '((output-pdf
- "PDF Tools")))))
+;;            (TeX-global-PDF-mode 1)
+;;            (setq TeX-view-program-selection '((output-pdf
+;;            (setq TeX-view-program-selection '((output-pdf
+;;						"PDF Tools")))))
+(org-roam-ui-open)		  
+(org-roam-db-sync)
 
-
-		  
