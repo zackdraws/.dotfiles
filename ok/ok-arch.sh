@@ -35,3 +35,4 @@ chsh -s $(which fish)
 
 
 
+pacman -S kodi
