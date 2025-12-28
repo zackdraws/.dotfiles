@@ -1,0 +1,15 @@
+services:
+  jellyfin: jellyfin/jellyfin
+  continer_name: jellyfin
+  user: 1000:1000
+  network_mode: 'host'
+  volumes:
+ - ./config:/config
+  - .cache:/cache
+  - /run/media/easystore/P/V/Movies:/media
+  - source2:/media
+  restart: 'unless-stopped'
+  environment:
+  - JELLYFIN_PublishedServerUrl=http://192.168.0.209
+  extra_hosts:
+   - "host.docker.internal:host-gateway"
