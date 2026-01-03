@@ -1,3 +1,0 @@
-cd ~/Downloads
-wget "https://www.zotero.org/download/client/dl?channel=release&platform=linux-x86_64" -O zotero.tar.bz2
-tar -xjf zotero.tar.bz2
