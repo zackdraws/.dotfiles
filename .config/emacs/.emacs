@@ -91,6 +91,7 @@
 ;; Org-mode & Org-roam
 (straight-use-package 'org)
 (straight-use-package 'org-roam)
+(straight-use-package 'org-roam-ui)
 (straight-use-package 'citar)
 (straight-use-package 'dirvish)
 ;;
@@ -114,24 +115,18 @@
 (setq org-startup-with-inline-images t
       org-image-actual-width (list 1200)
       org-duration-format 'h:mm
-      org-agenda-files '("~/.ok/ok")
+      org-agenda-files '("~/ok")
       org-latex-listings 'minted)
-(setq org-roam-directory (file-truename "~/.ok/ok/org"))
-(use-package org-roam
-  :after org
-  :custom
-  (org-roam-v2-ack t)
-  :config
-  (org-roam-db-autosync-enable)
-  ;; org-roam ui
+(setq org-roam-directory (file-truename "~/ok/org"))
+(use-package org-roam)
 (use-package org-roam-ui)
   (setq org-roam-ui-sync-theme t
         org-roam-ui-follow t
         org-roam-ui-update-on-save t
-        org-roam-ui-open-on-start nil))
+        org-roam-ui-open-on-start nil)
 ;; citar
-(setq citar-bibliography '("~/.ok/ok/org/biblio.bib"))
-(setq citar-notes-paths '("~/.ok/ok/org/reference"))
+(setq citar-bibliography '("~/ok/org/biblio.bib"))
+(setq citar-notes-paths '("~/.ok/org/reference"))
 (use-package citar
   :ensure t
   :custom
@@ -144,10 +139,7 @@
 (add-hook 'LaTeX-mode-hook
           (lambda ()
            (setq TeX-command-default "XeLaTeX")
-;;            (TeX-global-PDF-mode 1)
-;;            (setq TeX-view-program-selection '((output-pdf
-;;            (setq TeX-view-program-selection '((output-pdf
-;;						"PDF Tools")))))
-(org-roam-ui-open)		  
-(org-roam-db-sync)
-
+;; (TeX-global-PDF-mode 1)
+;; (setq TeX-view-program-selection '((output-pdf
+;; (setq TeX-view-program-selection '((output-pdf
+;;"PDF Tools")))))
