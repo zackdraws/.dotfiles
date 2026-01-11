@@ -13,6 +13,7 @@ services:
       - /run/media/ok/easystore/P/V/TV:/data/tvshows
       - /run/media/ok/easystore/P/V/Movies:/data/movies
       - /run/media/ok/easystore/Music:/data/music
+      - /run/media/ok/easystore/P/V/anime:/data/anime
     ports:
       - 8096:8096
       - 8920:8920 #optional
