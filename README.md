@@ -27,6 +27,7 @@
     	   (curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh	/dev/stdin)
    -       if you are on windows use mingw64 UCRT64 or wsl (mingw64 > wsl) 
 ## 1.2.1   install git
+   [[~/.dotfiles/notes/git.org]]
    -       pacman -S mingw-w64-x86_64-git
    -       kitty terminal - >      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    - 	   home brew 	- >      brew install git
@@ -54,16 +55,21 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
 # 2. The Editor - the editor is used to edit files from the terminal.
  - eMacs - eMacs stands for Editor Macros and can be used as editor for files.
  to install emacs 'pacman -S mingw-w64-x86_64-emacs'
+    [[~/.dotfiles/notes/emacs/]]
         - brew install emacs
 	- Nano - small quick editor.
 ## 2. Opening the editor
 - emacs can be opened from the desktop if you have a shortcut or from the terminal.
   	run the command 'emacs -nw' (to run emacs inside the terminal) or 'emacs' to open emacs in an application
 ## Configuring the editor.
-   the settings for configuring emacs are in [[~/.emacs.d/init.el]] and inside my dotfiles are in [[~/.dotfiles/.config/emacs/.emacs-pc]]
-   write the command
+   the configuration files for emacs are stored on your computer locally in [[~/.emacs.d/init.el]] 
+   the configuration files are stored on git in the repo at this location [[~/.dotfiles/.config/emacs/.emacs-pc]]
+   grab the file from the dotfile location by cloning the repo
+   make sure that you are inside your home directory by typing cd ~/
+   type - git clone http://github.io/zackdraws/.dotfiles/ into your terminal
+   then run a ln -s command to create a synthetic link from the .dotfiles location to the .emacs location file
    'ln -s ~/.dotfiles/.config/emacs/.emacs-pc ~/.emacs.d/init.el
-   this creates a symboliclink between the .dotfile and the init file
+   now you have a symbolic link between the .dotfile and the init file
 # 3.  Files
   3.1 Link files - (ln)
                         sudo ln -s /home/name/.dotfiles/file /usr/local/bin/ (for shell files)
@@ -77,6 +83,8 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
     -      ffmpeg    	  - edit and watch mp4 videos - use this in terminal to export avi files to#### fzf - 
 Run fzf in the directory for what ever file you are looking for.
 Run nano "$(fzf)" or whatever editor you are using to open it inside that editor
+or
+emacs-nw "$(fzf)" 
 #### ffmpeg commands -
 ##### convert mp4 files
 [[ ffmpeg -i filepath.avi filename.mp4]] 
@@ -88,20 +96,20 @@ ffmpeg -i input.avi -r 24 output.mp4
         - install emacs  		 
     	  - pacman -S mingw-w64-x86_64-emacs
       	  - brew install emacs
-- now you can write into files in the terminal using the command 'emacs -nw file'
+	  - now you can write into files in the terminal using the command 'emacs -nw file'
 # 2.1. Editor - optional additional editor -     
 - Nano - small quick editor.
 # 3. Files
 ##  3.1     Link files - (ln)
     	                  sudo ln -s /home/name/.dotfiles/file /usr/local/bin/ (for shell files)
->>>>>>> refs/remotes/origin/main
     	 			    (this is to create a symlink)
 	                    (symlinks are synthetic links between two files 
                         (when you update from .dotfiles it then updates the file in the usr local bin.)
+			for linking files in windows you run this
 			- sudo ln -f //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
 			       cd //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
 		                *       sudo is the command to run a command as 'administrator'
-<<<<<<< HEAD
+
    3.2    Additional Note: from there you can go to .dotfiles run 'git add .' 
                         next run 'git commit -m "comment" and to 
                         run git push to publish to git
@@ -110,15 +118,6 @@ ffmpeg -i input.avi -r 24 output.mp4
    3.4.1   cd - /usr/local/bin/ (changes the directory to usr/local/bin)
    3.4.2  chmod +x file (this makes the sh follow usable)
    3.5     Shell - for command history and command line editing - is within the terminal
-=======
-###  	    3.2    Additional Note: from there you can go to .dotfiles run 'git add .' 
-                        next run 'git commit -m "comment" and to 
-                        run git push to publish to git  
-###            3.3.1.  Make Script files actionable from anywhere in the terminal - 
-###            3.4.1   cd - /usr/local/bin/ (changes the directory to usr/local/bin)
-###            3.4.2  chmod +x file (this makes the sh follow usable)
-##	    3.5     Shell - for command history and command line editing - is within the terminal
->>>>>>> refs/remotes/origin/main
                     Fish - for syntax highlights and autosuggestions and themes
 		    WINDOWS - 
 			WSL
@@ -136,108 +135,6 @@ ffmpeg -i input.avi -r 24 output.mp4
     cnv_mp4_gif.py
                         python mp4_to_gif.py your_input_file.mp4 output_file.gif
                         4.To change the frame duration, use the `-d` or `--duration` argument:# GLOSSARY                 
- 1. Set up 
- 2. Using the Editor in the terminal 
- 3. Managing Files
- 4. Automating (Scripts) 
- 5. Saving 
- 6. Tools for Creating
-# .dotfiles
-  - .dotfiles controls the configuration of your computer. - they are the local settings stored on your 
-  computer in the home directory. - sync from your dotfiles folder to the correct locations - changes can be 
-  updated and synced.
-## 1. Set up
-   - Use the terminal to edit dotfiles.
-### Install terminal
- - Recommended Terminals
-    -      mingw64 UCRT64 terminal (windows) -
-    -	   fooT terminal (linux/wsl) - 
-    -	   ghostty terminal (mac/linux/wsl) - new, user friendly
-    	   (you can use the command brew install ghostty)
-	   	    (to use homebrew use these instructions [[https://brew.sh/]])
-    -	   kitty (https://sw.kovidgoyal.net/kitty/) (mac/linux/wsl) - stable and fast
-        	   (curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh	/dev/stdin)
-    -      if you are on windows use mingw64 UCRT64 or wsl (mingw64 > wsl) 
-## 1.2.1   install git
-   -       pacman -S mingw-w64-x86_64-git
-   -       kitty terminal - >      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-   - 	   home brew 	- >      brew install git
-## 1.2.2   After that install gh [[https://cli.github.com/][link]]
-## 1.4.    clone files (cl)
-  git clone https://github.com/zackdraws/.dotfiles.git
-  ** to see your files cd into .dotfiles use these commands
-### Additional Terminal add-ons	
-   - 	   fzf 	       	  - helps to look through all the files
-   - 	   ncdu 	  - disk utility - look at your disk
-   - 	   btop 	  - look at your settings
-   - 	   zoxide      	  - search for anything and snap to it in the terminal
-   - 	   pastel    	  - helps to pick out colors from the terminal
-   - 	   syncthing 	  - can be used to sync all of your files
-   - 	   ffmpeg    	  - use for mp4 editing
-			  - use this in terminal to export avi files to mp4 
-** fzf - 
-run fzf in the directory for what ever file you are looking for. Run nano "$(fzf)" or whatever editor you are using to open it inside that editor
-** ffmpeg -
-           [[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
-             ffmpeg -i input.avi -r 24 output.mp4
-	     	    -fs limit_size (output)
-** Set the file size limit, expressed in bytes. No further chunk of bytes is written after the limit is exceeded. The size of the output file is slightly more than the requested file size.
-# 2. The Editor - the editor is used to edit files from the terminal.
- - eMacs - eMacs stands for Editor Macros and can be used as editor for files.
- to install emacs 'pacman -S mingw-w64-x86_64-emacs'
-        - brew install emacs
-	- Nano - small quick editor.
-## 2. Opening the editor
-- emacs can be opened from the desktop if you have a shortcut or from the terminal.
-  	run the command 'emacs -nw' (to run emacs inside the terminal) or 'emacs' to open emacs in an application
-## Configuring the editor.
-   the settings for configuring emacs are in [[~/.emacs.d/init.el]] and inside my dotfiles are in [[~/.dotfiles/.config/emacs/.emacs-pc]]
-   write the command
-   'ln -s ~/.dotfiles/.config/emacs/.emacs-pc ~/.emacs.d/init.el
-   this creates a symboliclink between the .dotfile and the init file
-# 3.  Files
-  3.1 Link files - (ln)
-                        sudo ln -s /home/name/.dotfiles/file /usr/local/bin/ (for shell files)
-    	 			    (this is to create a symlink)
-	                    (symlinks are synthetic links between two files 
-                        (when you update from .dotfiles it then updates the file in the usr local bin.)
-			- sudo ln -f //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
-			       cd //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
-		                *       sudo is the command to run a command as 'administrator'
-   3.2    Additional Note: from there you can go to .dotfiles run 'git add .' 
-                        next run 'git commit -m "comment" and to 
-                        run git push to publish to git
-   3.3    to update folder from github run 'git pull'
-   3.3.1.  Make Script files actionable from anywhere in the terminal - 
-   3.4.1   cd - /usr/local/bin/ (changes the directory to usr/local/bin)
-   3.4.2  chmod +x file (this makes the sh follow usable)
-   3.5     Shell - for command history and command line editing - is within the terminal
-                    Fish - for syntax highlights and autosuggestions and themes
-		    WINDOWS - 
-			WSL
-		    sudo ln -s //wsl.localhost/Ubuntu/home/zack/.dotfiles/sh/p 1/cnvheic2j.ps1 /c/users/user/Documents/WindowsPowerShell/Scripts/cnvheic2j.ps1
-## -  Navigating terminal -
-    Yazi    - this terminal app can be used to manage and look through files. 
-            - your yazi can be at ~/.config/yazi/yazi.toml
-            or c/users/zacha/Appdata/Roaming/yazi/config/yazi.toml
-    Broot   - to manage and look through files, it's like Yazi but it is not.
-    Zoxide  - quick search for files
-    FZF     - is a fuzzy finder if you are in the directory use fzf to find your files
-# 4. Automating (Scripts)
-####      -- these are the scripts that I use to automate my tasks
-## .py - Python Files
-       cnv_mp4_gif.py
-       python mp4_to_gif.py your_input_file.mp4 output_file.gif
-      4.To change the frame duration, use the `-d` or `--duration` argument:
-    examples -
-      python mp4_to_gif.py your_input_file.mp4 output_file.gif -d 0.2  # 0.2 seconds per frame
-10;rgb:c8c8/bebe/c8c811;rgb:3232/2929/3131- opposite of that is cnv_gif_mp4.bash
-                        - /create_gif.sh /Users/myuser/Pictures/my_images output.gif
-## .sh - Shell Files/Fish Files 
-      - shell files are bash scripts that are ran through the terminal to automate tasks
-      - located in /sh in .dotfiles
-      - sync (ln -s)  to /usr/local/bin/
-      - sudo chmod +x to use from anywhere
 ###   Scripts for making things
       - Export_Org_To_pdf.sh		converts .org file to pdf
       					$ need to change name from export to convert
@@ -285,14 +182,14 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
       - tiny_vid_split.sh
       - splits videos in to ten minute portions
       - cnv_org_doc		       converts org files to doc files
-### Move 
-    - move_files_to_parent.sh -		mv files to parent directory
-### Rename - F2
+###   Move 
+          - move_files_to_parent.sh -		mv files to parent directory
+###   Rename - F2
     - F2_date_taken.sh -		renames files with the date taken
     - rename.sh -			renames file
     - rename_date_taken.sh - 		renames files with date taken
     - rename_folder.sh -   		renames files in folder
-### Delete - X
+###   Delete - X
     - X.sh -				deletes files inside folder
     - clean.sh - 			deletes files
     - delete_all_heic - 		deletes all heic files
@@ -303,13 +200,10 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
     - delete_text_string		can't remember what this one does
 ### PSD - scripts to change images
     - change				
-<<<<<<< HEAD
     - psd_bright.py			
  	  - psd_bw.py				
-=======
       - psd_bright.py			
- - psd_bw.py				
->>>>>>> refs/remotes/origin/main
+       - psd_bw.py				
           - psd_convert.sh 			converts psd files - exports layers
 	    - output -      
     	    - psd_flat.sh			flattens layers and converts to psd
@@ -353,33 +247,27 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
     - https://github.com/omerxx/go-blocksite
 # 7. Work - tools for work
 # 7.1 Creating
-##  Photoshop
-Photoshop is what I used for most painting. My brushes actions and scripts are in the folder marked ps ~/.dotfiles/ps
-Photoshop Actions
-Photoshop Brushes - this folder is empty right now because most of the brushes I use are not made by me.
-Photoshop Scripts
+  ##  Photoshop
+      Photoshop is what I used for most painting. My brushes actions and scripts are in the folder marked ps ~/.dotfiles/ps
+      Photoshop Actions
+      Photoshop Brushes - this folder is empty right now because most of the brushes I use are not made by me.
+      Photoshop Scripts
 ##  Clip Studio Paint -
 ##  TVPaint
-- this folder holds my hotkeys, brushes, and home configuration.
+    - this folder holds my hotkeys, brushes, and home configuration.
 ##  Storyboard Pro
 ##  Toonboom Harmony
 # 7.1.2 Time Tracking
-<<<<<<< HEAD
-x## Excel
-
-## Manictime 
-
-=======
-## Excel
-## Manictime as well can be used for extreme time logging.
->>>>>>> refs/remotes/origin/main
+  ## Excel
+  ## Manictime 
+     ### Manictime as well can be used for extreme time logging.
 # 7.3 Compositing/Editing
-## Premiere - For editing reels and animation scenes.
-## Blender - For editing reels and animation scenes, it's similar to Premiere, most things can be done in Blender but they just require a bit more research and time.
-## After Effects
+  ## Premiere - For editing reels and animation scenes.
+  ## Blender - For editing reels and animation scenes, it's similar to Premiere, most things can be done in Blender but they just require a bit more research and time.
+  ## After Effects
 # 7.3.2 Sound
-## Audacity
-## Adobe Audition
+  ## Audacity
+  ## Adobe Audition
 # 7.4 Publishing/Posting
 # 7.5 Storing/Backing up/File Management
 # 7.2 Reviewing
@@ -388,74 +276,42 @@ x## Excel
   	   use this in terminal to export avi files to mp4 
 	       	       [[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
 		       	  ffmpeg -i input.avi -r 24 output.mp4
-			  -fs limit_size (output)
-
 ## Docs
-### For PDFS
-- Adobe Acrobat	  -
-- Zathura	  - https://github.com/pwmt/zathura.git 
-- Sioyek  	  - fast pdf viewer
-- Mozilla FIrefox - firefox also has a pdf viewer
-### For DocX
-- Word		- 
-- OpenDocs	-
-- Drive
-
+   ### For PDFS
+     - Adobe Acrobat	  -
+       - Zathura	  - https://github.com/pwmt/zathura.git 
+       - Sioyek  	  - fast pdf viewer
+       - Mozilla FIrefox - firefox also has a pdf viewer
+   ### For DocX
+       - Word		- 
+       - OpenDocs	-
+       - Drive
 # Where files can usually be found
-   
 # Photoshop config locations
-$photoshopConfigDir = "$env:APPDATA\Adobe\Adobe Photoshop <version>\Adobe Photoshop <version> Settings"
-New-Item -ItemType SymbolicLink -Path $photoshopConfigDir -Target "$dotfilesDir\photoshop\Settings" -Force
-
-$photoshopPresetsDir = "$env:APPDATA\Adobe\Adobe Photoshop <version>\Presets"
-New-Item -ItemType SymbolicLink -Path $photoshopPresetsDir -Target "$dotfilesDir\photoshop\Presets" -Force
-
+  $photoshopConfigDir = "$env:APPDATA\Adobe\Adobe Photoshop <version>\Adobe Photoshop <version> Settings"
+  New-Item -ItemType SymbolicLink -Path $photoshopConfigDir -Target "$dotfilesDir\photoshop\Settings" -Force
+  $photoshopPresetsDir = "$env:APPDATA\Adobe\Adobe Photoshop <version>\Presets"
+  New-Item -ItemType SymbolicLink -Path $photoshopPresetsDir -Target "$dotfilesDir\photoshop\Presets" -Force
 # TVPaint config location
-$tvpaintConfigDir = "$env:APPDATA\TVPaint Animation"
-New-Item -ItemType SymbolicLink -Path $tvpaintConfigDir -Target "$dotfilesDir\tvpaint\Animation" -Force
-
+  $tvpaintConfigDir = "$env:APPDATA\TVPaint Animation"
+  New-Item -ItemType SymbolicLink -Path $tvpaintConfigDir -Target "$dotfilesDir\tvpaint\Animation" -Force
 # Screen Recordings
-  if you are on windows you can use Win+G and set the location I set mine to c/P/Captures
-
+    if you are on windows you can use Win+G and set the location I set mine to c/P/Captures
 ### Summary
-- **Photoshop and TVPaint Configuration Files** are usually located in the `AppData` folder (Roaming or Local)
-- **Symlinks** allow you to point these configuration files to their expected locations, making it easy to synchronize settings across multiple machines.
-### 5. **Alternative Syncing Options**
-
+    - **Photoshop and TVPaint Configuration Files** are usually located in the `AppData` folder (Roaming or Local)
+    - **Symlinks** allow you to point these configuration files to their expected locations, making it easy to synchronize settings across multiple machines.
 # 9. Setting up a Portfolio site
-* domain fixing
-https://www.youtube.com/watch?v=EX4w9hsduNA
+  * domain fixing
+    https://www.youtube.com/watch?v=EX4w9hsduNA
 * Github
-- terminal
---  https://www.youtube.com/watch?v=hrTQipWp6co
--- open in your code editor
--- git
-config.js
-index.js
-- git setup
-ls shows list of current folder
-- the terminal is to control the computer
-it is running at first in the home folder
-make sure to go into your own folder
-cd = change directory
----> cd ~/Desktop/git-tutorial
-ls - shows the files in the folder
-config.s 
-src
-it restarts in your home folder make sure to go into your git folder first
-now learning git 
-creating a version
-git init
-initializes empty git 
-git status
-- this shows the commits
-- untracked files
-git add  
-https://supersimpledev.github.io/references/git-github-reference.pdf 
-git config --global user.email ""
-git config --global user.name ""
-git commit - m "Version 1"
-git log 
-- git restore <file>
-git restore .
-unstage 
+  git init
+  initializes empty git 
+  git add  
+     [[ https://supersimpledev.github.io/references/git-github-reference.pdf]]
+     	git config --global user.email ""
+	git config --global user.name ""
+	git commit - m "Version 1"
+	
+	
+	
+	
