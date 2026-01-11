@@ -7,32 +7,4 @@ pacman -S pandoc
 pacman -S curl
 pacman -S tmux
 chsh -s $(which fish)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-pacman -S kodi
+pacman -S wofi wlroots xdg-desktop-portal-hyprland
