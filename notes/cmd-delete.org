@@ -1,4 +1,0 @@
-* to delete based of file name
-```bash
-find . -type f -name "*sync-conflict*"
-```

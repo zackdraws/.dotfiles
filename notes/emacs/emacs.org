@@ -20,3 +20,17 @@ http://localhost:8080/imp/
 - emacs can be used to write org clock report
 
   m-x org-clock-report
+* Org Agenda - adding multiple files
+    Open your Emacs configuration file (typically ~/.emacs or ~/.emacs.d/init.el).
+    Set the org-agenda-files variable to a list of folders or Org files you want included in the agenda. For example:
+(setq org-agenda-files '(
+  "~/org/project1/"
+  "~/org/project2/"
+  "~/org/tasks.org"
+  "~/org/notes.org"
+))
+If you have a folder structure, you can use a wildcard to include all .org files in a folder:
+    (setq org-agenda-files '(
+      "~/org/project1/*.org"
+      "~/org/project2/*.org"
+    ))
