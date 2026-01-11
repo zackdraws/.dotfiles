@@ -1,54 +1,31 @@
 (defvar bootstrap-version)
-
 (let ((bootstrap-file
-
        (expand-file-name
-
         "straight/repos/straight.el/bootstrap.el"
-
         (or (bound-and-true-p straight-base-dir)
-
             user-emacs-directory)))
-
       (bootstrap-version 7))
-
   (unless (file-exists-p bootstrap-file)
-
     (with-current-buffer
-
         (url-retrieve-synchronously
-
          "https://raw.githubusercontent.com/radian-software/straight.el/develop/install.el"
-
          'silent 'inhibit-cookies)
-
       (goto-char (point-max))
-
       (eval-print-last-sexp)))
-
   (load bootstrap-file nil 'nomessage))
-
 (straight-use-package 'use-package)
 (setq straight-use-package-by-default t)
-
 (setq use-package-always-defer t)
-
 (use-package emacs
-
   :init
-
   (setq initial-scratch-message nil)
-
   (defun display-startup-echo-area-message ()
-
     (message "")))
-
 ;; Use straight.el for packages
 (straight-use-package 'org)
 ;;(straight-use-package 'org-roam)
 ;;(straight-use-package 'calfw)
 ;;(straight-use-package 'calfw-org)
-
 (straight-use-package 'base16-theme)
 (straight-use-package 'catppuccin-theme)
 (straight-use-package 'ivy)
@@ -81,7 +58,6 @@
 ;;(require 'magit)
 (require 'company)
 (load-theme 'base16-hopscotch t)
-
 ;; Disable startup screen and message
 (setq inhibit-startup-echo-area-message "tychoish")
 (setq initial-major-mode 'fundamental-mode)
@@ -93,36 +69,24 @@
 (setq inhibit-startup-screen t)
 (desktop-save-mode -1)
 (global-corfu-mode)
-
 (global-company-mode)
-
-
 ;; Org Mode configuration
 (setq org-startup-with-inline-images t
       org-image-actual-width (list 260)
       org-duration-format 'h:mm
       org-agenda-files '("~/.ok/ok")
       org-latex-listings 'minted)
-
 ;; Org Mode Calendar
-
-
 ;; Enable ivy-mode
 (ivy-mode 1)
-
 ;; Enable cua-mode
 (cua-mode 1)
-
 ;; UI tweaks
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
 (setq visible-bell 1)
 (setq frame-title-format '((:eval default-directory)))
-
-
-
-
 ;; Global keybindings
 (global-set-key (kbd "C-c n f") #'org-roam-node-find)
 (global-set-key (kbd "C-c a") #'org-agenda)
@@ -140,12 +104,10 @@
 (global-set-key (kbd "C-c t") #'set-frame-alpha)
 (global-set-key (kbd "C-c w") #'peep-dired)
 (global-set-key (kbd "C-c z") #'fzf)
-
 ;; Custom sets
 (custom-set-variables
  '(custom-safe-themes t))
 (custom-set-faces)
-
 ;; Close all other buffers except the file(s) opened from CLI
 (add-hook 'emacs-startup-hook
 	  (lambda ()
@@ -156,7 +118,6 @@
 				  (string= (buffer-name buf) "*Messages*"))
 			(kill-buffer buf)))
 		    (buffer-list)))))
-
 (defvar bootstrap-version)
 (let ((bootstrap-file
        (expand-file-name
@@ -172,35 +133,19 @@
       (goto-char (point-max))
       (eval-print-last-sexp)))
     (load bootstrap-file nil 'nomessage))
-
 (use-package dired-sidebar
-
   :bind (("C-x C-n" . dired-sidebar-toggle-sidebar))
-
   :ensure t
-
   :commands (dired-sidebar-toggle-sidebar)
-
   :init
-
   (add-hook 'dired-sidebar-mode-hook
-
             (lambda ()
-
               (unless (file-remote-p default-directory)
-
                 (auto-revert-mode))))
-
   :config
-
   (push 'toggle-window-split dired-sidebar-toggle-hidden-commands)
-
   (push 'rotate-windows dired-sidebar-toggle-hidden-commands)
-
   (setq dired-sidebar-subtree-line-prefix "__")
-
   (setq dired-sidebar-theme 'vscode)
-
   (setq dired-sidebar-use-term-integration t)
-
   (setq dired-sidebar-use-custom-font t))

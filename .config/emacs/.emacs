@@ -126,19 +126,19 @@
         org-roam-ui-open-on-start nil)
 ;; citar
 (setq citar-bibliography '("~/ok/org/biblio.bib"))
-(setq citar-notes-paths '("~/.ok/org/reference"))
-(use-package citar
-  :ensure t
-  :custom
-  (citar-bibliography '("~/.ok/ok/org/biblio.bib"))) 
-(setq native-comp-async-report-warnings-errors nil)
+(setq citar-notes-paths '("~/ok/org/reference"))
+;;(use-package citar
+;;  :ensure t
+;;  :custom
+;;  (citar-bibliography '("~/.ok/ok/org/biblio.bib"))) 
+;;(setq native-comp-async-report-warnings-errors nil)
 ;; AUCTeX / XeLaTeX integration
-(setq TeX-engine 'xetex) 
-(setq TeX-PDF-mode t)    
-(setq TeX-save-query nil)       
-(add-hook 'LaTeX-mode-hook
-          (lambda ()
-           (setq TeX-command-default "XeLaTeX")
+;;(setq TeX-engine 'xetex) 
+;;(setq TeX-PDF-mode t)    
+;;(setq TeX-save-query nil)       
+;;(add-hook 'LaTeX-mode-hook
+;;          (lambda ()
+;;           (setq TeX-command-default "XeLaTeX")
 ;; (TeX-global-PDF-mode 1)
 ;; (setq TeX-view-program-selection '((output-pdf
 ;; (setq TeX-view-program-selection '((output-pdf

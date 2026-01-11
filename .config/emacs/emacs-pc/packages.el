@@ -1,5 +1,4 @@
 ;; === Core Packages ===
-
 (use-package org
   :straight t
   :defer t
@@ -9,30 +8,24 @@
         org-duration-format 'h:mm
         org-agenda-files '("~/.ok/ok")
         org-latex-listings 'minted))
-
 (use-package ivy
   :straight t
   :init
   (ivy-mode 1))
-
 (use-package counsel
   :straight t
   :after ivy)
-
 (use-package company
   :straight t
   :init
   (global-company-mode))
-
 (use-package corfu
   :straight t
   :init
   (global-corfu-mode))
-
 (use-package cape
   :straight t
   :after corfu)
-
 (use-package cua-base
   :init
   (cua-mode 1))
@@ -61,6 +54,7 @@
   :straight t)
 
 ;; === Org Extensions ===
+
 
 (use-package org-roam
   :straight t

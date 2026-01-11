@@ -1,10 +1,5 @@
-# Upgrade brew
 brew upgrade
-
-# Add some taps
 brew tap homebrew/cask-versions
-
-# Install CLI tools
 brew install awscli
 brew install deno
 brew install fd
@@ -22,8 +17,6 @@ brew install postgresql@14
 brew install ripgrep
 brew install webp
 brew install yazi
-
-# Install casks
 brew install 1password
 brew install discord
 brew install --cask docker
@@ -44,32 +37,14 @@ brew install signal
 brew install slack
 brew install tuple
 brew install zed
-
 brew cleanup
-
 # Create directory if it doesn't exist
-[ -d ~/.config ] || mkdir ~/.config
-
+mkdir ~/.config
 ln -s ~/.dotfiles/config/fish ~/.config/
 ln -s ~/.dotfiles/config/kitty ~/.config/
 ln -s ~/.dotfiles/lazygit ~/.config/
 ln -s ~/.dotfiles/yazi ~/.config/
 ln -s ~/.dotfiles/nvim ~/.config/
 ln -s ~/.dotfiles/ghostty ~/.config/
-
-ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
-ln -s ~/.dotfiles/.hushlogin ~/.hushlogin
-
-
-# Create directory if it doesn't exist
-[ -d ~/.config ] || mkdir ~/.config
-
-ln -s ~/.dotfiles/config/fish ~/.config/
-ln -s ~/.dotfiles/config/kitty ~/.config/
-ln -s ~/.dotfiles/lazygit ~/.config/
-ln -s ~/.dotfiles/yazi ~/.config/
-ln -s ~/.dotfiles/nvim ~/.config/
-ln -s ~/.dotfiles/ghostty ~/.config/
-
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/.hushlogin ~/.hushlogin

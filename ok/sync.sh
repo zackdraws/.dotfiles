@@ -1,4 +1,6 @@
-sudo ln -s ~/.dotfiles/emacs ~/.emacs
+sudo ln -s ~/.dotfiles/emacs/.emacs ~/.emacs.d/init.el
 sudo ln -s ~/.dotfiles/ghostty ~/config
-sudo ln -s ~/.dotfiles/marp ~/marp
+mkdir ~/.config/marp/
+sudo ln -s ~/.dotfiles/marp ~/.config/marp
+mkdir ~/ps
 sudo ln -s ~/.dotfiles/ps ~/ps
