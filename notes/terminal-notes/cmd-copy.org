@@ -1,0 +1,5 @@
+pwd | clip
+alias cppath='pwd | pbcopy'  # For macOS
+alias cppath='pwd | xclip -selection clipboard'  # For Linux
+alias cppath='pwd | clip'  # For Windows (Git Bash/WSL)
+to copy using wl-copy -> cat ~/file | wl-copy
