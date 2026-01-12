@@ -9,7 +9,7 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - ~/.config/syncthing/config:/config
+      - ~/.config/syncthing:/config
       - /run/media/ok/easystore/Music/:/music
       - ~/ok:/ok
     ports:
