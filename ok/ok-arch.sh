@@ -14,3 +14,4 @@ pacman -S interception-tools
 yay -S interception-tools interception-keyboard
 sudo pacman -S keyd
 sudo systemctl enable --now keyd
+sudo timedatectl set-timezone America/Los_Angeles
