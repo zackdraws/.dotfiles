@@ -1,0 +1,1 @@
+/mnt/c/Program Files/TVPaint Developpement/TVPaint Animation 1.7.1 Pro (64bits) (STD)/Default Config/keymaps/t.cfg

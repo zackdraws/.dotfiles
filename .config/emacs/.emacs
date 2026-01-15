@@ -115,8 +115,7 @@
 (setq org-startup-with-inline-images t
       org-image-actual-width (list 1200)
       org-duration-format 'h:mm
-      org-agenda-files '("~/ok")
-      org-latex-listings 'minted)
+      org-agenda-files '("~/ok/"))
 (setq org-roam-directory (file-truename "~/ok/org"))
 (use-package org-roam)
 (use-package org-roam-ui)
@@ -143,3 +142,6 @@
 ;; (setq TeX-view-program-selection '((output-pdf
 ;; (setq TeX-view-program-selection '((output-pdf
 ;;"PDF Tools")))))
+(use-package nano-calendar
+  :straight (:host github :repo "rougier/nano-calendar")
+  :bind ("C-c c" . nano-calendar))
