@@ -1,3 +1,5 @@
+set -x EDITOR "emacs -nw"
+set -x VISUAL "emacs -nw"
 set -x PATH /home/ok/.local/bin $PATH
 oh-my-posh init fish --config ~/.config/oh-my-posh/themes/tokyo.omp.json | source
 zoxide init fish | source
