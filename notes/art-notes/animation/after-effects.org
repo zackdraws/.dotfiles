@@ -1,0 +1,17 @@
+#+title: After Effects: Notes
+* Animation Playback
+** Looping -
+1. To loop animation first create a opening key and closing key on the timeline of whatever you want to loop 
+2. Hold down u and click the timer button 
+3. Now you can put in expressions
+4. type in loopOut(); or loopOut(“cycle”); this will cycle through your keys for the duration of the scene
+make sure to drag it out all the way 
+[[https://www.schoolofmotion.com/blog/loop-expression-after-effects][link]]
+** Pre-Compose 
+** Canvas Size
+** Render Queue
+from the render queue you can set
+frames per second
+output - where the files are sent
+*** you can
+add different compositions to queue

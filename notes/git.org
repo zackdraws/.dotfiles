@@ -1,0 +1,10 @@
+#+title: Git Notes
+* Start
+- first download git 
+run git from the terminal
+* Create a Repo
+* Pull a Repo
+use git pull to pull
+* Add 
+* Commit
+* Push

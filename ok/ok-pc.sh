@@ -57,3 +57,9 @@ pacman -S mingw-w64-ucrt-x86_64-texlive-bin \
 pacman -Syu
 pacman -S mingw-w64-ucrt-x86_64-gcc mingw-w64-ucrt-x86_64-toolchain \
              mingw-w64-ucrt-x86_64-libevent mingw-w64-ucrt-x86_64-ncurses
+pacman -S mingw-w64-ucrt-x86_64-ttf-firacode-nerd
+ln -s ~/.dotfiles/emacs/.emacs ~/.emacs.d/init.el
+pacman -S mingw-w64-ucrt-x86_64-oh-my-posh
+git clone https://github.com/JanDeDobbeleer/oh-my-posh.git
+pacman -S mingw-w64-ucrt-x86_64-yazi
+ln -s /c/.dotfiles/tvp/20250403_ok.cfg /c/users/zacha/AppData/Roaming/tvp\ animation\ 11\ pro/default/config.ini

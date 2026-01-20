@@ -1,0 +1,6 @@
+*** ffmpeg
+use this in terminal to export avi files to mp4 
+[[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
+ ffmpeg -i input.avi -r 24 output.mp4
+ -fs limit_size (output)
+ Set the file size limit, expressed in bytes. No further chunk of bytes is written after the limit is exceeded. The size of the output file is slightly more than the requested file size

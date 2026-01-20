@@ -1,0 +1,9 @@
+apk add git
+apk add yazi
+apk add emacs
+apk add syncthing
+apk add pandoc
+apk add curl
+apk add tmux
+apk add github-cli
+apk add fish

@@ -21,10 +21,7 @@ https://posemy.art/
 [[https://www.amazon.com/Penco-Penko-CN159-YE-Notebook-Yellow/dp/B07T29CKF3/ref=sr_1_8?crid=1ZS1QFQ7JHS2X&dib=eyJ2IjoiMSJ9.tTuoS55bQM5F_ebS9RmmNKAICrMUa84ZL2bMzscWEdeZoU_d66ZTr9XESMIBkj8OxEtRhguFET5H01G6pYOShUvNQlyzdzB3NJ_-vdVZDCOZ15_sV0UGwKe0WzfwuExWzBZdO1vj-bS3AWAl3-FokNDJ3s5pncJUqTkC2SdYFQAPMR_ykbPiYP2H7PtRZB5anVGEliDe5SEPLoBQUrPCLECt1Lo9qh5dD_eDOOfKS6wq0iD4SVXaXLdSMZqbPKjU2l4m8eRSgDHOAAUlPhYaaszI_IrY0mi76knl-T1e4CY.nvRTeway5kpcuX6wqf8-xhb5Tgrd-6u32RWNJr8HuaU&dib_tag=se&keywords=penco&qid=1757429843&sprefix=p%2Caps%2C481&sr=8-8&th=1][notebook]] -
 [[amazon.com/HighTide-EB038-GN-PENKO-Pine-up-Caddy/dp/B07PZBB1BX/ref=sr_1_33?crid=1ZS1QFQ7JHS2X&dib=eyJ2IjoiMSJ9.tTuoS55bQM5F_ebS9RmmNKAICrMUa84ZL2bMzscWEdeZoU_d66ZTr9XESMIBkj8OxEtRhguFET5H01G6pYOShUvNQlyzdzB3NJ_-vdVZDCOZ15_sV0UGwKe0WzfwuExWzBZdO1vj-bS3AWAl3-FokNDJ3s5pncJUqTkC2SdYFQAPMR_ykbPiYP2H7PtRZB5anVGEliDe5SEPLoBQUrPCLECt1Lo9qh5dD_eDOOfKS6wq0iD4SVXaXLdSMZqbPKjU2l4m8eRSgDHOAAUlPhYaaszI_IrY0mi76knl-T1e4CY.nvRTeway5kpcuX6wqf8-xhb5Tgrd-6u32RWNJr8HuaU&dib_tag=se&keywords=penco&qid=1757429843&sprefix=p%2Caps%2C481&sr=8-33&th=1][caddy]] -
 [[https://www.amazon.com/PENCO-%E3%83%9A%E3%83%B3%E3%82%B3-%E3%82%AF%E3%83%AA%E3%83%83%E3%83%97%E3%83%9C%E3%83%BC%E3%83%89-%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89-DP169/dp/B01N068QV4/ref=sr_1_11?crid=1ZS1QFQ7JHS2X&dib=eyJ2IjoiMSJ9.tTuoS55bQM5F_ebS9RmmNKAICrMUa84ZL2bMzscWEdeZoU_d66ZTr9XESMIBkj8OxEtRhguFET5H01G6pYOShUvNQlyzdzB3NJ_-vdVZDCOZ15_sV0UGwKe0WzfwuExWzBZdO1vj-bS3AWAl3-FokNDJ3s5pncJUqTkC2SdYFQAPMR_ykbPiYP2H7PtRZB5anVGEliDe5SEPLoBQUrPCLECt1Lo9qh5dD_eDOOfKS6wq0iD4SVXaXLdSMZqbPKjU2l4m8eRSgDHOAAUlPhYaaszI_IrY0mi76knl-T1e4CY.nvRTeway5kpcuX6wqf8-xhb5Tgrd-6u32RWNJr8HuaU&dib_tag=se&keywords=penco&qid=1757429843&sprefix=p%2Caps%2C481&sr=8-11][clipboard]] -
-
-
-
-
-
-
-
+#+title: Computer Notes
+**** keyboard switch
+use this to plug and unplug your devices - monitors and such
+https://www.youtube.com/shorts/LCQFfQwKE0E

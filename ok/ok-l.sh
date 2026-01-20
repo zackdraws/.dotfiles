@@ -6,7 +6,6 @@ ln -s ~/.dotfiles/sh/shell_files/jpeg.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/file/filecopyimgmultiple_1.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/move/FI_^.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/convert/cnv_jpg_pdf.sh /usr/local/bin/
-
 ln -s ~/.dotfiles/sh/convert/convert_heic_to_jpeg.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/convert/convert_heic_to_jpg.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/convert/convert_png_j.sh /usr/local/bin/
@@ -14,7 +13,6 @@ ln -s ~/.dotfiles/sh/convert/convert_webloc_to_jpeg.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/convert/convert_webp_jpeg.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/delete/clean.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/delete/X.fish
-ln -s ~/.dotfiles/sh/delete/X.fish~
 ln -s ~/.dotfiles/sh/delete/X.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/export/F2_txt.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/maketiny/compress_video.sh /usr/local/bin/
@@ -60,7 +58,6 @@ ln -s ~/.dotfiles/sh/psd/psd_flats.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/psd/psd_jpeg.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/psd/psd_jpeg_w_gimp.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/psd/psd_key_matte_folder.sh /usr/local/bin/
-ln -s ~/.dotfiles/sh/psd/psd_key_matte_folder.sh /usr/local/bin/~
 ln -s ~/.dotfiles/sh/psd/psd_key_matte_folder_strong.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/psd/psd_keyout.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/psd/psd_keyout_soft.sh /usr/local/bin/
@@ -135,4 +132,3 @@ ln -s ~/.dotfiles/sh/launch/syncthing_stop.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/make/save_screen.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/shell_files/F2_date_taken.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/export/sequence_.sh /usr/local/bin/
-
