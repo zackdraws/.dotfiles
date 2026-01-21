@@ -1,158 +1,32 @@
 #+title: Organization Notes
-* Windows - PC
+* Windows
+** Turn on computer 
+** Create a user profile
+make sure it is short
+** Download a terminal (ucrt64 or any other terminal)
+** . Halt Onedrive
 - before starting make sure to halt overdrive and uninstall bloatware on pc
 https://www.oo-software.com/en/shutup10
-windows holds computers in the c drive
-apple holds files in /
-linux holds files in /
-on msys32 files are in /
+windows holds computers in the c drive compared to apple holds files in / linux holds files in / on msys32 files are in /
 from there there is a user and all users file
-to reach the home (or default) directory one can use the tilde key ~/
-- ~/ - is /mnt/c/users/zacha/
+to reach the home (or default) directory use the tilde key ~/
+** Config Files -
+*** files for configuration are held on the computer usually
+- ~/ - is /mnt/c/users/my_name/ or C://users/my_name
          ~/pictures/Screenshots/ - this is where screenshots are
-	 make sure to turn off overdrive
 	 ~/ - this is where most user configuration files are
-~/
-- 2021
-  2022
-  2023
-  2024
-  2025
-  Android Camera
-  AppData
-  Application...
-  blender
-  castero
-  chafa
-  clifm
-  contacts
-  cookies
-  desktop
-  desktop-
-  dired-sidebar
-  Documents
-  Downloads
-  Dragonframe
-  Dropbox
-  Emacs
-  Favorites
-  ffmpeg
-  fish-shell
-  org-roam
-  Pictures
-  pipx
-  poppler-
-  scoop
-  scriptable
-  scripts
-  Searches
-  termv
-  _lesshst - stores search history
-  emacs_backtrace.txt - 
-ntuser.dat contains registry settings - do not delete
-oh-my-posh.nu - is for oh-my-posh
-~.emacs -  idk
-~.emacs~ - idk
-- delete - avast
-- ~/AppData/Roaming - user settings are here 
-  files can also be found in 'All Users'
-- 2025
- -- anp
-                             - some of these notes are similar to the notes in my sketchbook
-			     - I think this folder can go into my sketchbook folder
-I've also used a file directly in the /c/ folder for the year which holds all of my files
-- C:\.\2025\.stfolder          - this folder is needed for syncthing
-- C:\.\2025\documents          - this folder has my documents, similar to '~/my documents'
-- C:\.\2025\Projects_From_2024 - this is confusing because there is also a folder with files from 2024 but this is work from 2024 that I want to continue to work on
-- C:\.\2025\cd                 - this is where all of my character design work is
-- C:\.\2025\R                  - this is where all of my reference material is
-- C:\.\2025\bg                 - this is where my background art pieces are.
-- C:\.\2025\Miscellaneous      - this is a folder of my miscellaneous work but I don't know how it is different from the folder that has random stuff in it
-- C:\.\2025\caricature         - I'm not sure an entire folder of caricatures are needed
-- C:\.\2025\S                  - story folder
-- C:\.\2025\skb                - organized by month
- - then organized by month
-- C:\.\2025\config             - config folder holds config files 
-- C:\.\2025\job                - job files and job material
-- C:\.\2025\resume - 
-- C:\.\2025\trash              - files in the trash just in case I need to get them again
-- C:\.\2025\T                  - teaching material 
-- C:\.\2025\.stversions
-- C:\.\2025\screen-captures    - screen captures 
-- C:\.\2025\Desktop            - desktop
-- C:\.\2025\fg                 - figure drawing
-- C:\.\2025\mshare             - this folder is for sharing to another computer 
-- C:\.\2025\Notes              - this folder is for notes. these are different then ~/.dotfiles/notes/ these are art notes
-- C:\.\2025\P                  - this is painting
-- C:\.\2025\random             - this is random which might be merged with Miscellaneous
-  it would be good to find a different word then miscellanous
-- C:\.\2025\anp                - 
-- C:\.\2025\temp               -
-- C:\.\2025\zackdraws.github.io- this is the folder for my website - this might go outside of the 2025 folder as this is not only important for 2025 
-~/.dotfiles/
-- I am organizing this file on <2025-11-01 Sat 11:04>
-  /c/s/ - this is the folder that I use for shared folders to back up between computers
-  - c/s/IPAD/ - temp files are in here that I need to see what they are?
-    this file syncs to my ipad
-    - 0 -
-      00
-      2017
-      2020
-      2021
-      2022
-      2023
-      2024
-      2025
-      Ebooks
-      EM
-      emacs.d_backup
-      EXTRA
-      IPAD
-      NTS
-      PH - D
-           P
-	     -
-	       Screenshots
-      r - reference  
-
-organized references folder
-* [#A] Sync
+* 1. Structure -
+[[/mnt/c/./2026/]] - holds my 2026 art files
+AA for animation
+DES -
+    - LAY - layout
+    - CD  - character design
+* 2. Sync your files once they are set up
 ** TODO sync .ok to big computer
 *** TODO move 2025 folder out of desktop into easier $
 - what folder is easier?
 /mnt/c/users/zacha/2025/ which is ~/2025
 - or /mnt/c/s/2025/
-**** DONE or /mnt/c/2025 - I don't think this is poss$
-     - /mnt/c/.ok/2025/
-                  T
-                  or
-                  2025 / T
-                  and then 2026 T
-keep all of the folders in
-   c/ 2025
-         .ok is for all year round files?
-/mnt/c/2025/T
-          .ok/r for example is for immediate referenc$
-    - rr is for master reference
-    - r0 is for master reference
-** Resync
-*** TODO pause syncthing
-**** TODO move the files on L1
-**** TODO delete that syncthing folder on webgui
-**** TODO notice to connect new folder
-**** TODO reconnect - select the folder from before
-
-* Keys
-- documents - .ok
-- music -    ~/Music/
- - photos
-   - iphone photos
-     -
-
 [[/c/.ok/2025]]       2025 - work files
-
-
-dotfiles - organize and control my settings
-
-
-*** <2025-11-24 Mon 14:53> DELETED /mnt/users/zacha/.emacs
+* Dotfiles - organize and control my settings
+create .dotfiles to to save your configurations

@@ -37,12 +37,10 @@ set brush opacity shortcut
 *** to adjust pen pressure
 File > Pen Pressure Settings
 - https://help.clip-studio.com/en-us/manual_en/240_brushes/Adjusting_pen_pressure.htm
-
 ** Pt 3 import drawings
 if you have to import a drawing sequence make sure to have them labeled
 go to import drawings
 then go to animation and click batch change 
-
 If they are png images you have to rasterize them in order to draw.
 ** Pt 4 Fill Tool
 types of fill tool
@@ -53,13 +51,11 @@ to fill based only on the content of the selected layer
   use the fill tool > enclose and fill to encircle a closed area that you want to fill
 ****   -leftover pen
 source - https://help.clip-studio.com/en-us/manual_en/420_fill/Fill_Tool.htm
-
 ** Pt 5
 *** Vector Layer
 https://help.clip-studio.com/en-us/manual_en/180_layers/Vector_layers.htm
 *** Layer Blending Modes
 https://help.clip-studio.com/en-us/manual_en/180_layers/Blending_modes.htm
-
 * sources
 - how to animate in Clip Studio Paint 2025
    https://www.youtube.com/watch?v=mR7FJ8wxn7U
