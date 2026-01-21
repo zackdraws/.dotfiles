@@ -1,0 +1,65 @@
+#+title: Clip Studio Paint
+** Installing Clip Studio Paint
+- two versions
+  -- pro - some features
+  -- ex  - more features
+here information https://share.clip-studio.com/en-us/contents/view?code=8f22c9c0-95fa-4643-ac59-92feac8f7765&at=1758252629
+- clip studio paint usually goes on sale and also has free trials
+** Pt 1: Configuration - Keyboard Shortcuts 
+   SCHEDULED: <2025-08-28 Thu>
+*** Animation Shortcuts
+**** For Animation
+- new animation folder Shift +Alt A
+- play = shift q
+**** cels
+- New Animation cel - Shift +G
+- select previous cel  A
+- select next cel      D
+**** cels
+- Insert Frame         Shift+X
+- select previous frame C
+- select next frame     V
+*** Still need to assign
+- enable onion skin
+*** Interface
+Zoom                Z
+zoom - in 2
+zoom - out 1 
+*** Drawing
+make brush smaller     shift +z
+make brush bigger      shift + a
+** Pt 2: Brushes
+   SCHEDULED: <2025-08-30 Sat>
+Brushes 
+import brushes into clip studio paint
+have brushes in organized folder 
+set brush opacity shortcut
+*** to adjust pen pressure
+File > Pen Pressure Settings
+- https://help.clip-studio.com/en-us/manual_en/240_brushes/Adjusting_pen_pressure.htm
+
+** Pt 3 import drawings
+if you have to import a drawing sequence make sure to have them labeled
+go to import drawings
+then go to animation and click batch change 
+
+If they are png images you have to rasterize them in order to draw.
+** Pt 4 Fill Tool
+types of fill tool
+**** - use the Fill tool > Lasso fill 
+to fill based only on the content of the selected layer
+****  fill tool - refer other layers
+****  enclose and fill
+  use the fill tool > enclose and fill to encircle a closed area that you want to fill
+****   -leftover pen
+source - https://help.clip-studio.com/en-us/manual_en/420_fill/Fill_Tool.htm
+
+** Pt 5
+*** Vector Layer
+https://help.clip-studio.com/en-us/manual_en/180_layers/Vector_layers.htm
+*** Layer Blending Modes
+https://help.clip-studio.com/en-us/manual_en/180_layers/Blending_modes.htm
+
+* sources
+- how to animate in Clip Studio Paint 2025
+   https://www.youtube.com/watch?v=mR7FJ8wxn7U
