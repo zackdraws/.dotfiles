@@ -7,7 +7,8 @@ services:
             - /home/ok/comics:/comics
             - /home/ok/books:/books
             - /home/ok/.config/kavita/config:/kavita/config     # /kavita/config must not be changed
-        environment:
+	    - /run/media/ok/easystore/R/0_Artbooks
+	    environment:
             - TZ=America/New_York
         ports:
             - "5000:5000"

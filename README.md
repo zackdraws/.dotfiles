@@ -1,4 +1,4 @@
-# GLOSSARY                 
+# Glossary                 
  1. Set up 
  2. Using the Editor in the terminal 
  3. Managing Files
@@ -278,9 +278,9 @@ ffmpeg -i input.avi -r 24 output.mp4
 		       	  ffmpeg -i input.avi -r 24 output.mp4
 ## Docs
    ### For PDFS
-     - Adobe Acrobat	  -
+     - Adobe Acrobat	  - 
        - Zathura	  - https://github.com/pwmt/zathura.git 
-       - Sioyek  	  - fast pdf viewer
+       - Sioyek  	  - fast pdf viewer https://github.com/ahrm/sioyek
        - Mozilla FIrefox - firefox also has a pdf viewer
    ### For DocX
        - Word		- 

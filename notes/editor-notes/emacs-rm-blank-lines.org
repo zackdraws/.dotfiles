@@ -1,1 +1,2 @@
+M-x flush-lines RET ^$ RET
 M-x flush-lines RET ^[[:space:]]*$ RET

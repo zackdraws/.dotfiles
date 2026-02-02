@@ -12,6 +12,7 @@
 3.   Orange
 4. Yellow + Blue
 4.   Green
+
 ** Tertriary Colors
 1. yellow orange
 2. red orange
@@ -19,6 +20,7 @@
 4. blue-purple
 5. blue-green
 6. yellow-green
+
 ** By Temperature
 *** Cool Colors
 **** Cerulean Blue
@@ -28,7 +30,9 @@
 **** Burnt Sienna - heated raw sienna yellowish brown
 **** Yellow ochre - earth pigment, ferric oxide
 **** Crimson Red - a deep rich shade of red with hints of prurple and blue.
+
 local color - objects local color is the color of the object without light basic light
 shine light - light that shines on to object
 accent colors of blue onto a white object and the object will be blue with a dark blue shadow
+
 think of a crimson red ball a dark maroon background if you shine a bright light it will make a peach color 
