@@ -1,18 +1,10 @@
-<<<<<<< HEAD
-directory: /mnt/c/users/zacha/Music/Music
-
-library: /home/zack/.config/library.db
-
-=======
 directory: /run/media/ok/easystore/Music/
->>>>>>> bb99c2c4607a07f10dffbc5738c71c4001e57be9
 art_filename: albumart
 
 threaded: yes
 
 original_date: no
 
-<<<<<<< HEAD
 per_disc_numbering: no
 
 
@@ -82,7 +74,6 @@ lookup:
 
 
 # MusicBrainz fetching
-=======
 paths:
   default: $albumartist/$album%aunique{}/$track - $title
   singleton: $albumartist/Unknown Album/$track - $title
@@ -93,35 +84,6 @@ plugins:
   - fetchart
   - fromfilename
   - chroma
-
->>>>>>> bb99c2c4607a07f10dffbc5738c71c4001e57be9
-musicbrainz:
-  fetch_pictures: yes
-  track_id: yes
-
-<<<<<<< HEAD
-# Chroma (fingerprinting) to help match files
-=======
-lookup:
-  auto: yes
-  fuzzy: no
->>>>>>> bb99c2c4607a07f10dffbc5738c71c4001e57be9
-
-chroma:
-  auto: yes
-
-<<<<<<< HEAD
-# Clean up bad tags
-scrub:
-  auto: yes
-  remove_date: yes
-  remove_comments: yes
-=======
-scrub:
-  auto: yes
-  remove_date: yes
-  remove: comments
->>>>>>> bb99c2c4607a07f10dffbc5738c71c4001e57be9
 
 import:
   move: yes

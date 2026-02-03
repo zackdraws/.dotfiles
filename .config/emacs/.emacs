@@ -115,7 +115,7 @@
 (setq org-startup-with-inline-images t
       org-image-actual-width (list 1200)
       org-duration-format 'h:mm
-      org-agenda-files '("~/.ok/ok/"))
+      org-agenda-files '("~/ok/"))
 (setq org-roam-directory (file-truename "~/ok/org"))
 (use-package org-roam)
 (use-package org-roam-ui)
@@ -147,25 +147,20 @@
   :bind ("C-c c" . nano-calendar))
 (set-face-attribute 'default nil
                     :family "FiraCode Nerd Font Regular" )
-(use-package org-roam
-  :straight (:host github :repo "org-roam/org-roam"
-             :files (:defaults "extensions/*"))
-  ...)
-
-(use-package org-roam-ui
-  :straight
-    (:host github :repo "org-roam/org-roam-ui" :branch "main" :files ("*.el" "out"))
-    :after org-roam
-         normally we'd recommend hooking orui after org-roam, but since org-roam does not have
-         a hookable mode anymore, you're advised to pick something yourself
-         if you don't care about startup time, use
-  :hook (after-init . org-roam-ui-mode)
-    :config
-    (setq org-roam-ui-sync-theme t
-          org-roam-ui-follow t
-          org-roam-ui-update-on-save t
-          org-roam-ui-open-on-start t))
-
+;;(use-package org-roam
+;;  :straight (:host github :repo "org-roam/org-roam"
+;;             :files (:defaults "extensions/*"))
+;;  ...)
+;;(use-package org-roam-ui
+;;  :straight
+;;    (:host github :repo "org-roam/org-roam-ui" :branch "main" :files ("*.el" "out"))
+;;    :after org-roam
+;;  :hook (after-init . org-roam-ui-mode)
+;;    :config
+;;    (setq org-roam-ui-sync-theme t
+;;          org-roam-ui-follow t
+;;          org-roam-ui-update-on-save t
+;;          org-roam-ui-open-on-start t))
 ;;(use-package org-roam
 ;;  :ensure t
 ;;  :custom
@@ -183,3 +178,15 @@
 ;;  (org-roam-db-autosync-mode)
   ;; If using org-roam-protocol
 ;;  (require 'org-roam-protocol))
+;;(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+;; '(org-agenda-files nil))
+;;(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ ;;)
