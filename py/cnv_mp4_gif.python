@@ -2,11 +2,9 @@ python
 import subprocess
 import os
 import argparse
-
 def mp4_to_gif(mp4_file, gif_output, duration=0.1):
     """
     Converts an MP4 file to a GIF using ffmpeg.
-
     Args:
         mp4_file (str): Path to the input MP4 file.
         gif_output (str): Path to save the output GIF file.
@@ -21,15 +19,12 @@ def mp4_to_gif(mp4_file, gif_output, duration=0.1):
             "-loop", "1",  # Loop the GIF indefinitely
             gif_output
         ]
-
         process = subprocess.run(command, capture_output=True, text=True, check=True)
         print(f"GIF created successfully: {gif_output}")
-
     except subprocess.CalledProcessError as e:
         print(f"Error during conversion:")
         print(e.stderr)
         print("Make sure ffmpeg is installed and in your system's PATH.")
-
 def main():
     parser = argparse.ArgumentParser(description="Convert MP4 to GIF using ffmpeg.")
     parser.add_argument("mp4_file", help="Path to the input MP4 file.")
@@ -37,16 +32,12 @@ def main():
     parser.add_argument("-d", "--duration", type=float, default=0.1,
                         help="Duration of each frame in seconds (default: 0.1)")
     args = parser.parse_args()
-
     mp4_file = args.mp4_file
     gif_output = args.gif_output
     duration = args.duration
-
     if not os.path.exists(mp4_file):
         print(f"Error: MP4 file not found: {mp4_file}")
         return
-
     mp4_to_gif(mp4_file, gif_output, duration)
-
 if __name__ == "__main__":
     main()
