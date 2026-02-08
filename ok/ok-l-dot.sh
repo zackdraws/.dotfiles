@@ -153,3 +153,4 @@ ln -s ~/.dotfiles/sh/launch/syncthing_stop.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/make/save_screen.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/shell_files/F2_date_taken.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/export/sequence_.sh /usr/local/bin/
+sudo ln -s ~/.dotfiles/sh/fix/arch-audio /usr/local/bin/
