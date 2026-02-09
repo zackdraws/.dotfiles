@@ -1,2 +1,2 @@
-Alt+Meta HF1D0D0D0C
+Alt+Meta 
 ctrl + meta + arrow to make windows smaller

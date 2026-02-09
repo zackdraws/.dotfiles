@@ -311,7 +311,3 @@ ffmpeg -i input.avi -r 24 output.mp4
      	git config --global user.email ""
 	git config --global user.name ""
 	git commit - m "Version 1"
-	
-	
-	
-	

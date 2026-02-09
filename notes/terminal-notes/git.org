@@ -1,10 +1,21 @@
 #+title: Git Notes
 * Start
-- first download git 
+git has to be installed
 run git from the terminal
-* Create a Repo
-* Pull a Repo
+** Create a Repo
+*** Local
+in the terminal for example you can cd ~/ to enter your home directory from there run git init
+this will initialize git - this is your local repo of the git
+*** Global
+- choose an online host it can be github or gitbucket
+create it on there
+clone the repo in your terminal
+add those files
+and now you have that repo
+make sure name works
+* Using Git Repo
+** Pull a Repo
 use git pull to pull
-* Add 
-* Commit
-* Push
+** Add 
+** Commit
+** Push
