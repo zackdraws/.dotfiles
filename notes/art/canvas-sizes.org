@@ -1,0 +1,7 @@
+#+title: consistency
+#+title: canvas-sizes
+business card sizes
+Standard 3.5 x 2
+Square - 2 x 2
+
+

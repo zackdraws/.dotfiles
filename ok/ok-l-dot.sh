@@ -1,3 +1,4 @@
+# this is to link dotfiles to the /usr/local/bin for linux
 ln -s ~/.dotfiles/sh/convert/convert_webloc_jpeg.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/shell_files/webloc_jpeg.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/shell_files/jpeg.sh /usr/local/bin/

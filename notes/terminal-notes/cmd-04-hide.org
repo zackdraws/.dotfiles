@@ -1,0 +1,5 @@
+* Hide
+hide things in windows using 
+attrib +h file 
+in the terminal
+shutdown -s -t timeInSeconds

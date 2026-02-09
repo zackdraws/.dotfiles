@@ -1,0 +1,8 @@
+* Grep
+- Use Grep to find files
+** Find
+*** To find a phrase in a folder search like this
+grep -r "'4c566a" ~/.config/fish/
+#!/bin/bash
+*** or
+based on grep -E '/mnt/.+\.(jpg|jpeg|png|pdf|eps)' notes.org | ./gen_tex.sh | clip.exe
