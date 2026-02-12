@@ -19,4 +19,8 @@ sudo pacman -S imagemagick
 sudo pacman -S discord
 yay -S sioyek
 yay -S python-fpdf
-mkdir /usr/share/fonts/truetype/dejavus ln -s /usr/share/fonts/TTF/DejaVuSans.ttf /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+mkdir /usr/share/fonts/truetype/dejavus 
+ln -s /usr/share/fonts/TTF/DejaVuSans.ttf /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+pacman -S python-pillow
+sudo pacman -S xelatex
+sudo pacman -S ttf-dejavu
