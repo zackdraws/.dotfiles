@@ -11,7 +11,10 @@ services:
     volumes:
       - ~/.config/syncthing:/config
       - /run/media/ok/easystore/Music/:/music
+      - /home/ok/2026/:/home/ok/2026
       - ~/ok:/ok
+      - ~/2026:/2026
+      - /home/ok/2026:/home/ok/2026
     ports:
       - 8384:8384
       - 22000:22000/tcp
