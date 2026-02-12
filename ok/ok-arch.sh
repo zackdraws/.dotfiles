@@ -18,3 +18,5 @@ sudo timedatectl set-timezone America/Los_Angeles
 sudo pacman -S imagemagick
 sudo pacman -S discord
 yay -S sioyek
+yay -S python-fpdf
+mkdir /usr/share/fonts/truetype/dejavus ln -s /usr/share/fonts/TTF/DejaVuSans.ttf /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
