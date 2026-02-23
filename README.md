@@ -19,15 +19,14 @@
 ## 1. Set up - Terminal
 ###  - Recommended Terminals
    -       mingw64 UCRT64 terminal (windows) -
+   - 	   windows terminal - if you are on windows (https://github.com/microsoft/terminal)
+   	   I use this along with UCRT64 
    -	   fooT terminal (linux/wsl) - 
-   -	   ghostty terminal (mac/linux/wsl) - new, user friendly
-    	   (you can use the command brew install ghostty)
-	   	    (to use homebrew use these instructions [[https://brew.sh/]])
    -	   kitty (https://sw.kovidgoyal.net/kitty/) (mac/linux/wsl) - stable and fast
     	   (curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh	/dev/stdin)
    -       if you are on windows use mingw64 UCRT64 or wsl (mingw64 > wsl) 
 ## 1.2.1   install git
-   [[~/.dotfiles/notes/git.org]]
+   [[notes][~/.dotfiles/notes/git.org]]
    -       pacman -S mingw-w64-x86_64-git
    -       kitty terminal - >      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    - 	   home brew 	- >      brew install git

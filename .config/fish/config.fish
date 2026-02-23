@@ -8,7 +8,7 @@ set -gx GDK_SCALE 2 #GWSL
 set -gx TERM xterm-256color
 set -gx COLORTERM truecolor
 set -gx YAZI_PREVIEW_IMAGE_PRORTOCOL chafa
-
+export LEDGER_FILE=~/finance/2026.journal
 zoxide init fish | source
 set -gx GDK_SCALE 2 #GWSL
 set -gx TERM xterm-256color

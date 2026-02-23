@@ -1,0 +1,1 @@
+type /home/$USER/ for terminal know you want to go to the home user folder regardless of your name

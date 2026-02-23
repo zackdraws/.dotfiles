@@ -24,3 +24,5 @@ ln -s /usr/share/fonts/TTF/DejaVuSans.ttf /usr/share/fonts/truetype/dejavu/DejaV
 pacman -S python-pillow
 sudo pacman -S xelatex
 sudo pacman -S ttf-dejavu
+sudo pacman -S hledger
+pipx install hledger-utils

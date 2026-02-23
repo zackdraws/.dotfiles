@@ -13,6 +13,7 @@ services:
       - /run/media/ok/easystore/Music/:/music
       - /home/ok/2026/:/home/ok/2026
       - ~/ok:/ok
+      - ~/ref:/ref
       - ~/2026:/2026
       - /home/ok/2026:/home/ok/2026
     ports:
