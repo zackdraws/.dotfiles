@@ -1,10 +1,10 @@
 # Glossary                 
- 1. Set up 
- 2. Using the Editor in the terminal 
- 3. Managing Files
- 4. Automating (Scripts) 
- 5. Saving 
- 6. Tools for Creating
+# 1. Set up - Terminal
+# 2. Using the Editor in the terminal 
+# 3. Managing Files
+# 4. Automating (Scripts) 
+# 5. Saving 
+# 6. Tools for Creating
 	     	    	     GLOSSARY              
 	   1. Set up your terminal
            2. Using the Editor in the terminal
@@ -16,7 +16,7 @@
    -       controls the configuration of your computer.
    -       can be the local settings stored on your computer usually in the home directory.
    -       dotfile changes can be synced and backed up.
-## 1. Set up - Terminal
+# 1. Set up - Terminal
 ###  - Recommended Terminals
    -       mingw64 UCRT64 terminal (windows) -
    - 	   windows terminal - if you are on windows (https://github.com/microsoft/terminal)
@@ -26,8 +26,9 @@
     	   (curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh	/dev/stdin)
    -       if you are on windows use mingw64 UCRT64 or wsl (mingw64 > wsl) 
 ## 1.2.1   install git
-   [[notes][~/.dotfiles/notes/git.org]]
+   [git notes](~/.dotfiles/notes/git.org)
    -       pacman -S mingw-w64-x86_64-git
+   - 	   winget install --id Git.Git -e --source winget
    -       kitty terminal - >      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    - 	   home brew 	- >      brew install git
 ## 1.2.2   install gh [[https://cli.github.com/][link]]
@@ -35,6 +36,8 @@
 ## 1.4.    clone files (cl)
    -       git clone https://github.com/zackdraws/.dotfiles.git
    -       ** to see your files cd into .dotfiles use these commands
+## 1.2.1   set your username git config --global user.name "Your Name"
+   "youreemail@example.com"
 ### Additional Terminal add-ons	
    - 	   fzf 	       	  - helps to look through all the files
    - 	   ncdu 	  - disk utility - look at your disk
