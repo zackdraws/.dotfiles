@@ -26,3 +26,6 @@ sudo pacman -S xelatex
 sudo pacman -S ttf-dejavu
 sudo pacman -S hledger
 pipx install hledger-utils
+yay -S pup
+pacman -S htop
+pacman -S btop
