@@ -196,3 +196,5 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  ;;)
+(setq org-roam-ui-host "0.0.0.0")
+(setq org-roam-ui-port 35901)
