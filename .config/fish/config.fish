@@ -1,7 +1,7 @@
 set -x EDITOR "emacs -nw"
 set -x VISUAL "emacs -nw"
 set -x PATH /home/ok/.local/bin $PATH
-oh-my-posh init fish --config ~/.config/oh-my-posh/themes/tokyo.omp.json | source
+set -x PATH ~/.local/bin $PATH
 zoxide init fish | source
 set -U fish_greeting
 set -gx GDK_SCALE 2 #GWSL
@@ -74,4 +74,5 @@ function watch-clipboard --description "Automatically convert Windows paths in c
         sleep 0.5
     end
 end
-
+oh-my-posh init fish | source
+oh-my-posh init fish --config ~/.config/oh-my-posh/themes/bubbles.omp.json | source
