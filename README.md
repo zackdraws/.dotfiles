@@ -1,17 +1,10 @@
 # Glossary                 
-# 1. Set up - Terminal
-# 2. Using the Editor in the terminal 
-# 3. Managing Files
-# 4. Automating (Scripts) 
-# 5. Saving 
-# 6. Tools for Creating
-	     	    	     GLOSSARY              
-	   1. Set up your terminal
-           2. Using the Editor in the terminal
-           3. Managing Files
-           4. Automating (Scripts) 
-           5. Saving 
-           6. Tools for Creating 
+  #### 1. Set up - Terminal
+  #### 2. Using the Editor in the terminal 
+  #### 3. Managing Files
+  #### 4. Automating (Scripts) 
+  #### 5. Saving 
+  #### 6. Tools for Creating
 # .dotfiles
    -       controls the configuration of your computer.
    -       can be the local settings stored on your computer usually in the home directory.
@@ -25,8 +18,7 @@
    -	   kitty (https://sw.kovidgoyal.net/kitty/) (mac/linux/wsl) - stable and fast
     	   (curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh	/dev/stdin)
    -       if you are on windows use mingw64 UCRT64 or wsl (mingw64 > wsl) 
-## 1.2.1   install git
-   [git notes](~/.dotfiles/notes/git.org)
+## 1.2.1   install git [(git notes)](/notes/terminal-notes/git.org)
    -       pacman -S mingw-w64-x86_64-git
    - 	   winget install --id Git.Git -e --source winget
    -       kitty terminal - >      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -60,115 +52,87 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
     [[~/.dotfiles/notes/emacs/]]
         - brew install emacs
 	- Nano - small quick editor.
+### 1.3 - File folders - set up common folders in your computer for your files to stay organized
+    	  use ~ to point to the home directory
+    	- ~/.dotfiles  	- config files
+    	  ~/ok/		- notes
+    	  ~/ref 	- where my reference folders are
+	  ~/music       - music files 
+	  ~/Videos 	- video files
+	  ~/2026/	- files for 2026
+
 ## 2. Opening the editor
 - emacs can be opened from the desktop if you have a shortcut or from the terminal.
-  	run the command 'emacs -nw' (to run emacs inside the terminal) or 'emacs' to open emacs in an application
+  	run the command 'emacs -nw' (to run emacs inside the terminal) or 'emacs' to open emacs as a windowed application
 ## Configuring the editor.
    the configuration files for emacs are stored on your computer locally in [[~/.emacs.d/init.el]] 
    the configuration files are stored on git in the repo at this location [[~/.dotfiles/.config/emacs/.emacs-pc]]
-   grab the file from the dotfile location by cloning the repo
+   clone the repo to have the emacs file
    make sure that you are inside your home directory by typing cd ~/
    type - git clone http://github.io/zackdraws/.dotfiles/ into your terminal
    then run a ln -s command to create a synthetic link from the .dotfiles location to the .emacs location file
    'ln -s ~/.dotfiles/.config/emacs/.emacs-pc ~/.emacs.d/init.el
    now you have a symbolic link between the .dotfile and the init file
 # 3.  Files
-  3.1 Link files - (ln)
-                        sudo ln -s /home/name/.dotfiles/file /usr/local/bin/ (for shell files)
-=======
-    -      fzf 	       	  - search through files 
-    -      ncdu 	  - disk utility - look at disk disc size
-    -      btop 	  - look at your settings
-    -      zoxide      	  - navigate to folders quickly
-    -      pastel   	  - pick out colors from the terminal
-    -      syncthing 	  - sync files from one computer to another
-    -      ffmpeg    	  - edit and watch mp4 videos - use this in terminal to export avi files to#### fzf - 
-Run fzf in the directory for what ever file you are looking for.
-Run nano "$(fzf)" or whatever editor you are using to open it inside that editor
-or
-emacs-nw "$(fzf)" 
-#### ffmpeg commands -
-##### convert mp4 files
-[[ ffmpeg -i filepath.avi filename.mp4]] 
-ffmpeg -i input.avi -r 24 output.mp4
--fs limit_size (output)
-(Set the file size limit, (bytes).)
-# 2. Editor - the editor is used to edit files in the terminal.
-    -      eMacs - eMacs stands for Editor Macros and can be used as editor for files.
-        - install emacs  		 
-    	  - pacman -S mingw-w64-x86_64-emacs
-      	  - brew install emacs
-	  - now you can write into files in the terminal using the command 'emacs -nw file'
-# 2.1. Editor - optional additional editor -     
-- Nano - small quick editor.
-# 3. Files
-##  3.1     Link files - (ln)
-    	                  sudo ln -s /home/name/.dotfiles/file /usr/local/bin/ (for shell files)
-    	 			    (this is to create a symlink)
-	                    (symlinks are synthetic links between two files 
-                        (when you update from .dotfiles it then updates the file in the usr local bin.)
-			for linking files in windows you run this
-			- sudo ln -f //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
-			       cd //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
-		                *       sudo is the command to run a command as 'administrator'
-
-   3.2    Additional Note: from there you can go to .dotfiles run 'git add .' 
-                        next run 'git commit -m "comment" and to 
-                        run git push to publish to git
-   3.3    to update folder from github run 'git pull'
-   3.3.1.  Make Script files actionable from anywhere in the terminal - 
-   3.4.1   cd - /usr/local/bin/ (changes the directory to usr/local/bin)
-   3.4.2  chmod +x file (this makes the sh follow usable)
-   3.5     Shell - for command history and command line editing - is within the terminal
-                    Fish - for syntax highlights and autosuggestions and themes
-		    WINDOWS - 
-			WSL
-		    sudo ln -s //wsl.localhost/Ubuntu/home/zack/.dotfiles/sh/p 1/cnvheic2j.ps1 /c/users/user/Documents/WindowsPowerShell/Scripts/cnvheic2j.ps1
-## -  Navigating terminal -
+   3.1     Link files - (ln)
+            sudo ln -s /home/name/.dotfiles/file /usr/local/bin/ (for shell files)
+	    (this is to create a symlink)
+	    (symlinks are synthetic links between two files 
+            (when you update from .dotfiles it then updates the file in the usr local bin.)
+	    for linking files in windows you run this
+	    - sudo ln -f //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
+	           cd //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
+   3.2    Adding changes: cd ~/.dotfiles/; git add <file changed>; git commit -m "message"; git push (this publishes changes)
+   3.3    Recieving changes: git pull or git fetch
+   3.3.1. Make Script files actionable from anywhere in the terminal - 
+   3.4.1       cd - /usr/local/bin/ (changes the directory to usr/local/bin)
+   3.4.2       chmod +x file (this makes the sh follow usable)
+   3.5         Shell - for command history and command line editing - is within the terminal
+               Fish - for syntax highlights and autosuggestions and themes
+	       WINDOWS -  
+	       WSL ->  sudo ln -s //wsl.localhost/Ubuntu/home/zack/.dotfiles/sh/p 1/cnvheic2j.ps1		/c/users/user/Documents/WindowsPowerShell/Scripts/cnvheic2j.ps1
+## -  Files: Navigating terminal -
     Yazi    - this terminal app can be used to manage and look through files. 
             - your yazi can be at ~/.config/yazi/yazi.toml
             or c/users/zacha/Appdata/Roaming/yazi/config/yazi.toml
     Broot   - to manage and look through files, it's like Yazi but it is not.
     Zoxide  - quick search for files
     FZF     - is a fuzzy finder if you are in the directory use fzf to find your files
-# 4. Automating (Scripts)
+# 4.  File Automation (Scripts)
 ####      -- these are the scripts that I use to automate my tasks
 ## .py - Python Files
     cnv_mp4_gif.py
-                        python mp4_to_gif.py your_input_file.mp4 output_file.gif
-                        4.To change the frame duration, use the `-d` or `--duration` argument:# GLOSSARY                 
+    python mp4_to_gif.py your_input_file.mp4 output_file.gif
+4.To change the frame duration, use the `-d` or `--duration` argument:# GLOSSARY                 
 ###   Scripts for making things
       - Export_Org_To_pdf.sh		converts .org file to pdf
       					$ need to change name from export to convert
       - to_latex.sh 	    	    	pipes a file into the correct format for pandoc
       - cnv_pdf_jpg.sh	     		convert pdf files to jpg
-       - this is for a specific file
+      - this is for a specific file
       - cnv_pdf__jpg.sh*    		convert pdf files to jpg
-      	- this is for all pdf files in a folder
+    	- this is for all pdf files in a folder
       - grep_thumbnails.sh     		extract image paths and then convert them to latex
       - grep_t.sh 	      		s/a grep_thumbnails but with a shorter name
       - syncthing_stop.sh     		stops syncthing
       - mkto.sh 		   	makes a todo with the date that the file is made
       - FI_^^.sh' 	   		moves file from the child folder to the parent folder
       - copy_out.sh 	     	    
-      				    export-
+### 4. Exporting    				    export-
       - export_org_to_pdf_02.org	another exporting org files to pdfs (need to check what is different about this one)
       - export_org_to_pdf_02.sh*	another exporting of org files to pdfs (need to check what is different about this file)
       - export_org_to_pdf.sh*		exports .org documents to pdf files (need to check what is different about this file)
 
-      			  	    format
+### 4. Formating 
 ###   Scripts for Formatting
       - Bracket_Format.sh		puts brackets around file
-
-      				    converting     
-
+### 4. Converting     
 ###   Scripts for converting Files -
       - cnv_jpg_pdf 		        convert jpg to pdf
       - psd_convert.sh -		convert psd to jpg     		     		
       	- this converts all visible layers to a jpg. Make sure to turn layers off that are in folders.
       - psd_jpeg.sh -  			convert psd to jpeg
       	- this is different then psd_convert.sh ?
-	
       - cnv_pdf->jpg			convert pdf to jpg
       - convert_heic_to_jpeg.sh -	convert heic to jpeg
       - convert_heic_to_jpg.sh - 	convert heic to jpg
@@ -179,19 +143,19 @@ ffmpeg -i input.avi -r 24 output.mp4
       - jfif_jpeg.sh -   		convert jfif to jpeg
       - convert_webloc_to_jpeg.sh - 	convert webloc to jpeg
       					                    (doesn't always work)
-      ### Compress Files
+### 4.   Compress Files
       - tiny_vid.sh -		        to make videos smaller     		  			
       - tiny_vid_split.sh
       - splits videos in to ten minute portions
       - cnv_org_doc		       converts org files to doc files
-###   Move 
+### 4.   Move 
           - move_files_to_parent.sh -		mv files to parent directory
-###   Rename - F2
+### 4.   Rename - F2
     - F2_date_taken.sh -		renames files with the date taken
     - rename.sh -			renames file
     - rename_date_taken.sh - 		renames files with date taken
     - rename_folder.sh -   		renames files in folder
-###   Delete - X
+### 4.   Delete - X
     - X.sh -				deletes files inside folder
     - clean.sh - 			deletes files
     - delete_all_heic - 		deletes all heic files
@@ -200,7 +164,7 @@ ffmpeg -i input.avi -r 24 output.mp4
     - delete_duplicate_images - 	script to delete duplicate images
       			      		        (doesn't work well)
     - delete_text_string		can't remember what this one does
-### PSD - scripts to change images
+### 4. PSD - scripts to change images
     - change				
     - psd_bright.py			
  	  - psd_bw.py				
@@ -219,13 +183,13 @@ ffmpeg -i input.avi -r 24 output.mp4
 	    - psd_keyout_w_matte_soft.		 
 	    - psd_select_sub.sh 		inverts subject and takes out background
 	    - crop.sh 				to crop files
-### Captioning - 			
+### 4. Captioning - 			
 - just a quick python script to add a caption to images like storyboards 
     - Caption.py			usage: caption.py [image.jpg]
 	   				asks for caption
 	   				write in caption
 					outputs with caption
-## Compressing
+### 4.  Compressing
          -Untar.sh -			unzips files from terminal
 # 5. Back-up and Save 
 ###  Syncthing - 
@@ -249,14 +213,15 @@ ffmpeg -i input.avi -r 24 output.mp4
     - https://github.com/omerxx/go-blocksite
 # 7. Work - tools for work
 # 7.1 Creating
-  ##  Photoshop
-      Photoshop is what I used for most painting. My brushes actions and scripts are in the folder marked ps ~/.dotfiles/ps
+  ##  Photoshop - Photoshop is what I use for most painting.
+      		- My brushes actions and scripts are in the folder marked ps ~/.dotfiles/ps
       Photoshop Actions
       Photoshop Brushes - this folder is empty right now because most of the brushes I use are not made by me.
       Photoshop Scripts
 ##  Clip Studio Paint -
 ##  TVPaint
     - this folder holds my hotkeys, brushes, and home configuration.
+[(tvpaint)](/notes/terminal-notes/git.org)
 ##  Storyboard Pro
 ##  Toonboom Harmony
 # 7.1.2 Time Tracking
@@ -273,7 +238,7 @@ ffmpeg -i input.avi -r 24 output.mp4
 # 7.4 Publishing/Posting
 # 7.5 Storing/Backing up/File Management
 # 7.2 Reviewing
-- mpv - use for watching videos
+- mpv	 - use for watching videos
 - ffmpeg - use for editing, converting and trimming videos
   	   use this in terminal to export avi files to mp4 
 	       	       [[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
@@ -283,10 +248,10 @@ ffmpeg -i input.avi -r 24 output.mp4
      - Adobe Acrobat	  - 
        - Zathura	  - https://github.com/pwmt/zathura.git 
        - Sioyek  	  - fast pdf viewer https://github.com/ahrm/sioyek
-       - Mozilla FIrefox - firefox also has a pdf viewer
+       - Mozilla FIrefox  - firefox also has a pdf viewer
    ### For DocX
-       - Word		- 
-       - OpenDocs	-
+       - Word		  - 
+       - OpenDocs	  -
        - Drive
 # Where files can usually be found
 # Photoshop config locations
@@ -313,3 +278,8 @@ ffmpeg -i input.avi -r 24 output.mp4
      	git config --global user.email ""
 	git config --global user.name ""
 	git commit - m "Version 1"
+# Setting up repeating tasks
+- sudo nano /etc/systemd/system/restart-networkmanager.service
+- sudo nano /etc/systemd/system/restart-networkmanager.
+systemctl enable --now cronie.service
+sudo systemctl daemon-reload
