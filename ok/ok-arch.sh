@@ -29,3 +29,4 @@ pipx install hledger-utils
 yay -S pup
 pacman -S htop
 pacman -S btop
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
