@@ -20,7 +20,7 @@
 (global-set-key (kbd "C-c n f") #'org-roam-node-find)
 (global-set-key (kbd "C-c n i") #'org-roam-node-insert)
 (global-set-key (kbd "C-c n b") #'org-roam-buffer-toggle)
-;; Bootstrap straight.el & use-package
+; Bootstrap straight.el & use-package
 (defvar bootstrap-version)
 (let ((bootstrap-file
        (expand-file-name "straight/repos/straight.el/bootstrap.el"
@@ -57,6 +57,7 @@
 ;; Completion & UI
 ;; (straight-use-package 'calfw)
 ;; (straight-use-package 'calfw-org)
+(setq org-image-actual-width 320)
 (straight-use-package 'neotree)
 (straight-use-package 'treemacs)
 (straight-use-package 'ivy)
