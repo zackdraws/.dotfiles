@@ -279,7 +279,21 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
 	git config --global user.name ""
 	git commit - m "Version 1"
 # Setting up repeating tasks
+- do this to make a resetting action to repeat tasks
 - sudo nano /etc/systemd/system/restart-networkmanager.service
 - sudo nano /etc/systemd/system/restart-networkmanager.
 systemctl enable --now cronie.service
-sudo systemctl daemon-reload
+sudo systemctl daemon-reloadto delete files after deleting files in yazi rm -rf /run/media/ok/easystore/.Trash-1000/files/* as files are stored in the trash folder and the asterisk is for all the files in the folder 
+# 10. Linux - 
+##  Mounting Hard Drives
+to mount hard drives run lsblk 
+sudo mount /dev/sdb1 /run/media/ok/where you want that file to go
+## Searching for files
+rofi is for searching for files
+to config rofi -dump-config > ~/.config/rofi/config.rasi
+mkdir -p ~/.config/rofi
+alternative to rofi is wofi - 
+## Audio fix
+try this if audio is not working systemctl --user restart pipewire wireplumber pipewire-pulse
+# Wallpapers
+swww-daemon for wallpapers
