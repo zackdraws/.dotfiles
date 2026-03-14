@@ -6,23 +6,20 @@
   #### 5. Saving 
   #### 6. Tools for Creating
 # .dotfiles
-   -       controls the configuration of your computer.
-   -       can be the local settings stored on your computer usually in the home directory.
-   -       dotfile changes can be synced and backed up.
+   -       the purpose of these .dotfiles is to:
+   	   configure settings.
+   -       sync and back up settings.
 # 1. Set up - Terminal
 ###  - Recommended Terminals
-   -       mingw64 UCRT64 terminal (windows) -
-   - 	   windows terminal - if you are on windows (https://github.com/microsoft/terminal)
-   	   I use this along with UCRT64 
-   -	   fooT terminal (linux/wsl) - 
-   -	   kitty (https://sw.kovidgoyal.net/kitty/) (mac/linux/wsl) - stable and fast
-    	   (curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh	/dev/stdin)
-   -       if you are on windows use mingw64 UCRT64 or wsl (mingw64 > wsl) 
+   -       mingw64 UCRT64 terminal (windows)   -
+   - 	   windows terminal 	   (windows)   - [link](https://github.com/microsoft/terminal)
+   -	   fooT terminal 	   (linux)     - [link](https://www.msys2.org/)
+   -	   kitty 		   (mac/linux) - [link](https://sw.kovidgoyal.net/kitty/)  	   			   	       	 (curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh	/dev/stdin)
 ## 1.2.1   install git [(git notes)](/notes/terminal-notes/git.org)
    -       pacman -S mingw-w64-x86_64-git
    - 	   winget install --id Git.Git -e --source winget
    -       kitty terminal - >      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-   - 	   home brew 	- >      brew install git
+   - 	   home brew 	  - >      brew install git
 ## 1.2.2   install gh [[https://cli.github.com/][link]]
    -       this allows you to put in your credentials
 ## 1.4.    clone files (cl)
@@ -31,27 +28,20 @@
 ## 1.2.1   set your username git config --global user.name "Your Name"
    "youreemail@example.com"
 ### Additional Terminal add-ons	
-   - 	   fzf 	       	  - helps to look through all the files
-   - 	   ncdu 	  - disk utility - look at your disk
-   - 	   btop 	  - look at your settings
-   - 	   zoxide      	  - search for anything and snap to it in the terminal
-   - 	   pastel    	  - helps to pick out colors from the terminal
-   - 	   syncthing 	  - can be used to sync all of your files
-   - 	   ffmpeg    	  - use for mp4 editing
-			  - use this in terminal to export avi files to mp4 
+   - 	   fzf					- helps to look through all the files
+   - 	   ncdu 	  			- disk utility - look at your disk
+   - 	   btop 	  			- look at your settings
+   - 	   zoxide      	  			- search for anything and snap to it in the terminal
+   - 	   pastel    	  			- helps to pick out colors from the terminal
+   - 	   syncthing 	  			- can be used to sync all of your files
+   - 	   ffmpeg    	  			- use for mp4 editing
+			  			- use this in terminal to export avi files to mp4 
 ** fzf - 
 run fzf in the directory for what ever file you are looking for. Run nano "$(fzf)" or whatever editor you are using to open it inside that editor
 ** ffmpeg -
            [[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
              ffmpeg -i input.avi -r 24 output.mp4
 	     	    -fs limit_size (output)
-** Set the file size limit, expressed in bytes. No further chunk of bytes is written after the limit is exceeded. The size of the output file is slightly more than the requested file size.
-# 2. The Editor - the editor is used to edit files from the terminal.
- - eMacs - eMacs stands for Editor Macros and can be used as editor for files.
- to install emacs 'pacman -S mingw-w64-x86_64-emacs'
-    [[~/.dotfiles/notes/emacs/]]
-        - brew install emacs
-	- Nano - small quick editor.
 ### 1.3 - File folders - set up common folders in your computer for your files to stay organized
     	  use ~ to point to the home directory
     	- ~/.dotfiles  	- config files
@@ -60,19 +50,27 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
 	  ~/music       - music files 
 	  ~/Videos 	- video files
 	  ~/2026/	- files for 2026
-
-## 2. Opening the editor
-- emacs can be opened from the desktop if you have a shortcut or from the terminal.
-  	run the command 'emacs -nw' (to run emacs inside the terminal) or 'emacs' to open emacs as a windowed application
-## Configuring the editor.
-   the configuration files for emacs are stored on your computer locally in [[~/.emacs.d/init.el]] 
+# 2. The Editor - the editor is used to edit files from the terminal.
+ - eMacs - eMacs stands for Editor Macros and can be used as editor for files.
+ to install emacs 'pacman -S mingw-w64-x86_64-emacs'
+    [[~/.dotfiles/notes/emacs/]]
+## 2. Configure
+   The configuration files for emacs are stored on your computer locally in [[~/.emacs.d/init.el]] 
    the configuration files are stored on git in the repo at this location [[~/.dotfiles/.config/emacs/.emacs-pc]]
-   clone the repo to have the emacs file
-   make sure that you are inside your home directory by typing cd ~/
+   clone the repo to have the emacs file make sure it is configured in your home directory ~/
+   confirm that you are inside your home directory by typing cd ~/
    type - git clone http://github.io/zackdraws/.dotfiles/ into your terminal
-   then run a ln -s command to create a synthetic link from the .dotfiles location to the .emacs location file
+   run  ln -s command to create a synthetic link from the .dotfiles location to the .emacs location file
    'ln -s ~/.dotfiles/.config/emacs/.emacs-pc ~/.emacs.d/init.el
    now you have a symbolic link between the .dotfile and the init file
+## 	  Ivy-Mode     -	
+## 	  Agenda       -  
+	make a folder on computer at ~/ok
+	when you make a .org file inside the folder mark it with a date or set up reminders org agenda will organiz all of the files inside into an agenda view Hit alt-x org-agenda view 
+## Extra
+   remove all the blank lines in a file	
+     M-x flush-lines RET ^$ RET
+       M-x flush-lines RET ^[[:space:]]*$ RET
 # 3.  Files
    3.1     Link files - (ln)
             sudo ln -s /home/name/.dotfiles/file /usr/local/bin/ (for shell files)
@@ -90,12 +88,12 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
    3.5         Shell - for command history and command line editing - is within the terminal
                Fish - for syntax highlights and autosuggestions and themes
 	       WINDOWS -  
-	       WSL ->  sudo ln -s //wsl.localhost/Ubuntu/home/zack/.dotfiles/sh/p 1/cnvheic2j.ps1		/c/users/user/Documents/WindowsPowerShell/Scripts/cnvheic2j.ps1
+	       WSL ->  sudo ln -s //wsl.localhost/Ubuntu/home/zack/.dotfiles/sh/p 1/cnvheic2j.ps1		/					c/users/user/Documents/WindowsPowerShell/Scripts/cnvheic2j.ps1
 ## -  Files: Navigating terminal -
-    Yazi    - this terminal app can be used to manage and look through files. 
-            - your yazi can be at ~/.config/yazi/yazi.toml
-            or c/users/zacha/Appdata/Roaming/yazi/config/yazi.toml
-    Broot   - to manage and look through files, it's like Yazi but it is not.
+    Yazi    - look through files in terminal. 
+            - ~/.config/yazi/yazi.toml
+              or c/users/zacha/Appdata/Roaming/yazi/config/yazi.toml
+    Broot   - look through files in terminal
     Zoxide  - quick search for files
     FZF     - is a fuzzy finder if you are in the directory use fzf to find your files
 # 4.  File Automation (Scripts)
@@ -191,9 +189,9 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
 					outputs with caption
 ### 4.  Compressing
          -Untar.sh -			unzips files from terminal
-# 5. Back-up and Save 
-###  Syncthing - 
-     	       with syncthing you can sync one computer to another
+#   5.  Back-up and Save 
+###  		Syncthing - 
+     	       	  sync one computer to another
    	       	    1. - install on macos with homebrew - brew install syncthing
 	   	    2. - run 'syncthing' in terminal
   		       	      loads syncthing in the terminal -
@@ -202,9 +200,9 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
 		    brew services start syncthing
 		    for syncthing to start on start up
 - Web interface
-  4. access syncthing by in web browser it should be at 127.0.0.1:8384 
-  5. Go to another computer to install Syncthing
-  6. sync files by adding them to your folders
+  5.1. access syncthing in web browser at 127.0.0.1:8384 
+  5.2. Go to another computer to install Syncthing
+  5.3. sync files by adding them to your folders
 ### TMUX - terminal multiplexer
     - https://github.com/omerxx/dotfiles 
     - https://github.com/tmux-plugins/tpm
@@ -246,9 +244,9 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
 ## Docs
    ### For PDFS
      - Adobe Acrobat	  - 
-       - Zathura	  - https://github.com/pwmt/zathura.git 
+       - Zathura	  -		    https://github.com/pwmt/zathura.git 
        - Sioyek  	  - fast pdf viewer https://github.com/ahrm/sioyek
-       - Mozilla FIrefox  - firefox also has a pdf viewer
+       - Mozilla FIrefox  - pdf/web browser
    ### For DocX
        - Word		  - 
        - OpenDocs	  -
@@ -271,29 +269,29 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
   * domain fixing
     https://www.youtube.com/watch?v=EX4w9hsduNA
 * Github
-  git init
-  initializes empty git 
+  run git init in an empty repository
+  this command initializes empty git 
   git add  
      [[ https://supersimpledev.github.io/references/git-github-reference.pdf]]
      	git config --global user.email ""
 	git config --global user.name ""
-	git commit - m "Version 1"
+	git commit - m "first commit"
 # Setting up repeating tasks
-- do this to make a resetting action to repeat tasks
-- sudo nano /etc/systemd/system/restart-networkmanager.service
-- sudo nano /etc/systemd/system/restart-networkmanager.
-systemctl enable --now cronie.service
-sudo systemctl daemon-reloadto delete files after deleting files in yazi rm -rf /run/media/ok/easystore/.Trash-1000/files/* as files are stored in the trash folder and the asterisk is for all the files in the folder 
+  - do this to make a resetting action to repeat tasks
+  - sudo nano /etc/systemd/system/restart-networkmanager.service
+  - sudo nano /etc/systemd/system/restart-networkmanager.
+    systemctl enable --now cronie.service
 # 10. Linux - 
-##  Mounting Hard Drives
-to mount hard drives run lsblk 
-sudo mount /dev/sdb1 /run/media/ok/where you want that file to go
+## Mounting Hard Drives
+   	     to mount hard drives run lsblk 
+	     sudo mount /dev/sdb1 /run/media/ok/where you want that file to go
 ## Searching for files
-rofi is for searching for files
-to config rofi -dump-config > ~/.config/rofi/config.rasi
-mkdir -p ~/.config/rofi
-alternative to rofi is wofi - 
-## Audio fix
-try this if audio is not working systemctl --user restart pipewire wireplumber pipewire-pulse
-# Wallpapers
-swww-daemon for wallpapers
+   ### Rofi is in linux for searching for files
+   rofi is for searching for files in arch
+   to config rofi -dump-config > ~/.config/rofi/config.rasi
+   mkdir -p ~/.config/rofi
+   alternative to rofi is wofi - 
+## Audio fix (linux)
+   try this if audio is not working systemctl --user restart pipewire wireplumber pipewire-pulse
+## Wallpapers
+   swww-daemon for wallpapers
