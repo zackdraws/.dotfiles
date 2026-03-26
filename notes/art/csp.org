@@ -37,12 +37,10 @@ set brush opacity shortcut
 *** to adjust pen pressure
 File > Pen Pressure Settings
 - https://help.clip-studio.com/en-us/manual_en/240_brushes/Adjusting_pen_pressure.htm
-
 ** Pt 3 import drawings
 if you have to import a drawing sequence make sure to have them labeled
 go to import drawings
 then go to animation and click batch change 
-
 If they are png images you have to rasterize them in order to draw.
 ** Pt 4 Fill Tool
 types of fill tool
