@@ -30,3 +30,4 @@ sudo pacman -S libdvdcss
 sudo pacman -S libdvdread
 ;;cmd to play dvd
 ;;mpv dvd://
+paru -S google-chrome
