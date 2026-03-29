@@ -1,0 +1,14 @@
+#!/bin/bash
+# Finds file ending with -01.odt
+file=$(ls *-01*.odt 2>/dev/null | head -n 1)
+if [[ -z "$file" ]]; then
+  echo "No file with -01 found."
+  exit 1
+fi
+# Loop creates 02–05
+for i in {2..5}; do
+  newnum=$(printf "%02d" "$i")
+  newfile=$(echo "$file" | sed -E "s/-01/-$newnum/")
+  cp "$file" "$newfile"
+  echo "Created $newfile"
+done
