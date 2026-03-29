@@ -6,15 +6,19 @@
   #### 5. Saving 
   #### 6. Tools for Creating
 # .dotfiles
-   -       the purpose of these .dotfiles is to:
-   	   configure settings.
-   -       sync and back up settings.
+   -  the purpose of these .dotfiles is to:
+      - configure settings.
+      - sync and back up settings.
 # 1. Set up - Terminal
 ###  - Recommended Terminals
    -       mingw64 UCRT64 terminal (windows)   -
-   - 	   windows terminal 	   (windows)   - [link](https://github.com/microsoft/terminal)
-   -	   fooT terminal 	   (linux)     - [link](https://www.msys2.org/)
-   -	   kitty 		   (mac/linux) - [link](https://sw.kovidgoyal.net/kitty/)  	   			   	       	 (curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh	/dev/stdin)
+   - 	   windows terminal 	   (windows)   -
+   [link](https://github.com/microsoft/terminal)
+   -	   fooT terminal 	   (linux)     -
+   	   [link](https://www.msys2.org/)
+   -	   kitty 		   (mac/linux) -
+   	   [link](https://sw.kovidgoyal.net/kitty/)  	   			   	       	 (curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh
+	   /dev/stdin)
 ## 1.2.1   install git [(git notes)](/notes/terminal-notes/git.org)
    -       pacman -S mingw-w64-x86_64-git
    - 	   winget install --id Git.Git -e --source winget
@@ -28,17 +32,17 @@
 ## 1.2.1   set your username git config --global user.name "Your Name"
    "youreemail@example.com"
 ### Additional Terminal add-ons	
-   - 	   fzf					- helps to look through all the files
-   - 	   ncdu 	  			- disk utility - look at your disk
-   - 	   btop 	  			- look at your settings
-   - 	   zoxide      	  			- search for anything and snap to it in the terminal
-   - 	   pastel    	  			- helps to pick out colors from the terminal
-   - 	   syncthing 	  			- can be used to sync all of your files
-   - 	   ffmpeg    	  			- use for mp4 editing
-			  			- use this in terminal to export avi files to mp4 
-** fzf - 
+   - 	   fzf	- helps to look through all the files
+   - 	   ncdu	- disk utility - look at your disk
+   - 	   btop - look at your settings
+   - 	   zoxide - search for anything and snap to it in the terminal
+   - 	   pastel - helps to pick out colors from the terminal
+   - 	   syncthing - can be used to sync all of your files
+   - 	   ffmpeg - use for mp4 editing
+      	          - use this in terminal to export avi files to mp4 
+#### fzf - 
 run fzf in the directory for what ever file you are looking for. Run nano "$(fzf)" or whatever editor you are using to open it inside that editor
-** ffmpeg -
+#### ffmpeg -
            [[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
              ffmpeg -i input.avi -r 24 output.mp4
 	     	    -fs limit_size (output)
@@ -97,29 +101,41 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
     Zoxide  - quick search for files
     FZF     - is a fuzzy finder if you are in the directory use fzf to find your files
 # 4.  File Automation (Scripts)
-####      -- these are the scripts that I use to automate my tasks
+####  -- these are the scripts that I use to automate my tasks
 ## .py - Python Files
     cnv_mp4_gif.py
     python mp4_to_gif.py your_input_file.mp4 output_file.gif
 4.To change the frame duration, use the `-d` or `--duration` argument:# GLOSSARY                 
 ###   Scripts for making things
-      - Export_Org_To_pdf.sh		converts .org file to pdf
-      					$ need to change name from export to convert
-      - to_latex.sh 	    	    	pipes a file into the correct format for pandoc
-      - cnv_pdf_jpg.sh	     		convert pdf files to jpg
+      - Export_Org_To_pdf.sh
+        converts .org file to pdf
+      	$ need to change name from export to convert
+      - to_latex.sh
+      pipes a file into the correct format for pandoc
+      - cnv_pdf_jpg.sh
+	     		convert pdf files to jpg
       - this is for a specific file
-      - cnv_pdf__jpg.sh*    		convert pdf files to jpg
+      - cnv_pdf__jpg.sh* 
+   	-- convert pdf files to jpg
     	- this is for all pdf files in a folder
-      - grep_thumbnails.sh     		extract image paths and then convert them to latex
-      - grep_t.sh 	      		s/a grep_thumbnails but with a shorter name
-      - syncthing_stop.sh     		stops syncthing
-      - mkto.sh 		   	makes a todo with the date that the file is made
-      - FI_^^.sh' 	   		moves file from the child folder to the parent folder
+      - grep_thumbnails.sh
+     	-- extract image paths and then convert them to latex
+      - grep_t.sh 	  
+    	-- s/a grep_thumbnails but with a shorter name
+      - syncthing_stop.sh 
+    	-- stops syncthing
+      - mkto.sh 	
+	-- makes a todo with the date that the file is made
+      - FI_^^.sh' 	
+	-- moves file from the child folder to the parent folder
       - copy_out.sh 	     	    
-### 4. Exporting    				    export-
-      - export_org_to_pdf_02.org	another exporting org files to pdfs (need to check what is different about this one)
-      - export_org_to_pdf_02.sh*	another exporting of org files to pdfs (need to check what is different about this file)
-      - export_org_to_pdf.sh*		exports .org documents to pdf files (need to check what is different about this file)
+### 4. Exporting    		
+      - export_org_to_pdf_02.org
+      -- another exporting org files to pdfs (need to check what is different about this one)
+      - export_org_to_pdf_02.sh*
+      -- another exporting of org files to pdfs (need to check what is different about this file)
+      - export_org_to_pdf.sh*
+      -- exports .org documents to pdf files (need to check what is different about this file)
 
 ### 4. Formating 
 ###   Scripts for Formatting
@@ -139,8 +155,8 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
       - convert_webp_jpeg - 		convert webp to jpeg
       - heic_jpeg.sh - 			convert heic to jpeg
       - jfif_jpeg.sh -   		convert jfif to jpeg
-      - convert_webloc_to_jpeg.sh - 	convert webloc to jpeg
-      					                    (doesn't always work)
+      - convert_webloc_to_jpeg.sh - 	convert webloc to jpeg 
+      	 (doesn't always work)
 ### 4.   Compress Files
       - tiny_vid.sh -		        to make videos smaller     		  			
       - tiny_vid_split.sh
@@ -165,14 +181,14 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
 ### 4. PSD - scripts to change images
     - change				
     - psd_bright.py			
- 	  - psd_bw.py				
+      - psd_bw.py				
       - psd_bright.py			
-       - psd_bw.py				
-          - psd_convert.sh 			converts psd files - exports layers
-	    - output -      
-    	    - psd_flat.sh			flattens layers and converts to psd
-	    - psd_flats.sh 			adds colors randomly to closed contour areas
-	    - psd_jpeg.sh 			converts psd to jpeg
+      - psd_bw.py				
+       - psd_convert.sh 			converts psd files - exports layers
+       - output -      
+       - psd_flat.sh			flattens layers and converts to psd
+       - psd_flats.sh 			adds colors randomly to closed contour areas
+       - psd_jpeg.sh 			converts psd to jpeg
 	    - keyout -
 	    - psd_key_matte_folder.sh		adds matte to files in a folder
 	    - psd_key_mate_folder_strong.sh 	like psd key matte but stronger
@@ -236,8 +252,8 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
 # 7.4 Publishing/Posting
 # 7.5 Storing/Backing up/File Management
 # 7.2 Reviewing
-- mpv	 - use for watching videos
-- ffmpeg - use for editing, converting and trimming videos
+  - mpv	   - use for watching videos
+  - ffmpeg - use for editing, converting and trimming videos
   	   use this in terminal to export avi files to mp4 
 	       	       [[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
 		       	  ffmpeg -i input.avi -r 24 output.mp4
@@ -249,8 +265,8 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
        - Mozilla FIrefox  - pdf/web browser
    ### For DocX
        - Word		  - 
-       - OpenDocs	  -
-       - Drive
+       - OpenDocs	  - 
+       - Drive      
 # Where files can usually be found
 # Photoshop config locations
   $photoshopConfigDir = "$env:APPDATA\Adobe\Adobe Photoshop <version>\Adobe Photoshop <version> Settings"
@@ -295,3 +311,4 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
    try this if audio is not working systemctl --user restart pipewire wireplumber pipewire-pulse
 ## Wallpapers
    swww-daemon for wallpapers
+## Broswer
