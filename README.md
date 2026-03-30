@@ -67,32 +67,33 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
    run  ln -s command to create a synthetic link from the .dotfiles location to the .emacs location file
    'ln -s ~/.dotfiles/.config/emacs/.emacs-pc ~/.emacs.d/init.el
    now you have a symbolic link between the .dotfile and the init file
-## 	  Ivy-Mode     -	
-## 	  Agenda       -  
+## Configuring Ivy-Mode     -	
+## Configuring Agenda       -  
 	make a folder on computer at ~/ok
-	when you make a .org file inside the folder mark it with a date or set up reminders org agenda will organiz all of the files inside into an agenda view Hit alt-x org-agenda view 
+	when you make a .org file inside the folder mark it with a date or set up reminders 
+	org agenda will organize all of the files inside into an agenda view Hit alt-x org-agenda view 
 ## Extra
    remove all the blank lines in a file	
-     M-x flush-lines RET ^$ RET
-       M-x flush-lines RET ^[[:space:]]*$ RET
+   M-x flush-lines RET ^$ RET
+   M-x flush-lines RET ^[[:space:]]*$ RET
 # 3.  Files
-   3.1     Link files - (ln)
-            sudo ln -s /home/name/.dotfiles/file /usr/local/bin/ (for shell files)
-	    (this is to create a symlink)
-	    (symlinks are synthetic links between two files 
-            (when you update from .dotfiles it then updates the file in the usr local bin.)
-	    for linking files in windows you run this
+   3.1  Link files - (ln)
+         sudo ln -s /home/name/.dotfiles/file /usr/local/bin/ (for shell files)
+	     (this is to create a symlink)
+	        (symlinks are synthetic links between two files 
+		(when you update from .dotfiles it then updates the file in the usr local bin.)
+    3.1.2 Linking files in windows 
 	    - sudo ln -f //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
 	           cd //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
    3.2    Adding changes: cd ~/.dotfiles/; git add <file changed>; git commit -m "message"; git push (this publishes changes)
    3.3    Recieving changes: git pull or git fetch
    3.3.1. Make Script files actionable from anywhere in the terminal - 
-   3.4.1       cd - /usr/local/bin/ (changes the directory to usr/local/bin)
-   3.4.2       chmod +x file (this makes the sh follow usable)
-   3.5         Shell - for command history and command line editing - is within the terminal
-               Fish - for syntax highlights and autosuggestions and themes
-	       WINDOWS -  
-	       WSL ->  sudo ln -s //wsl.localhost/Ubuntu/home/zack/.dotfiles/sh/p 1/cnvheic2j.ps1		/					c/users/user/Documents/WindowsPowerShell/Scripts/cnvheic2j.ps1
+   3.4.1   cd - /usr/local/bin/ (changes the directory to usr/local/bin)
+   3.4.2   chmod +x file (this makes the sh follow usable)
+   3.5     Shell - for command history and command line editing - is within the terminal
+           Fish - for syntax highlights and autosuggestions and themes
+	   WINDOWS -  
+	   WSL ->  sudo ln -s //wsl.localhost/Ubuntu/home/zack/.dotfiles/sh/p 1/cnvheic2j.ps1		/					c/users/user/Documents/WindowsPowerShell/Scripts/cnvheic2j.ps1
 ## -  Files: Navigating terminal -
     Yazi    - look through files in terminal. 
             - ~/.config/yazi/yazi.toml
@@ -100,12 +101,11 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
     Broot   - look through files in terminal
     Zoxide  - quick search for files
     FZF     - is a fuzzy finder if you are in the directory use fzf to find your files
-# 4.  File Automation (Scripts)
-####  -- these are the scripts that I use to automate my tasks
+# 4.  File Automation (Scripts) - scripts to automate tasks
 ## .py - Python Files
     cnv_mp4_gif.py
     python mp4_to_gif.py your_input_file.mp4 output_file.gif
-4.To change the frame duration, use the `-d` or `--duration` argument:# GLOSSARY                 
+4. To change the frame duration, use the `-d` or `--duration` argument:
 ###   Scripts for making things
       - Export_Org_To_pdf.sh
         converts .org file to pdf
@@ -136,7 +136,6 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
       -- another exporting of org files to pdfs (need to check what is different about this file)
       - export_org_to_pdf.sh*
       -- exports .org documents to pdf files (need to check what is different about this file)
-
 ### 4. Formating 
 ###   Scripts for Formatting
       - Bracket_Format.sh		puts brackets around file
@@ -144,7 +143,7 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
 ###   Scripts for converting Files -
       - cnv_jpg_pdf 		        convert jpg to pdf
       - psd_convert.sh -		convert psd to jpg     		     		
-      	- this converts all visible layers to a jpg. Make sure to turn layers off that are in folders.
+ 	- this converts all visible layers to a jpg. Make sure to turn layers off that are in folders.
       - psd_jpeg.sh -  			convert psd to jpeg
       	- this is different then psd_convert.sh ?
       - cnv_pdf->jpg			convert pdf to jpg
@@ -184,7 +183,7 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
       - psd_bw.py				
       - psd_bright.py			
       - psd_bw.py				
-       - psd_convert.sh 			converts psd files - exports layers
+       - psd_convert.sh 		converts psd files - exports layers
        - output -      
        - psd_flat.sh			flattens layers and converts to psd
        - psd_flats.sh 			adds colors randomly to closed contour areas
@@ -197,13 +196,13 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
 	    - psd_keyout_w_matte_soft.		 
 	    - psd_select_sub.sh 		inverts subject and takes out background
 	    - crop.sh 				to crop files
-### 4. Captioning - 			
+###  Captioning - 			
 - just a quick python script to add a caption to images like storyboards 
     - Caption.py			usage: caption.py [image.jpg]
 	   				asks for caption
 	   				write in caption
 					outputs with caption
-### 4.  Compressing
+###   Compressing
          -Untar.sh -			unzips files from terminal
 #   5.  Back-up and Save 
 ###  		Syncthing - 
@@ -230,12 +229,12 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
   ##  Photoshop - Photoshop is what I use for most painting.
       		- My brushes actions and scripts are in the folder marked ps ~/.dotfiles/ps
       Photoshop Actions
-      Photoshop Brushes - this folder is empty right now because most of the brushes I use are not made by me.
+      Photoshop Brushes - folder is because most of the brushes I use are not made by me.
       Photoshop Scripts
 ##  Clip Studio Paint -
 ##  TVPaint
     - this folder holds my hotkeys, brushes, and home configuration.
-[(tvpaint)](/notes/terminal-notes/git.org)
+      [(tvpaint)](/notes/terminal-notes/git.org)
 ##  Storyboard Pro
 ##  Toonboom Harmony
 # 7.1.2 Time Tracking
@@ -310,5 +309,5 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
 ## Audio fix (linux)
    try this if audio is not working systemctl --user restart pipewire wireplumber pipewire-pulse
 ## Wallpapers
-   swww-daemon for wallpapers
+   awww-daemon for wallpapers
 ## Broswer
