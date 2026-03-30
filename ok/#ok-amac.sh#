@@ -1,3 +1,6 @@
+cd ~
+mkdir ~/.config
+git clone https://github.com/zacldr
 # install apps
 ./ ~/.dotfiles/ok-brew.sh
 # symlinks
