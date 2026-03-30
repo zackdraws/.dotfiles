@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Function to show usage
 show_usage() {
     echo "Usage: pathconvert [path_or_image ...]"
@@ -13,14 +12,12 @@ show_usage() {
     echo "    pathconvert"
     exit 1
 }
-
 # Function to check if file is an image
 is_image() {
     local file="$1"
     file --mime-type "$file" | grep -q "image/"
     return $?
 }
-
 # Function to get clipboard content
 get_clipboard_content() {
     if command -v powershell.exe >/dev/null 2>&1; then
@@ -32,7 +29,6 @@ get_clipboard_content() {
         return 1
     fi
 }
-
 # Function to copy image to clipboard using PowerShell
 copy_image_powershell() {
     local image_path="$1"
@@ -47,25 +43,20 @@ copy_image_powershell() {
         Start-Sleep -Milliseconds 500;
     "
 }
-
 # Function to process multiple images
 process_images() {
     local valid_images=()
     local total_images=0
-
     # Process each input path
     while IFS= read -r path; do
         # Skip empty lines
         [ -z "$path" ] && continue
-        
         # Convert Windows path to WSL if needed
         if [[ $path =~ ^[A-Za-z]: ]]; then
             path=$(windows_to_wsl "$path")
         fi
-
         # Remove any quotes and trim whitespace
         path=$(echo "$path" | tr -d '"' | tr -d "'" | xargs)
-
         # Check if the file exists and is an image
         if [ -f "$path" ] && is_image "$path"; then
             valid_images+=("$path")
@@ -75,23 +66,19 @@ process_images() {
             echo "Warning: Invalid or non-existent image: $path" >&2
         fi
     done
-
     if [ ${#valid_images[@]} -eq 0 ]; then
         echo "No valid images found." >&2
         return 1
     fi
-
     # Process each image
     echo "Copying ${#valid_images[@]} images to clipboard history..."
     for image in "${valid_images[@]}"; do
         echo "Copying: $image"
         copy_image_powershell "$image"
     done
-    
     echo "All images copied to clipboard history!"
     echo "Press Windows + V to view and paste them"
 }
-
 # Function to convert Windows path to WSL
 windows_to_wsl() {
     local drive_letter=$(echo "${1:0:1}" | tr '[:upper:]' '[:lower:]')
@@ -99,7 +86,6 @@ windows_to_wsl() {
     remaining_path=$(echo "$remaining_path" | tr '\\' '/')
     echo "/mnt/${drive_letter}${remaining_path}"
 }
-
 # Main logic
 if [ $# -eq 0 ]; then
     # No arguments - try to get paths from clipboard

@@ -1,0 +1,18 @@
+#+title: ToonBoom Harmony
+* 
+There is only one version of ToonBoom Harmony
+* Keyboard Shortcuts
+** Animation Shortcuts 
+Alt+Shift+R = Empty Drawing
+previous drawing is F
+next drawing is G
+* Navigation
+1 - zoom out
+2 - zoom in
+* Drawing
+  - Make brush smaller
+  - Make Brush bigger
+
+
+
+
