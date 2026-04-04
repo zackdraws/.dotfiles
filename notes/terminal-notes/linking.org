@@ -1,1 +1,2 @@
-type /home/$USER/ for terminal know you want to go to the home user folder regardless of your name
+# to link to the home user
+/home/$USER/

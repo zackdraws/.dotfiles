@@ -1,2 +1,0 @@
-* Start programs from cmd
-cmd.exe /c "file exe"
