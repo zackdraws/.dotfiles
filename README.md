@@ -40,6 +40,7 @@
    - 	   syncthing - can be used to sync all of your files
    - 	   ffmpeg - use for mp4 editing
       	          - use this in terminal to export avi files to mp4 
+		  
 #### fzf - 
 run fzf in the directory for what ever file you are looking for. Run nano "$(fzf)" or whatever editor you are using to open it inside that editor
 #### ffmpeg -
@@ -311,3 +312,62 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
 ## Wallpapers
    awww-daemon for wallpapers
 ## Broswer
+
+# Copying
+* Copy
+** to copy to the clipboard
+cat file.org | to_latex.sh | xclip -selection clipboard
+* Write/Paste
+*** to write text to a file
+echo "text" >> filename.org
+** to write text into file from terminal
+echo "Your text here" > filename.org
+** 
+cat >> filename.org
+echo "text"
+** 
+cat >> my_notes.org
+echo "This is another line in the file."
+cat
+* Move
+Moving around
+- tab to move down
+  - shift tab to move up
+    alt tab - to move along windows
+    alt shift tab -  to move along windows in the opposite direction
+        - ctrl + k works a lot for searching
+*** Search
+  - ctrl + l usually works for searching as well
+        - ctrl + g works a lot for entering
+        - ctrl + j
+        - ctrl + k also usually work a lot for entering along with the enter button itself
+* View/Watch
+** Videos
+*** ffmpeg
+for notes -> [[~/.dotfiles/notes/cmd-ffmpeg.org]]
+*** MPV
+** files 
+*** syncing
+**** syncthing
+*** browsing
+**** yazi [[~/.dotfiles/notes/yazi.org]]
+**** ncdu 
+**** btop
+**** fzf
+fzf is for fuzzy finding in the terminal. Search inside the directory by typing fzf in the directory that you are in.
+**** zoxide
+makes searching easy by typing in z it just goes right to the place
+** misc
+*** Pastel
+for looking up colors
+* oh-my-posh
+** oh-my-posh in bash
+ for using oh-my-posh in bash
+eval "$(oh-my-posh init bash --config ~/jandedobbeleer.omp.json)"
+add this in to either ~/.bashrc or ~/.profile or ~/.bash_profile
+then reload using exec bash 
+or
+eval "$(oh-my-posh init bash)"
+** oh my posh
+oh-my-posh init pwsh --config "$env:C:\Posh\THemes\bubbles.omp.json"
+(@(& 'C:/Users/zacha/scoop/apps/oh-my-posh/current/oh-my-posh.exe' init pwsh --config='C:\Posh\THemes\bubbles.omp.json' --print) -join "`n") | Invoke-Expression
