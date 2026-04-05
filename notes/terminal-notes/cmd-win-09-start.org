@@ -1,2 +1,0 @@
-# to open in windows cmd line
-cmd.exe /c "file exe"

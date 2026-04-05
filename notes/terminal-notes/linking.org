@@ -1,2 +1,0 @@
-# to link to the home user
-/home/$USER/
