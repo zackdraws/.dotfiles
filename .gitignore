@@ -1,14 +1,5 @@
-
-# Ignore macOS system files
-
-.DS_Store
-
-shell_files/download_wiki.sh
-shell_files/download_wiki.sh~
-shell_files/download.sh
-sh/download.sh
 .gitconfig
-.gitignore
-.tmux.conf~
-#.emacs#
-/.dotfiles/.zsh_history
+
+.zsh_history
+
+*~
