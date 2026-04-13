@@ -133,4 +133,5 @@ ln -s ~/.dotfiles/sh/make/save_screen.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/shell_files/F2_date_taken.sh /usr/local/bin/
 ln -s ~/.dotfiles/sh/export/sequence_.sh /usr/local/bin/
 ln -s ~/.dotfiles/py/download.py /usr/local/bin/
+
 mv ~/.tmux.conf ~/.dotfiles/.config/tmux/.tmux.conf; sudo ln -s ~/.dotfiles/.config/tmux/.tmux.conf ~/.tmux.conf

@@ -1,16 +1,13 @@
 # Suppress greeting
 set -U fish_greeting
-
 # oh-my-posh and zoxide
 oh-my-posh init fish --config ~/.config/oh-my-posh/themes/uew.omp.json | source
 zoxide init fish | source
-
 # Environment variables
 set -gx GDK_SCALE 2
 set -gx TERM xterm-256color
 set -gx COLORTERM truecolor
 set -gx YAZI_PREVIEW_IMAGE_PROTOCOL chafa  # fixed typo: PRORTOCOL -> PROTOCOL
-
 # Aliases
 alias se="sudo $EDITOR"
 alias ghostty='cd ~/Projects/ghostty && ./zig-out/bin/ghostty &'

@@ -1,9 +1,0 @@
-cd ~
-mkdir ~/.config
-git clone https://github.com/zacldr
-# install apps
-./ ~/.dotfiles/ok-brew.sh
-# symlinks
-./ ~/.dotfiles/ok/ok-l-mac.sh
-# Create directory if it doesn't exist
-mkdir ~/.config

@@ -1,0 +1,5 @@
+echo "lsblk -0 NAME,UUID,MOUNTPOINT"
+echo "sudo mount /dev/sdb1 /mnt/destination
+echo "next edit etc/fstab UUID=* /mnt destination ext4 (or whatever correct file system  defaults 0 2"
+echo "sudo unmount /mnt/destination"
+echo "sudo mount -a"

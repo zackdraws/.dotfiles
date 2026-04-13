@@ -1,0 +1,110 @@
+[mgr]
+
+ratio = [1, 2, 3]
+
+sort_by = "alphabetical"
+
+sort_sensitive = false
+
+sort_reverse = false
+
+sort_dir_first = true
+
+linemode = "none"
+
+show_hidden = true
+
+show_symlink = true
+
+scrolloff = 5
+
+[preview]
+
+max_width = 2400
+
+max_height = 3600
+
+[yank]
+
+command = "wl-copy"  # or "xclip -selection clipboard"
+
+[opener]
+
+edit = [
+
+    { run = 'cd "$(dirname "$1")" && emacs -nw "$1"', desc = "$EDITOR", block = true, for = "unix" },
+
+]
+
+open_pptx = [
+
+    { run = 'xournal "$1"', desc = "Open PowerPoint", for = "windows" },
+
+    { run = 'xournal "$1"', desc = "Open PowerPoint", for = "linux" },
+
+]
+
+open_nomacs = [
+
+
+
+    { run = 'nomacs "$1"', desc = "Open with Nomacs", for = "linux" },
+
+
+
+]
+
+open_zathura = [
+
+
+
+#    { run = 'sioyek "$1"', desc = "Open with Zathura", for = "linux" },
+
+
+
+]
+
+
+
+
+
+play = [
+
+     { run = 'mpv "$@"', orphan = true, for = "unix" },
+
+]
+
+[open]
+
+rules = [
+
+    { mime = "application/pdf", use = ["open_sioyek", "reveal"] },
+
+    { mime = "text/*", use = ["edit", "reveal"] },
+
+    { mime = "image/*", use = ["sioyek", "reveal"] },
+
+    { mime = "video/*", use = ["play", "reveal"] },
+
+    { mime = "video/*", use = ["play", ] },
+
+    { name = "*.mp3", use = "play" },
+
+]
+
+[tasks]
+
+image_bound = [0, 0]
+#+title: Yazi Notes
+##  main differences between my yazi and the default
+## * Editor 
+##  - change the editor to be emacs-nw
+## [opener]
+## edit = [
+## { run = '${EDITOR=-emacs-nw} "$0"', desc =$EDITOR". block = true, for - "unix" }.
+## { run = 'code "%*"', orphan = true, desc = "code", for = "windows" },
+## { run = 'code -w "%*"', block = true, desc = "code (block)", for = "windwows" },
+##  also here
+## open = [
+## ]
+##    { run = 'cd "$(dirname "$1")" && emacs -nw "$1"', desc = "$EDITOR", block = true, for = "unix" },

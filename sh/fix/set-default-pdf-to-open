@@ -1,0 +1,1 @@
+setsid -f env QT_QPA_PLATFORM=xcb sioyek T&T_ShapeLang_v9.pdf

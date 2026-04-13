@@ -1,0 +1,36 @@
+#!/bin/bash
+
+set -e
+
+echo "=== Updating system ==="
+sudo pacman -Syu --noconfirm
+
+echo "=== Installing dependencies ==="
+sudo pacman -S --noconfirm \
+  docker \
+  docker-compose \
+  freerdp \
+  wget \
+  curl \
+  git \
+  qemu \
+  virt-manager \
+  dnsmasq \
+  bridge-utils
+
+echo "=== Enabling Docker ==="
+sudo systemctl enable --now docker
+sudo usermod -aG docker $USER
+
+echo "=== Enabling libvirt (for virtualization) ==="
+sudo systemctl enable --now libvirtd
+
+mkdir -p ~/programs/winboat && cd ~/programs/winboat
+wget https://winboat.net/downloads/WinBoat.AppImage -O winboat.AppImage || true
+chmod +x winboat.AppImage
+echo "1. Log out and back in (Docker group)"
+echo "2. Make sure virtualization (KVM) is enabled"
+echo "Run WinBoat with:"
+echo "~/winboat/winboat.AppImage"
+echo "sudo modprobe kvm_intel   # Intel"
+echo "sudo modprobe kvm_amd     # AMD"

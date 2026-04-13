@@ -28,8 +28,8 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 sudo pacman -S libdvdnav
 sudo pacman -S libdvdcss
 sudo pacman -S libdvdread
-#cmd to play dvd
-#mpv dvd://
+# cmd to play dvd
+# mpv dvd://
 paru -S google-chrome
-sudo apt install build-essential pkg-config libgmime-3.0-dev libxapian-dev libsqlite3-dev   libgpgme-dev libglib2.0-dev
-
+sudo apt install build-essential pkg-config libgmime-3.0-dev libxapian-dev libsqlite3-dev libgpgme-dev libglib2.0-dev
+pacman -S imv
