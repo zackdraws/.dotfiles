@@ -1,0 +1,7 @@
+BASE="folder-here"
+while read -r dir; do
+  name=$(basename "$dir")
+  find "$BASE" -maxdepth 1 -type f -iname "$name*" -exec mv -t "$dir" {} +
+done <<EOF
+
+file file directory that it will move into
