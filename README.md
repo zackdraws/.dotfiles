@@ -311,8 +311,8 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
    try this if audio is not working systemctl --user restart pipewire wireplumber pipewire-pulse
 ## Wallpapers
    awww-daemon for wallpapers
+   [[https://codeberg.org/LGFae/awww]]
 ## Broswer
-
 # Copying
 * Copy
 ** to copy to the clipboard
