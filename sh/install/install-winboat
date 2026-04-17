@@ -1,10 +1,7 @@
 #!/bin/bash
-
 set -e
-
 echo "=== Updating system ==="
 sudo pacman -Syu --noconfirm
-
 echo "=== Installing dependencies ==="
 sudo pacman -S --noconfirm \
   docker \
@@ -17,14 +14,11 @@ sudo pacman -S --noconfirm \
   virt-manager \
   dnsmasq \
   bridge-utils
-
 echo "=== Enabling Docker ==="
 sudo systemctl enable --now docker
 sudo usermod -aG docker $USER
-
 echo "=== Enabling libvirt (for virtualization) ==="
 sudo systemctl enable --now libvirtd
-
 mkdir -p ~/programs/winboat && cd ~/programs/winboat
 wget https://winboat.net/downloads/WinBoat.AppImage -O winboat.AppImage || true
 chmod +x winboat.AppImage
