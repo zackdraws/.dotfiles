@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+mkdir /c/S/
+mkdir /c/P/
+sudo ln -s ~/2026 /c/s/
+mkdir "~/2026"
+cd ~/
+
+git clone http://github.com/zackdraws/zackdraws.github.io
+
+
+
+
+
+
