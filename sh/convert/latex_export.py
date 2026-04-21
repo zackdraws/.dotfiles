@@ -1,28 +1,16 @@
 import subprocess
 import os
 def latex_to_pdf(latex_file, output_dir="."):
-  """
-  Converts a LaTeX file to a PDF file using pdflatex.
-  Args:
-    latex_file: The path to the LaTeX file.
-    output_dir: The directory to save the PDF file. Defaults to the current
-directory.
-  """
   if not os.path.exists(latex_file):
     print(f"Error: LaTeX file not found: {latex_file}")
     return
-  # Create the output directory if it doesn't exist
   if not os.path.exists(output_dir):
     os.makedirs(output_dir)
-  # Construct the command
   command = ["pdflatex", "-output-directory", output_dir, latex_file]
   try:
-    # Run pdflatex
     result = subprocess.run(command, capture_output=True, text=True,
 check=True)
-    # Print the output from pdflatex (useful for debugging)
     print(result.stdout)
-    # Create the output PDF filename
     pdf_file = os.path.join(output_dir,
 os.path.splitext(os.path.basename(latex_file))[0] + ".pdf")
     print(f"PDF created: {pdf_file}")
@@ -34,11 +22,9 @@ os.path.splitext(os.path.basename(latex_file))[0] + ".pdf")
   except Exception as e:
     print(f"An unexpected error occurred: {e}")
     return False
-  return True # Indicate success
+  return True 
 if __name__ == "__main__":
-  # Example usage:
-  latex_file = "my_document.tex"  # Replace with your LaTeX file name
-  # Create a dummy LaTeX file for testing (optional)
+  latex_file = "my_document.tex" 
   with open(latex_file, "w") as f:
     f.write("\\documentclass{article}\n")
     f.write("\\begin{document}\n")

@@ -1,1 +1,1 @@
-ffmpeg   -f gdigrab -framerate 30 -i desktop   -f dshow -i audio= Microphone (1080P Pro Stream)   -t 5000 /c/Users/z/Videos/recording-screen.mp4
+ffmpeg -f gdigrab -framerate 30 -i desktop   -f dshow -i audio= Microphone (1080P Pro Stream)   -t 5000 /c/Users/z/Videos/recording-screen.mp4

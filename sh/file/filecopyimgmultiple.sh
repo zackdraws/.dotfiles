@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Function to show usage
 show_usage() {
     echo "Usage: pathconvert [path_or_image ...]"
@@ -16,14 +15,12 @@ show_usage() {
     echo "    pathconvert"
     exit 1
 }
-
 # Function to check if file is an image
 is_image() {
     local file="$1"
     file --mime-type "$file" | grep -q "image/"
     return $?
 }
-
 # Function to get clipboard content
 get_clipboard_content() {
     if command -v powershell.exe >/dev/null 2>&1; then
@@ -37,32 +34,26 @@ get_clipboard_content() {
         return 1
     fi
 }
-
 # Function to create temporary directory
 create_temp_dir() {
     mktemp -d
 }
-
 # Function to combine images and copy to clipboard
 combine_and_copy_images() {
     local temp_dir=$(create_temp_dir)
     local output_file="${temp_dir}/combined_image.png"
     local valid_images=()
     local total_images=0
-
     # Process each input path
     while IFS= read -r path; do
         # Skip empty lines
         [ -z "$path" ] && continue
-        
         # Convert Windows path to WSL if needed
         if [[ $path =~ ^[A-Za-z]: ]]; then
             path=$(windows_to_wsl "$path")
         fi
-
         # Remove any quotes and trim whitespace
         path=$(echo "$path" | tr -d '"' | tr -d "'" | xargs)
-
         # Check if the file exists and is an image
         if [ -f "$path" ] && is_image "$path"; then
             valid_images+=("$path")
@@ -72,13 +63,11 @@ combine_and_copy_images() {
             echo "Warning: Invalid or non-existent image: $path" >&2
         fi
     done
-
     if [ ${#valid_images[@]} -eq 0 ]; then
         echo "No valid images found." >&2
         rm -rf "$temp_dir"
         return 1
     fi
-
     if [ ${#valid_images[@]} -eq 1 ]; then
         # If only one image, copy it directly
         copy_image_to_clipboard "${valid_images[0]}"
@@ -86,16 +75,13 @@ combine_and_copy_images() {
         # Calculate grid dimensions
         local cols=$(echo "sqrt($total_images)" | bc)
         cols=$((cols + 1))
-        
         # Combine images using ImageMagick
         montage "${valid_images[@]}" -tile ${cols}x -geometry +5+5 "$output_file"
         copy_image_to_clipboard "$output_file"
     fi
-
     # Cleanup
     rm -rf "$temp_dir"
 }
-
 # Function to copy image to clipboard
 copy_image_to_clipboard() {
     local image_path="$1"
@@ -112,7 +98,6 @@ copy_image_to_clipboard() {
         return 1
     fi
 }
-
 # Function to convert Windows path to WSL
 windows_to_wsl() {
     local drive_letter=$(echo "${1:0:1}" | tr '[:upper:]' '[:lower:]')
@@ -120,7 +105,6 @@ windows_to_wsl() {
     remaining_path=$(echo "$remaining_path" | tr '\\' '/')
     echo "/mnt/${drive_letter}${remaining_path}"
 }
-
 # Function to convert WSL path to Windows
 wsl_to_windows() {
     local drive_letter=$(echo "${1:5:1}" | tr '[:lower:]' '[:upper:]')
@@ -128,7 +112,6 @@ wsl_to_windows() {
     remaining_path=$(echo "$remaining_path" | tr '/' '\\')
     echo "${drive_letter}:${remaining_path}"
 }
-
 # Main logic
 if [ $# -eq 0 ]; then
     # No arguments - try to get paths from clipboard
