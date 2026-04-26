@@ -215,9 +215,15 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
 		    (on mac)
 		    brew services start syncthing
 		    for syncthing to start on start up
+5.1.1
+Either install docker so that you can back-up settings and quickly remake the file
+my composition file is in [[~/.dotfiles/.config/docker/syncthing/docker-compose.yml]]
+run command docker compose up -d. Settings will be saved and set up in ~/.config/syncthing/
+the xml file controls the settings but can also be changed on the web at 0.0.0.0:8384. the docker compose makes it possible to change the files and refresh and restart the configuration 
+and also make it easier to restart the syncing. 
 - Web interface
-  5.1. access syncthing in web browser at 127.0.0.1:8384 
-  5.2. Go to another computer to install Syncthing
+  5.1. syncthing can be edited in any browser at 127.0.0.1:8384 
+  5.2. After just install Syncthing on a different computer and share devices on it
   5.3. sync files by adding them to your folders
 ### TMUX - terminal multiplexer
     - https://github.com/omerxx/dotfiles 
@@ -257,6 +263,11 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
   	   use this in terminal to export avi files to mp4 
 	       	       [[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
 		       	  ffmpeg -i input.avi -r 24 output.mp4
+- play files from the terminal in a folder either by mpv [file name] or if you aren't certain of the file name
+- run
+- "find . -type f \( -name "*.mp4" -o -name "*.mkv" \) -print0 | xargs -0 mpv" 
+- or "find . -type f -iname "*TEXT*" -print0 | xargs -0 mpv"
+that plays all of the files in order 
 ## Docs
    ### For PDFS
      - Adobe Acrobat	  - 
@@ -281,7 +292,7 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
 ### Summary
     - **Photoshop and TVPaint Configuration Files** are usually located in the `AppData` folder (Roaming or Local)
     - **Symlinks** allow you to point these configuration files to their expected locations, making it easy to synchronize settings across multiple machines.
-# 9. Setting up a Portfolio site
+# 9. Set up a Portfolio site
   * domain fixing
     https://www.youtube.com/watch?v=EX4w9hsduNA
 * Github
@@ -297,9 +308,10 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
   - sudo nano /etc/systemd/system/restart-networkmanager.service
   - sudo nano /etc/systemd/system/restart-networkmanager.
     systemctl enable --now cronie.service
-# 10. Linux - 
-## Mounting Hard Drives
-   	     to mount hard drives run lsblk 
+# 10. Connecting Hard-drives - 
+## Hard Drives (linux)
+   	     in linux you have to use mount the mount command  
+	     run lsblk 
 	     sudo mount /dev/sdb1 /run/media/ok/where you want that file to go
 ## Searching for files
    ### Rofi is in linux for searching for files
@@ -308,15 +320,16 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
    mkdir -p ~/.config/rofi
    alternative to rofi is wofi - 
 ## Audio fix (linux)
-   try this if audio is not working systemctl --user restart pipewire wireplumber pipewire-pulse
+   try this if audio is not working
+   systemctl --user restart pipewire wireplumber pipewire-pulse
 ## Wallpapers
    awww-daemon for wallpapers
    [[https://codeberg.org/LGFae/awww]]
 ## Broswer
-# Copying
-* Copy
+# Copy
 ** to copy to the clipboard
 cat file.org | to_latex.sh | xclip -selection clipboard
+or wl-copy < file # for wayland in linux
 * Write/Paste
 *** to write text to a file
 echo "text" >> filename.org
