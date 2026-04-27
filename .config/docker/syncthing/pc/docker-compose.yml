@@ -5,14 +5,12 @@ services:
     container_name: syncthing
     hostname: pc
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Etc/UTC
+      - TZ=America/Los_Angeles
     volumes:
-      - /c/users/ok/.config/.docker/syncthing/config:/config
-      - /c/2026:/2026	
+      - C:/Users/ok/docker/syncthing/config:/config
+      - C:/2026:/data
     ports:
-      - 8384:8384
+      - 127.0.0.1:8384:8384
       - 22000:22000/tcp
       - 22000:22000/udp
       - 21027:21027/udp
