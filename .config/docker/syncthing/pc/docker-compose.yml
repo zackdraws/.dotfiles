@@ -8,7 +8,7 @@ services:
       - TZ=America/Los_Angeles
     volumes:
       - C:/Users/ok/docker/syncthing/config:/config
-      - C:/2026:/data
+      - C:/2026:/2026
     ports:
       - 127.0.0.1:8384:8384
       - 22000:22000/tcp

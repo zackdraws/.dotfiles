@@ -3,18 +3,19 @@ services:
   syncthing:
     image: lscr.io/linuxserver/syncthing:latest
     container_name: syncthing
-    hostname: ok
+    hostname: syncthing #optional
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - /home/ok/.config/syncthing/config-4:/config
-      - /run/media/ok/easystore/Music:/data/music
-      - /home/ok/.config/syncthing/2026:/2026	
+      - ~/.config/syncthing:/config
+      - /run/media/ok/easystore/Music/:/music
+      - /home/ok/2026/:/home/ok/2026
       - /home/ok/ok:/ok
-      - /home/ok/ref:/ref
-      - /home/ok/ref-v:/ref-v
+      - ~/ref:/ref
+      - ~/2026:/2026
+      - /home/ok/2026:/home/ok/2026
     ports:
       - 8384:8384
       - 22000:22000/tcp
