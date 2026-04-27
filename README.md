@@ -9,6 +9,31 @@
    -  the purpose of these .dotfiles is to:
       - configure settings.
       - sync and back up settings.
+# ---- .config
+       The config in .config are config files for software.
+       Most .config files are found in the home directory .config file.
+       * If you can't find the .config folder it might be hidden - (make sure to make hidden folders visible in order to see it.)
+| Category          | Software / Tool      | Windows | Linux | Mac | Config / Location |
+|------------------|---------------------|---------|-------|-----|-------------------|
+| Art Software     | photoshop           | ✅      | ❌    | ✅  | Win: `%APPDATA%\Adobe\`<br>Mac: `~/Library/Application Support/Adobe/` |
+|                  | Clip Studio Paint   | ✅      | ❌    | ✅  | Win: `C:\Users\<username>\Documents\CELSYS\CLIPStudioCommon\`<br>Mac: `~/Documents/CELSYS/CLIPStudioCommon/` |
+|                  | Toonboom Harmony    | ✅      | ❌    | ✅  | Win: `%APPDATA%\Toon Boom Animation\`<br>Mac: `~/Library/Application Support/Toon Boom Animation/` |
+|                  | Storyboard Pro      | ✅      | ❌    | ✅  | Win: `%APPDATA%\Toon Boom Animation\`<br>Mac: `~/Library/Application Support/Toon Boom Animation/` |
+|                  | tvpaint             | ✅      | ✅    | ✅  | Win: `C:\Users\<username>\AppData\Roaming\TVPaint Animation 12 (Pro)\config_name`<br>Mac: `~/Library/TVPaint Animation 12 (Pro)/config_name`<br>Linux: `~/.tvp/config_name` |
+| System Software  | Docker              | ✅      | ✅    | ✅  | `docker-compose.yml` (project dir) |
+|                  | fonts               | ✅      | ✅    | ✅  | Win: `C:\Windows\Fonts`<br>Linux: `~/.local/share/fonts`<br>Mac: `~/Library/Fonts` |
+| Desktop Software | hypr                | ❌      | ✅    | ❌  | `~/.config/hypr/` |
+|                  | waybar              | ❌      | ✅    | ❌  | `~/.config/waybar/` |
+| Terminal         | kitty               | ❌      | ✅    | ❌  | `~/.config/kitty/kitty.conf` |
+|                  | mintty              | ✅      | ❌    | ❌  | `%APPDATA%\mintty\config` |
+|                  | ghostty             | ❌      | ✅    | ❌  | `~/.config/ghostty/` |
+|                  | wezterm             | ✅      | ✅    | ✅  | `~/.wezterm.lua` |
+| Terminal Shell   | bash                | ✅      | ✅    | ✅  | `~/.bashrc`, `~/.bash_profile` |
+|                  | fish                | ✅      | ✅    | ✅  | `~/.config/fish/config.fish` |
+| Terminal Add-ons | Yazi                | ✅      | ✅    | ✅  | `~/.config/yazi/` |
+|                  | tmux                | ✅      | ✅    | ✅  | `~/.tmux.conf` |
+|                  | oh-my-posh          | ✅      | ✅    | ✅  | `~/.config/oh-my-posh/` |
+
 # 1. Set up - Terminal
 ###  - Recommended Terminals
    -       mingw64 UCRT64 terminal (windows)   -
@@ -40,7 +65,6 @@
    - 	   syncthing - can be used to sync all of your files
    - 	   ffmpeg - use for mp4 editing
       	          - use this in terminal to export avi files to mp4 
-		  
 #### fzf - 
 run fzf in the directory for what ever file you are looking for. Run nano "$(fzf)" or whatever editor you are using to open it inside that editor
 #### ffmpeg -
@@ -49,7 +73,7 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
 	     	    -fs limit_size (output)
 ### 1.3 - File folders - set up common folders in your computer for your files to stay organized
     	  use ~ to point to the home directory
-    	- ~/.dotfiles  	- config files
+    	- ~/.dotfiles  	- config files (c/msys32/home/USER/.dotfiles if you install it in msys32 or c:/users/USERNAME/.dotfiles if installed in windows terminal)
     	  ~/ok/		- notes
     	  ~/ref 	- where my reference folders are
 	  ~/music       - music files 
@@ -59,7 +83,7 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
  - eMacs - eMacs stands for Editor Macros and can be used as editor for files.
  to install emacs 'pacman -S mingw-w64-x86_64-emacs'
     [[~/.dotfiles/notes/emacs/]]
-## 2. Configure
+## 2. .Configure
    The configuration files for emacs are stored on your computer locally in [[~/.emacs.d/init.el]] 
    the configuration files are stored on git in the repo at this location [[~/.dotfiles/.config/emacs/.emacs-pc]]
    clone the repo to have the emacs file make sure it is configured in your home directory ~/
@@ -357,30 +381,40 @@ Moving around
 * View/Watch
 ** Videos
 *** ffmpeg
-for notes -> [[~/.dotfiles/notes/cmd-ffmpeg.org]]
-*** MPV
+    for notes -> [[~/.dotfiles/notes/cmd-ffmpeg.org]]
+*** MPV - for reviewing video
 ** files 
 *** syncing
-**** syncthing
+**** syncthing - syncs files
+**** immich - syncs photos from iphone
 *** browsing
-**** yazi [[~/.dotfiles/notes/yazi.org]]
-**** ncdu 
-**** btop
-**** fzf
-fzf is for fuzzy finding in the terminal. Search inside the directory by typing fzf in the directory that you are in.
-**** zoxide
-makes searching easy by typing in z it just goes right to the place
+    **** yazi [[~/.dotfiles/notes/yazi.org]]
+     **** ncdu - view disk space
+     **** btop - system manager
+     **** fzf - finds files
+     	  fzf is for fuzzy finding in the terminal. Search inside the directory by typing fzf in the directory that you are in.
+     **** zoxide makes searching easy by typing in z it just goes right to the place
 ** misc
-*** Pastel
-for looking up colors
+   *** Pastel
+   for looking up colors
 * oh-my-posh
-** oh-my-posh in bash
- for using oh-my-posh in bash
-eval "$(oh-my-posh init bash --config ~/jandedobbeleer.omp.json)"
-add this in to either ~/.bashrc or ~/.profile or ~/.bash_profile
-then reload using exec bash 
-or
-eval "$(oh-my-posh init bash)"
+  ** oh-my-posh in bash
+   for using oh-my-posh in bash
+   eval "$(oh-my-posh init bash --config ~/jandedobbeleer.omp.json)"
+   add this in to either ~/.bashrc or ~/.profile or ~/.bash_profile
+   then reload using exec bash 
+   or
+   eval "$(oh-my-posh init bash)"
 ** oh my posh
-oh-my-posh init pwsh --config "$env:C:\Posh\THemes\bubbles.omp.json"
-(@(& 'C:/Users/zacha/scoop/apps/oh-my-posh/current/oh-my-posh.exe' init pwsh --config='C:\Posh\THemes\bubbles.omp.json' --print) -join "`n") | Invoke-Expression
+   oh-my-posh init pwsh --config "$env:C:\Posh\THemes\bubbles.omp.json"
+   (@(& 'C:/Users/zacha/scoop/apps/oh-my-posh/current/oh-my-posh.exe' init pwsh --config='C:\Posh\THemes\bubbles.omp.json' --print) -join "`n") | Invoke-Expression
+# BIOS - 
+- The BIOS is like what the computer boots into so if you have to change the more serious settings you do so through the bios which can be accessed usually by pressing F2 or F8 or Del (depends on BIOS) 
+- The BIOS is on the motherboard 
+- in case of system failure on PC you have to access the BIOS usually or update the BIOS.
+- keep files that are especially backed up on your C:/ drive that way if there is a system failure you can wipe the drive and just back it up and re-install windows
+- keep seperate works files on a different drive not the boot drive in case you have to restart pc or OS is corrupted or Virus.
+- make a back-up drive of your windows OS in case of system failure. 
+- If your computer is on MBR instead of GPT for the drive you will have to update it in order to change the bios to be in EUFI mode instead of Legacy mode.
+- Also to enable Virtualizion ((VTY-x//SVM) you will have to enable that in the BIOS which is useful for loading into virtual desktops to test apps and not worry about the apps changing your files.
+- Sometimes when accessing two different apps with similar security settings that conflict using a virtual machine between the two allows them not to interfere with each other.
