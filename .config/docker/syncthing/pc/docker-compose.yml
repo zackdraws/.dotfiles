@@ -10,6 +10,9 @@ services:
       - C:/Users/ok/docker/syncthing/config:/config
       - C:/2026:/2026
       - C:/msys64/home/ok/.ok:/ok
+      - C:/S/ref/:/ref
+      - C:/S/ref-videos/:/ref-videos
+      - C:/Users/ok/Music:/Music
     ports:
       - 127.0.0.1:8384:8384
       - 22000:22000/tcp
