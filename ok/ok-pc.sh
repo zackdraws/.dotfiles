@@ -1,5 +1,4 @@
 #!/usr/bin/bash
-
 set -e
 echo "link from .dotfiles to tvpaint config"
 ln -s /c/.dotfiles/tvp/20250403_ok.cfg /c/users/zacha/AppData/Roaming/tvp\ animation\ 11\ pro/default/config.ini
@@ -15,10 +14,8 @@ pacman -S --needed base-devel git fzf fish gh yazi syncthing wget curl unzip zip
 echo "github cli, python, toolchain, chromaprint, ffmpeg, libffi, and libyaml"
 pacman -S mingw-w64-ucrt-x86_64-github-cli mingw-w64-ucrt-x86_64-python
 pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
-pacman -S --needed mingw-w64-ucrt-x86_64-chromaprint \
-                     mingw-w64-ucrt-x86_64-ffmpeg \
-                     mingw-w64-ucrt-x86_64-libffi \
-                     mingw-w64-ucrt-x86_64-libyaml
+pacman -S --needed mingw-w64-ucrt-x86_64-chromaprint mingw-w64-ucrt-x86_64-ffmpeg mingw-w64-ucrt-x86_64-libffi mingw-w64-ucrt-x86_64-libyaml mingw-w64-ucrt-x86_64-mpv mingw-w64-ucrt-x86_64-fzf  mingw-w64-ucrt-x86_64-vlc mingw-w64-ucrt-x86_64-github-cli irssi #
+
 echo "install beets, tex"
 pip install 'beets[fetchart,lyrics,lastgenre,ftintitle,chromaprint]'
 pacman -S mingw-w64-ucrt-x86_64-texlive-bin \
@@ -53,3 +50,11 @@ chsh -s /usr/bin/fish
 powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -Command 
 if (-not (Get-Command scoop -ErrorAction SilentlyContinue)) {
     iwr -useb get.scoop.sh | iex
+# winget
+winget install VideoLAN.VLC
+winget install google.chrome
+winget mpv
+winget vlc
+# scoop
+* scoop bucket add extreas
+- scoop install extras/mpv
