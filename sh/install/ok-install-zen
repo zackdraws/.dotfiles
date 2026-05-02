@@ -1,0 +1,10 @@
+# Zen Browser installation
+ZEN_BROWSER_URL="https://example.com/zenbrowser_installer.exe"  # Replace with actual URL if known
+echo "==> Downloading Zen Browser (if available)..."
+if curl --output zenbrowser_installer.exe --location --fail "$ZEN_BROWSER_URL"; then
+    echo "==> Launching Zen Browser installer..."
+    cmd.exe /C start zenbrowser_installer.exe
+else
+    echo "==> Zen Browser URL not valid or not provided."
+    echo "    Please update the script with a valid Zen Browser download link."
+fi

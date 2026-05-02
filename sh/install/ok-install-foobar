@@ -1,0 +1,8 @@
+# foobar2000 installation
+DOWNLOADS_DIR="$HOME/Downloads"
+mkdir -p "$DOWNLOADS_DIR"
+cd "$DOWNLOADS_DIR"
+echo "==> Downloading foobar2000 installer..."
+curl -LO https://www.foobar2000.org/files/foobar2000_v2.1.exe
+echo "==> Launching foobar2000 installer..."
+cmd.exe /C start foobar2000_v2.1.exe
