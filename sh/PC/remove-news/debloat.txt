@@ -1,0 +1,101 @@
+Write-Host "=== STARTING FULL DEBLOAT ==="
+
+# -------------------------
+# Kill & remove OneDrive
+# -------------------------
+Write-Host "Removing OneDrive..."
+taskkill /f /im OneDrive.exe 2>$null
+
+if (Test-Path "$env:SystemRoot\System32\OneDriveSetup.exe") {
+    Start-Process "$env:SystemRoot\System32\OneDriveSetup.exe" "/uninstall" -NoNewWindow -Wait
+}
+if (Test-Path "$env:SystemRoot\SysWOW64\OneDriveSetup.exe") {
+    Start-Process "$env:SystemRoot\SysWOW64\OneDriveSetup.exe" "/uninstall" -NoNewWindow -Wait
+}
+
+Remove-Item "$env:LOCALAPPDATA\Microsoft\OneDrive" -Recurse -Force -ErrorAction SilentlyContinue
+Remove-Item "$env:PROGRAMDATA\Microsoft OneDrive" -Recurse -Force -ErrorAction SilentlyContinue
+Remove-Item "$env:SystemDrive\OneDriveTemp" -Recurse -Force -ErrorAction SilentlyContinue
+
+reg delete "HKCR\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}" /f 2>$null
+reg delete "HKCR\Wow6432Node\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}" /f 2>$null
+
+reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\OneDrive" /v DisableFileSyncNGSC /t REG_DWORD /d 1 /f
+
+# -------------------------
+# Remove built-in apps
+# -------------------------
+Write-Host "Removing bloat apps..."
+
+$apps = @(
+ "*Xbox*","*GamingApp*","*ZuneMusic*","*ZuneVideo*",
+ "*BingNews*","*Weather*","*GetHelp*","*GetStarted*",
+ "*MicrosoftOfficeHub*","*SolitaireCollection*",
+ "*People*","*SkypeApp*","*Clipchamp*","*Teams*",
+ "*MicrosoftTeams*"
+)
+
+foreach ($app in $apps) {
+  Get-AppxPackage -Name $app -AllUsers | Remove-AppxPackage -ErrorAction SilentlyContinue
+}
+
+# -------------------------
+# Disable Copilot (Win11)
+# -------------------------
+Write-Host "Disabling Copilot..."
+
+reg add "HKCU\Software\Policies\Microsoft\Windows\WindowsCopilot" /v TurnOffWindowsCopilot /t REG_DWORD /d 1 /f
+
+# -------------------------
+# Disable Widgets
+# -------------------------
+Write-Host "Disabling Widgets..."
+
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v TaskbarDa /t REG_DWORD /d 0 /f
+
+# -------------------------
+# Disable Chat / Teams auto-start
+# -------------------------
+Write-Host "Disabling Teams auto-start..."
+
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v Teams /f /t REG_SZ /d ""
+
+# -------------------------
+# Disable ads / suggestions
+# -------------------------
+Write-Host "Disabling ads..."
+
+$cdm = "HKCU:\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager"
+
+Set-ItemProperty -Path $cdm -Name "SystemPaneSuggestionsEnabled" -Value 0
+Set-ItemProperty -Path $cdm -Name "SubscribedContent-338388Enabled" -Value 0
+Set-ItemProperty -Path $cdm -Name "SubscribedContent-353694Enabled" -Value 0
+Set-ItemProperty -Path $cdm -Name "SubscribedContent-353696Enabled" -Value 0
+
+# -------------------------
+# Disable telemetry (basic)
+# -------------------------
+Write-Host "Disabling telemetry..."
+
+New-Item -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\DataCollection" -Force | Out-Null
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\DataCollection" -Name "AllowTelemetry" -Value 0
+
+# -------------------------
+# Disable background apps
+# -------------------------
+Write-Host "Disabling background apps..."
+
+Get-ChildItem "HKCU:\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications" -ErrorAction SilentlyContinue | ForEach-Object {
+    Set-ItemProperty -Path $_.PSPath -Name "Disabled" -Value 1 -ErrorAction SilentlyContinue
+}
+
+# -------------------------
+# Explorer cleanup
+# -------------------------
+Write-Host "Tweaking Explorer..."
+
+Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" -Name "Hidden" -Value 1
+Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" -Name "HideFileExt" -Value 0
+
+Write-Host "=== DONE ==="
+Write-Host "Reboot recommended."

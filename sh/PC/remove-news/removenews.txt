@@ -1,0 +1,2 @@
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Feeds" /v ShellFeedsTaskbarViewMode /t REG_DWORD /d 2 /f
+Stop-Process -Name explorer -Force

@@ -418,3 +418,7 @@ Moving around
 - If your computer is on MBR instead of GPT for the drive you will have to update it in order to change the bios to be in EUFI mode instead of Legacy mode.
 - Also to enable Virtualizion ((VTY-x//SVM) you will have to enable that in the BIOS which is useful for loading into virtual desktops to test apps and not worry about the apps changing your files.
 - Sometimes when accessing two different apps with similar security settings that conflict using a virtual machine between the two allows them not to interfere with each other.
+
+# TABLET -
+install the latest driver here
+https://www.wacom.com/en-us/support/product-support/drivers?_gl=1*149rhzs*_ga*MzcyNjU4MTQ5LjE3Nzc5MTcxODc.*_ga_5XHN22BY8E*czE3Nzc5MTcxODYkbzEkZzAkdDE3Nzc5MTcxODYkajYwJGwwJGgyNTUwODUwOTE.
