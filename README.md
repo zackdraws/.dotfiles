@@ -35,6 +35,7 @@
 |                  | oh-my-posh          | ✅      | ✅    | ✅  | `~/.config/oh-my-posh/` |
 
 # 1. Set up - Terminal
+To configure .dotfiles first decide on what terminal to use-
 ###  - Recommended Terminals
    -       mingw64 UCRT64 terminal (windows)   -
    - 	   windows terminal 	   (windows)   -
@@ -45,15 +46,17 @@
    	   [link](https://sw.kovidgoyal.net/kitty/)  	   			   	       	 (curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh
 	   /dev/stdin)
 ## 1.2.1   install git [(git notes)](/notes/terminal-notes/git.org)
+git is for version control for your files
    -       pacman -S mingw-w64-x86_64-git
    - 	   winget install --id Git.Git -e --source winget
    -       kitty terminal - >      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    - 	   home brew 	  - >      brew install git
 ## 1.2.2   install gh [[https://cli.github.com/][link]]
-   -       this allows you to put in your credentials
+   -       git cli is four authorizing your log in and signing into your account
 ## 1.4.    clone files (cl)
+   to have these .dotfiles in your folder to call back on go to cd ~/ (to go in your home directory) -
+   next paste this into terminal
    -       git clone https://github.com/zackdraws/.dotfiles.git
-   -       ** to see your files cd into .dotfiles use these commands
 ## 1.2.1   set your username git config --global user.name "Your Name"
    "youreemail@example.com"
 ### Additional Terminal add-ons	
@@ -66,14 +69,20 @@
    - 	   ffmpeg - use for mp4 editing
       	          - use this in terminal to export avi files to mp4 
 #### fzf - 
-run fzf in the directory for what ever file you are looking for. Run nano "$(fzf)" or whatever editor you are using to open it inside that editor
-#### ffmpeg -
-           [[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
-             ffmpeg -i input.avi -r 24 output.mp4
-	     	    -fs limit_size (output)
+     cd 'directory'
+     fzf 'file you are looking for'.
+     finds file of the same name
+     Run nano "$(fzf)" open inside that editor
+     mpv "$(fzf) to open video file with mpv
+#### ffmpeg - use ffmpeg to quickly convert file smaller
+     [[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
+        ffmpeg -i input.avi -r 24 output.mp4
+	       	  	       	  	     	    -fs limit_size (output)
 ### 1.3 - File folders - set up common folders in your computer for your files to stay organized
-    	  use ~ to point to the home directory
-    	- ~/.dotfiles  	- config files (c/msys32/home/USER/.dotfiles if you install it in msys32 or c:/users/USERNAME/.dotfiles if installed in windows terminal)
+    	       	         use ~ to point to the home directory
+			 - ~/.dotfiles
+ 			 - config files (c/msys32/home/USER/.dotfiles if you install it in msys32
+			   	  	(c:/users/USERNAME/.dotfiles if installed in windows terminal)
     	  ~/ok/		- notes
     	  ~/ref 	- where my reference folders are
 	  ~/music       - music files 
@@ -88,26 +97,26 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
    the configuration files are stored on git in the repo at this location [[~/.dotfiles/.config/emacs/.emacs-pc]]
    clone the repo to have the emacs file make sure it is configured in your home directory ~/
    confirm that you are inside your home directory by typing cd ~/
-   type - git clone http://github.io/zackdraws/.dotfiles/ into your terminal
+## 2. -- linking
+type - git clone http://github.io/zackdraws/.dotfiles/ into your terminal
    run  ln -s command to create a synthetic link from the .dotfiles location to the .emacs location file
    'ln -s ~/.dotfiles/.config/emacs/.emacs-pc ~/.emacs.d/init.el
    now you have a symbolic link between the .dotfile and the init file
-## Configuring Ivy-Mode     -	
-## Configuring Agenda       -  
+## Emacs: Configuring Ivy-Mode     -	
+## Emacs: Configuring Agenda       -  
 	make a folder on computer at ~/ok
 	when you make a .org file inside the folder mark it with a date or set up reminders 
 	org agenda will organize all of the files inside into an agenda view Hit alt-x org-agenda view 
-## Extra
-   remove all the blank lines in a file	
+## Editing - remove all the blank lines in a file	
    M-x flush-lines RET ^$ RET
    M-x flush-lines RET ^[[:space:]]*$ RET
 # 3.  Files
-   3.1  Link files - (ln)
+   3.1  *ln* Linking files (linux or ucrt64)
          sudo ln -s /home/name/.dotfiles/file /usr/local/bin/ (for shell files)
-	     (this is to create a symlink)
+	     (creates a symlink)
 	        (symlinks are synthetic links between two files 
 		(when you update from .dotfiles it then updates the file in the usr local bin.)
-    3.1.2 Linking files in windows 
+    3.1.2 Linking files (windows)
 	    - sudo ln -f //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
 	           cd //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
    3.2    Adding changes: cd ~/.dotfiles/; git add <file changed>; git commit -m "message"; git push (this publishes changes)
@@ -239,14 +248,15 @@ run fzf in the directory for what ever file you are looking for. Run nano "$(fzf
 		    (on mac)
 		    brew services start syncthing
 		    for syncthing to start on start up
-5.1.1
-Either install docker so that you can back-up settings and quickly remake the file
+5.1.1 Syncing with Docker
+Either install Docker so that you can back-up settings and quickly remake the file
 my composition file is in [[~/.dotfiles/.config/docker/syncthing/docker-compose.yml]]
 run command docker compose up -d. Settings will be saved and set up in ~/.config/syncthing/
 the xml file controls the settings but can also be changed on the web at 0.0.0.0:8384. the docker compose makes it possible to change the files and refresh and restart the configuration 
 and also make it easier to restart the syncing. 
 - Web interface
   5.1. syncthing can be edited in any browser at 127.0.0.1:8384 
+  * 127.0.0.1 is the address for local host - it's what your computer is hosting
   5.2. After just install Syncthing on a different computer and share devices on it
   5.3. sync files by adding them to your folders
 ### TMUX - terminal multiplexer
