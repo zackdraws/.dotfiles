@@ -432,3 +432,11 @@ Moving around
 # TABLET -
 install the latest driver here
 https://www.wacom.com/en-us/support/product-support/drivers?_gl=1*149rhzs*_ga*MzcyNjU4MTQ5LjE3Nzc5MTcxODc.*_ga_5XHN22BY8E*czE3Nzc5MTcxODYkbzEkZzAkdDE3Nzc5MTcxODYkajYwJGwwJGgyNTUwODUwOTE.
+
+# Drivers 
+## Cintiq
+for cintiq 22HD (older model use WacomTablet_6.4.10-3.exe
+
+https://developer-support.wacom.com/hc/en-us/articles/9354461938711-Silent-installation-or-uninstallation-of-tablet-and-video-drivers
+-- https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.10-3.exe
+WacomTablet_6.4.10-3.exe
