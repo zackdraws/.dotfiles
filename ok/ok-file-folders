@@ -1,14 +1,15 @@
 #!/usr/bin/bash
 mkdir /c/S/
 mkdir /c/P/
+mkdir /c/2026
 sudo ln -s ~/2026 /c/s/
-mkdir "~/2026"
 cd ~/
-
 git clone http://github.com/zackdraws/zackdraws.github.io
-
-
-
-
-
-
+cd /c/
+mkdir S
+mkdir P
+cd S
+mkdir /ref
+mkdir /ref-v
+cd /C/P/
+mkdir zpf
