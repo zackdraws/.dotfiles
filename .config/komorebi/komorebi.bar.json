@@ -1,0 +1,149 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.40/schema.bar.json",
+  "font_family": "Terminess Nerd Font Mono",
+  "font_size": 12.5,
+  "icon_scale": 1.2,
+  "height": 34.0,
+  "margin": {
+    "top": 6.0,
+    "bottom": 0.0,
+    "left": 8.0,
+    "right": 8.0
+  },
+  "padding": {
+    "horizontal": 9.0,
+    "vertical": 5.0
+  },
+  "widget_spacing": 10.0,
+  "max_label_width": 520.0,
+  "transparency_alpha": 218,
+  "grouping": {
+    "kind": "Widget",
+    "rounding": 14.0,
+    "style": "Default",
+    "transparency_alpha": 218
+  },
+  "theme": {
+    "palette": "Custom",
+    "accent": "Base05",
+    "auto_select_fill": "Base0A",
+    "auto_select_text": "Base00",
+    "colours": {
+      "base_00": "#100d10",
+      "base_01": "#1b1519",
+      "base_02": "#6f7f86",
+      "base_03": "#a79a9d",
+      "base_04": "#ead8d5",
+      "base_05": "#d99d94",
+      "base_06": "#f7c58a",
+      "base_07": "#fff8f0",
+      "base_08": "#dc7974",
+      "base_09": "#e6a782",
+      "base_0a": "#f7c58a",
+      "base_0b": "#8abeb7",
+      "base_0c": "#80a3c3",
+      "base_0d": "#80a3c3",
+      "base_0e": "#caa7d9",
+      "base_0f": "#627585"
+    }
+  },
+  "left_widgets": [
+    {
+      "Date": {
+        "enable": true,
+        "format": {
+          "Custom": "%A"
+        },
+        "label_prefix": "None"
+      }
+    },
+    {
+      "Komorebi": {
+        "workspaces": {
+          "enable": true,
+          "display": "IconAndTextOnSelected",
+          "hide_empty_workspaces": false
+        },
+        "layout": {
+          "enable": true,
+          "display": "Icon"
+        }
+      }
+    }
+  ],
+  "center_widgets": [
+    {
+      "Komorebi": {
+        "focused_container": {
+          "enable": true,
+          "display": "IconAndText"
+        }
+      }
+    }
+  ],
+  "right_widgets": [
+    {
+      "Update": {
+        "enable": true
+      }
+    },
+    {
+      "Media": {
+        "enable": true,
+        "display": "IconAndControls"
+      }
+    },
+    {
+      "Memory": {
+        "enable": true,
+        "data_refresh_interval": 10,
+        "auto_select_over": 60,
+        "label_prefix": "Icon"
+      }
+    },
+    {
+      "Cpu": {
+        "enable": true,
+        "data_refresh_interval": 10,
+        "auto_select_over": 70,
+        "label_prefix": "Icon"
+      }
+    },
+    {
+      "Network": {
+        "enable": true,
+        "data_refresh_interval": 2,
+        "label_prefix": "Icon",
+        "show_activity": true,
+        "show_default_interface": false,
+        "show_total_activity": true,
+        "activity_left_padding": 5
+      }
+    },
+    {
+      "Date": {
+        "enable": true,
+        "format": {
+          "Custom": "%B-%d-%Y"
+        },
+        "label_prefix": "Icon"
+      }
+    },
+    {
+      "Time": {
+        "enable": true,
+        "format": "TwelveHour",
+        "changing_icon": true,
+        "label_prefix": "Icon"
+      }
+    },
+    {
+      "Battery": {
+        "enable": true,
+        "auto_select_under": 30,
+        "hide_on_full_charge": false,
+        "label_prefix": "Icon"
+      }
+    }
+  ]
+}
