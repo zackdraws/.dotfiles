@@ -13,6 +13,7 @@ services:
       - C:/S/ref/:/ref
       - C:/S/ref-videos/:/ref-videos
       - C:/Users/ok/Music:/Music
+      - C:/Users/ok/Videos/videosnow:/data/videosnow
     ports:
       - 127.0.0.1:8384:8384
       - 22000:22000/tcp
