@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+parent_dir=$(pwd -P)
+
+find "$parent_dir" -mindepth 2 -type f -exec mv -t "$parent_dir" -- {} +
