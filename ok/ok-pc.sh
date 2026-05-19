@@ -14,7 +14,7 @@ pacman -S --needed base-devel git fzf fish gh yazi syncthing wget curl unzip zip
 echo "github cli, python, toolchain, chromaprint, ffmpeg, libffi, and libyaml"
 pacman -S mingw-w64-ucrt-x86_64-github-cli mingw-w64-ucrt-x86_64-python
 pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
-pacman -S --needed mingw-w64-ucrt-x86_64-chromaprint mingw-w64-ucrt-x86_64-ffmpeg mingw-w64-ucrt-x86_64-libffi mingw-w64-ucrt-x86_64-libyaml mingw-w64-ucrt-x86_64-mpv mingw-w64-ucrt-x86_64-fzf  mingw-w64-ucrt-x86_64-vlc mingw-w64-ucrt-x86_64-github-cli irssi #
+pacman -S --needed mingw-w64-ucrt-x86_64-chromaprint mingw-w64-ucrt-x86_64-ffmpeg mingw-w64-ucrt-x86_64-chafa mingw-w64-ucrt-x86_64-libffi mingw-w64-ucrt-x86_64-libyaml mingw-w64-ucrt-x86_64-mpv mingw-w64-ucrt-x86_64-fzf  mingw-w64-ucrt-x86_64-vlc mingw-w64-ucrt-x86_64-github-cli irssi #
 echo "install beets, tex"
 pip install 'beets[fetchart,lyrics,lastgenre,ftintitle,chromaprint]'
 pacman -S mingw-w64-ucrt-x86_64-texlive-bin \
@@ -43,3 +43,40 @@ winget vlc
 curl -L "https://fwupdater.dl.playstation.net/fwupdater/PlayStationAccessoriesInstaller.exe" ^
 -o "C://users/ok/Downloads/"
 winget install AppWork.JDownloader
+
+echo "update system"
+pacman -Syu --noconfirm
+
+echo "install core packages"
+pacman -S --needed --noconfirm \
+  base-devel git fzf fish gh yazi syncthing wget curl unzip zip tar \
+  neovim htop ripgrep fd bat jq tree tmux zoxide lazygit glow xclip mpv
+
+pacman -S --needed \
+  mingw-w64-ucrt-x86_64-oh-my-posh \
+  mingw-w64-ucrt-x86_64-yazi \
+  mingw-w64-ucrt-x86_64-ttf-firacode-nerd \
+  mingw-w64-ucrt-x86_64-github-cli \
+  mingw-w64-ucrt-x86_64-python \
+  mingw-w64-ucrt-x86_64-toolchain \
+  mingw-w64-ucrt-x86_64-chromaprint \
+  mingw-w64-ucrt-x86_64-ffmpeg \
+  mingw-w64-ucrt-x86_64-chafa \
+  mingw-w64-ucrt-x86_64-libffi \
+  mingw-w64-ucrt-x86_64-libyaml \
+  mingw-w64-ucrt-x86_64-texlive-bin \
+  mingw-w64-ucrt-x86_64-texlive-core \
+  mingw-w64-ucrt-x86_64-texlive-luatex \
+  mingw-w64-ucrt-x86_64-texlive-latex-recommended \
+  mingw-w64-ucrt-x86_64-texlive-latex-extra \
+  mingw-w64-ucrt-x86_64-gcc \
+  mingw-w64-ucrt-x86_64-libevent \
+  mingw-w64-ucrt-x86_64-ncurses
+echo "fish is in /etc/shells"
+command -v fish | sudo tee -a /etc/shells || true
+
+echo "set fish"
+chsh -s "$(command -v fish)" || true
+echo "install scoop (PowerShell)"
+powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -Command \
+"if (-not (Get-Command scoop -ErrorAction SilentlyContinue)) { iwr -useb get.scoop.sh | iex }"
