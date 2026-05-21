@@ -7,10 +7,11 @@ FontWeight=400
 FontHeight=10
 Locale=en_US
 Charset=UTF-8
-Emojis=none
+Emojis=windows
 EmojiPlacement=middle
-Font2=Segoe UI Emoji
-FontChoice=PictoSymbols:2;
+Font2=Segoe UI Symbol
+Font3=Segoe UI Emoji
+FontChoice=PictoSymbols:2;|Superscripts and Subscripts:2;
 BoldAsFont=yes
 BoldAsColour=yes
 
