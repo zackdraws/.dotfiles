@@ -28,11 +28,20 @@ set -g theme_display_pwd full
 set -g theme_nerd_fonts yes
 set -g theme_powerline_fonts yes
 # --- Environment Variables ---
+if status is-interactive
+    stty -ixon 2>/dev/null
+end
 set -gx EDITOR emacs -nw
 set -gx GDK_SCALE 2
-set -gx TERM xterm-256color
+if test "$MSYSTEM" = UCRT64; and not set -q TMUX; and not set -q TERM
+    set -gx TERM xterm-256color
+end
 set -gx COLORTERM truecolor
-set -gx YAZI_PREVIEW_IMAGE_PROTOCOL chafa
+if test "$MSYSTEM" = UCRT64; and test "$MSYSCON" = mintty.exe
+    if begin; not set -q TERM_PROGRAM; or test "$TERM_PROGRAM" = tmux; end
+        set -gx TERM_PROGRAM mintty
+    end
+end
 # --- Kitty Terminal ---
 set -x PATH $HOME/.local/kitty.app/bin $PATH
 # --- Zoxide ---
