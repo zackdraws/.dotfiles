@@ -1,11 +1,13 @@
 # Explorer
-- alt + up arrow to go back in directory
-- alt + arrows to go back in history
-- ctrl + shift + 1 
-- ctrl + shift + 2
-- ctrl + shift + 3
-- ctrl + shift + 4
-- ctrl + shift + 5 
-- ctrl + shift + 6 
-- ctrl + shift + 7
-- ctrl + shift + 8
+| Action                  | Shortcut                 |
+| ----------------------- | ------------------------ |
+| Go Up One Folder        | Alt + Up Arrow           |
+| Navigate History        | Alt + Left/Right Arrow   |
+| Extra Large Icons View  | Ctrl + Shift + 1         |
+| Large Icons View        | Ctrl + Shift + 2         |
+| Medium Icons View       | Ctrl + Shift + 3         |
+| Small Icons View        | Ctrl + Shift + 4         |
+| List View               | Ctrl + Shift + 5         |
+| Details View            | Ctrl + Shift + 6         |
+| Tiles View              | Ctrl + Shift + 7         |
+| Content View            | Ctrl + Shift + 8         |

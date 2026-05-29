@@ -1,23 +1,21 @@
 #+title: Clip Studio Paint
 *** Animation Shortcuts
-# New Animation cel                                      - Shift +G
- - which makes a new cel
- - which is a new drawing on the animation timeline 
-#  Select Previous cel                                   -  A
- - is previous page drawing
-# Select next cel                                        -  D
- - next drawing
- - inserts the frame into the drawing timeline
-# Insert Frame                                           -  Shift+X
-# Go to previous frame                                   -  C
-# Go to next frame                                       -  V
-# insert frame                                           -  Shift+X
-# new animation folder                                   - Shift +Alt A
-# play                                                   - shift q
-*** 
-# Zoom                                                     - Z
-# zoom -                                                   - in 2
-# zoom -                                                   - out 1 
-# make brush smaller     shift +z
-# make brush bigger      shift + a
+| Action               | Shortcut        |
+| -------------------- | --------------- |
+| New Animation Cel    | Shift + G       |
+| Select Previous Cel  | A               |
+| Select Next Cel      | D               |
+| Insert Frame         | Shift + X       |
+| Go to Previous Frame | C               |
+| Go to Next Frame     | V               |
+| New Animation Folder | Shift + Alt + A |
+| Play                 | Shift + Q       |
 
+*** Drawing Shortcuts
+| Action              | Shortcut  |
+| ------------------- | --------- |
+| Zoom Tool           | Z         |
+| Zoom In             | 2         |
+| Zoom Out            | 1         |
+| Decrease Brush Size | Shift + Z |
+| Increase Brush Size | Shift + A |

@@ -1,40 +1,41 @@
-Generate Auto Matte alt _ G
-Copy Layers Ctrl Shift _ C
-delte layers crtl x
-merge down ctrl e
-images as scenes ctrelk shift i
-images as layers ctrl alt q
-toggle full screen ctrl alt shift f
-show hide onion skin q
-zoomin x
-zoom out x 
-copy layers 
-dlete layer shift d
-generate auto matte alt g
-new vector layer w
-paste layers alt _
-Brush tools b
-camera tool C
-decrease brush tool n
-draw behind alt  
-Dropper Tool D
-Eraser Tool D
-flip horizontal ctrl alt shift f
-flip vertical ctrl alt shift d
-increase brsh size h
-paint unpainted tool G
-Select by Colour Tool R 
-Play alt r
-previous panel A 
-Previous Frame alt A 
-Project First Frame Shift A 
-Project Last frame Shift F
-Add Marker  f6
-New Scene Before selected panel alt 2
-New Scene alt f2 
-new scene froms selected panel Shift S
-select alt s
-e
-[[Toonboom Harmony]]
+# SBP-02 hotkeys
+| Action                            | Shortcut               |
+| --------------------------------- | ---------------------- |
+| Generate Auto-Matte               | Alt + G                |
+| Copy Layers                       | Ctrl + Shift + C       |
+| Delete Layers                     | Ctrl + X               |
+| Merge Down                        | Ctrl + E               |
+| Images as Scenes                  | Ctrl + Shift + I       |
+| Images as Layers                  | Ctrl + Alt + Q         |
+| Toggle Full Screen                | Ctrl + Alt + Shift + F |
+| Show/Hide Onion Skin              | Q                      |
+| Zoom In                           | X                      |
+| Zoom Out                          | Z                      |
+| Copy Layers                       | Alt + C                |
+| Delete Layer                      | Shift + D              |
+| New Vector Layer                  | W                      |
+| Paste Layers                      | Alt + V                |
+| Brush Tools                       | B                      |
+| Camera Tool                       | C                      |
+| Decrease Brush Size               | N                      |
+| Draw Behind                       | Alt + B                |
+| Dropper Tool                      | D                      |
+| Eraser Tool                       | E                      |
+| Flip Horizontal                   | Ctrl + Alt + Shift + F |
+| Flip Vertical                     | Ctrl + Alt + Shift + D |
+| Increase Brush Size               | H                      |
+| Paint Unpainted Tool              | G                      |
+| Select by Colour Tool             | R                      |
+| Play                              | Alt + R                |
+| Previous Panel                    | A                      |
+| Previous Frame                    | Alt + A                |
+| Project First Frame               | Shift + A              |
+| Project Last Frame                | Shift + F              |
+| Add Marker                        | F6                     |
+| New Scene Before Selected Panel   | Alt + 2                |
+| New Scene                         | Alt + F2               |
+| New Scene From Selected Panel     | Shift + S              |
+| Select                            | Alt + S                |
+| Duplicate Panel                   | Ctrl + Shift + D       |
 
-duplicate panel ctrl shift d
+[[Toonboom Harmony]]
