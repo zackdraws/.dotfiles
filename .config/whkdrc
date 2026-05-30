@@ -1,0 +1,11 @@
+.shell powershell
+
+win + left  : & "$Env:ProgramFiles\komorebi\bin\komorebic.exe" focus left
+win + right : & "$Env:ProgramFiles\komorebi\bin\komorebic.exe" focus right
+win + up    : & "$Env:ProgramFiles\komorebi\bin\komorebic.exe" focus up
+win + down  : & "$Env:ProgramFiles\komorebi\bin\komorebic.exe" focus down
+
+win + ctrl + left  : & "$Env:ProgramFiles\komorebi\bin\komorebic.exe" resize-axis horizontal decrease
+win + ctrl + right : & "$Env:ProgramFiles\komorebi\bin\komorebic.exe" resize-axis horizontal increase
+win + ctrl + up    : & "$Env:ProgramFiles\komorebi\bin\komorebic.exe" resize-axis vertical decrease
+win + ctrl + down  : & "$Env:ProgramFiles\komorebi\bin\komorebic.exe" resize-axis vertical increase
