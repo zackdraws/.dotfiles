@@ -31,6 +31,13 @@
   "unmanaged_window_operation_behaviour": "Op",
   "window_container_behaviour": "Create",
   "window_hiding_behaviour": "Cloak",
+  "manage_rules": [
+    {
+      "kind": "Exe",
+      "id": "mintty.exe",
+      "matching_strategy": "Equals"
+    }
+  ],
   "monitors": [
     {
       "container_padding": 2,
