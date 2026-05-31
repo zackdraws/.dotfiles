@@ -1,5 +1,13 @@
 #!/usr/bin/bash
 set -e
+echo "install komorebi startup shortcut"
+DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+KOMOREBI_STARTUP_SCRIPT="$DOTFILES_DIR/sh/ps1/komorebi-startup.ps1"
+if command -v cygpath >/dev/null 2>&1; then
+  KOMOREBI_STARTUP_SCRIPT="$(cygpath -w "$KOMOREBI_STARTUP_SCRIPT")"
+fi
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$KOMOREBI_STARTUP_SCRIPT" -Install
+
 echo "link from .dotfiles to tvpaint config"
 ln -s /c/.dotfiles/tvp/20250403_ok.cfg /c/users/zacha/AppData/Roaming/tvp\ animation\ 11\ pro/default/config.ini
 echo "link from .dotfiles to emacs"
@@ -28,9 +36,6 @@ pacman -S mingw-w64-ucrt-x86_64-gcc \
 command -v fish | sudo tee -a /etc/shells
 echo  "Change default shell to fish"
 chsh -s /usr/bin/fish
-powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -Command 
-if (-not (Get-Command scoop -ErrorAction SilentlyContinue)) {
-    iwr -useb get.scoop.sh | iex
 # winget
 winget install VideoLAN.VLC
 winget install google.chrome
