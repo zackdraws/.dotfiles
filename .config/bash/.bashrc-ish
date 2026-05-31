@@ -1,0 +1,43 @@
+# iSH / iPhone shell config. POSIX-compatible so it can be sourced by ash or bash.
+
+export EDITOR="emacs -nw"
+export VISUAL="emacs -nw"
+export PAGER="${PAGER:-less}"
+export LESS="${LESS:--R}"
+export COLORTERM="${COLORTERM:-truecolor}"
+
+case ":$PATH:" in
+    *":$HOME/.local/bin:"*) ;;
+    *) PATH="$HOME/.local/bin:$PATH" ;;
+esac
+export PATH
+
+if [ -z "${TERM:-}" ]; then
+    export TERM=xterm-256color
+fi
+
+alias ll='ls -lah'
+alias la='ls -A'
+alias l='ls -CF'
+alias se='emacs -nw'
+
+if command -v yazi >/dev/null 2>&1; then
+    alias y='yazi'
+fi
+
+e() {
+    emacs -nw "$@"
+}
+
+ok() {
+    mkdir -p "$HOME/.ok/ok"
+    emacs -nw "$HOME/.ok/ok/$(date +%Y%m%d%H%M).org"
+}
+
+mkcd() {
+    mkdir -p "$1" && cd "$1" || return
+}
+
+if [ -n "${BASH_VERSION:-}" ] && command -v zoxide >/dev/null 2>&1; then
+    eval "$(zoxide init bash)"
+fi
