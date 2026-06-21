@@ -1,3 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
 shopt -s nullglob nocaseglob
 for psd in *.psd; do
     basename="${psd%.*}"

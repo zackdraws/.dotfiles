@@ -49,4 +49,4 @@ HighlightForegroundColour=240,240,240
 
 # Underline
 UnderlineColour=255,80,90
-Transparency=low
+Transparency=off
