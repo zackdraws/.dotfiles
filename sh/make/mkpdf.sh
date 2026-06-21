@@ -1,4 +1,5 @@
- #!/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
 # Use the current directory
 input_dir="$PWD"
 # Ask for the output PDF name

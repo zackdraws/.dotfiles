@@ -1,1 +1,93 @@
-ffmpeg -f gdigrab -framerate 30 -i desktop   -f dshow -i audio= Microphone (1080P Pro Stream)   -t 5000 /c/Users/z/Videos/recording-screen.mp4
+#!/usr/bin/env bash
+set -euo pipefail
+
+script_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+dotfiles_root="$(cd -- "$script_dir/../.." && pwd)"
+ps_recorder="$dotfiles_root/sh/ps1/ffmpeg-screen-record.ps1"
+
+if command -v powershell.exe >/dev/null 2>&1 && [ -f "$ps_recorder" ]; then
+  if command -v cygpath >/dev/null 2>&1; then
+    ps_recorder="$(cygpath -w "$ps_recorder")"
+  fi
+
+  exec powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$ps_recorder" "$@"
+fi
+
+if ! command -v ffmpeg >/dev/null 2>&1; then
+  echo "ffmpeg-record: ffmpeg was not found on PATH." >&2
+  exit 1
+fi
+
+output_dir="${SCREEN_RECORD_DIR:-$HOME/Videos}"
+mkdir -p "$output_dir"
+started_at="$(date +%Y-%m-%d_%H-%M-%S)"
+creation_time="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+output_file="$output_dir/screen-recording_$started_at.mp4"
+
+if [ -n "${DISPLAY:-}" ]; then
+  size="${SCREEN_RECORD_SIZE:-}"
+  if [ -z "$size" ] && command -v xdpyinfo >/dev/null 2>&1; then
+    size="$(xdpyinfo | awk '/dimensions:/ { print $2; exit }')"
+  fi
+
+  if [ -z "$size" ]; then
+    echo "ffmpeg-record: set SCREEN_RECORD_SIZE, for example SCREEN_RECORD_SIZE=1920x1080." >&2
+    exit 1
+  fi
+
+  input_display="${SCREEN_RECORD_DISPLAY:-$DISPLAY}"
+  case "$input_display" in
+    *.*) ;;
+    *) input_display="${input_display}.0" ;;
+  esac
+
+  audio_args=()
+  map_args=(-map 0:v:0)
+  audio_codec_args=(-an)
+
+  if [ "${SCREEN_RECORD_AUDIO:-1}" != "0" ]; then
+    audio_source="${SCREEN_RECORD_AUDIO_SOURCE:-}"
+
+    if [ -z "$audio_source" ] && command -v pactl >/dev/null 2>&1; then
+      default_sink="$(pactl get-default-sink 2>/dev/null || true)"
+      if [ -n "$default_sink" ]; then
+        audio_source="$default_sink.monitor"
+      else
+        audio_source="$(pactl get-default-source 2>/dev/null || true)"
+      fi
+    fi
+
+    if [ -z "$audio_source" ]; then
+      echo "ffmpeg-record: no PulseAudio source found; set SCREEN_RECORD_AUDIO_SOURCE or SCREEN_RECORD_AUDIO=0." >&2
+      exit 1
+    fi
+
+    audio_args=(-thread_queue_size 1024 -f pulse -i "$audio_source")
+    map_args=(-map 0:v:0 -map 1:a:0)
+    audio_codec_args=(-c:a aac -b:a "${SCREEN_RECORD_AUDIO_BITRATE:-160k}" -ar "${SCREEN_RECORD_AUDIO_RATE:-48000}")
+  fi
+
+  echo "Recording screen to: $output_file"
+  echo "Stop recording by pressing q in this terminal."
+  exec ffmpeg \
+    -hide_banner \
+    -y \
+    -thread_queue_size 1024 \
+    -f x11grab \
+    -framerate "${SCREEN_RECORD_FPS:-30}" \
+    -video_size "$size" \
+    -i "$input_display" \
+    "${audio_args[@]}" \
+    "${map_args[@]}" \
+    -c:v libx264 \
+    -preset veryfast \
+    -pix_fmt yuv420p \
+    "${audio_codec_args[@]}" \
+    -movflags +faststart \
+    -metadata "creation_time=$creation_time" \
+    "$output_file"
+fi
+
+echo "ffmpeg-record: Windows gdigrab and Linux X11 are supported." >&2
+echo "ffmpeg-record: Wayland/Hyprland screen capture usually needs wf-recorder or portal setup." >&2
+exit 1

@@ -1,3 +1,12 @@
-ffmpeg.exe -y -f gdigrab -framerate 30 -i desktop "$(wslpath -w $Home)/name.mp4"
--t 5 for time based
-q + enter to make it quit
+#!/usr/bin/env bash
+set -euo pipefail
+
+output="${1:-$HOME/name.mp4}"
+
+if command -v cygpath >/dev/null 2>&1; then
+  output="$(cygpath -w "$output")"
+elif command -v wslpath >/dev/null 2>&1; then
+  output="$(wslpath -w "$output")"
+fi
+
+ffmpeg.exe -y -f gdigrab -framerate 30 -i desktop "$output"
