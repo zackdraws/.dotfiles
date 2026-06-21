@@ -5,15 +5,31 @@ set -x PATH ~/.local/bin $PATH
 zoxide init fish | source
 set -U fish_greeting
 set -gx GDK_SCALE 2 #GWSL
-set -gx TERM xterm-256color
+if test "$MSYSTEM" = UCRT64; and not set -q TMUX; and not set -q TERM
+    set -gx TERM xterm-256color
+end
 set -gx COLORTERM truecolor
-set -gx YAZI_PREVIEW_IMAGE_PRORTOCOL chafa
+if test "$MSYSTEM" = UCRT64
+    if set -q WT_SESSION
+        set -gx TERM_PROGRAM WindowsTerminal
+    else if test "$MSYSCON" = mintty.exe; and begin; not set -q TERM_PROGRAM; or test "$TERM_PROGRAM" = tmux; end
+        set -gx TERM_PROGRAM mintty
+    end
+end
 export LEDGER_FILE=~/finance/2026.journal
 zoxide init fish | source
 set -gx GDK_SCALE 2 #GWSL
-set -gx TERM xterm-256color
+if test "$MSYSTEM" = UCRT64; and not set -q TMUX; and not set -q TERM
+    set -gx TERM xterm-256color
+end
 set -gx COLORTERM truecolor
-set -gx YAZI_PREVIEW_IMAGE_PRORTOCOL chafa
+if test "$MSYSTEM" = UCRT64
+    if set -q WT_SESSION
+        set -gx TERM_PROGRAM WindowsTerminal
+    else if test "$MSYSCON" = mintty.exe; and begin; not set -q TERM_PROGRAM; or test "$TERM_PROGRAM" = tmux; end
+        set -gx TERM_PROGRAM mintty
+    end
+end
 alias se="sudo $EDITOR"
 alias ghostty='cd ~/Projects/ghostty && /zig-out/bin/ghostty'
 alias l="lobster"
