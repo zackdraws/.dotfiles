@@ -5,7 +5,15 @@ win + right : & "$Env:ProgramFiles\komorebi\bin\komorebic.exe" focus right
 win + up    : & "$Env:ProgramFiles\komorebi\bin\komorebic.exe" focus up
 win + down  : & "$Env:ProgramFiles\komorebi\bin\komorebic.exe" focus down
 
+win + alt + 1 : & "$Env:ProgramFiles\komorebi\bin\komorebic.exe" focus-workspace 0
+win + alt + 2 : & "$Env:ProgramFiles\komorebi\bin\komorebic.exe" focus-workspace 1
+win + alt + 3 : & "$Env:ProgramFiles\komorebi\bin\komorebic.exe" focus-workspace 2
+win + alt + 4 : & "$Env:ProgramFiles\komorebi\bin\komorebic.exe" focus-workspace 3
+
 win + ctrl + left  : & "$Env:ProgramFiles\komorebi\bin\komorebic.exe" resize-axis horizontal decrease
 win + ctrl + right : & "$Env:ProgramFiles\komorebi\bin\komorebic.exe" resize-axis horizontal increase
 win + ctrl + up    : & "$Env:ProgramFiles\komorebi\bin\komorebic.exe" resize-axis vertical decrease
 win + ctrl + down  : & "$Env:ProgramFiles\komorebi\bin\komorebic.exe" resize-axis vertical increase
+
+win + ctrl + alt + j : $candidates = @(); if ($Env:WHKD_CONFIG_HOME) { $candidates += Join-Path (Split-Path $Env:WHKD_CONFIG_HOME -Parent) "sh\ps1\ffmpeg-screen-record.ps1" }; $candidates += Join-Path $HOME ".dotfiles\sh\ps1\ffmpeg-screen-record.ps1"; $candidates += "C:\msys64\home\ok\.dotfiles\sh\ps1\ffmpeg-screen-record.ps1"; $script = $candidates | Where-Object { Test-Path -LiteralPath $_ } | Select-Object -First 1; if ($script) { Start-Process powershell.exe -WindowStyle Hidden -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$script`" -Workspace 1" }
+win + alt + j : $candidates = @(); if ($Env:WHKD_CONFIG_HOME) { $candidates += Join-Path (Split-Path $Env:WHKD_CONFIG_HOME -Parent) "sh\ps1\ffmpeg-screen-record.ps1" }; $candidates += Join-Path $HOME ".dotfiles\sh\ps1\ffmpeg-screen-record.ps1"; $candidates += "C:\msys64\home\ok\.dotfiles\sh\ps1\ffmpeg-screen-record.ps1"; $script = $candidates | Where-Object { Test-Path -LiteralPath $_ } | Select-Object -First 1; if ($script) { Start-Process powershell.exe -WindowStyle Hidden -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$script`" -Workspace 1" }
