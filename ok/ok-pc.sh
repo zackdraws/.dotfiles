@@ -6,7 +6,7 @@ KOMOREBI_STARTUP_SCRIPT="$DOTFILES_DIR/sh/ps1/komorebi-startup.ps1"
 if command -v cygpath >/dev/null 2>&1; then
   KOMOREBI_STARTUP_SCRIPT="$(cygpath -w "$KOMOREBI_STARTUP_SCRIPT")"
 fi
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$KOMOREBI_STARTUP_SCRIPT" -Install
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$KOMOREBI_STARTUP_SCRIPT" -Install -NoBar
 
 echo "link from .dotfiles to tvpaint config"
 ln -s /c/.dotfiles/tvp/20250403_ok.cfg /c/users/zacha/AppData/Roaming/tvp\ animation\ 11\ pro/default/config.ini
