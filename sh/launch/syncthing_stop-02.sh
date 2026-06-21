@@ -1,1 +1,5 @@
-Get-Process | Where-Object { $_.Path -like "*syncthing.exe*" } | Stop-Process -Force
+#!/usr/bin/env bash
+set -euo pipefail
+
+script_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+exec "$script_dir/syncthing_stop.sh" "$@"

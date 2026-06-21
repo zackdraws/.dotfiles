@@ -1,3 +1,5 @@
-powershell.exe Start-Process "C:\users\zacha\scoop\apps\syncthing\1.27.8\syncthing.exe" -WindowStyle Hidden
+#!/usr/bin/env bash
+set -euo pipefail
 
-
+script_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+exec "$script_dir/syncthing_start.sh" "$@"
