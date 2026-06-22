@@ -17,3 +17,12 @@ win + ctrl + down  : & "$Env:ProgramFiles\komorebi\bin\komorebic.exe" resize-axi
 
 win + ctrl + alt + j : $candidates = @(); if ($Env:WHKD_CONFIG_HOME) { $candidates += Join-Path (Split-Path $Env:WHKD_CONFIG_HOME -Parent) "sh\ps1\ffmpeg-screen-record.ps1" }; $candidates += Join-Path $HOME ".dotfiles\sh\ps1\ffmpeg-screen-record.ps1"; $candidates += "C:\msys64\home\ok\.dotfiles\sh\ps1\ffmpeg-screen-record.ps1"; $script = $candidates | Where-Object { Test-Path -LiteralPath $_ } | Select-Object -First 1; if ($script) { Start-Process powershell.exe -WindowStyle Hidden -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$script`" -Workspace 1" }
 win + alt + j : $candidates = @(); if ($Env:WHKD_CONFIG_HOME) { $candidates += Join-Path (Split-Path $Env:WHKD_CONFIG_HOME -Parent) "sh\ps1\ffmpeg-screen-record.ps1" }; $candidates += Join-Path $HOME ".dotfiles\sh\ps1\ffmpeg-screen-record.ps1"; $candidates += "C:\msys64\home\ok\.dotfiles\sh\ps1\ffmpeg-screen-record.ps1"; $script = $candidates | Where-Object { Test-Path -LiteralPath $_ } | Select-Object -First 1; if ($script) { Start-Process powershell.exe -WindowStyle Hidden -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$script`" -Workspace 1" }
+
+ctrl + shift + 1 : C:\msys64\ucrt64.exe
+ctrl + shift + 2 : "C:\Program Files\Mozilla Firefox\firefox.exe"
+ctrl + shift + 3 : "C:\Program Files\TVPaint Developpement\TVPaint Animation 11.7.6 Pro (64bits) (STD)\TVPaint Animation 11.7.6 Pro (64bits) (STD).exe"
+ctrl + shift + 4 : "C:\Program Files\Adobe\Adobe Photoshop 2025\Photoshop.exe"
+ctrl + shift + 5 : "C:\Program Files (x86)\Toon Boom Animation\Toon Boom Harmony 24 Premium\win64\bin\HarmonyPremium.exe"
+ctrl + shift + 6 : "C:\Program Files\Storyboard Pro\Storyboard Pro.exe"
+ctrl + shift + 7 : "C:\Program Files\GNU Emacs\bin\emacs.exe"
+ctrl + shift + 8 : "C:\Program Files (x86)\Steam\steamapps\common\Blender\blender-launcher.exe"
