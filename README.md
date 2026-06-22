@@ -4,7 +4,7 @@
 3. Managing Files
 4. Automating (Scripts) 
 5. Saving 
-6. Tools for Creating
+
 # .dotfiles
    -  the purpose of these .dotfiles is to:
       - configure settings.
@@ -303,6 +303,9 @@ and also make it easier to restart the syncing.
 - "find . -type f \( -name "*.mp4" -o -name "*.mkv" \) -print0 | xargs -0 mpv" 
 - or "find . -type f -iname "*TEXT*" -print0 | xargs -0 mpv"
 that plays all of the files in order 
+## 7.2.1 - Reviewing - MPV
+   export DISPLAY=:0
+   mpv --volume-max=350 -fs video.mp4
 ## Docs
    ### For PDFS
      - Adobe Acrobat	  - 
@@ -393,7 +396,7 @@ Moving around
 ** Videos
 *** ffmpeg
     for notes -> [[~/.dotfiles/notes/cmd-ffmpeg.org]]
-*** MPV - for reviewing video
+
 ** files 
 *** syncing
 **** syncthing - syncs files
