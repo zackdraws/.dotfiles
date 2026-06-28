@@ -12,10 +12,12 @@ services:
       - /home/ok/.config/syncthing/config-4:/config
       - /run/media/ok/easystore/Music:/data/music
       - /home/ok/.config/syncthing/2026:/2026	
-      - /c/Users/ok/Music:/Music	
+      - /home/ok/Music:/music
       - /home/ok/ok:/ok
       - /home/ok/ref:/ref
       - /home/ok/ref-v:/ref-v
+      - /home/ok/Videos/Screen-Recordings/:/Screen-Recordings
+      - /home/ok/Videos/videosnow:/videosnow
     ports:
       - 8384:8384
       - 22000:22000/tcp

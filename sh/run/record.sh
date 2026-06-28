@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+<<<<<<< HEAD
+#OUT="$HOME/Videos/rec_$(date +%Y-%m-%d_%H-%M-%S).mp4"
+OUT="$HOME/Videos/Screen-Recordings/rec_$(date +%Y-%m-%d_%H-%M-%S).mp4"
+PIDFILE="/tmp/hypr-record.pid"
+=======
 set -euo pipefail
 
 OUT="${SCREEN_RECORD_DIR:-$HOME/Videos}/screen-recording_$(date +%Y-%m-%d_%H-%M-%S).mp4"
@@ -7,6 +12,7 @@ notify() {
   notify-send "$@" 2>/dev/null || true
 }
 
+>>>>>>> 4bd58f2cdde2dc43ad9a7238fa676f475d6d409a
 start() {
   if ! command -v wf-recorder >/dev/null 2>&1; then
     notify "Recording failed" "wf-recorder was not found"
