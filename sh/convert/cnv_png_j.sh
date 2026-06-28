@@ -1,18 +1,26 @@
-# Save this as convert_png_to_jpg.ps1
-# Add System.Drawing assembly for image handling
-Add-Type -AssemblyName System.Drawing
-# Get all PNG files in the current directory
-$pngFiles = Get-ChildItem -Filter "*.png"
-foreach ($file in $pngFiles) {
-    try {
-        $jpgPath = [System.IO.Path]::ChangeExtension($file.FullName, "jpg")
-        $image = [System.Drawing.Image]::FromFile($file.FullName)
-        $image.Save($jpgPath, [System.Drawing.Imaging.ImageFormat]::Jpeg)
-        $image.Dispose()
-        Write-Host "Converted: $($file.Name) -> $([System.IO.Path]::GetFileName($jpgPath))" -ForegroundColor Green
-    }
-    catch {
-        Write-Host "Error converting $($file.Name): $_" -ForegroundColor Red
-    }
-}
-Write-Host "`nConversion complete!" -ForegroundColor Cyan
+k#!/usr/bin/env bash
+set -euo pipefail
+
+converter=()
+if command -v magick >/dev/null 2>&1; then
+  converter=(magick)
+elif command -v convert >/dev/null 2>&1; then
+  converter=(convert)
+else
+  echo "ImageMagick was not found. Install imagemagick in MSYS2, Scoop, or your Linux package manager." >&2
+  exit 1
+fi
+
+shopt -s nullglob nocaseglob
+png_files=(*.png)
+
+if [ "${#png_files[@]}" -eq 0 ]; then
+  echo "No PNG files found."
+  exit 0
+fi
+
+for png in "${png_files[@]}"; do
+  jpg="${png%.*}.jpg"
+  "${converter[@]}" "$png" "$jpg"
+  echo "Converted: $png -> $jpg"
+done

@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
+
 read -p "Enter the filename (e.g., myfile.txt):" filename
 if [ -z "$filename" ]; then
 echo "Error: Filename cannot be empty."
@@ -10,7 +12,13 @@ exit 1
 fi
 # Add [[ at the start and ]] at the end of each line
 formatted_content=$(sed 's/^/[[/; s/$/]]/' "$filename")
-if command -v xclip > /dev/null 2>&1; then
+if command -v clip.exe > /dev/null 2>&1; then
+echo "$formatted_content" | clip.exe
+echo "Formatted content copied to clipboard using clip.exe."
+elif command -v wl-copy > /dev/null 2>&1; then
+echo "$formatted_content" | wl-copy
+echo "Formatted content copied to clipboard using wl-copy."
+elif command -v xclip > /dev/null 2>&1; then
 echo "$formatted_content" | xclip -selection clipboard
 echo "Formatted content copied to clipboard using xclip."
 elif command -v xsel > /dev/null 2>&1; then
@@ -20,7 +28,7 @@ elif command -v pbcopy > /dev/null 2>&1; then
 echo "$formatted_content" | pbcopy
 echo "Formatted content copied to clipboard using pbcopy (macOS)."
 else
-echo "Error: No clipboard tool found (xclip, xsel, or pbcopy). Please install one."
+echo "Error: No clipboard tool found (clip.exe, wl-copy, xclip, xsel, or pbcopy). Please install one."
 exit 1
 fi
 exit 0

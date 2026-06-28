@@ -20,3 +20,8 @@
 | Game Bar               | Super + G |
 | Minimize Windows       | Super + D |
 | Project Settings       | Super + P |
+| FFmpeg Screen Record   | Super + Alt + J |
+| Komorebi Workspace 1   | Super + Alt + 1 |
+| Komorebi Workspace 2   | Super + Alt + 2 |
+| Komorebi Workspace 3   | Super + Alt + 3 |
+| Komorebi Workspace 4   | Super + Alt + 4 |

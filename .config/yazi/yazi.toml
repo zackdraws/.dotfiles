@@ -15,7 +15,6 @@ max_height = 3600
 command = "wl-copy"  # or "xclip -selection clipboard"
 [opener]
 edit = [
-    { run = 'cd "$(dirname "$1")" && emacs -nw "$1"', desc = "$EDITOR", block = true, for = "unix" },
 ]
 play = [
      { run = 'mpv "$@"', orphan = true, for = "unix" },

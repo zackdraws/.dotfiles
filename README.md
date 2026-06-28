@@ -4,7 +4,7 @@
 3. Managing Files
 4. Automating (Scripts) 
 5. Saving 
-6. Tools for Creating
+
 # .dotfiles
    -  the purpose of these .dotfiles is to:
       - configure settings.
@@ -33,6 +33,7 @@
 | Terminal Add-ons | Yazi                | ✅      | ✅    | ✅  | `~/.config/yazi/` |
 |                  | tmux                | ✅      | ✅    | ✅  | `~/.tmux.conf` |
 |                  | oh-my-posh          | ✅      | ✅    | ✅  | `~/.config/oh-my-posh/` |
+| Mail             | mutt / neomutt      | yes     | yes   | yes | `~/.config/mutt/` |
 
 # 1. Set up - Terminal
 To configure .dotfiles first decide on what terminal to use-
@@ -302,6 +303,9 @@ and also make it easier to restart the syncing.
 - "find . -type f \( -name "*.mp4" -o -name "*.mkv" \) -print0 | xargs -0 mpv" 
 - or "find . -type f -iname "*TEXT*" -print0 | xargs -0 mpv"
 that plays all of the files in order 
+## 7.2.1 - Reviewing - MPV
+   export DISPLAY=:0
+   mpv --volume-max=350 -fs video.mp4
 ## Docs
    ### For PDFS
      - Adobe Acrobat	  - 
@@ -392,7 +396,7 @@ Moving around
 ** Videos
 *** ffmpeg
     for notes -> [[~/.dotfiles/notes/cmd-ffmpeg.org]]
-*** MPV - for reviewing video
+
 ** files 
 *** syncing
 **** syncthing - syncs files
@@ -437,3 +441,45 @@ for cintiq 22HD (older model use WacomTablet_6.4.10-3.exe
 https://developer-support.wacom.com/hc/en-us/articles/9354461938711-Silent-installation-or-uninstallation-of-tablet-and-video-drivers
 -- https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.10-3.exe
 WacomTablet_6.4.10-3.exe
+
+### Windows startup helpers
+- Komorebi startup is handled by `~/.dotfiles/sh/ps1/komorebi-startup.ps1`.
+- Install the current-user Startup shortcut:
+  `powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\sh\ps1\komorebi-startup.ps1" -Install`
+- Remove the Startup shortcut:
+  `powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\sh\ps1\komorebi-startup.ps1" -Uninstall`
+- The startup script uses `~/.dotfiles/.config/komorebi/komorebi.json`, `~/.dotfiles/.config/komorebi/komorebi.bar.json`, and `~/.dotfiles/.config/whkdrc`.
+
+### Mutt mail categories
+- Mutt config is in `~/.dotfiles/.config/mutt/`.
+- The setup script links it to both `~/.config/mutt/muttrc` and `~/.mutt/muttrc`.
+- `muttrc` sources `categories.muttrc`.
+- Categories are Maildir folders under `~/Mail`.
+- Default categories: `Inbox`, `Action`, `Projects`, `Finance`, `Receipts`, `Art`, `Family`, `Newsletters`, `Archive`, `Sent`, `Drafts`, `Trash`.
+- Use `g` shortcuts to open categories: `gi` Inbox, `ga` Action, `gp` Projects, `gf` Finance, `gr` Receipts, `gt` Art, `gy` Family, `gn` Newsletters, `gx` Archive.
+- Use comma shortcuts to move mail: `,a` Action, `,p` Projects, `,f` Finance, `,r` Receipts, `,t` Art, `,y` Family, `,n` Newsletters, `,x` Archive.
+
+### FFmpeg screen recording shortcut
+- Windows screen recording script: `~/.dotfiles/sh/ps1/ffmpeg-screen-record.ps1`.
+- Terminal wrapper: `~/.dotfiles/sh/run/ffmpeg-record`.
+- Windows hotkey: `Super + Alt + J` in `~/.dotfiles/.config/whkdrc`.
+- The Windows hotkey switches Komorebi to workspace 1 on all monitors, then captures the primary monitor's exact screen rectangle.
+- Recordings save as timestamped `.mp4` files in the current user's Videos folder, using the date and time the recording started.
+- Run the Windows script or press the hotkey once to start recording; run it or press the hotkey again to stop and save.
+- Manual commands: `powershell.exe -NoProfile -ExecutionPolicy Bypass -File ~/.dotfiles/sh/ps1/ffmpeg-screen-record.ps1`, with optional `-Start`, `-Stop`, `-Status`, `-Workspace 1`, `-ScreenIndex 1`, `-CaptureVirtualDesktop`, `-AudioDevice "Device Name"`, `-ListAudioDevices`, or `-NoAudio`.
+- Windows audio records through FFmpeg DirectShow. The script auto-selects an audio input, preferring loopback-style devices such as Stereo Mix when available. Set `SCREEN_RECORD_AUDIO_DEVICE` to force a specific source.
+- Hyprland uses `Super + Alt + J` with `record.sh` for Wayland capture, saves to `~/Videos`, and records audio by default. It prefers the default sink monitor from `pactl` for desktop audio, then falls back to `wf-recorder --audio`. Set `SCREEN_RECORD_AUDIO_SOURCE` to force a specific source or `SCREEN_RECORD_AUDIO=0` to disable Linux audio capture.
+
+### Rebuild screen recording setup
+Run this from a cloned dotfiles repo to apply the recording shortcut and scripts:
+
+```sh
+cd ~/.dotfiles
+bash sh/setup/apply-screen-recording.sh
+```
+
+The setup script links the whkd and Hyprland recording config, creates `~/Videos`, and puts `ffmpeg-record` and `record.sh` in `~/.local/bin`.
+
+Run this from a cloned dotfiles repo on a new computer if you also want the mutt mail config:
+bash sh/setup/apply-mail-recording.sh
+

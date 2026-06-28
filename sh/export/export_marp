@@ -1,0 +1,7 @@
+#!/bin/bash
+if [ -z "$1" ]; then
+    echo "Error: Please provide a file name."
+    exit 1
+fi
+
+npx @marp-team/marp-cli --allow-local-files "$1" --pptx

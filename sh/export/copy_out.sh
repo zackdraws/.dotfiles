@@ -1,21 +1,33 @@
-#!/bin/bash
-if ! command -q xclip >/dev/null 2>&1; then
-  echo "xclip not found.  Installing..."
-  echo "xclip installed.  Please run the script again."
-  exit 1
+#!/usr/bin/env bash
+set -euo pipefail
+
+copy_to_clipboard() {
+  if command -v clip.exe >/dev/null 2>&1; then
+    clip.exe
+  elif command -v wl-copy >/dev/null 2>&1; then
+    wl-copy
+  elif command -v xclip >/dev/null 2>&1; then
+    xclip -selection clipboard
+  elif command -v xsel >/dev/null 2>&1; then
+    xsel --clipboard --input
+  elif command -v pbcopy >/dev/null 2>&1; then
+    pbcopy
+  else
+    echo "No clipboard tool found. Install clip.exe/MSYS2, wl-clipboard, xclip, xsel, or pbcopy." >&2
+    return 1
+  fi
+}
+
+if [ -t 0 ]; then
+  output="$(history 1 2>/dev/null | sed 's/^[[:space:]]*[0-9]\+[[:space:]]*//' || true)"
+else
+  output="$(cat)"
 fi
-if ! command -q xsel >/dev/null 2>&1; then
-  echo "xsel not found.  Installing..."
-  sudo apt-get update
-  sudo apt-get install xsel
-  echo "xsel installed.  Please run the script again."
-  exit 1
-fi
-output=$(history 1 | grep "^[0-9]+" | tail -n 1 | sed 's/^[[:space:]]*//' )
+
 if [ -z "$output" ]; then
-  echo "No output found from the last command."
+  echo "No output found to copy."
   exit 0
 fi
-echo "$output" | xclip -selection clipboard
+
+printf '%s' "$output" | copy_to_clipboard
 echo "Output copied to the clipboard."
-exit 0

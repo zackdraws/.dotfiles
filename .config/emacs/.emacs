@@ -116,7 +116,7 @@
 (setq org-startup-with-inline-images t
       org-image-actual-width (list 1200)
       org-duration-format 'h:mm
-      org-agenda-files '("~/ok/"))
+      org-agenda-files '("~/ok" "~/ok/dailies"))
 (setq org-roam-directory (file-truename "~/ok/org"))
 (use-package org-roam)
 (use-package org-roam-ui)
@@ -199,3 +199,31 @@
  ;;)
 (setq org-roam-ui-host "0.0.0.0")
 (setq org-roam-ui-port 35901)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(org-agenda-files
+   '("/home/ok/ok/00-art-caricature.org" "/home/ok/ok/00_P-my-P.org"
+     "/home/ok/ok/00_P.org" "/home/ok/ok/0k-todo.org"
+     "/home/ok/ok/2026-workshops.org" "/home/ok/ok/2026.org"
+     "/home/ok/ok/202606222217.org"
+     "/home/ok/ok/202606222217.sync-conflict-20260625-004112-GHEJBMB.org"
+     "/home/ok/ok/202606222255.org" "/home/ok/ok/202606260623.org"
+     "/home/ok/ok/Animation.org" "/home/ok/ok/EVRYDAY.org"
+     "/home/ok/ok/SAUD.org" "/home/ok/ok/books.org"
+     "/home/ok/ok/events.org"
+     "/home/ok/ok/explanation of accident.org"
+     "/home/ok/ok/explanation of accident.sync-conflict-20260622-232915-GHEJBMB.org"
+     "/home/ok/ok/fitness.org" "/home/ok/ok/habit.org"
+     "/home/ok/ok/howto-write-jpg.org" "/home/ok/ok/job-SAUD.org"
+     "/home/ok/ok/notes.org" "/home/ok/ok/screen-caps.org"
+     "/home/ok/ok/skb.org" "/home/ok/ok/sleep.org"
+     "/home/ok/ok/watch.org")))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

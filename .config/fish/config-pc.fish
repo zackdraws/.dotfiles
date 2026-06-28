@@ -7,7 +7,7 @@ zoxide init fish | source
 set -gx GDK_SCALE 2
 set -gx TERM xterm-256color
 set -gx COLORTERM truecolor
-set -gx YAZI_PREVIEW_IMAGE_PROTOCOL chafa  # fixed typo: PRORTOCOL -> PROTOCOL
+set -gx YAZI_PREVIEW_IMAGE_PROTOCOL chafa  
 # Aliases
 alias se="sudo $EDITOR"
 alias ghostty='cd ~/Projects/ghostty && ./zig-out/bin/ghostty &'
