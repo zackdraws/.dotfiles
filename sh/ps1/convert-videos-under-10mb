@@ -1,0 +1,48 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+source_path="${BASH_SOURCE[0]}"
+while [ -L "$source_path" ]; do
+  source_dir="$(cd -P -- "$(dirname -- "$source_path")" >/dev/null 2>&1 && pwd)"
+  source_path="$(readlink "$source_path")"
+  case "$source_path" in
+    /*) ;;
+    *) source_path="$source_dir/$source_path" ;;
+  esac
+done
+
+script_dir="$(cd -P -- "$(dirname -- "$source_path")" >/dev/null 2>&1 && pwd)"
+script_path="$script_dir/convert-videos-under-10mb.ps1"
+
+if [ ! -f "$script_path" ]; then
+  script_path="$HOME/.dotfiles/sh/ps1/convert-videos-under-10mb.ps1"
+fi
+
+if [ ! -f "$script_path" ]; then
+  echo "convert-videos-under-10mb.ps1 was not found." >&2
+  exit 1
+fi
+
+powershell_command=""
+for candidate in \
+  pwsh.exe \
+  powershell.exe \
+  pwsh \
+  powershell \
+  /c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe; do
+  if command -v "$candidate" >/dev/null 2>&1 || [ -x "$candidate" ]; then
+    powershell_command="$candidate"
+    break
+  fi
+done
+
+if [ -z "$powershell_command" ]; then
+  echo "PowerShell was not found." >&2
+  exit 1
+fi
+
+if command -v cygpath >/dev/null 2>&1; then
+  script_path="$(cygpath -w "$script_path")"
+fi
+
+exec "$powershell_command" -NoProfile -ExecutionPolicy Bypass -File "$script_path" "$@"
