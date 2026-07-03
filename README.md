@@ -304,6 +304,10 @@ and also make it easier to restart the syncing.
 - or "find . -type f -iname "*TEXT*" -print0 | xargs -0 mpv"
 that plays all of the files in order 
 ## 7.2.1 - Reviewing - MPV
+- for playing videos using MPV.
+videos can be played from the terminal by typing
+mpv 'file location'
+if you are playing from the terminal you use 'export DISPLAY=:0 mpv 'file expression''
    export DISPLAY=:0
    mpv --volume-max=350 -fs video.mp4
 ## Docs
