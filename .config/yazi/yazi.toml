@@ -13,12 +13,12 @@ max_width = 2400
 max_height = 3600
 [yank]
 command = "wl-copy"  # or "xclip -selection clipboard"
-[opener]
-edit = [
-]
-play = [
-     { run = 'mpv "$@"', orphan = true, for = "unix" },
-]
+#[opener]
+#edit = [
+#]
+#play = [
+#     { run = 'mpv "$@"', orphan = true, for = "unix" },
+#]
 [tasks]
 
 image_bound = [0, 0]
