@@ -1,10 +1,17 @@
 # Glossary                 
-1. Set up - Terminal
-2. Using the Editor in the terminal 
-3. Managing Files
+1. Intro - Set up - Terminal
+1.2 - Files
+1.3 - Terminal plug-ins
+2. Editing Files
+3. Files
+3.2 Syncing Files
 4. Automating (Scripts) 
-5. Saving 
-
+5. Backing-up and Syncing
+7. Syncing
+9. Set up a Portfolio Site
+10. Connecting Hard-Drives
+11. Searching
+14. Navigating Clipboard searching and moving
 # .dotfiles
    -  the purpose of these .dotfiles is to:
       - configure settings.
@@ -13,93 +20,60 @@
        The config in .config are config files for software.
        Most .config files are found in the home directory .config file.
        * If you can't find the .config folder it might be hidden - (make sure to make hidden folders visible in order to see it.)
-| Category          | Software / Tool      | Windows | Linux | Mac | Config / Location |
-|------------------|---------------------|---------|-------|-----|-------------------|
-| Art Software     | photoshop           | ✅      | ❌    | ✅  | Win: `%APPDATA%\Adobe\`<br>Mac: `~/Library/Application Support/Adobe/` |
-|                  | Clip Studio Paint   | ✅      | ❌    | ✅  | Win: `C:\Users\<username>\Documents\CELSYS\CLIPStudioCommon\`<br>Mac: `~/Documents/CELSYS/CLIPStudioCommon/` |
-|                  | Toonboom Harmony    | ✅      | ❌    | ✅  | Win: `%APPDATA%\Toon Boom Animation\`<br>Mac: `~/Library/Application Support/Toon Boom Animation/` |
-|                  | Storyboard Pro      | ✅      | ❌    | ✅  | Win: `%APPDATA%\Toon Boom Animation\`<br>Mac: `~/Library/Application Support/Toon Boom Animation/` |
-|                  | tvpaint             | ✅      | ✅    | ✅  | Win: `C:\Users\<username>\AppData\Roaming\TVPaint Animation 12 (Pro)\config_name`<br>Mac: `~/Library/TVPaint Animation 12 (Pro)/config_name`<br>Linux: `~/.tvp/config_name` |
-| System Software  | Docker              | ✅      | ✅    | ✅  | `docker-compose.yml` (project dir) |
-|                  | fonts               | ✅      | ✅    | ✅  | Win: `C:\Windows\Fonts`<br>Linux: `~/.local/share/fonts`<br>Mac: `~/Library/Fonts` |
-| Desktop Software | hypr                | ❌      | ✅    | ❌  | `~/.config/hypr/` |
-|                  | waybar              | ❌      | ✅    | ❌  | `~/.config/waybar/` |
-| Terminal         | kitty               | ❌      | ✅    | ❌  | `~/.config/kitty/kitty.conf` |
-|                  | mintty              | ✅      | ❌    | ❌  | `%APPDATA%\mintty\config` |
-|                  | ghostty             | ❌      | ✅    | ❌  | `~/.config/ghostty/` |
-|                  | wezterm             | ✅      | ✅    | ✅  | `~/.wezterm.lua` |
-| Terminal Shell   | bash                | ✅      | ✅    | ✅  | `~/.bashrc`, `~/.bash_profile` |
-|                  | fish                | ✅      | ✅    | ✅  | `~/.config/fish/config.fish` |
-| Terminal Add-ons | Yazi                | ✅      | ✅    | ✅  | `~/.config/yazi/` |
-|                  | tmux                | ✅      | ✅    | ✅  | `~/.tmux.conf` |
-|                  | oh-my-posh          | ✅      | ✅    | ✅  | `~/.config/oh-my-posh/` |
-| Mail             | mutt / neomutt      | yes     | yes   | yes | `~/.config/mutt/` |
-
+       locations can also be found in [[~/.dotfiles/notes.md]]
 # 1. Set up - Terminal
 To configure .dotfiles first decide on what terminal to use-
 ###  - Recommended Terminals
    -       mingw64 UCRT64 terminal (windows)   -
    - 	   windows terminal 	   (windows)   -
-   [link](https://github.com/microsoft/terminal)
    -	   fooT terminal 	   (linux)     -
-   	   [link](https://www.msys2.org/)
    -	   kitty 		   (mac/linux) -
-   	   [link](https://sw.kovidgoyal.net/kitty/)  	   			   	       	 (curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh
-	   /dev/stdin)
 ## 1.2.1   install git [(git notes)](/notes/terminal-notes/git.org)
-git is for version control for your files
-   -       pacman -S mingw-w64-x86_64-git
-   - 	   winget install --id Git.Git -e --source winget
-   -       kitty terminal - >      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-   - 	   home brew 	  - >      brew install git
+   	   git is for version control for your files
+   -       to install in mingw64 UCRT64 use 'pacman -S mingw-w64-x86_64-git' in the terminal
+   - 	   to install using windows use 'winget install --id Git.Git -e --source winget'
+   -       to install in Linux use   
+   -- 	   '/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)'
+   - 	   to install in homebrew use  'brew install git'
 ## 1.2.2   install gh [[https://cli.github.com/][link]]
-   -       git cli is four authorizing your log in and signing into your account
-## 1.4.    clone files (cl)
-   to have these .dotfiles in your folder to call back on go to cd ~/ (to go in your home directory) -
-   next paste this into terminal
-   -       git clone https://github.com/zackdraws/.dotfiles.git
-## 1.2.1   set your username git config --global user.name "Your Name"
-   "youreemail@example.com"
-### Additional Terminal add-ons	
+   -       git cli is used for authorizing your log in and signing into your account
+## 1.2.3   configure credentials
+   - 	   set your username git config --global user.name "Your Name" "youreemail@example.com"
+## 1.2.3.  clone files (cl)
+   -   	   'git clone https://github.com/zackdraws/.dotfiles.git'
+
+   -	   clones files in home directory	   
+# 1.2.4 - adding changes with git to the repository
+       Adding changes: cd ~/.dotfiles/; git add <file changed>; git commit -m "message"; git push (this publishes changes)
+       Recieving changes: git pull or git fetch
+
+### Additional Terminal plug-ins and programs	
    - 	   fzf	- helps to look through all the files
    - 	   ncdu	- disk utility - look at your disk
    - 	   btop - look at your settings
    - 	   zoxide - search for anything and snap to it in the terminal
    - 	   pastel - helps to pick out colors from the terminal
-   - 	   syncthing - can be used to sync all of your files
-   - 	   ffmpeg - use for mp4 editing
-      	          - use this in terminal to export avi files to mp4 
-#### fzf - 
-     cd 'directory'
-     fzf 'file you are looking for'.
-     finds file of the same name
-     Run nano "$(fzf)" open inside that editor
-     mpv "$(fzf) to open video file with mpv
-#### ffmpeg - use ffmpeg to quickly convert file smaller
-     [[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
-        ffmpeg -i input.avi -r 24 output.mp4
-	       	  	       	  	     	    -fs limit_size (output)
+   - 	   ffmpeg - use for mp4 editing use this in terminal to export avi files to mp4 
 ### 1.3 - File folders - set up common folders in your computer for your files to stay organized
     	       	         use ~ to point to the home directory
 			 - ~/.dotfiles
  			 - config files (c/msys32/home/USER/.dotfiles if you install it in msys32
 			   	  	(c:/users/USERNAME/.dotfiles if installed in windows terminal)
-    	  ~/ok/		- notes
-    	  ~/ref 	- where my reference folders are
+    	  ~/ok/		- notes - I use a folder marked 'ok' for notes
+	  ~/.notes	- .notes - more notes that are synced to a .notes folder
+    	  ~/ref 	- this is where my reference folders are
 	  ~/music       - music files 
 	  ~/Videos 	- video files
 	  ~/2026/	- files for 2026
 # 2. The Editor - the editor is used to edit files from the terminal.
- - eMacs - eMacs stands for Editor Macros and can be used as editor for files.
- to install emacs 'pacman -S mingw-w64-x86_64-emacs'
-    [[~/.dotfiles/notes/emacs/]]
+     to install emacs 'pacman -S mingw-w64-x86_64-emacs'
+     [[~/.dotfiles/notes/emacs/]]
 ## 2. .Configure
-   The configuration files for emacs are stored on your computer locally in [[~/.emacs.d/init.el]] 
-   the configuration files are stored on git in the repo at this location [[~/.dotfiles/.config/emacs/.emacs-pc]]
-   clone the repo to have the emacs file make sure it is configured in your home directory ~/
-   confirm that you are inside your home directory by typing cd ~/
+   Emacs -  configuration files for emacs are stored on your computer locally in [[~/.emacs.d/init.el]] 
+      sudo ln -s ~/.dotfiles/.config/.emacs.d/init.el ~/.emacs.d/init.el syncs it 
+   Git 	 -  configuration files are stored on git in the repo at this location [[~/.dotfiles/.config/emacs/.emacs-pc]]
 ## 2. -- linking
-type - git clone http://github.io/zackdraws/.dotfiles/ into your terminal
+   type - git clone http://github.io/zackdraws/.dotfiles/ into your terminal
    run  ln -s command to create a synthetic link from the .dotfiles location to the .emacs location file
    'ln -s ~/.dotfiles/.config/emacs/.emacs-pc ~/.emacs.d/init.el
    now you have a symbolic link between the .dotfile and the init file
@@ -120,8 +94,6 @@ type - git clone http://github.io/zackdraws/.dotfiles/ into your terminal
     3.1.2 Linking files (windows)
 	    - sudo ln -f //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
 	           cd //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
-   3.2    Adding changes: cd ~/.dotfiles/; git add <file changed>; git commit -m "message"; git push (this publishes changes)
-   3.3    Recieving changes: git pull or git fetch
    3.3.1. Make Script files actionable from anywhere in the terminal - 
    3.4.1   cd - /usr/local/bin/ (changes the directory to usr/local/bin)
    3.4.2   chmod +x file (this makes the sh follow usable)
@@ -268,7 +240,7 @@ and also make it easier to restart the syncing.
     - https://github.com/omerxx/go-blocksite
 # 7. Work - tools for work
 # 7.1 Creating
-  ##  Photoshop - Photoshop is what I use for most painting.
+##  Photoshop - Photoshop is what I use for most painting.
       		- My brushes actions and scripts are in the folder marked ps ~/.dotfiles/ps
       Photoshop Actions
       Photoshop Brushes - folder is because most of the brushes I use are not made by me.
@@ -280,37 +252,37 @@ and also make it easier to restart the syncing.
 ##  Storyboard Pro
 ##  Toonboom Harmony
 # 7.1.2 Time Tracking
-  ## Excel
-  ## Manictime 
+## Excel
+## Manictime 
      ### Manictime as well can be used for extreme time logging.
-# 7.3 Compositing/Editing
-  ## Premiere - For editing reels and animation scenes.
-  ## Blender - For editing reels and animation scenes, it's similar to Premiere, most things can be done in Blender but they just require a bit more research and time.
-  ## After Effects
+## 7.3 Compositing/Editing
+## Premiere - For editing reels and animation scenes.
+## Blender - For editing reels and animation scenes, it's similar to Premiere, most things can be done in Blender but they just require a bit more research and time.
+## After Effects
 # 7.3.2 Sound
-  ## Audacity
-  ## Adobe Audition
+## Audacity
+## Adobe Audition
 # 7.4 Publishing/Posting
 # 7.5 Storing/Backing up/File Management
 # 7.2 Reviewing
-  - mpv	   - use for watching videos
-  - ffmpeg - use for editing, converting and trimming videos
+##  - mpv	   - use for watching videos
+##  - ffmpeg - use for editing, converting and trimming videos
   	   use this in terminal to export avi files to mp4 
 	       	       [[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
 		       	  ffmpeg -i input.avi -r 24 output.mp4
-- play files from the terminal in a folder either by mpv [file name] or if you aren't certain of the file name
-- run
-- "find . -type f \( -name "*.mp4" -o -name "*.mkv" \) -print0 | xargs -0 mpv" 
-- or "find . -type f -iname "*TEXT*" -print0 | xargs -0 mpv"
+## - play files from the terminal in a folder either by mpv [file name] or if you aren't certain of the file name
+## - run
+## - "find . -type f \( -name "*.mp4" -o -name "*.mkv" \) -print0 | xargs -0 mpv" 
+## - or "find . -type f -iname "*TEXT*" -print0 | xargs -0 mpv"
 that plays all of the files in order 
-## 7.2.1 - Reviewing - MPV
+# 7.2.1 - Reviewing - MPV
 - for playing videos using MPV.
 videos can be played from the terminal by typing
 mpv 'file location'
 if you are playing from the terminal you use 'export DISPLAY=:0 mpv 'file expression''
    export DISPLAY=:0
    mpv --volume-max=350 -fs video.mp4
-## Docs
+# Docs
    ### For PDFS
      - Adobe Acrobat	  - 
        - Zathura	  -		    https://github.com/pwmt/zathura.git 
@@ -325,8 +297,8 @@ if you are playing from the terminal you use 'export DISPLAY=:0 mpv 'file expres
   $photoshopConfigDir = "$env:APPDATA\Adobe\Adobe Photoshop <version>\Adobe Photoshop <version> Settings"
   New-Item -ItemType SymbolicLink -Path $photoshopConfigDir -Target "$dotfilesDir\photoshop\Settings" -Force
   $photoshopPresetsDir = "$env:APPDATA\Adobe\Adobe Photoshop <version>\Presets"
-  New-Item -ItemType SymbolicLink -Path $photoshopPresetsDir -Target "$dotfilesDir\photoshop\Presets" -Force
-# TVPaint config location
+  New-Item -ItemType SymbolicLink -Path $photoshopPresetsDir -Target "$dotfilesDir\photoshop\Presets" TVPaint
+# -Force config location
   $tvpaintConfigDir = "$env:APPDATA\TVPaint Animation"
   New-Item -ItemType SymbolicLink -Path $tvpaintConfigDir -Target "$dotfilesDir\tvpaint\Animation" -Force
 # Screen Recordings
@@ -355,20 +327,23 @@ if you are playing from the terminal you use 'export DISPLAY=:0 mpv 'file expres
    	     in linux you have to use mount the mount command  
 	     run lsblk 
 	     sudo mount /dev/sdb1 /run/media/ok/where you want that file to go
+# 11. Searching
 ## Searching for files
    ### Rofi is in linux for searching for files
    rofi is for searching for files in arch
    to config rofi -dump-config > ~/.config/rofi/config.rasi
    mkdir -p ~/.config/rofi
    alternative to rofi is wofi - 
+# 12. Hardware
 ## Audio fix (linux)
    try this if audio is not working
    systemctl --user restart pipewire wireplumber pipewire-pulse
-## Wallpapers
+## 13. Desktop config
+Wallpapers
    awww-daemon for wallpapers
    [[https://codeberg.org/LGFae/awww]]
-## Broswer
-# Copy
+## 14. Navigating - Clipboard, searching and moving
+###  Clipboard
 ** to copy to the clipboard
 cat file.org | to_latex.sh | xclip -selection clipboard
 or wl-copy < file # for wayland in linux
@@ -436,11 +411,10 @@ Moving around
 - If your computer is on MBR instead of GPT for the drive you will have to update it in order to change the bios to be in EUFI mode instead of Legacy mode.
 - Also to enable Virtualizion ((VTY-x//SVM) you will have to enable that in the BIOS which is useful for loading into virtual desktops to test apps and not worry about the apps changing your files.
 - Sometimes when accessing two different apps with similar security settings that conflict using a virtual machine between the two allows them not to interfere with each other.
-# TABLET -
+# Tablet -
 install the latest driver here
 https://www.wacom.com/en-us/support/product-support/drivers?_gl=1*149rhzs*_ga*MzcyNjU4MTQ5LjE3Nzc5MTcxODc.*_ga_5XHN22BY8E*czE3Nzc5MTcxODYkbzEkZzAkdDE3Nzc5MTcxODYkajYwJGwwJGgyNTUwODUwOTE.
-# Drivers 
-## Cintiq
+## Driver for Cintiq
 for cintiq 22HD (older model use WacomTablet_6.4.10-3.exe
 https://developer-support.wacom.com/hc/en-us/articles/9354461938711-Silent-installation-or-uninstallation-of-tablet-and-video-drivers
 -- https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.10-3.exe
@@ -487,3 +461,11 @@ The setup script links the whkd and Hyprland recording config, creates `~/Videos
 Run this from a cloned dotfiles repo on a new computer if you also want the mutt mail config:
 bash sh/setup/apply-mail-recording.sh
 
+# Using the Terminal-
+-  run program "$(fzf)" to search and then open in program
+
+## Post-processing
+#### ffmpeg - use ffmpeg to quickly convert file smaller
+     [[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
+        ffmpeg -i input.avi -r 24 output.mp4
+	       	  	       	  	     	    -fs limit_size (output)
