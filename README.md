@@ -1,7 +1,9 @@
 # Glossary                 
 1. Intro - Set up - Terminal
-1.2 - Files
-1.3 - Terminal plug-ins
+   - about
+   - config
+   1.2 - Files
+   1.3 - Terminal plug-ins
 2. Editing Files
 3. Files
 3.2 Syncing Files
@@ -77,16 +79,18 @@ To configure .dotfiles first decide on what terminal to use-
    run  ln -s command to create a synthetic link from the .dotfiles location to the .emacs location file
    'ln -s ~/.dotfiles/.config/emacs/.emacs-pc ~/.emacs.d/init.el
    now you have a symbolic link between the .dotfile and the init file
-## Emacs: Configuring Ivy-Mode     -	
 ## Emacs: Configuring Agenda       -  
 	make a folder on computer at ~/ok
 	when you make a .org file inside the folder mark it with a date or set up reminders 
 	org agenda will organize all of the files inside into an agenda view Hit alt-x org-agenda view 
-## Editing - remove all the blank lines in a file	
+## Editing 
+### Clean - up blank lines
+- remove all the blank lines in a file	
    M-x flush-lines RET ^$ RET
    M-x flush-lines RET ^[[:space:]]*$ RET
 # 3.  Files
-   3.1  *ln* Linking files (linux or ucrt64)
+   3.1  symlink
+   	*ln* Linking files (linux or ucrt64)
          sudo ln -s /home/name/.dotfiles/file /usr/local/bin/ (for shell files)
 	     (creates a symlink)
 	        (symlinks are synthetic links between two files 
@@ -108,138 +112,25 @@ To configure .dotfiles first decide on what terminal to use-
     Broot   - look through files in terminal
     Zoxide  - quick search for files
     FZF     - is a fuzzy finder if you are in the directory use fzf to find your files
-# 4.  File Automation (Scripts) - scripts to automate tasks
-## .py - Python Files
-    cnv_mp4_gif.py
-    python mp4_to_gif.py your_input_file.mp4 output_file.gif
-4. To change the frame duration, use the `-d` or `--duration` argument:
-###   Scripts for making things
-      - Export_Org_To_pdf.sh
-        converts .org file to pdf
-      	$ need to change name from export to convert
-      - to_latex.sh
-      pipes a file into the correct format for pandoc
-      - cnv_pdf_jpg.sh
-	     		convert pdf files to jpg
-      - this is for a specific file
-      - cnv_pdf__jpg.sh* 
-   	-- convert pdf files to jpg
-    	- this is for all pdf files in a folder
-      - grep_thumbnails.sh
-     	-- extract image paths and then convert them to latex
-      - grep_t.sh 	  
-    	-- s/a grep_thumbnails but with a shorter name
-      - syncthing_stop.sh 
-    	-- stops syncthing
-      - mkto.sh 	
-	-- makes a todo with the date that the file is made
-      - FI_^^.sh' 	
-	-- moves file from the child folder to the parent folder
-      - copy_out.sh 	     	    
-### 4. Exporting    		
-      - export_org_to_pdf_02.org
-      -- another exporting org files to pdfs (need to check what is different about this one)
-      - export_org_to_pdf_02.sh*
-      -- another exporting of org files to pdfs (need to check what is different about this file)
-      - export_org_to_pdf.sh*
-      -- exports .org documents to pdf files (need to check what is different about this file)
-### 4. Formating 
-###   Scripts for Formatting
-      - Bracket_Format.sh		puts brackets around file
-### 4. Converting     
-###   Scripts for converting Files -
-      - cnv_jpg_pdf 		        convert jpg to pdf
-      - psd_convert.sh -		convert psd to jpg     		     		
- 	- this converts all visible layers to a jpg. Make sure to turn layers off that are in folders.
-      - psd_jpeg.sh -  			convert psd to jpeg
-      	- this is different then psd_convert.sh ?
-      - cnv_pdf->jpg			convert pdf to jpg
-      - convert_heic_to_jpeg.sh -	convert heic to jpeg
-      - convert_heic_to_jpg.sh - 	convert heic to jpg
-      - convert_png_j.sh -     		convert png to jpg
-      - convert_webloc_jpeg -  		convert webloc to jpeg
-      - convert_webp_jpeg - 		convert webp to jpeg
-      - heic_jpeg.sh - 			convert heic to jpeg
-      - jfif_jpeg.sh -   		convert jfif to jpeg
-      - convert_webloc_to_jpeg.sh - 	convert webloc to jpeg 
-      	 (doesn't always work)
-### 4.   Compress Files
-      - tiny_vid.sh -		        to make videos smaller     		  			
-      - tiny_vid_split.sh
-      - splits videos in to ten minute portions
-      - cnv_org_doc		       converts org files to doc files
-### 4.   Move 
-          - move_files_to_parent.sh -		mv files to parent directory
-### 4.   Rename - F2
-    - F2_date_taken.sh -		renames files with the date taken
-    - rename.sh -			renames file
-    - rename_date_taken.sh - 		renames files with date taken
-    - rename_folder.sh -   		renames files in folder
-### 4.   Delete - X
-    - X.sh -				deletes files inside folder
-    - clean.sh - 			deletes files
-    - delete_all_heic - 		deletes all heic files
-    - delete_all_jfif - 		deletes all jfif files
-    - delete_duplicates  		tried to get a script that deletes 
-    - delete_duplicate_images - 	script to delete duplicate images
-      			      		        (doesn't work well)
-    - delete_text_string		can't remember what this one does
-### 4. PSD - scripts to change images
-    - change				
-    - psd_bright.py			
-      - psd_bw.py				
-      - psd_bright.py			
-      - psd_bw.py				
-       - psd_convert.sh 		converts psd files - exports layers
-       - output -      
-       - psd_flat.sh			flattens layers and converts to psd
-       - psd_flats.sh 			adds colors randomly to closed contour areas
-       - psd_jpeg.sh 			converts psd to jpeg
-	    - keyout -
-	    - psd_key_matte_folder.sh		adds matte to files in a folder
-	    - psd_key_mate_folder_strong.sh 	like psd key matte but stronger
-	    - psd_keyout.sh 			takes out the white background
-	    - psd_keyout_w_matte.sh 		adds white matte underneath drawings
-	    - psd_keyout_w_matte_soft.		 
-	    - psd_select_sub.sh 		inverts subject and takes out background
-	    - crop.sh 				to crop files
-###  Captioning - 			
-- just a quick python script to add a caption to images like storyboards 
-    - Caption.py			usage: caption.py [image.jpg]
-	   				asks for caption
-	   				write in caption
-					outputs with caption
-###   Compressing
-         -Untar.sh -			unzips files from terminal
-#   5.  Back-up and Save 
-###  		Syncthing - 
-     	       	  sync one computer to another
-   	       	    1. - install on macos with homebrew - brew install syncthing
-	   	    2. - run 'syncthing' in terminal
-  		       	      loads syncthing in the terminal -
-   	 	    3. - run
-		    (on mac)
-		    brew services start syncthing
-		    for syncthing to start on start up
-5.1.1 Syncing with Docker
+4.1.1 Syncing with Docker
 Either install Docker so that you can back-up settings and quickly remake the file
 my composition file is in [[~/.dotfiles/.config/docker/syncthing/docker-compose.yml]]
 run command docker compose up -d. Settings will be saved and set up in ~/.config/syncthing/
 the xml file controls the settings but can also be changed on the web at 0.0.0.0:8384. the docker compose makes it possible to change the files and refresh and restart the configuration 
 and also make it easier to restart the syncing. 
 - Web interface
-  5.1. syncthing can be edited in any browser at 127.0.0.1:8384 
+  4.1. syncthing can be edited in any browser at 127.0.0.1:8384 
   * 127.0.0.1 is the address for local host - it's what your computer is hosting
-  5.2. After just install Syncthing on a different computer and share devices on it
-  5.3. sync files by adding them to your folders
+  4.2. After just install Syncthing on a different computer and share devices on it
+  4.3. sync files by adding them to your folders
 ### TMUX - terminal multiplexer
     - https://github.com/omerxx/dotfiles 
     - https://github.com/tmux-plugins/tpm
     - https://github.com/omerxx/tmux-sessionx
     - https://github.com/tmux/tmux/wiki/Getting-Started
     - https://github.com/omerxx/go-blocksite
-# 7. Work - tools for work
-# 7.1 Creating
+# 6. Work - tools for work
+# 6.1 Creating
 ##  Photoshop - Photoshop is what I use for most painting.
       		- My brushes actions and scripts are in the folder marked ps ~/.dotfiles/ps
       Photoshop Actions
@@ -251,20 +142,20 @@ and also make it easier to restart the syncing.
       [(tvpaint)](/notes/terminal-notes/git.org)
 ##  Storyboard Pro
 ##  Toonboom Harmony
-# 7.1.2 Time Tracking
+# 6.1.2 Time Tracking
 ## Excel
 ## Manictime 
      ### Manictime as well can be used for extreme time logging.
-## 7.3 Compositing/Editing
+## 6.3 Compositing/Editing
 ## Premiere - For editing reels and animation scenes.
 ## Blender - For editing reels and animation scenes, it's similar to Premiere, most things can be done in Blender but they just require a bit more research and time.
 ## After Effects
-# 7.3.2 Sound
+# 6.3.2 Sound
 ## Audacity
 ## Adobe Audition
-# 7.4 Publishing/Posting
-# 7.5 Storing/Backing up/File Management
-# 7.2 Reviewing
+# 6.4 Publishing/Posting
+# 6.5 Storing/Backing up/File Management
+# 6.2 Reviewing
 ##  - mpv	   - use for watching videos
 ##  - ffmpeg - use for editing, converting and trimming videos
   	   use this in terminal to export avi files to mp4 
@@ -275,7 +166,7 @@ and also make it easier to restart the syncing.
 ## - "find . -type f \( -name "*.mp4" -o -name "*.mkv" \) -print0 | xargs -0 mpv" 
 ## - or "find . -type f -iname "*TEXT*" -print0 | xargs -0 mpv"
 that plays all of the files in order 
-# 7.2.1 - Reviewing - MPV
+# 6.2.1 - Reviewing - MPV
 - for playing videos using MPV.
 videos can be played from the terminal by typing
 mpv 'file location'
@@ -306,7 +197,7 @@ if you are playing from the terminal you use 'export DISPLAY=:0 mpv 'file expres
 ### Summary
     - **Photoshop and TVPaint Configuration Files** are usually located in the `AppData` folder (Roaming or Local)
     - **Symlinks** allow you to point these configuration files to their expected locations, making it easy to synchronize settings across multiple machines.
-# 9. Set up a Portfolio site
+# 7. Set up a Portfolio site
   * domain fixing
     https://www.youtube.com/watch?v=EX4w9hsduNA
 * Github
@@ -322,27 +213,27 @@ if you are playing from the terminal you use 'export DISPLAY=:0 mpv 'file expres
   - sudo nano /etc/systemd/system/restart-networkmanager.service
   - sudo nano /etc/systemd/system/restart-networkmanager.
     systemctl enable --now cronie.service
-# 10. Connecting Hard-drives - 
+# 8. Connecting Hard-drives - 
 ## Hard Drives (linux)
    	     in linux you have to use mount the mount command  
 	     run lsblk 
 	     sudo mount /dev/sdb1 /run/media/ok/where you want that file to go
-# 11. Searching
+# 9. Searching
 ## Searching for files
    ### Rofi is in linux for searching for files
    rofi is for searching for files in arch
    to config rofi -dump-config > ~/.config/rofi/config.rasi
    mkdir -p ~/.config/rofi
    alternative to rofi is wofi - 
-# 12. Hardware
+# 10. Hardware
 ## Audio fix (linux)
    try this if audio is not working
    systemctl --user restart pipewire wireplumber pipewire-pulse
-## 13. Desktop config
+## 11. Desktop config
 Wallpapers
    awww-daemon for wallpapers
    [[https://codeberg.org/LGFae/awww]]
-## 14. Navigating - Clipboard, searching and moving
+## 12. Navigating - Clipboard, searching and moving
 ###  Clipboard
 ** to copy to the clipboard
 cat file.org | to_latex.sh | xclip -selection clipboard
