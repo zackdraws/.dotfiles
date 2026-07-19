@@ -10,7 +10,7 @@ services:
       - JELLYFIN_PublishedServerUrl=http://192.168.0.5 #optional
     volumes:
       - /.config/jellyfin/config:/config
-      - /run/media/ok/easystore/P/V/TV:/data/tvshows
+      - /home/ok/untar:/data/tvshows
       - /run/media/ok/easystore/P/V/Movies:/data/movies
       - /run/media/ok/easystore/Music:/data/music
       - /run/media/ok/easystore/P/V/anime:/data/anime
