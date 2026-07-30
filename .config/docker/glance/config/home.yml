@@ -1,0 +1,70 @@
+- name: Home
+  # Optionally, if you only have a single page you can hide the desktop navigation for a cleaner look
+  # hide-desktop-navigation: true
+  columns:
+    - size: small
+      widgets:
+        - type: calendar
+          first-day-of-week: monday
+
+        - type: rss
+          limit: 20
+          collapse-after: 12
+          cache: 12h
+          feeds:
+            - url: https://www.catsuka.com/rss/
+              title: Catsuka
+            - url: https://www.cartoonbrew.com/feed
+              title: Cartoon Brew
+            - url: https://cartoonresearch.com/index.php/feed/
+              title: Cartoon Research
+            - url: https://www.animationmagazine.net/feed/
+              title: Animation Magazine
+
+    - size: full
+      widgets:
+        - type: group
+          widgets:
+            - type: hacker-news
+            - type: lobsters
+        - type: videos
+          channels:
+            - UCr1fdFXztwacnJ206hMgG7w # Cas 
+            - UCxXu9tCU63mF1ntk89XPkzA # Worthikids
+        - type: videos
+          channels:
+            - UCt16NSYjauKclK67LCXvQyA # Thrasher
+        - type: videos
+          channels:    
+            - UCxS4K8wep-wB9_YjY-W7nrg
+            - UC-Ezm-cKuesqVJaSj9pmKvA # Catsuka
+            - UCxS4K8wep-wB9_YjY-W7nrg
+            - UC6pGDc4bFGD1_36IKv3FnYg # Crunchyroll
+        - type: group
+          widgets:
+            - type: reddit
+              subreddit: technology
+              show-thumbnails: true
+            - type: reddit
+              subreddit: animation
+              show-thumbnails: true
+
+    - size: small
+      widgets:
+        - type: weather
+          location: Los Angeles, California, United States
+          units: imperial # alternatively "imperial"
+          hour-format: 12h # alternatively "24h"
+          # Optionally hide the location from being displayed in the widget
+          # hide-location: true
+
+        - type: releases
+          cache: 1d
+          # Without authentication the Github API allows for up to 60 requests per hour. You can create a
+          # read-only token from your Github account settings and use it here to increase the limit.
+          # token: ...
+          repositories:
+            - glanceapp/glance
+            - go-gitea/gitea
+            - immich-app/immich
+            - syncthing/syncthing
