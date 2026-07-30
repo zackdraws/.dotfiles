@@ -360,3 +360,13 @@ bash sh/setup/apply-mail-recording.sh
      [[ ffmpeg -i filepath.avi filename.mp4]] ** to export to convert to mp4 file
         ffmpeg -i input.avi -r 24 output.mp4
 	       	  	       	  	     	    -fs limit_size (output)
+
+# Docker * Servers
+https://github.com/winfsp/sshfs-win
+
+
+
+The command (setq inhibit-startup-message t) in GNU Emacs tells the program to skip the initial welcome splash screen and start directly with your empty scratch buffer
+
+
+https://arne.me/blog/emacs-from-scratch-part-one-foundations
