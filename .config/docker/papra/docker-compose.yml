@@ -1,0 +1,13 @@
+services:
+  papra:
+    container_name: papra
+    image: ghcr.io/papra-hq/papra:latest
+    restart: unless-stopped
+    ports:
+      - "1221:1221"
+    environment:
+      - AUTH_SECRET=your_super_secure_random_secret_key
+      - APP_BASE_URL=http://localhost:1221
+    volumes:
+      - ./app-data:/app/app-data
+    user: "${UID}:${GID}"

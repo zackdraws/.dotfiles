@@ -1,0 +1,12 @@
+#+title: <2026-05-20 Wed 00:00>
+*  todos
+** 1
+*** TODO take out non essential for .config.fish
+        modified:   .config/yazi/yazi.toml
+        modified:   .config/yazi/yazi_pc.toml
+        modified:   sh/install/ok-install-f.sh
+        modified:   sh/install/ok-install-fi.sh
+- untracked files -
+        .config/tmux/tmux-pc.conf
+        .config/yazi/#yazi_backup.toml#
+        .config/yazi/yazi.toml.20260517
