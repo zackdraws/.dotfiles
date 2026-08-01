@@ -1,5 +1,8 @@
 set -x EDITOR "emacs -nw"
 set -x VISUAL "emacs -nw"
+if test "$MSYSTEM" = UCRT64
+    set -gx GOROOT /ucrt64/lib/go
+end
 set -x PATH /home/ok/.local/bin $PATH
 set -x PATH ~/.local/bin $PATH
 zoxide init fish | source
