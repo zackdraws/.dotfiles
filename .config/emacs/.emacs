@@ -90,7 +90,6 @@
 (straight-use-package 'simple-httpd)
 (straight-use-package 'impatient-mode)
 ;; Org-mode & Org-roam
-(straight-use-package 'org)
 (straight-use-package 'org-roam)
 (straight-use-package 'org-roam-ui)
 (straight-use-package 'citar)
