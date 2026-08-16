@@ -36,11 +36,6 @@ pacman -S mingw-w64-ucrt-x86_64-gcc \
 command -v fish | sudo tee -a /etc/shells
 echo  "Change default shell to fish"
 chsh -s /usr/bin/fish
-# winget
-winget install VideoLAN.VLC
-winget install google.chrome
-winget mpv
-winget vlc
 # scoop
 * scoop bucket add extreas
 - scoop install extras/mpv
