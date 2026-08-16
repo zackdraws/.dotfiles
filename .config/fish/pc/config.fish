@@ -1,0 +1,94 @@
+set -x EDITOR "emacs -nw"
+set -x VISUAL "emacs -nw"
+set -gx YAZI_CONFIG_HOME "C:/msys64/home/ok/.config/yazi"
+# Make Docker Desktop's Windows CLI available in MSYS2/UCRT64 shells.
+if test -d '/c/Program Files/Docker/Docker/resources/bin'
+    fish_add_path --global '/c/Program Files/Docker/Docker/resources/bin'
+end
+if status is-interactive
+    stty -ixon 2>/dev/null
+end
+if test -d /ucrt64/bin
+    set -gx PATH /ucrt64/bin /home/ok/.local/bin /usr/local/bin /usr/bin /bin /opt/bin $PATH
+end
+set -x PATH /home/ok/.local/bin $PATH
+set -x PATH ~/.local/bin $PATH
+zoxide init fish | source
+set -U fish_greeting
+set -gx GDK_SCALE 2 #GWSL
+if test "$MSYSTEM" = UCRT64; and not set -q TMUX; and not set -q TERM
+    set -gx TERM xterm-256color
+end
+set -gx COLORTERM truecolor
+if test "$MSYSTEM" = UCRT64
+    if set -q WT_SESSION
+        set -gx TERM_PROGRAM WindowsTerminal
+    else if test "$MSYSCON" = mintty.exe; and begin; not set -q TERM_PROGRAM; or test "$TERM_PROGRAM" = tmux; end
+        set -gx TERM_PROGRAM mintty
+    end
+end
+export LEDGER_FILE=~/finance/2026.journal
+zoxide init fish | source
+set -gx GDK_SCALE 2 #GWSL
+if test "$MSYSTEM" = UCRT64; and not set -q TMUX; and not set -q TERM
+    set -gx TERM xterm-256color
+end
+set -gx COLORTERM truecolor
+if test "$MSYSTEM" = UCRT64
+    if set -q WT_SESSION
+        set -gx TERM_PROGRAM WindowsTerminal
+    else if test "$MSYSCON" = mintty.exe; and begin; not set -q TERM_PROGRAM; or test "$TERM_PROGRAM" = tmux; end
+        set -gx TERM_PROGRAM mintty
+    end
+end
+alias se="sudo $EDITOR"
+alias ghostty='cd ~/Projects/ghostty && /zig-out/bin/ghostty'
+alias l="lobster"
+alias y="yazi"
+alias 0T5="TODO.sh"
+alias psd_c="psd_convert.sh"
+alias psd_j="psd_jpeg.sh"
+alias tv="irssi.sh"
+alias jfif_j="jfif_jpeg.sh"
+alias copy_txt="copy_clip.sh"
+alias compress_v="compress_video.sh"
+alias ok="mkto.sh"
+alias yt="mov-cli -s youtube.yt-dlp"
+alias ytd="mov-cli -s youtube.yt-dlp -d"
+function e
+    emacs -nw $argv
+end
+function watch-clipboard --description "Automatically convert Windows paths in clipboard to MSYS paths"
+    set -l last ""
+    while true
+        # Get clipboard content
+        set current (powershell.exe -NoProfile -Command Get-Clipboard | tr -d '\r')
+        # Skip if unchanged or empty
+        if test "$current" = "$last" -o -z "$current"
+            sleep 0.5
+            continue
+        end
+        set last "$current"
+        # Check if path looks like C:\... (starts with drive letter and colon and backslash)
+        if test (string length $current) -gt 3
+            set first_char (string sub -l 1 $current)
+            set second_char (string sub -s 2 -l 1 $current)
+            set third_char (string sub -s 3 -l 1 $current)
+            if string match -rq '[A-Za-z]' -- $first_char
+                and test $second_char = ":"
+                and test $third_char = "\\"
+                    # Convert to /c/Users/... style
+                    set path (string replace -a '\\' '/' $current)
+                    set drive (string lower $first_char)
+                    set rest (string sub -s 4 $path)
+                    set unixpath "/$drive/$rest"
+                    # Update clipboard
+                    echo $unixpath | clip.exe
+                    echo "✅ Converted clipboard path: $unixpath"
+            end
+        end
+        sleep 0.5
+    end
+end
+oh-my-posh init fish | source
+oh-my-posh init fish --config ~/.config/oh-my-posh/themes/bubbles.omp.json | source
