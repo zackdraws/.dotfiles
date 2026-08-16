@@ -70,8 +70,16 @@ To configure .dotfiles first decide on what terminal to use-
 # 2. The Editor - the editor is used to edit files from the terminal.
      to install emacs 'pacman -S mingw-w64-x86_64-emacs'
      [[~/.dotfiles/notes/emacs/]]
+
 ## 2. .Configure
-   Emacs -  configuration files for emacs are stored on your computer locally in [[~/.emacs.d/init.el]] 
+### #! 
+
+### arch configure
+### bash
+### beets
+### Clip Studio Paint
+### Docker
+### 2.1   Emacs -  configuration files for emacs are stored on your computer locally in [[~/.emacs.d/init.el]] 
       sudo ln -s ~/.dotfiles/.config/.emacs.d/init.el ~/.emacs.d/init.el syncs it 
    Git 	 -  configuration files are stored on git in the repo at this location [[~/.dotfiles/.config/emacs/.emacs-pc]]
 ## 2. -- linking
@@ -83,52 +91,80 @@ To configure .dotfiles first decide on what terminal to use-
 	make a folder on computer at ~/ok
 	when you make a .org file inside the folder mark it with a date or set up reminders 
 	org agenda will organize all of the files inside into an agenda view Hit alt-x org-agenda view 
+references: https://arne.me/blog/emacs-from-scratch-part-one-foundations
+### fish 
+fish is in ~/.config/fish 
+fish_history is in .local/share/fish
+### fonts 
+### ghostty 
+### hypr
+### kitty
+### komorebi
+### marp
+### mintty
+### nixos
+### oh-my-posh 
+oh-my-posh is in ~/.config/oh-my-posh/ and has the themes files there the repo hast to be cloned there
+### ps
+### ps1
+### Storyboard Pro
+### systemd
+### - TMUX
+tmux needs to be configured these are links to get started. Tmux us used as a teminal multiplexer to have tabs and window panes in the terminal and to save your sessions and also to connect to a session through ssh
+tmux resurrect files are in ~/.local/share/tmux/
+- terminal multiplexer
+    - https://github.com/omerxx/dotfiles 
+    - https://github.com/tmux-plugins/tpm
+    - https://github.com/omerxx/tmux-sessionx
+    - https://github.com/tmux/tmux/wiki/Getting-Started
+    - https://github.com/omerxx/go-blocksite
+- ~/.tmux.conf is where the tmux file is that then sources the file from ~/.dotfiles/.config/tmux/tmux-pc.conf
+### Toonboom Harmony
+### tvp
+### waybar
+### wezterm
+### yazi
+### whkdrc
+
 ## Editing 
-### Clean - up blank lines
+### Editing Text
+#### Clean - up blank lines
 - remove all the blank lines in a file	
    M-x flush-lines RET ^$ RET
    M-x flush-lines RET ^[[:space:]]*$ RET
 # 3.  Files
-   3.1  symlink
+   3.1  linking files using symlinkl
    	*ln* Linking files (linux or ucrt64)
          sudo ln -s /home/name/.dotfiles/file /usr/local/bin/ (for shell files)
 	     (creates a symlink)
 	        (symlinks are synthetic links between two files 
 		(when you update from .dotfiles it then updates the file in the usr local bin.)
     3.1.2 Linking files (windows)
+    	  to link files from wsl to windows use
 	    - sudo ln -f //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
 	           cd //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
-   3.3.1. Make Script files actionable from anywhere in the terminal - 
+   3.3.1. Running Script files in the terminal - 
    3.4.1   cd - /usr/local/bin/ (changes the directory to usr/local/bin)
-   3.4.2   chmod +x file (this makes the sh follow usable)
+   3.4.2   in order to run scripts the permissions need to be changed run 
+   chmod +x file (this makes the sh follow usable)
    3.5     Shell - for command history and command line editing - is within the terminal
            Fish - for syntax highlights and autosuggestions and themes
 	   WINDOWS -  
 	   WSL ->  sudo ln -s //wsl.localhost/Ubuntu/home/zack/.dotfiles/sh/p 1/cnvheic2j.ps1		/					c/users/user/Documents/WindowsPowerShell/Scripts/cnvheic2j.ps1
-## -  Files: Navigating terminal -
+## 3.6 -  Files: Navigating terminal -
     Yazi    - look through files in terminal. 
             - ~/.config/yazi/yazi.toml
               or c/users/zacha/Appdata/Roaming/yazi/config/yazi.toml
+[ - Switch to the previous tab] - Switch to the next tab1 to 9 - Switch directly to the N-th tab (e.g., 1 for the first tab, 2 for the second){ - Swap the current tab with the previous tab} - Swap the current tab with the next tab
     Broot   - look through files in terminal
     Zoxide  - quick search for files
     FZF     - is a fuzzy finder if you are in the directory use fzf to find your files
-4.1.1 Syncing with Docker
-Either install Docker so that you can back-up settings and quickly remake the file
-my composition file is in [[~/.dotfiles/.config/docker/syncthing/docker-compose.yml]]
-run command docker compose up -d. Settings will be saved and set up in ~/.config/syncthing/
-the xml file controls the settings but can also be changed on the web at 0.0.0.0:8384. the docker compose makes it possible to change the files and refresh and restart the configuration 
-and also make it easier to restart the syncing. 
+4.1.1 Syncing 
 - Web interface
   4.1. syncthing can be edited in any browser at 127.0.0.1:8384 
   * 127.0.0.1 is the address for local host - it's what your computer is hosting
   4.2. After just install Syncthing on a different computer and share devices on it
   4.3. sync files by adding them to your folders
-### TMUX - terminal multiplexer
-    - https://github.com/omerxx/dotfiles 
-    - https://github.com/tmux-plugins/tpm
-    - https://github.com/omerxx/tmux-sessionx
-    - https://github.com/tmux/tmux/wiki/Getting-Started
-    - https://github.com/omerxx/go-blocksite
 # 6. Work - tools for work
 # 6.1 Creating
 ##  Photoshop - Photoshop is what I use for most painting.
@@ -266,7 +302,6 @@ Moving around
 ** Videos
 *** ffmpeg
     for notes -> [[~/.dotfiles/notes/cmd-ffmpeg.org]]
-
 ** files 
 *** syncing
 **** syncthing - syncs files
@@ -327,7 +362,6 @@ WacomTablet_6.4.10-3.exe
 - Default categories: `Inbox`, `Action`, `Projects`, `Finance`, `Receipts`, `Art`, `Family`, `Newsletters`, `Archive`, `Sent`, `Drafts`, `Trash`.
 - Use `g` shortcuts to open categories: `gi` Inbox, `ga` Action, `gp` Projects, `gf` Finance, `gr` Receipts, `gt` Art, `gy` Family, `gn` Newsletters, `gx` Archive.
 - Use comma shortcuts to move mail: `,a` Action, `,p` Projects, `,f` Finance, `,r` Receipts, `,t` Art, `,y` Family, `,n` Newsletters, `,x` Archive.
-
 ### FFmpeg screen recording shortcut
 - Windows screen recording script: `~/.dotfiles/sh/ps1/ffmpeg-screen-record.ps1`.
 - Terminal wrapper: `~/.dotfiles/sh/run/ffmpeg-record`.
@@ -338,7 +372,6 @@ WacomTablet_6.4.10-3.exe
 - Manual commands: `powershell.exe -NoProfile -ExecutionPolicy Bypass -File ~/.dotfiles/sh/ps1/ffmpeg-screen-record.ps1`, with optional `-Start`, `-Stop`, `-Status`, `-Workspace 1`, `-ScreenIndex 1`, `-CaptureVirtualDesktop`, `-AudioDevice "Device Name"`, `-ListAudioDevices`, or `-NoAudio`.
 - Windows audio records through FFmpeg DirectShow. The script auto-selects an audio input, preferring loopback-style devices such as Stereo Mix when available. Set `SCREEN_RECORD_AUDIO_DEVICE` to force a specific source.
 - Hyprland uses `Super + Alt + J` with `record.sh` for Wayland capture, saves to `~/Videos`, and records audio by default. It prefers the default sink monitor from `pactl` for desktop audio, then falls back to `wf-recorder --audio`. Set `SCREEN_RECORD_AUDIO_SOURCE` to force a specific source or `SCREEN_RECORD_AUDIO=0` to disable Linux audio capture.
-
 ### Rebuild screen recording setup
 Run this from a cloned dotfiles repo to apply the recording shortcut and scripts:
 
@@ -363,10 +396,9 @@ bash sh/setup/apply-mail-recording.sh
 
 # Docker * Servers
 https://github.com/winfsp/sshfs-win
-
-
-
-The command (setq inhibit-startup-message t) in GNU Emacs tells the program to skip the initial welcome splash screen and start directly with your empty scratch buffer
-
-
-https://arne.me/blog/emacs-from-scratch-part-one-foundations
+4.1.1 -  Docker
+Either install Docker so that you can back-up settings and quickly remake the file
+my composition file is in [[~/.dotfiles/.config/docker/syncthing/docker-compose.yml]]
+run command docker compose up -d. Settings will be saved and set up in ~/.config/syncthing/
+the xml file controls the settings but can also be changed on the web at 0.0.0.0:8384. the docker compose makes it possible to change the files and refresh and restart the configuration 
+and also make it easier to restart the syncing. 

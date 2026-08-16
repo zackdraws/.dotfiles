@@ -162,3 +162,9 @@ sudo ln -s /home/ok/.dotfiles/sh/shell_files/X_duplicates.sh /usr/local/bin/
 sudo ln -s /home/ok/.dotfiles/sh/shell_files/X_text_string.sh /usr/local/bin/
 sudo ln -s /home/ok/.dotfiles/sh/shell_files/Xdoop.sh /usr/local/bin/
 sudo ln -s /home/ok/.dotfiles/sh/shell_files/Xdoop_1.sh /usr/local/bin/
+# Added after for adding script to start docker
+ln -s /home/ok/.dotfiles/sh/make/fix-dock-start /usr/local/bin/
+ln -s /home/ok/.dotfiles/sh/make/fix-dock-stop /usr/local/bin/
+# script added for copy pwd - directory currently in
+chmod +x /home/ok/.dotfiles/sh/copy/copy_pwd 
+ln -s /home/ok/.dotfiles/sh/copy/copy_pwd /usr/local/bin/copy
