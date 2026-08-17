@@ -20,6 +20,7 @@
 (global-set-key (kbd "C-c n f") #'org-roam-node-find)
 (global-set-key (kbd "C-c n i") #'org-roam-node-insert)
 (global-set-key (kbd "C-c n b") #'org-roam-buffer-toggle)
+(setq org-agenda-files '("/home/ok/ok/"))
 ; Bootstrap straight.el & use-package
 (defvar bootstrap-version)
 (let ((bootstrap-file
