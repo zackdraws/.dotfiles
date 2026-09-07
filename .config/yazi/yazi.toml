@@ -21,6 +21,8 @@ command = "wl-copy"  # or "xclip -selection clipboard"
 #]
 [tasks]
 
+
+image_alloc = 0
 image_bound = [0, 0]
 #+title: Yazi Notes
 ##  main differences between my yazi and the default
