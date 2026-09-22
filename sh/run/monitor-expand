@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+display_switch='/c/Windows/System32/DisplaySwitch.exe'
+if [[ ! -x "$display_switch" ]]; then
+  display_switch='DisplaySwitch.exe'
+fi
+
+# MSYS2 would otherwise translate /extend as though it were a Unix path.
+MSYS_NO_PATHCONV=1 "$display_switch" /extend
+printf '%s\n' 'Desktop extended across connected displays.'
