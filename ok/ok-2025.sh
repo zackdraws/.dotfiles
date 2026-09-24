@@ -1,5 +1,4 @@
-# this is a bash file to sync bash scripts to usr/local/bin that way they run
-# this is for my linux based computer - not for PC
+# link
 sudo ln -s /home/ok/.dotfiles/sh/convert/cnv_heic_j.sh /usr/local/bin/
 sudo ln -s /home/ok/.dotfiles/sh/convert/cnv_heic_jpeg2026.sh /usr/local/bin/
 sudo ln -s /home/ok/.dotfiles/sh/convert/cnv_heic_to_jpeg.sh /usr/local/bin/
