@@ -1,19 +1,19 @@
 # Glossary
-## 1. Intro - Set up - Terminal
+- 1. Intro - Set up - Terminal
    - about
    - config
    1.2 - Files
    1.3 - Terminal plug-ins
-## 2. Editing Files
-## 3. Files
-## 3.2 Syncing Files
-## 4. Automating (Scripts) 
-## 5. Backing-up and Syncing
-## 7. Syncing
-## 9. Set up a Portfolio Site
-## 10. Connecting Hard-Drives
-## 11. Searching
-## 14. Navigating Clipboard searching and moving
+- 2. Editing Files
+- 3. Files
+- 3.2 Syncing Files
+- 4. Automating (Scripts) 
+- 5. Backing-up and Syncing
+- 7. Syncing
+- 9. Set up a Portfolio Site
+- 10. Connecting Hard-Drives
+- 11. Searching
+- 14. Navigating Clipboard searching and moving
 # .dotfiles
 
 -  the purpose of these .dotfiles is to:
@@ -95,7 +95,9 @@ use ~ to point to the home directory
 - ~/Videos - video files
 - ~/2026/ - files for 2026
 
-# 2. The Editor - the editor is used to edit files from the terminal.
+# 2. The Editor 
+
+* - the editor is used to edit files from the terminal.
 
 to install emacs 'pacman -S mingw-w64-x86_64-emacs'
 
@@ -104,14 +106,24 @@ to install emacs 'pacman -S mingw-w64-x86_64-emacs'
 ## 2. .Configure
 
 ### #! 
-
+- prefixes for scripts
 ### bash
-
+- config for bash 
 ### beets
-
+- configuration for beets. Beets handles tagging music
 ### Clip Studio Paint
-
+- Hotkeys and other settings
 ### Docker
+- Docker is used to host services
+ - services include
+   - syncthing
+   - copyparty
+   - beets
+   - glance
+   - jellyfin
+   - kavita
+   - navidrome
+   - papra
 
 ### 2.1 Emacs
 
