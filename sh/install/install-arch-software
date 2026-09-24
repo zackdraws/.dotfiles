@@ -1,1 +1,5 @@
-paru -S hyprlang2lua
+paru -S hyprlang2lua google-chrome
+pacman -S git curl emacs discord syncthing tmux wofi wlroots xdg-desktop-portal-hyprland ncdu xbindkeys xdotool keyd libdvdnav libdvdcss libdvdread imv hledger hledger-utils python-pillow pandoc imagemagick htop btop  xelatex  ttf-dejavu
+yay -S interception-tools interception-keyboard pup sioyek python-fpdf 
+sudo systemctl enable --now keyd
+sudo apt install build-essential pkg-config libgmime-3.0-dev libxapian-dev libsqlite3-dev libgpgme-dev libglib2.0-dev
