@@ -24,8 +24,7 @@
 
 The config in .config are config files for software.
 Most .config files are found in the home directory .config file.
-* If you can't find the .config folder it might be hidden - (make sure to make hidden folders visible in order to see it.)
-locations can also be found in `~/.dotfiles/notes.md`
+* make sure config files are not hidden
 
 # 1. Set up - Terminal
 
@@ -33,27 +32,29 @@ To configure .dotfiles first decide on what terminal to use-
 
 ### Recommended Terminals
 
--  mingw64 UCRT64 terminal (windows)
+- mingw64 UCRT64 terminal (windows)
 - windows terminal (windows)
 - fooT terminal (linux)
 - kitty (mac/linux)
 
-## 1.2.1 install git
+## 1.2.1 git
+
+git is for version control for your files
+
+## 1.2.1 git installation
 
 [git notes](/notes/terminal-notes/git.org)
 
-git is for version control for your files
--       to install in mingw64 UCRT64 use 'pacman -S mingw-w64-x86_64-git' in the terminal
-- to install using windows use 'winget install --id Git.Git -e --source winget'
--       to install in Linux use   
-- '/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)'
-- to install in homebrew use  'brew install git'
+- mingw64 UCRT64: 'pacman -S mingw-w64-x86_64-git' (in the terminal)
+- Windows: 	  'winget install --id Git.Git -e --source winget'
+- Linux:  	  '/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)'
+- Mac:		  'brew install git' (in terminal with homebrew installed)
 
-## 1.2.2 install gh
+## 1.2.2 logging in with your credentials (gh)
+
+- git cli is used for authorizing your log in and signing into your account
 
 [https://cli.github.com/](link)
-
--       git cli is used for authorizing your log in and signing into your account
 
 ## 1.2.3 configure credentials
 
@@ -61,7 +62,7 @@ git is for version control for your files
 
 ## 1.2.3. clone files (cl)
 
--   'git clone https://github.com/zackdraws/.dotfiles.git'
+-  'git clone https://github.com/zackdraws/.dotfiles.git'
 -   clones files in home directory
 
 # 1.2.4 - adding changes with git to the repository
@@ -71,14 +72,16 @@ Recieving changes: git pull or git fetch
 
 ### Additional Terminal plug-ins and programs
 
-- fzf - helps to look through all the files
-- ncdu - disk utility - look at your disk
-- btop - look at your settings
-- zoxide - search for anything and snap to it in the terminal
-- pastel - helps to pick out colors from the terminal
-- ffmpeg - use for mp4 editing use this in terminal to export avi files to mp4
+- fzf -        helps to look through all the files
+- ncdu -       disk utility - look at your disk
+- btop -       look at your settings
+- zoxide -     search for anything and snap to it in the terminal
+- pastel -     helps to pick out colors from the terminal
+- ffmpeg -     use for mp4 editing use this in terminal to export avi files to mp4
 
-### 1.3 - File folders - set up common folders in your computer for your files to stay organized
+### 1.3 - File folders 
+
+- set up common folders in your computer for your files to stay organized
 
 use ~ to point to the home directory
 
@@ -724,11 +727,9 @@ ffmpeg -i input.avi -r 24 output.mp4
 
 -fs limit_size (output)
 
-# Docker * Servers
-
-https://github.com/winfsp/sshfs-win
-
 4.1.1 - Docker
+
+# Docker * Servers
 
 Either install Docker so that you can back-up settings and quickly remake the file
 my composition file is in `~/.dotfiles/.config/docker/syncthing/docker-compose.yml`
@@ -736,3 +737,24 @@ my composition file is in `~/.dotfiles/.config/docker/syncthing/docker-compose.y
 run command docker compose up -d. Settings will be saved and set up in ~/.config/syncthing/
 the xml file controls the settings but can also be changed on the web at 0.0.0.0:8384. the docker compose makes it possible to change the files and refresh and restart the configuration 
 and also make it easier to restart the syncing.
+
+# SSH
+## Linux SSH -
+sudo pacman -S openssh
+sudo systemctl start sshd
+sudo systemctl enable sshd
+sudo ufw allow 22/tcp
+## tailscale
+sudo pacman -S tailscale
+sudo systemctl enable --now tailscaled
+sudo tailscale up
+## Windows SSH
+## Windows sshfs 
+
+https://github.com/winfsp/sshfs-win
+- use tailscale to make linux or windows into a server
+## DISPLAY
+### DISPLAY=0 (arch/linux)
+ - for running a server remotely these are commands that I use
+  DISPLAY=0 'command'
+  if you run this then it will open the program to the window that you are using
