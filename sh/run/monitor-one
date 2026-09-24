@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+display_switch='/c/Windows/System32/DisplaySwitch.exe'
+if [[ ! -x "$display_switch" ]]; then
+  display_switch='DisplaySwitch.exe'
+fi
+
+MSYS_NO_PATHCONV=1 "$display_switch" /internal
+printf '%s\n' 'Using DISPLAY1 only.'
