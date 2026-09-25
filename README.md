@@ -97,11 +97,16 @@ use ~ to point to the home directory
 
 # 2. The Editor 
 
-* - the editor is used to edit files from the terminal.
-
-to install emacs 'pacman -S mingw-w64-x86_64-emacs'
+## - the editor is used to edit files from the terminal.
+### For more information
+-- install emacs 'pacman -S mingw-w64-x86_64-emacs'
 
 `~/.dotfiles/notes/emacs/`
+
+### Org Files
+https://emacsdocs.org/
+https://orgmode.org/org.html
+### Markdown Files
 
 ## 2. .Configure
 
@@ -599,7 +604,6 @@ for notes -> `~/.dotfiles/notes/cmd-ffmpeg.org`
 #### files 
 
 ##### syncing
-
 - syncthing - syncs files
 - immich - syncs photos from iphone
 
@@ -660,7 +664,6 @@ oh-my-posh init pwsh --config "$env:C:\Posh\THemes\bubbles.omp.json"
 
 install the latest driver here
 https://www.wacom.com/en-us/support/product-support/drivers?_gl=1*149rhzs*_ga*MzcyNjU4MTQ5LjE3Nzc5MTcxODc.*_ga_5XHN22BY8E*czE3Nzc5MTcxODYkbzEkZzAkdDE3Nzc5MTcxODYkajYwJGwwJGgyNTUwODUwOTE.
-
 ## Driver for Cintiq
 
 for cintiq 22HD (older model use WacomTablet_6.4.10-3.exe
