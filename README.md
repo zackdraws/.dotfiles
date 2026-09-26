@@ -742,15 +742,17 @@ ffmpeg -i input.avi -r 24 output.mp4
        The docker compose makes it possible to change the files and refresh and restart the configuration 
 
 - Currently these are the Docker containers I have
-   - syncthing 	  -  syncing
-   - copyparty 	  -  hosting all of my files and servers
-   - beets 	  -  music management and tagging music
-   - glance 	  -  hosting a launch page
-   - jellyfin 	  -  media library
-   - kavita	  -
-   - navidrome	  -  music library
-   - papra	  -  notes 
-
+  - Name    	 PORT 	  Description 	 
+   - syncthing 	(8384)	    -  syncing
+   - copyparty 	(3923)	    -  hosting all of my files and servers
+   - beets 	(8337)      -  music management and tagging music
+   - glance 	(8080)      -  hosting a launch page
+   - jellyfin 	(8096) 	    -  media library
+   - kavita	(5000) 	    -
+   - navidrome	(4533) 	    -  music library
+   - papra	(1221) 	    -  notes 
+   - gittea
+   - freshrss
 # SSH
 SSH is a secure terminal you can access from other computers
 ## Linux SSH -
