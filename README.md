@@ -118,17 +118,6 @@ https://orgmode.org/org.html
 - configuration for beets. Beets handles tagging music
 ### Clip Studio Paint
 - Hotkeys and other settings
-### Docker
-- Docker is used to host services
- - services include
-   - syncthing
-   - copyparty
-   - beets
-   - glance
-   - jellyfin
-   - kavita
-   - navidrome
-   - papra
 
 ### 2.1 Emacs
 
@@ -743,33 +732,45 @@ ffmpeg -i input.avi -r 24 output.mp4
 -fs limit_size (output)
 
 4.1.1 - Docker
+ - Docker is used to create containers to contain settings for services that are hosted
+ - Docker creates the hosted service on a port with settings described and built on a docker compose file
+ - to build each service run command docker compose up -d inside the folder that holds the docker-compose file. 
+ - Docker compose files can be found in ~/.dotfiles/.config/docker/
+   - for example syncthings docker file
+     - Syncthing Settings are saved in ~/.config/syncthing/
+       the xml file controls the settings but can also be changed on the web at 0.0.0.0:8384. 
+       The docker compose makes it possible to change the files and refresh and restart the configuration 
 
-# Docker * Servers
-
-Either install Docker so that you can back-up settings and quickly remake the file
-my composition file is in `~/.dotfiles/.config/docker/syncthing/docker-compose.yml`
-
-run command docker compose up -d. Settings will be saved and set up in ~/.config/syncthing/
-the xml file controls the settings but can also be changed on the web at 0.0.0.0:8384. the docker compose makes it possible to change the files and refresh and restart the configuration 
-and also make it easier to restart the syncing.
+- Currently these are the Docker containers I have
+   - syncthing 	  -  syncing
+   - copyparty 	  -  hosting all of my files and servers
+   - beets 	  -  music management and tagging music
+   - glance 	  -  hosting a launch page
+   - jellyfin 	  -  media library
+   - kavita	  -
+   - navidrome	  -  music library
+   - papra	  -  notes 
 
 # SSH
+SSH is a secure terminal you can access from other computers
 ## Linux SSH -
 sudo pacman -S openssh
 sudo systemctl start sshd
 sudo systemctl enable sshd
 sudo ufw allow 22/tcp
 ## tailscale
+tailscale allows a ip address for the open ssh
+install -
 sudo pacman -S tailscale
+enabling
 sudo systemctl enable --now tailscaled
+starting
 sudo tailscale up
 ## Windows SSH
 ## Windows sshfs 
+sshfs is to host the file storage  copyparty also works
+-https://github.com/winfsp/sshfs-win
 
-https://github.com/winfsp/sshfs-win
-- use tailscale to make linux or windows into a server
-## DISPLAY
-### DISPLAY=0 (arch/linux)
- - for running a server remotely these are commands that I use
-  DISPLAY=0 'command'
-  if you run this then it will open the program to the window that you are using
+## Display -
+for displaying videos typing in DISPLAY=:0 and the command and it will display on the monitor
+
