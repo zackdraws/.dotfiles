@@ -415,7 +415,7 @@ export DISPLAY=:0
 mpv --volume-max=350 -fs video.mp4
 ```
 
-# Docs
+# 8. Docs
 
 ### For PDFS
 
@@ -430,9 +430,10 @@ mpv --volume-max=350 -fs video.mp4
 - OpenDocs
 - Drive      
 
-# Where files can usually be found
+# 9. Locations 
+** - Where files can usually be found**
 
-# Photoshop config locations
+## Photoshop config locations
 
 ```powershell
 $photoshopConfigDir = "$env:APPDATA\Adobe\Adobe Photoshop <version>\Adobe Photoshop <version> Settings"
@@ -441,24 +442,26 @@ $photoshopPresetsDir = "$env:APPDATA\Adobe\Adobe Photoshop <version>\Presets"
 New-Item -ItemType SymbolicLink -Path $photoshopPresetsDir -Target "$dotfilesDir\photoshop\Presets" TVPaint
 ```
 
-# -Force config location
+### -Force config location
 
 ```powershell
 $tvpaintConfigDir = "$env:APPDATA\TVPaint Animation"
 New-Item -ItemType SymbolicLink -Path $tvpaintConfigDir -Target "$dotfilesDir\tvpaint\Animation" -Force
 ```
 
-# Screen Recordings
+## Screen Recordings 
 
-if you are on windows you can use Win+G and set the location I set mine to c/P/Captures
-win-G doesn't always work or doesn't work if xbox game bar isn't installed.
+- **Windows ** if you are on windows use Win+G to set the location 
+- I set mine to **c/P/Captures** 
+- * (the alternative - win-G doesn't always work and sometimes requires xbox game bar isn't installed.)
 
-### Summary
+
+## Summary
 
 - **Photoshop and TVPaint Configuration Files** are usually located in the `AppData` folder (Roaming or Local)
 - **Symlinks** allow you to point these configuration files to their expected locations, making it easy to synchronize settings across multiple machines.
 
-# Github
+# 10. Github
 
 run git init in an empty repository
 this command initializes empty git 
@@ -473,12 +476,14 @@ git commit - m "first commit"
 [https://supersimpledev.github.io/references/git-github-reference.pdf](git-github-reference)
 
 # Setting up repeating tasks
+	systemd in linux makes repeating tasks possible
 
-- do this to make a resetting action to repeat tasks
+run this for example to run a repeat of restart network manager service
+```
 - sudo nano /etc/systemd/system/restart-networkmanager.service
 - sudo nano /etc/systemd/system/restart-networkmanager.
   systemctl enable --now cronie.service
-
+``` 
 # 8. Connecting Hard-drives - 
 
 ## Hard Drives (linux)
@@ -508,6 +513,19 @@ mkdir -p ~/.config/rofi
 alternative to rofi is wofi - 
 
 # 10. Hardware
+
+## BIOS - 
+
+- **Summary** The BIOS is like what the computer boots into so if you have to change the more serious settings you do so through the bios which can be accessed usually by pressing F2 or F8 or Del (depends on BIOS)
+- ** Location** The BIOS is on the motherboard 
+- in case of system failure on PC you have to access the BIOS usually or update the BIOS.
+- keep files that are especially backed up on your C:/ drive that way if there is a system failure you can wipe the drive and just back it up and re-install windows
+
+### BIOS - MBR, GPT, EUFI
+
+- If your computer is on MBR instead of GPT for the drive you will have to update it in order to change the bios to be in EUFI mode instead of Legacy mode.
+- Also to enable Virtualizion ((VTY-x//SVM) you will have to enable that in the BIOS which is useful for loading into virtual desktops to test apps and not worry about the apps changing your files.
+- Sometimes when accessing two different apps with similar security settings that conflict using a virtual machine between the two allows them not to interfere with each other.
 
 ## Audio fix (linux)
 
@@ -593,8 +611,10 @@ for notes -> `~/.dotfiles/notes/cmd-ffmpeg.org`
 #### files 
 
 ##### syncing
-- syncthing - syncs files
-- immich - syncs photos from iphone
+- Syncthing - syncs files
+- Immich - syncs photos from iphone
+- Cyberduck - for uploading to Google Drive
+- Filezilla - FTP Server 
 
 ##### browsing
 
@@ -637,33 +657,9 @@ oh-my-posh init pwsh --config "$env:C:\Posh\THemes\bubbles.omp.json"
 (@(& 'C:/Users/zacha/scoop/apps/oh-my-posh/current/oh-my-posh.exe' init pwsh --config='C:\Posh\THemes\bubbles.omp.json' --print) -join "`n") | Invoke-Expression
 ```
 
-# BIOS - 
 
-- The BIOS is like what the computer boots into so if you have to change the more serious settings you do so through the bios which can be accessed usually by pressing F2 or F8 or Del (depends on BIOS)
-- The BIOS is on the motherboard 
-- in case of system failure on PC you have to access the BIOS usually or update the BIOS.
-- keep files that are especially backed up on your C:/ drive that way if there is a system failure you can wipe the drive and just back it up and re-install windows
-- keep seperate works files on a different drive not the boot drive in case you have to restart pc or OS is corrupted or Virus.
-- make a back-up drive of your windows OS in case of system failure. 
-- If your computer is on MBR instead of GPT for the drive you will have to update it in order to change the bios to be in EUFI mode instead of Legacy mode.
-- Also to enable Virtualizion ((VTY-x//SVM) you will have to enable that in the BIOS which is useful for loading into virtual desktops to test apps and not worry about the apps changing your files.
-- Sometimes when accessing two different apps with similar security settings that conflict using a virtual machine between the two allows them not to interfere with each other.
 
-# Tablet -
-
-install the latest driver here
-https://www.wacom.com/en-us/support/product-support/drivers?_gl=1*149rhzs*_ga*MzcyNjU4MTQ5LjE3Nzc5MTcxODc.*_ga_5XHN22BY8E*czE3Nzc5MTcxODYkbzEkZzAkdDE3Nzc5MTcxODYkajYwJGwwJGgyNTUwODUwOTE.
-## Driver for Cintiq
-
-for cintiq 22HD (older model use WacomTablet_6.4.10-3.exe
-
-https://developer-support.wacom.com/hc/en-us/articles/9354461938711-Silent-installation-or-uninstallation-of-tablet-and-video-drivers
-
-- https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.10-3.exe
-
-WacomTablet_6.4.10-3.exe
-
-### Windows startup helpers
+# Windows startup helpers
 
 - Komorebi startup is handled by `~/.dotfiles/sh/ps1/komorebi-startup.ps1`.
 - Install the current-user Startup shortcut:
@@ -751,28 +747,51 @@ ffmpeg -i input.avi -r 24 output.mp4
    - kavita	(5000) 	    -
    - navidrome	(4533) 	    -  music library
    - papra	(1221) 	    -  notes 
-   - gittea
+   - gittea	
    - freshrss
+
 # SSH
+
 SSH is a secure terminal you can access from other computers
+
 ## Linux SSH -
-sudo pacman -S openssh
-sudo systemctl start sshd
-sudo systemctl enable sshd
-sudo ufw allow 22/tcp
+
+```  sudo pacman -S openssh
+	sudo systemctl start sshd
+	sudo systemctl enable sshd
+	sudo ufw allow 22/tcp
+```
+
 ## tailscale
 tailscale allows a ip address for the open ssh
 install -
-sudo pacman -S tailscale
+``` sudo pacman -S tailscale
 enabling
 sudo systemctl enable --now tailscaled
 starting
-sudo tailscale up
+sudo tailscale up 
+```
+
 ## Windows SSH
+
 ## Windows sshfs 
 sshfs is to host the file storage  copyparty also works
 -https://github.com/winfsp/sshfs-win
 
-## Display -
+# Display -
+
+# Tablet -
+
+install the latest driver here
+https://www.wacom.com/en-us/support/product-support/drivers?_gl=1*149rhzs*_ga*MzcyNjU4MTQ5LjE3Nzc5MTcxODc.*_ga_5XHN22BY8E*czE3Nzc5MTcxODYkbzEkZzAkdDE3Nzc5MTcxODYkajYwJGwwJGgyNTUwODUwOTE.
+## Driver for Cintiq
+
+for cintiq 22HD (older model use WacomTablet_6.4.10-3.exe
+
+https://developer-support.wacom.com/hc/en-us/articles/9354461938711-Silent-installation-or-uninstallation-of-tablet-and-video-drivers
+
+- https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.10-3.exe
+
+WacomTablet_6.4.10-3.exe
 for displaying videos typing in DISPLAY=:0 and the command and it will display on the monitor
 
