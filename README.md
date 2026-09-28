@@ -60,7 +60,7 @@ git is for version control for your files
 
 - set your username git config --global user.name "Your Name" "youreemail@example.com"
 
-## 1.2.3. clone files (cl)
+
 
 -  'git clone https://github.com/zackdraws/.dotfiles.git'
 -   clones files in home directory
@@ -257,6 +257,11 @@ to link files from wsl to windows use
 sudo ln -f //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
 cd //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
 ```
+3,1,3 File Removal
+
+### Deleting Files except for Certain File names
+
+find . -maxdepth 1 -type f ! -name "*.mkv" ! -name "*.mp4" ! -name "*.tar" ! -name "*.avi"  -delete
 
 3.3.1. Running Script files in the terminal - 
 
