@@ -6,14 +6,19 @@
    1.3 - Terminal plug-ins
 - 2. Editing Files
 - 3. Files
-- 3.2 Syncing Files
-- 4. Automating (Scripts) 
+  - 3.2 Syncing Files
+- 4. Docker
+
 - 5. Backing-up and Syncing
+
 - 7. Syncing
 - 9. Set up a Portfolio Site
 - 10. Connecting Hard-Drives
 - 11. Searching
 - 14. Navigating Clipboard searching and moving
+- 15. Personalization
+-     SSH
+-     Display - Tablet
 # .dotfiles
 
 -  the purpose of these .dotfiles is to:
@@ -361,9 +366,7 @@ For editing reels and animation scenes, it's similar to Premiere, most things ca
 
 ## Adobe Audition
 
-# 6.4 Publishing/Posting
-
-# 6.5 Storing/Backing up/File Management
+# 6.3 Publishing/Posting
 
 # 6.2 Reviewing
 
@@ -494,6 +497,8 @@ run this for example to run a repeat of restart network manager service
 ## Hard Drives (linux)
 
 in linux you have to use mount the mount command  
+which is silly you can't just plug in a flash drive and have it be readable unless if you were to install a file explorer like nautilus or something from gnome.
+to load a flash drive from the terminal
 
 ```
 run lsblk 
@@ -540,7 +545,8 @@ try this if audio is not working
 systemctl --user restart pipewire wireplumber pipewire-pulse
 ```
 
-## 11. Desktop config
+## 15 Personalization
+### 15.1 Desktop config
 
 Wallpapers
 
@@ -615,9 +621,7 @@ for notes -> `~/.dotfiles/notes/cmd-ffmpeg.org`
 
 #### files 
 
-##### syncing
-- Syncthing - syncs files
-- Immich - syncs photos from iphone
+##### File clients
 - Cyberduck - for uploading to Google Drive
 - Filezilla - FTP Server 
 
@@ -746,15 +750,48 @@ ffmpeg -i input.avi -r 24 output.mp4
   - Name    	 PORT 	  Description 	 
    - syncthing 	(8384)	    -  syncing
    - copyparty 	(3923)	    -  hosting all of my files and servers
+   - immich 		    -  sync photos
    - beets 	(8337)      -  music management and tagging music
    - glance 	(8080)      -  hosting a launch page
-   - jellyfin 	(8096) 	    -  media library
-   - kavita	(5000) 	    -
-   - navidrome	(4533) 	    -  music library
+   - jellyfin 	(8096) 	    -  library server for media
+   - kavita	(5000) 	    -  library server for books (soecifically)
+   - navidrome	(4533) 	    -  library server for music (specifically)
    - papra	(1221) 	    -  notes 
    - gittea	
    - freshrss
 
+
+## Docker - Building using compose files
+   - to run a server you must install docker
+   - after installing docker go to containers
+   - open the terminal
+   - cd into the ~/.dotfiles/.config/docker/syncthing/docker-config.yaml
+-   run
+   ''
+   docker run up -d 
+   ''
+-
+## Syncthing
+ - syncthing file is located at
+   [[~/.dotfiles/.config/docker/syncthing/docker-config.yaml
+   this will install syncthing along with the folders
+   - connect another computer to sync files
+## copyparty
+   - makes a server for your files
+   - for sharing files start a cloudflare quicktunnel
+   - download cloudflared
+   - run
+   '' cloudflared tunnel --url http://127.0.0.1:3923''
+   - more infor here https://github.com/9001/copyparty#at-home
+## beets
+   - beets is for tagging songs using python if you have albums or cds
+   that need to be corrected beets works well for that.
+## navidrome https://www.navidrome.org/docs/
+   - For host a music server and 
+organizing your music use Navidrome
+### glance https://github.com/glanceapp/glance
+    - for making a homepage that shows RSS feeds, youtube and so on.
+    gittea - https://docs.gitea.com/
 # SSH
 
 SSH is a secure terminal you can access from other computers
@@ -767,7 +804,7 @@ SSH is a secure terminal you can access from other computers
 	sudo ufw allow 22/tcp
 ```
 
-## tailscale
+### tailscale
 tailscale allows a ip address for the open ssh
 install -
 ``` sudo pacman -S tailscale
@@ -785,7 +822,7 @@ sshfs is to host the file storage  copyparty also works
 
 # Display -
 
-# Tablet -
+## Tablet -
 
 install the latest driver here
 https://www.wacom.com/en-us/support/product-support/drivers?_gl=1*149rhzs*_ga*MzcyNjU4MTQ5LjE3Nzc5MTcxODc.*_ga_5XHN22BY8E*czE3Nzc5MTcxODYkbzEkZzAkdDE3Nzc5MTcxODYkajYwJGwwJGgyNTUwODUwOTE.
@@ -799,4 +836,5 @@ https://developer-support.wacom.com/hc/en-us/articles/9354461938711-Silent-insta
 
 WacomTablet_6.4.10-3.exe
 for displaying videos typing in DISPLAY=:0 and the command and it will display on the monitor
+
 
