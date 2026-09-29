@@ -1,0 +1,25 @@
+---
+services:
+  syncthing:
+    image: lscr.io/linuxserver/syncthing:latest
+    container_name: syncthing
+    hostname: pc
+    environment:
+      - TZ=America/Los_Angeles
+    volumes:
+      - C:/Users/ok/docker/syncthing/config:/config
+      - C:/2026:/2026
+      - C:/2026-9:/Teaching-2026
+      - C:/2026-A:/Animation-2026
+      - C:/msys64/home/Zack/.ok:/ok
+      - C:/S/ref:/ref
+      - C:/S/ref-videos:/ref-videos
+      - C:/Users/ok/Music:/Music
+      - C:/Users/ok/Videos/videosnow:/data/videosnow
+      - C:/S/ref-v:/ref-v
+    ports:
+      - 127.0.0.1:8384:8384
+      - 22000:22000/tcp
+      - 22000:22000/udp
+      - 21027:21027/udp
+    restart: unless-stopped
