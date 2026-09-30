@@ -17,8 +17,8 @@
 - 11. Searching
 - 14. Navigating Clipboard searching and moving
 - 15. Personalization
--     SSH
--     Display - Tablet
+- 16. SSH
+- 17. Display - Tablet
 # .dotfiles
 
 -  the purpose of these .dotfiles is to:
@@ -67,13 +67,23 @@ git is for version control for your files
 
 
 
--  'git clone https://github.com/zackdraws/.dotfiles.git'
+```
+git clone https://github.com/zackdraws/.dotfiles.git 
+```
 -   clones files in home directory
 
 # 1.2.4 - adding changes with git to the repository
 
-Adding changes: cd ~/.dotfiles/; git add <file changed>; git commit -m "message"; git push (this publishes changes)
-Recieving changes: git pull or git fetch
+Adding changes: 
+```
+cd ~/.dotfiles/; git add <file changed>; git commit -m "message"; git push (this publishes changes)
+
+```
+Recieving changes: 
+
+```
+git pull or git fetch
+```
 
 ### Additional Terminal plug-ins and programs
 
@@ -242,7 +252,7 @@ makes it possible to do keyboard shortcuts
 
 # 3. Files
 
-3.1  linking files using symlinkl
+### 3.1  linking files using symlinkl
 
 *ln* Linking files (linux or ucrt64)
 
@@ -254,7 +264,7 @@ sudo ln -s /home/name/.dotfiles/file /usr/local/bin/ (for shell files)
 (symlinks are synthetic links between two files 
 (when you update from .dotfiles it then updates the file in the usr local bin.)
 
-3.1.2 Linking files (windows)
+### 3.1.2 Linking files (windows)
 
 to link files from wsl to windows use
 
@@ -262,23 +272,29 @@ to link files from wsl to windows use
 sudo ln -f //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
 cd //wsl.localhost/Ubuntu/home/zack/Music/ /e/Music
 ```
-3,1,3 File Removal
+### 3.1.3 File Removal
 
-### Deleting Files except for Certain File names
+**rm (remove) except for**
 
+```
 find . -maxdepth 1 -type f ! -name "*.mkv" ! -name "*.mp4" ! -name "*.tar" ! -name "*.avi"  -delete
+```
 
-3.3.1. Running Script files in the terminal - 
+# 3.3.1.Scripts - 
 
-3.4.1   cd - /usr/local/bin/ (changes the directory to usr/local/bin)
+## 3.4.1   scripts are held in /usr/local/bin
+```
+cd - /usr/local/bin/ (changes the directory to usr/local/bin)
+```
+## 3.4.2   Allow scrtipts
 
-3.4.2   in order to run scripts the permissions need to be changed run 
+in order to run scripts the permissions need to be changed run 
 
 ```
 chmod +x file (this makes the sh follow usable)
 ```
 
-3.5     Shell - for command history and command line editing - is within the terminal
+## 3.5     Shell - for command history and command line editing - is within the terminal
         Fish - for syntax highlights and autosuggestions and themes
 
 WINDOWS -  
@@ -308,17 +324,9 @@ Zoxide - quick search for files
 
 FZF - is a fuzzy finder if you are in the directory use fzf to find your files
 
-4.1.1 Syncing 
-
-- Web interface
-  4.1. syncthing can be edited in any browser at 127.0.0.1:8384 
-  * 127.0.0.1 is the address for local host - it's what your computer is hosting
-  4.2. After just install Syncthing on a different computer and share devices on it
-  4.3. sync files by adding them to your folders
-
 # 6. Work - tools for work
 
-# 6.1 Creating
+# 6.1 Programs
 
 ## Photoshop
 
@@ -338,7 +346,9 @@ Photoshop is what I use for most painting.
 
 ## Storyboard Pro
 
+
 ## Toonboom Harmony
+
 
 # 6.1.2 Time Tracking
 
@@ -689,14 +699,23 @@ oh-my-posh init pwsh --config "$env:C:\Posh\THemes\bubbles.omp.json"
 
 ### FFmpeg screen recording shortcut
 
+#### Script
+
 - Windows screen recording script: `~/.dotfiles/sh/ps1/ffmpeg-screen-record.ps1`.
 - Terminal wrapper: `~/.dotfiles/sh/run/ffmpeg-record`.
 - Windows hotkey: `Super + Alt + J` in `~/.dotfiles/.config/whkdrc`.
+
+#### Explanation
 - The Windows hotkey switches Komorebi to workspace 1 on all monitors, then captures the primary monitor's exact screen rectangle.
 - Recordings save as timestamped `.mp4` files in the current user's Videos folder, using the date and time the recording started.
 - Run the Windows script or press the hotkey once to start recording; run it or press the hotkey again to stop and save.
+
 - Manual commands: `powershell.exe -NoProfile -ExecutionPolicy Bypass -File ~/.dotfiles/sh/ps1/ffmpeg-screen-record.ps1`, with optional `-Start`, `-Stop`, `-Status`, `-Workspace 1`, `-ScreenIndex 1`, etc.
+
+##### Audio 
 - Windows audio records through FFmpeg DirectShow. The script auto-selects an audio input, preferring loopback-style devices such as Stereo Mix when available. Set `SCREEN_RECORD_AUDIO_DEVICE` to force a specific device.
+
+*Similar to*
 - Hyprland uses `Super + Alt + J` with `record.sh` for Wayland capture, saves to `~/Videos`, and records audio by default. It prefers the default sink monitor from `pactl` for desktop audio, then falls back.
 
 ### Rebuild screen recording setup
@@ -709,12 +728,6 @@ bash sh/setup/apply-screen-recording.sh
 ```
 
 The setup script links the whkd and Hyprland recording config, creates `~/Videos`, and puts `ffmpeg-record` and `record.sh` in `~/.local/bin`.
-
-Run this from a cloned dotfiles repo on a new computer if you also want the mutt mail config:
-
-```sh
-bash sh/setup/apply-mail-recording.sh
-```
 
 # Using the Terminal-
 
@@ -736,32 +749,34 @@ ffmpeg -i input.avi -r 24 output.mp4
 
 -fs limit_size (output)
 
-4.1.1 - Docker
+# 4.1.1 - Docker
+### What is Docker?
  - Docker is used to create containers to contain settings for services that are hosted
  - Docker creates the hosted service on a port with settings described and built on a docker compose file
+ ###  Building in Docker
  - to build each service run command docker compose up -d inside the folder that holds the docker-compose file. 
  - Docker compose files can be found in ~/.dotfiles/.config/docker/
    - for example syncthings docker file
      - Syncthing Settings are saved in ~/.config/syncthing/
        the xml file controls the settings but can also be changed on the web at 0.0.0.0:8384. 
        The docker compose makes it possible to change the files and refresh and restart the configuration 
+### Docker Containers - 
 
-- Currently these are the Docker containers I have
-  - Name    	 PORT 	  Description 	 
-   - syncthing 	(8384)	    -  syncing
-   - copyparty 	(3923)	    -  hosting all of my files and servers
-   - immich 		    -  sync photos
-   - beets 	(8337)      -  music management and tagging music
-   - glance 	(8080)      -  hosting a launch page
-   - jellyfin 	(8096) 	    -  library server for media
-   - kavita	(5000) 	    -  library server for books (soecifically)
-   - navidrome	(4533) 	    -  library server for music (specifically)
-   - papra	(1221) 	    -  notes 
-   - gittea	
-   - freshrss
+| Name       | Port | Description                              |
+|------------|------|------------------------------------------|
+| Syncthing  | 8384 | Syncing                                  |
+| Copyparty  | 3923 | Hosting all of my files and servers      |
+| Immich     | —    | Sync photos                               |
+| Beets      | 8337 | Music management and tagging             |
+| Glance     | 8080 | Hosting a launch page                    |
+| Jellyfin   | 8096 | Library server for media                 |
+| Kavita     | 5000 | Library server for books                 |
+| Navidrome  | 4533 | Library server for music                 |
+| Papra      | 1221 | Notes                                     |
+| Gitea      | —    | Git hosting                               |
+| FreshRSS   | —    | RSS reader                                |
 
-
-## Docker - Building using compose files
+# Docker - Building using compose files
    - to run a server you must install docker
    - after installing docker go to containers
    - open the terminal
@@ -786,7 +801,7 @@ ffmpeg -i input.avi -r 24 output.mp4
 ## beets
    - beets is for tagging songs using python if you have albums or cds
    that need to be corrected beets works well for that.
-## navidrome https://www.navidrome.org/docs/
+## [navidrome](https://www.navidrome.org/docs/)
    - For host a music server and 
 organizing your music use Navidrome
 ### glance https://github.com/glanceapp/glance
