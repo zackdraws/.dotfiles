@@ -1,10 +1,12 @@
-# Glossary
-- 1. Intro - Set up - Terminal
+1
+- # Intro. - Glossary Set up - Terminal
    - about
    - config
    1.2 - Files
    1.3 - Terminal plug-ins
-- 2. Editing Files
+- 2. The Editor
+     2.1 Emacs
+
 - 3. Files
   - 3.2 Syncing Files
 - 4. Docker
@@ -12,13 +14,15 @@
 - 5. Backing-up and Syncing
 
 - 7. Syncing
-- 9. Set up a Portfolio Site
-- 10. Connecting Hard-Drives
+- 9. Search
+- 10. Hardware
+- 11. Network
 - 11. Searching
 - 14. Navigating Clipboard searching and moving
 - 15. Personalization
 - 16. SSH
 - 17. Display - Tablet
+- 18. Email
 # .dotfiles
 
 -  the purpose of these .dotfiles is to:
@@ -65,16 +69,16 @@ git is for version control for your files
 
 - set your username git config --global user.name "Your Name" "youreemail@example.com"
 
-
-
 ```
 git clone https://github.com/zackdraws/.dotfiles.git 
 ```
+
 -   clones files in home directory
 
 # 1.2.4 - adding changes with git to the repository
 
 Adding changes: 
+
 ```
 cd ~/.dotfiles/; git add <file changed>; git commit -m "message"; git push (this publishes changes)
 
@@ -123,7 +127,7 @@ https://emacsdocs.org/
 https://orgmode.org/org.html
 ### Markdown Files
 
-## 2. .Configure
+## 2.1. .Configure
 
 ### #! 
 - prefixes for scripts
@@ -515,9 +519,13 @@ run lsblk
 sudo mount /dev/sdb1 /run/media/ok/where you want that file to go
 ```
 
-# 9. Searching
+# 9. Find
 
-## Searching for files
+## Finding files
+
+### fzf
+
+- run program "$(fzf)" to search and then open in program
 
 ### Linux
 
@@ -564,7 +572,7 @@ awww-daemon for wallpapers
 
 [https://codeberg.org/LGFae/awww](awww)
 
-## 12. Navigating - Clipboard, searching and moving
+## Navigating - Clipboard, searching and moving
 
 ### Clipboard
 
@@ -676,8 +684,6 @@ oh-my-posh init pwsh --config "$env:C:\Posh\THemes\bubbles.omp.json"
 (@(& 'C:/Users/zacha/scoop/apps/oh-my-posh/current/oh-my-posh.exe' init pwsh --config='C:\Posh\THemes\bubbles.omp.json' --print) -join "`n") | Invoke-Expression
 ```
 
-
-
 # Windows startup helpers
 
 - Komorebi startup is handled by `~/.dotfiles/sh/ps1/komorebi-startup.ps1`.
@@ -687,15 +693,6 @@ oh-my-posh init pwsh --config "$env:C:\Posh\THemes\bubbles.omp.json"
   `powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\sh\ps1\komorebi-startup.ps1" -Uninstall`
 - The startup script uses `~/.dotfiles/.config/komorebi/komorebi.json`, `~/.dotfiles/.config/komorebi/komorebi.bar.json`, and `~/.dotfiles/.config/whkdrc`.
 
-### Mutt mail categories
-
-- Mutt config is in `~/.dotfiles/.config/mutt/`.
-- The setup script links it to both `~/.config/mutt/muttrc` and `~/.mutt/muttrc`.
-- `muttrc` sources `categories.muttrc`.
-- Categories are Maildir folders under `~/Mail`.
-- Default categories: `Inbox`, `Action`, `Projects`, `Finance`, `Receipts`, `Art`, `Family`, `Newsletters`, `Archive`, `Sent`, `Drafts`, `Trash`.
-- Use `g` shortcuts to open categories: `gi` Inbox, `ga` Action, `gp` Projects, `gf` Finance, `gr` Receipts, `gt` Art, `gy` Family, `gn` Newsletters, `gx` Archive.
-- Use comma shortcuts to move mail: `,a` Action, `,p` Projects, `,f` Finance, `,r` Receipts, `,t` Art, `,y` Family, `,n` Newsletters, `,x` Archive.
 
 ### FFmpeg screen recording shortcut
 
@@ -713,10 +710,12 @@ oh-my-posh init pwsh --config "$env:C:\Posh\THemes\bubbles.omp.json"
 - Manual commands: `powershell.exe -NoProfile -ExecutionPolicy Bypass -File ~/.dotfiles/sh/ps1/ffmpeg-screen-record.ps1`, with optional `-Start`, `-Stop`, `-Status`, `-Workspace 1`, `-ScreenIndex 1`, etc.
 
 ##### Audio 
-- Windows audio records through FFmpeg DirectShow. The script auto-selects an audio input, preferring loopback-style devices such as Stereo Mix when available. Set `SCREEN_RECORD_AUDIO_DEVICE` to force a specific device.
+
+- Windows audio records through FFmpeg DirectShow. 
 
 *Similar to*
-- Hyprland uses `Super + Alt + J` with `record.sh` for Wayland capture, saves to `~/Videos`, and records audio by default. It prefers the default sink monitor from `pactl` for desktop audio, then falls back.
+
+- Hyprland uses `Super + Alt + J` with `record.sh` for Wayland capture, saves to `~/Videos`, and records audio by default. It prefers the default sink monitor from `pactl` for desktop audio, 
 
 ### Rebuild screen recording setup
 
@@ -729,9 +728,6 @@ bash sh/setup/apply-screen-recording.sh
 
 The setup script links the whkd and Hyprland recording config, creates `~/Videos`, and puts `ffmpeg-record` and `record.sh` in `~/.local/bin`.
 
-# Using the Terminal-
-
-- run program "$(fzf)" to search and then open in program
 
 ## Post-processing
 
@@ -749,17 +745,44 @@ ffmpeg -i input.avi -r 24 output.mp4
 
 -fs limit_size (output)
 
-# 4.1.1 - Docker
-### What is Docker?
+
+# Network -
+
+## Wifi
+
+to fix internet problems try resetting your ip using
+
+'''
+
+ipconfig /renew
+
+'''
+
+## Localhost -
+
+### Localhost Site
+
+use python to host or emacs or vscode
+
+python3 -m http.server 8000
+
+emacs is m-x httpd-serve-directory
+
+### Docker
+
+#### What is Docker?
  - Docker is used to create containers to contain settings for services that are hosted
  - Docker creates the hosted service on a port with settings described and built on a docker compose file
- ###  Building in Docker
+
+#####  Building in Docker
+
  - to build each service run command docker compose up -d inside the folder that holds the docker-compose file. 
  - Docker compose files can be found in ~/.dotfiles/.config/docker/
    - for example syncthings docker file
      - Syncthing Settings are saved in ~/.config/syncthing/
        the xml file controls the settings but can also be changed on the web at 0.0.0.0:8384. 
        The docker compose makes it possible to change the files and refresh and restart the configuration 
+
 ### Docker Containers - 
 
 | Name       | Port | Description                              |
@@ -782,15 +805,17 @@ ffmpeg -i input.avi -r 24 output.mp4
    - open the terminal
    - cd into the ~/.dotfiles/.config/docker/syncthing/docker-config.yaml
 -   run
+
    ''
    docker run up -d 
    ''
--
+
 ## Syncthing
  - syncthing file is located at
    [[~/.dotfiles/.config/docker/syncthing/docker-config.yaml
    this will install syncthing along with the folders
    - connect another computer to sync files
+
 ## copyparty
    - makes a server for your files
    - for sharing files start a cloudflare quicktunnel
@@ -798,20 +823,24 @@ ffmpeg -i input.avi -r 24 output.mp4
    - run
    '' cloudflared tunnel --url http://127.0.0.1:3923''
    - more infor here https://github.com/9001/copyparty#at-home
+
 ## beets
    - beets is for tagging songs using python if you have albums or cds
    that need to be corrected beets works well for that.
+
 ## [navidrome](https://www.navidrome.org/docs/)
    - For host a music server and 
 organizing your music use Navidrome
+
 ### glance https://github.com/glanceapp/glance
     - for making a homepage that shows RSS feeds, youtube and so on.
     gittea - https://docs.gitea.com/
-# SSH
+
+## SSH
 
 SSH is a secure terminal you can access from other computers
 
-## Linux SSH -
+### Linux SSH -
 
 ```  sudo pacman -S openssh
 	sudo systemctl start sshd
@@ -819,8 +848,9 @@ SSH is a secure terminal you can access from other computers
 	sudo ufw allow 22/tcp
 ```
 
-### tailscale
-tailscale allows a ip address for the open ssh
+#### tailscale
+
+tailscale works with SSH allows a ip address for the open ssh
 install -
 ``` sudo pacman -S tailscale
 enabling
@@ -829,13 +859,46 @@ starting
 sudo tailscale up 
 ```
 
-## Windows SSH
+#### Windows sshfs 
 
-## Windows sshfs 
-sshfs is to host the file storage  copyparty also works
+sshfs is to host the file storage  
 -https://github.com/winfsp/sshfs-win
+by using this you can ssh your files and copy or view them to your computer
+
 
 # Display -
+
+## Monitor -
+
+Scripts for expaning the monitor are in the 
+
+''
+~/.dotfiles/sh/run/monitor-one
+''
+
+## Monitor - Record 
+
+- record.sh script records the screen using ffmpeg
+
+- also ffmpeg-record
+
+- or linux/record
+
+### DVD's
+
+use mpv -dvd to play dvd's
+mpv dvd:// - in arch 
+
+### Remote access
+
+while in SSH to display something like to play a video use
+
+'''
+DISPLAY=:0 
+'''
+
+to export the view to the monitor
+if DISPLAY=:0 doesn't work try EXPORT=:0
 
 ## Tablet -
 
@@ -853,3 +916,16 @@ WacomTablet_6.4.10-3.exe
 for displaying videos typing in DISPLAY=:0 and the command and it will display on the monitor
 
 
+# Email
+
+### 18. Email
+
+#### Mutt mail categories
+
+- Mutt config is in `~/.dotfiles/.config/mutt/`.
+- The setup script links it to both `~/.config/mutt/muttrc` and `~/.mutt/muttrc`.
+- `muttrc` sources `categories.muttrc`.
+- Categories are Maildir folders under `~/Mail`.
+- Default categories: `Inbox`, `Action`, `Projects`, `Finance`, `Receipts`, `Art`, `Family`, `Newsletters`, `Archive`, `Sent`, `Drafts`, `Trash`.
+- Use `g` shortcuts to open categories: `gi` Inbox, `ga` Action, `gp` Projects, `gf` Finance, `gr` Receipts, `gt` Art, `gy` Family, `gn` Newsletters, `gx` Archive.
+- Use comma shortcuts to move mail: `,a` Action, `,p` Projects, `,f` Finance, `,r` Receipts, `,t` Art, `,y` Family, `,n` Newsletters, `,x` Archive.
