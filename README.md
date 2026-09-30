@@ -1,4 +1,3 @@
-1
 - # Intro. - Glossary Set up - Terminal
    - about
    - config
@@ -23,17 +22,25 @@
 - 16. SSH
 - 17. Display - Tablet
 - 18. Email
-# .dotfiles
-
+# .dotfiles 
+*- purpose*
 -  the purpose of these .dotfiles is to:
    - configure settings.
    - sync and back up settings.
 
-# .config
+## .dotfiles - directory
+
+### .config
 
 The config in .config are config files for software.
 Most .config files are found in the home directory .config file.
 * make sure config files are not hidden
+
+### hotkeys -
+### ok - ok scripts for settting everything up
+### py - python scripts
+### ps - photoshop files - which shouldn't have their own directory?
+### sh - scripts are in here most of mine are shell that's why they are named shell
 
 # 1. Set up - Terminal
 
@@ -167,54 +174,54 @@ org agenda will organize all of the files inside into an agenda view Hit alt-x o
 
 references: https://arne.me/blog/emacs-from-scratch-part-one-foundations
 
-### fish 
+#### fish 
 
 fish is in ~/.config/fish 
 fish_history is in .local/share/fish
 
-### fonts - 
+#### fonts - 
 
-### ghostty (linux + mac)
+#### ghostty (linux + mac)
 
 terminal 
 
-### hypr (linux)
+#### hypr (linux)
 
 hypr is a tiling manager for wayland in Linux.
 
-### kitty (linux + mac)
+#### kitty (linux + mac)
 
-### komorebi (pc)
+#### komorebi (pc)
 
 komorebi is a tiling manager for Windows it works well with whkdrc to have hotkeys work 
 
-### marp (pptx)
+#### marp (pptx)
 
 marp is a coding language for making powerpoints
 
-### mintty (pc)
+#### mintty (pc)
 
 mintty is a terminal with a config file it goes in ucrt64
 
-### nixos (linux)
+#### nixos (linux)
 
-### oh-my-posh 
+#### oh-my-posh 
 
 oh-my-posh is in ~/.config/oh-my-posh/ and has the themes files there the repo hast to be cloned there
 
-### ps
+#### ps
 
 photoshop scripts
 
-### ps1
+#### ps1
 
 powershell scripts
 
-### Storyboard Pro
+#### Storyboard Pro
 
-### systemd
+#### systemd
 
-### - TMUX
+#### - TMUX
 
 tmux needs to be configured these are links to get started. Tmux us used as a teminal multiplexer to have tabs and window panes in the terminal and to save your sessions and also to connect to a session.
 
@@ -229,17 +236,17 @@ tmux resurrect files are in ~/.local/share/tmux/
 
 - ~/.tmux.conf is where the tmux file is that then sources the file from ~/.dotfiles/.config/tmux/tmux-pc.conf
 
-### Toonboom Harmony
+#### Toonboom Harmony
 
-### tvp
+#### tvp
 
-### waybar
+#### waybar
 
-### wezterm
+#### wezterm
 
-### yazi
+#### yazi
 
-### whkdrc
+#### whkdrc
 
 windows hotkey manager
 makes it possible to do keyboard shortcuts
@@ -806,9 +813,9 @@ emacs is m-x httpd-serve-directory
    - cd into the ~/.dotfiles/.config/docker/syncthing/docker-config.yaml
 -   run
 
-   ''
+'''
    docker run up -d 
-   ''
+'''
 
 ## Syncthing
  - syncthing file is located at
@@ -828,13 +835,14 @@ emacs is m-x httpd-serve-directory
    - beets is for tagging songs using python if you have albums or cds
    that need to be corrected beets works well for that.
 
-## [navidrome](https://www.navidrome.org/docs/)
+## navidrome [*](https://www.navidrome.org/docs/)
    - For host a music server and 
 organizing your music use Navidrome
 
-### glance https://github.com/glanceapp/glance
+### glance [*](https://github.com/glanceapp/glance)
     - for making a homepage that shows RSS feeds, youtube and so on.
-    gittea - https://docs.gitea.com/
+
+### gittea [*](https://docs.gitea.com/)
 
 ## SSH
 
@@ -842,17 +850,20 @@ SSH is a secure terminal you can access from other computers
 
 ### Linux SSH -
 
-```  sudo pacman -S openssh
-	sudo systemctl start sshd
-	sudo systemctl enable sshd
-	sudo ufw allow 22/tcp
+```  
+sudo pacman -S openssh
+sudo systemctl start sshd
+sudo systemctl enable sshd
+sudo ufw allow 22/tcp
+
 ```
 
 #### tailscale
 
 tailscale works with SSH allows a ip address for the open ssh
 install -
-``` sudo pacman -S tailscale
+``` 
+sudo pacman -S tailscale
 enabling
 sudo systemctl enable --now tailscaled
 starting
@@ -894,7 +905,9 @@ mpv dvd:// - in arch
 while in SSH to display something like to play a video use
 
 '''
+
 DISPLAY=:0 
+
 '''
 
 to export the view to the monitor
