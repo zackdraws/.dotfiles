@@ -755,6 +755,9 @@ ffmpeg -i input.avi -r 24 output.mp4
 
 # Network -
 
+wifi, hosting, docker and anything to do with networking
+
+
 ## Wifi
 
 to fix internet problems try resetting your ip using
