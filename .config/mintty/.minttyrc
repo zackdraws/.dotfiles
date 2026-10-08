@@ -11,7 +11,8 @@ Emojis=windows
 EmojiPlacement=middle
 Font2=Segoe UI Symbol
 Font3=Segoe UI Emoji
-FontChoice=PictoSymbols:2;|Superscripts and Subscripts:2;
+# Route pictographs (including terminal Emacs emoji) to the colour emoji font.
+FontChoice=PictoSymbols:3;|Superscripts and Subscripts:2;
 BoldAsFont=yes
 BoldAsColour=yes
 
@@ -50,4 +51,10 @@ HighlightForegroundColour=240,240,240
 # Underline
 UnderlineColour=255,80,90
 Transparency=off
+# Silence all terminal-bell effects, including application-generated ASCII BEL.
 BellType=0
+BellFile=
+BellFreq=0
+BellFlash=no
+BellTaskbar=no
+BellPopup=no
