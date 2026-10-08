@@ -796,22 +796,23 @@ emacs is m-x httpd-serve-directory
 |------------|------|------------------------------------------|
 | Syncthing  | 8384 | Syncing                                  |
 | Copyparty  | 3923 | Hosting all of my files and servers      |
-| Immich     | —    | Sync photos                               |
+| Immich     | 2283 | Sync photos                              |
 | Beets      | 8337 | Music management and tagging             |
 | Glance     | 8080 | Hosting a launch page                    |
 | Jellyfin   | 8096 | Library server for media                 |
 | Kavita     | 5000 | Library server for books                 |
 | Navidrome  | 4533 | Library server for music                 |
-| Papra      | 1221 | Notes                                     |
-| Gitea      | —    | Git hosting                               |
-| FreshRSS   | —    | RSS reader                                |
+| Papra      | 1221 | Notes                                    |
+| Gitea      | 	    | Git hosting                              |
+| FreshRSS   | 	    | RSS reader                               |
 
 # Docker - Building using compose files
-   - to run a server you must install docker
+   - to run a server install docker to contain servers
+   - containers make it possible to hold all of your settings and rebuild the containers onto different machines.
    - after installing docker go to containers
    - open the terminal
    - cd into the ~/.dotfiles/.config/docker/syncthing/docker-config.yaml
--   run
+   -   run
 
 '''
    docker run up -d 
@@ -829,15 +830,14 @@ emacs is m-x httpd-serve-directory
    - download cloudflared
    - run
    '' cloudflared tunnel --url http://127.0.0.1:3923''
-   - more infor here https://github.com/9001/copyparty#at-home
+   - more info here https://github.com/9001/copyparty#at-home
 
 ## beets
-   - beets is for tagging songs using python if you have albums or cds
-   that need to be corrected beets works well for that.
+   - beets is for tagging songs using python 
+   - if you have albums or cds that need to be corrected beets works well for that.
 
 ## navidrome [*](https://www.navidrome.org/docs/)
-   - For host a music server and 
-organizing your music use Navidrome
+   - For hosting a music server and organizing your music use Navidrome
 
 ### glance [*](https://github.com/glanceapp/glance)
     - for making a homepage that shows RSS feeds, youtube and so on.
