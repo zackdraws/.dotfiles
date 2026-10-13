@@ -56,7 +56,7 @@
       "matching_strategy": "Contains"
     }
   ],
-  "mouse_follows_focus": true,
+  "mouse_follows_focus": false,
   "resize_delta": 40,
   "toggle_float_placement": "CenterAndResize",
   "transparency": false,
