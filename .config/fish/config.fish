@@ -5,6 +5,9 @@ if test "$MSYSTEM" = UCRT64
 end
 set -x PATH /home/ok/.local/bin $PATH
 set -x PATH ~/.local/bin $PATH
+if test -x /usr/local/bin/blender
+    set -gx PATH /usr/local/bin (string match -v -- /usr/local/bin $PATH)
+end
 zoxide init fish | source
 set -U fish_greeting
 set -gx GDK_SCALE 2 #GWSL
