@@ -1,6 +1,17 @@
-;; ───────────────────────────────────────────────────────────
-;; Bootstrap straight.el
-;; ───────────────────────────────────────────────────────────
+(when (and (eq system-type 'windows-nt) (getenv "MSYSTEM"))
+  (set-language-environment "UTF-8")
+  (prefer-coding-system 'utf-8-unix)
+  (set-default-coding-systems 'utf-8-unix)
+  (set-terminal-coding-system 'utf-8-unix))
+(setq visible-bell nil
+      ring-bell-function #'ignore)
+
+(when (display-graphic-p)
+  (set-fontset-font t 'emoji (font-spec :family "Segoe UI Emoji") nil 'prepend)
+  (set-fontset-font t 'symbol (font-spec :family "Segoe UI Symbol") nil 'prepend)
+  ;; Phonetic Extensions includes ᴗ (U+1D17), used in text faces such as •ᴗ•.
+  (set-fontset-font t '(#x1D00 . #x1D7F)
+                    (font-spec :family "Segoe UI") nil 'prepend))
 
 (defvar bootstrap-version)
 (let ((bootstrap-file
@@ -18,17 +29,10 @@
       (eval-print-last-sexp)))
   (load bootstrap-file nil 'nomessage))
 
-;; ───────────────────────────────────────────────────────────
-;; Setup use-package with straight.el
-;; ───────────────────────────────────────────────────────────
-
 (straight-use-package 'use-package)
 (setq straight-use-package-by-default t)
 (setq use-package-always-defer t)
 
-;; ───────────────────────────────────────────────────────────
-;; UI and Startup Config
-;; ───────────────────────────────────────────────────────────
 
 (setq inhibit-startup-echo-area-message "tychoish"
       initial-major-mode 'fundamental-mode
@@ -46,15 +50,29 @@
   (tool-bar-mode -1)
   (menu-bar-mode -1))
 
-(setq visible-bell 1)
+(when (and (eq system-type 'windows-nt) (getenv "MSYSTEM"))
+  (set-language-environment "UTF-8")
+  (prefer-coding-system 'utf-8-unix)
+  (set-default-coding-systems 'utf-8-unix)
+  (set-terminal-coding-system 'utf-8-unix))
+
+(setq visible-bell nil
+      ring-bell-function #'ignore)
+
+(defun ucrt64-decode-unicode-escapes (beg end)
+  (interactive "r")
+  (save-excursion
+    (goto-char beg)
+    (while (re-search-forward "\\\\[uU]\\([[:xdigit:]]\\{4,8\\}\\)" end t)
+      (let ((codepoint (string-to-number (match-string 1) 16)))
+        (when (<= codepoint #x10FFFF)
+          (replace-match (char-to-string codepoint) t t))))))
+
+(global-set-key (kbd "C-c u") #'ucrt64-decode-unicode-escapes)
 (setq frame-title-format '((:eval default-directory)))
 
-;; Override empty startup echo area
 (defun display-startup-echo-area-message () (message ""))
 
-;; ───────────────────────────────────────────────────────────
-;; Org Mode Settings
-;; ───────────────────────────────────────────────────────────
 
 (setq org-startup-with-inline-images t
       org-image-actual-width '(260)
@@ -62,16 +80,9 @@
       org-agenda-files '("~/.ok/ok")
       org-latex-listings 'minted)
 
-;; ───────────────────────────────────────────────────────────
-;; Load Packages and Keybindings
-;; ───────────────────────────────────────────────────────────
-
 (load-file (expand-file-name "packages.el" user-emacs-directory))
 (load-file (expand-file-name "keybindings.el" user-emacs-directory))
 
-;; ───────────────────────────────────────────────────────────
-;; Startup Hook: Close unneeded buffers when launching from CLI
-;; ───────────────────────────────────────────────────────────
 
 (add-hook 'emacs-startup-hook
           (lambda ()
