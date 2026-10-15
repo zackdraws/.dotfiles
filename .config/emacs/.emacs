@@ -1,4 +1,16 @@
 ;; shortcuts
+(require 'seq)
+(when (display-graphic-p)
+  ;; Use whichever color emoji font the current OS provides.
+  (let ((emoji-font
+         (seq-find (lambda (family) (find-font (font-spec :family family)))
+                   '("Segoe UI Emoji" "Apple Color Emoji" "Noto Color Emoji"
+                     "Noto Emoji" "Twitter Color Emoji" "EmojiOne Color"))))
+    (when emoji-font
+      (dolist (charset '(emoji (#x1F000 . #x1FAFF) (#x2600 . #x27BF)
+                         (#x2300 . #x23FF) (#x2B00 . #x2BFF)))
+        (set-fontset-font t charset (font-spec :family emoji-font) nil 'prepend)))))
+
 (setq org-display-remote-inline-images 'cache)
 (setq org-startup-with-inline-images t)
 (global-set-key (kbd "C-c n t") #'treemacs)
@@ -38,6 +50,9 @@
 (straight-use-package 'use-package)
 (setq straight-use-package-by-default t)
 (setq use-package-always-defer t)
+(use-package emojify
+  :straight t
+  :hook (after-init . global-emojify-mode))
 ;; Basic Emacs tweaks
 (setq inhibit-startup-screen t
       inhibit-startup-message t
