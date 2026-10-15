@@ -2,6 +2,17 @@
 (setq inhibit-startup-message 't)
 (setq initial-major-mode 'fundamental-mode)
 (setq initial-scratch-message 'nil)
+(require 'seq)
+(when (display-graphic-p)
+  ;; Use whichever color emoji font the current OS provides.
+  (let ((emoji-font
+         (seq-find (lambda (family) (find-font (font-spec :family family)))
+                   '("Segoe UI Emoji" "Apple Color Emoji" "Noto Color Emoji"
+                     "Noto Emoji" "Twitter Color Emoji" "EmojiOne Color"))))
+    (when emoji-font
+      (dolist (charset '(emoji (#x1F000 . #x1FAFF) (#x2600 . #x27BF)
+                         (#x2300 . #x23FF) (#x2B00 . #x2BFF)))
+        (set-fontset-font t charset (font-spec :family emoji-font) nil 'prepend)))))
 (cua-mode t)
 (tool-bar-mode -1)
 (menu-bar-mode -1)
