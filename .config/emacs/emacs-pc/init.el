@@ -6,8 +6,23 @@
 (setq visible-bell nil
       ring-bell-function #'ignore)
 
+(require 'seq)
+
 (when (display-graphic-p)
-  (set-fontset-font t 'emoji (font-spec :family "Segoe UI Emoji") nil 'prepend)
+  ;; Prefer a color emoji font, without requiring the same font on every OS.
+  ;; The explicit ranges cover newer emoji which some Emacs/font backends do
+  ;; not classify under the `emoji' script (for example flags and pictographs).
+  (let ((emoji-font
+         (seq-find (lambda (family) (find-font (font-spec :family family)))
+                   '("Segoe UI Emoji" "Apple Color Emoji" "Noto Color Emoji"
+                     "Noto Emoji" "Twitter Color Emoji" "EmojiOne Color"))))
+    (when emoji-font
+      (dolist (charset '(emoji
+                         (#x1F000 . #x1FAFF) ; pictographs, faces, flags
+                         (#x2600 . #x27BF)   ; dingbats and misc. symbols
+                         (#x2300 . #x23FF)   ; ⌚, ⌛, and related symbols
+                         (#x2B00 . #x2BFF))) ; arrows, stars, and keycap parts
+        (set-fontset-font t charset (font-spec :family emoji-font) nil 'prepend))))
   (set-fontset-font t 'symbol (font-spec :family "Segoe UI Symbol") nil 'prepend)
   ;; Phonetic Extensions includes ᴗ (U+1D17), used in text faces such as •ᴗ•.
   (set-fontset-font t '(#x1D00 . #x1D7F)
