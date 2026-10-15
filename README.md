@@ -379,6 +379,10 @@ For editing reels and animation scenes.
 
 For editing reels and animation scenes, it's similar to Premiere, most things can be done in Blender but they just require a bit more research and time.
 
+### Textures -
+#### Missing textures
+- if textures are missing go to File > External Data > Find Missing Files
+
 ## After Effects
 
 # 6.3.2 Sound
